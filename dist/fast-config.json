@@ -1646,7 +1646,11 @@
       "item": "[일반통관] 진공청소기(전동기·모터를 갖춘것) (1개까지)",
       "row": 10,
       "categoryCode": 10001,
-      "itemCode": 2000008
+      "itemCode": 2000008,
+      "latestItemLabel": "[일반통관] 진공청소기(전동모터를 갖춘것) (1개까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "009",
@@ -1654,7 +1658,11 @@
       "item": "[목록통관] 진공청소기(전동기·모터를 갖추지 않은것) (제한없음)",
       "row": 11,
       "categoryCode": 10001,
-      "itemCode": 2000009
+      "itemCode": 2000009,
+      "latestItemLabel": "[목록통관] 진공청소기(전동모터를 갖추지 않은것) (제한없음)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "010",
@@ -1686,7 +1694,11 @@
       "item": "[목록통관] 재봉기/재봉틀 (1개까지)",
       "row": 15,
       "categoryCode": 10001,
-      "itemCode": 2000013
+      "itemCode": 2000013,
+      "latestItemLabel": "[목록통관] 재봉기/재봉틀",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "014",
@@ -1718,7 +1730,11 @@
       "item": "[일반통관] 제모기 (1개까지)",
       "row": 19,
       "categoryCode": 10001,
-      "itemCode": 2000017
+      "itemCode": 2000017,
+      "latestItemLabel": "[목록통관] 제모기 (제한없음)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "018",
@@ -1862,7 +1878,11 @@
       "item": "[일반통관] 필름 카메라/폴라로이드 (1개까지)",
       "row": 37,
       "categoryCode": 10001,
-      "itemCode": 2000035
+      "itemCode": 2000035,
+      "latestItemLabel": "[목록통관] 필름 카메라/폴라로이드",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "036",
@@ -1918,7 +1938,11 @@
       "item": "[목록통관] 녹음기",
       "row": 44,
       "categoryCode": 10001,
-      "itemCode": 2000042
+      "itemCode": 2000042,
+      "latestItemLabel": "[일반통관] 녹음기 (1개까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "043",
@@ -1958,7 +1982,11 @@
       "item": "[목록통관] 전동공구",
       "row": 49,
       "categoryCode": 10001,
-      "itemCode": 2000047
+      "itemCode": 2000047,
+      "latestItemLabel": "[일반통관] 전동공구 (1개까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "048",
@@ -1966,7 +1994,11 @@
       "item": "[목록통관] 전기난방기",
       "row": 50,
       "categoryCode": 10001,
-      "itemCode": 2000048
+      "itemCode": 2000048,
+      "latestItemLabel": "[일반통관] 전기난방기 (1개까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "049",
@@ -1982,7 +2014,11 @@
       "item": "[일반통관] 모발/코털 제거기 (제한없음)",
       "row": 52,
       "categoryCode": 10001,
-      "itemCode": 2000050
+      "itemCode": 2000050,
+      "latestItemLabel": "[목록통관] 모발/코털 제거기 (제한없음)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10001",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "eaf8f217562251fee62ababe04397d9adbb1d704c64c876d37d1094484487b47"
     },
     {
       "code": "051",
@@ -2478,7 +2514,11 @@
       "item": "[목록통관] 조명",
       "row": 114,
       "categoryCode": 10004,
-      "itemCode": 2000112
+      "itemCode": 2000112,
+      "latestItemLabel": "[일반통관] 조명",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10004",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "935bee17b61495fb67eb81606fe34eb5d1fa86002b5709293bbe547158dff72c"
     },
     {
       "code": "113",
@@ -2654,7 +2694,11 @@
       "item": "[목록통관] 식품용 그라인더/믹서/착즙기",
       "row": 136,
       "categoryCode": 10006,
-      "itemCode": 2000134
+      "itemCode": 2000134,
+      "latestItemLabel": "[일반통관] 식품용 그라인더/믹서/착즙기",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10006",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "7c30d3b4ab3dda7d5b9a1df519238d8173e24356f23fa396e88ece10e609119b"
     },
     {
       "code": "135",
@@ -2662,7 +2706,11 @@
       "item": "[목록통관] 전기 커피메이커",
       "row": 137,
       "categoryCode": 10006,
-      "itemCode": 2000135
+      "itemCode": 2000135,
+      "latestItemLabel": "[일반통관] 전기 커피메이커",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10006",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "7c30d3b4ab3dda7d5b9a1df519238d8173e24356f23fa396e88ece10e609119b"
     },
     {
       "code": "136",
@@ -2678,7 +2726,11 @@
       "item": "[목록통관] 수유관련 용품(플라스틱 외)",
       "row": 139,
       "categoryCode": 10006,
-      "itemCode": 2000137
+      "itemCode": 2000137,
+      "latestItemLabel": "[일반통관] 수유관련 용품(고무)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10006",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "7c30d3b4ab3dda7d5b9a1df519238d8173e24356f23fa396e88ece10e609119b"
     },
     {
       "code": "138",
@@ -2830,7 +2882,11 @@
       "item": "[목록통관] 요소수",
       "row": 158,
       "categoryCode": 10010,
-      "itemCode": 2000156
+      "itemCode": 2000156,
+      "latestItemLabel": "[일반통관] 요소수",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10010",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "7de894367d355576ecffedf636f49b55e1c5fd106bcb1a8cc86e8c60fc3b120c"
     },
     {
       "code": "157",
@@ -3006,7 +3062,11 @@
       "item": "[목록통관] 런닝머신",
       "row": 180,
       "categoryCode": 10011,
-      "itemCode": 2000178
+      "itemCode": 2000178,
+      "latestItemLabel": "[일반통관] 런닝머신",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10011",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "bfcbf37d0aaf4032c0ce2075a769aa4ed33cdd2cd90a4ce7240645b73dfa7086"
     },
     {
       "code": "179",
@@ -3598,7 +3658,11 @@
       "item": "[일반통관] 소주/맥주",
       "row": 254,
       "categoryCode": 10015,
-      "itemCode": 2000252
+      "itemCode": 2000252,
+      "latestItemLabel": "[일반통관] 소주",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10015",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "89e67c926a0785028298a69dc7dcd3e494fdb6934a969044bfce444555f48eb4"
     },
     {
       "code": "253",
@@ -3646,7 +3710,11 @@
       "item": "[일반통관] 기타 건강기능식품",
       "row": 260,
       "categoryCode": 10016,
-      "itemCode": 2000258
+      "itemCode": 2000258,
+      "latestItemLabel": "[일반통관] 기타 건강기능식품(6병까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10016",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "ddd2579a7e95962ebbc3a827a061799fe68bf5669f8e3c33293d954c6f325e94"
     },
     {
       "code": "259",
@@ -3654,7 +3722,11 @@
       "item": "[일반통관] 의약품",
       "row": 261,
       "categoryCode": 10017,
-      "itemCode": 2000259
+      "itemCode": 2000259,
+      "latestItemLabel": "[일반통관] 의약품(6병까지)",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10017",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "640087d02b9cf4b5dcd8979694455a2f16945259f3cdca6b10c668d7fc712934"
     },
     {
       "code": "260",
@@ -3742,7 +3814,11 @@
       "item": "[일반통관] 생리대/생리컵",
       "row": 272,
       "categoryCode": 10017,
-      "itemCode": 2000270
+      "itemCode": 2000270,
+      "latestItemLabel": "[일반통관] 생리대",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10017",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "640087d02b9cf4b5dcd8979694455a2f16945259f3cdca6b10c668d7fc712934"
     },
     {
       "code": "271",
@@ -3782,7 +3858,11 @@
       "item": "[일반통관] 끽연용 파이프",
       "row": 277,
       "categoryCode": 10018,
-      "itemCode": 2000275
+      "itemCode": 2000275,
+      "latestItemLabel": "[목록통관] 끽연용 파이프",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10018",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "3800a796869427b0a64af8be2db49ee03ee0d1d9a98b85bbac3e081961518bcb"
     },
     {
       "code": "276",
@@ -3822,7 +3902,11 @@
       "item": "[일반통관] 가죽/상아/뱀피 제품",
       "row": 282,
       "categoryCode": 10019,
-      "itemCode": 2000280
+      "itemCode": 2000280,
+      "latestItemLabel": "[일반통관] 가죽/뱀피 제품",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10019",
+      "latestItemLabelCheckedAt": "2026-10-31",
+      "latestItemLabelResponseSha256": "76713ece1ec7a2236c367c250e07d8dbb2a1e017462e3c278be5c4b62784885b"
     },
     {
       "code": "281",
@@ -3898,19 +3982,27 @@
     },
     {
       "code": "290",
+      "latestItemLabel": "[일반통관] 기타 플라스틱 (ETC) 품목",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10020",
+      "latestItemLabelCheckedAt": "2026-10-31",
       "category": "기타",
       "item": "[일반통관] 기타(ETC) 품목",
       "row": 292,
       "categoryCode": 10020,
-      "itemCode": 2000290
+      "itemCode": 2000290,
+      "latestItemLabelResponseSha256": "3a4e7bb4ee3df257fd38cd5aa674f1bd9d03d035262b79b3d1ea268e60f96024"
     },
     {
       "code": "291",
+      "latestItemLabel": "[목록통관] 기타 철강제 (ETC) 품목",
+      "latestItemLabelSourceUrl": "https://api.hoottown.com/api/v1.0/delivery/commodity?comodityCatAutoSn=10020",
+      "latestItemLabelCheckedAt": "2026-10-31",
       "category": "기타",
       "item": "[목록통관] 기타(ETC) 품목",
       "row": 293,
       "categoryCode": 10020,
-      "itemCode": 2000291
+      "itemCode": 2000291,
+      "latestItemLabelResponseSha256": "3a4e7bb4ee3df257fd38cd5aa674f1bd9d03d035262b79b3d1ea268e60f96024"
     }
   ],
   "fixedShipping": [

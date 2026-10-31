@@ -73,7 +73,9 @@ test('detail evidence distinguishes same-type random goods, physical download ca
   assert.equal(check('FZ-00437').generalCode, '105');
   assert.equal(check('FZ-00437').nonPhysical, false);
   assert.equal(check('AGL-00204').jimpassCode, '205');
-  assert.equal(check('AGL-00204').generalCode, '291');
+  assert.equal(check('AGL-00204').generalCode, '105');
+  assert.equal(check('CS-0298').generalCode, '127');
+  assert.equal(check('CS-0305').generalCode, '127');
   assert.equal(check('AGL-00204').requiresReview, true);
   const ticket = dataset.reviewedProducts.find(record => record.status === 'non_physical');
   assert.ok(ticket);

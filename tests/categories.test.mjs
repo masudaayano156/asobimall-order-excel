@@ -1,7 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import {classifyProduct, CATEGORY_RULES} from '../dist/categories.mjs';
+import {isDeepStrictEqual} from 'node:util';
+import {classifyProduct, classifyCatalogProduct, CATEGORY_RULES} from '../dist/categories.mjs';
+
+const catalog = JSON.parse(await fs.readFile(new URL('../dist/catalog.json', import.meta.url), 'utf8'));
+const publicProduct = code => {
+  const product = catalog.products.find(item => item.code === code);
+  assert.ok(product, `Public product ${code} is required.`);
+  return product;
+};
 
 test('uniform maps to independent verified forwarder codes', () => {
   const item = classifyProduct('CUTIE STREET OSHI API UNIFORM');
@@ -48,6 +56,103 @@ test('cards and card holders are distinct, Japanese and English supported', () =
   assert.equal(cards.jimpassCode, '107');
   assert.equal(cards.generalCode, '105');
   assert.equal(cards.requiresReview, true);
+});
+
+test('the five public card/Instax stands classify as holders rather than the cards displayed in them', () => {
+  for (const code of ['LARME-010', 'LARME-011', 'LARME-042', 'LARME-041', 'FZ-00200']) {
+    const product = publicProduct(code), original = JSON.stringify(product);
+    for (const name of [product.name, product.enName]) {
+      const item = classifyProduct(name);
+      assert.equal(item.kind, 'card_holder', code + ': ' + name);
+      assert.equal(item.jimpassCode, '205'); assert.equal(item.generalCode, '105'); assert.equal(item.requiresReview, true);
+    }
+    assert.equal(classifyCatalogProduct(product).kind, 'card_holder');
+    assert.equal(JSON.stringify(product), original);
+  }
+  assert.equal(classifyProduct('MEMBER PORTRAIT ACRYLIC STAND').jimpassCode, '135');
+  assert.equal(classifyProduct('アクリルスタンド').generalCode, '151');
+  assert.equal(classifyProduct('TRADING CARD').jimpassCode, '107');
+  assert.equal(classifyProduct('チェキ').jimpassCode, '239');
+});
+
+test('clear and explicitly nonpaper stickers never acquire the paper-print category just from the word sticker', () => {
+  for (const code of ['TA-0016', 'sn-00076', 'MIO-00009', 'MIO-00010', 'MIO-00011']) {
+    const product = publicProduct(code);
+    for (const name of [product.name, product.enName]) {
+      const item = classifyProduct(name);
+      assert.equal(item.kind, 'sticker_material_unknown', code + ': ' + name);
+      assert.equal(item.jimpassCode, '205'); assert.equal(item.generalCode, '105'); assert.equal(item.requiresReview, true);
+      assert.match(item.reviewReason, /소재/);
+    }
+  }
+  for (const name of ['TRANSPARENT PHOTO STICKER', 'PVC STICKER', 'STICKER ACRYLIC', 'ビニールシール']) assert.equal(classifyProduct(name).jimpassCode, '205', name);
+  assert.equal(classifyProduct('PAPER STICKER').jimpassCode, '239');
+  assert.equal(classifyProduct('CLEAR STICKER KEYCHAIN').jimpassCode, '240', 'The actual keychain still takes precedence.');
+  assert.equal(classifyProduct('CLEAR PHOTO CARD').jimpassCode, '107', 'A card is not automatically reclassified as a sticker.');
+});
+
+test('the public plushie costume is doll clothing, while dolls, human clothing and decorative designs retain their own categories', () => {
+  const product = publicProduct('FZ-00305');
+  for (const name of [product.name, product.enName, 'DOLL CLOTHES', 'PLUSHIE COSTUME', 'ぬいぐるみ用衣装', 'ドール用お洋服']) {
+    const item = classifyProduct(name);
+    assert.equal(item.kind, 'doll_clothes', name);
+    assert.equal(item.jimpassCode, '176'); assert.equal(item.generalCode, '127'); assert.equal(item.requiresReview, true);
+    assert.match(item.codeSources.jimpass, /category=170$/);
+    assert.equal(item.codeSources.general.range, 'A129:C129');
+  }
+  assert.equal(classifyCatalogProduct(product).kind, 'doll_clothes');
+  for (const name of ['PLUSHIE', 'DOLL', '生誕祭ぬいぐるみ']) assert.equal(classifyProduct(name).jimpassCode, '174', name);
+  for (const name of ['T-SHIRT', 'OSHI API UNIFORM']) assert.equal(classifyProduct(name).jimpassCode, '4', name);
+  assert.equal(classifyProduct('DOLL OUTFIT KEYCHAIN').kind, 'keychain');
+  assert.equal(classifyProduct('DOLL ACRYLIC STAND').kind, 'acrylic_stand');
+});
+
+test('photobook and ZINE outfit descriptions do not turn the four actual goods into books', () => {
+  for (const [code,kind,jimpass,general] of [
+    ['FZ-00542','acrylic_stand','135','151'], ['FZ-00543','acrylic_stand','135','151'],
+    ['FZ-00342','acrylic_stand','135','151'], ['FZ-00226','sticker','239','105'],
+  ]) {
+    const product=publicProduct(code);
+    for (const name of [product.name,product.enName]) {
+      const result=classifyProduct(name);assert.equal(result.kind,kind,code+': '+name);
+      assert.equal(result.jimpassCode,jimpass);assert.equal(result.generalCode,general);
+    }
+    assert.equal(classifyCatalogProduct(product).kind,kind);
+  }
+  for (const name of ['ARTIST PHOTOBOOK','ZINE Costume Edition','PHOTOBOOK Costume Edition WITH BONUS ACRYLIC STAND','【アクリルスタンド特典付】フォトブック costume edition','PHOTOBOOK WITH BONUS STICKERS']) {
+    assert.equal(classifyProduct(name).kind,'book',name);
+  }
+  assert.equal(classifyProduct('【特典ポストカード付】 FRUITS ZIPPER シングルCD 通常盤').kind,'music_disc');
+});
+
+test('the four physical-photo prize titles remain mixed proposals rather than a guaranteed acrylic prize', () => {
+  for (const code of ['CT-00033','FZ-00078','CT-00032','CT-00030']) {
+    const product=publicProduct(code);
+    for (const name of [product.name,product.enName]) {
+      const item=classifyProduct(name);assert.equal(item.kind,'mixed_photo_prize',code+': '+name);
+      assert.equal(item.jimpassCode,'176');assert.equal(item.generalCode,'127');assert.equal(item.requiresReview,true);
+      assert.match(item.reviewReason,/당첨·수령/);
+    }
+    assert.equal(classifyCatalogProduct(product).kind,'mixed_photo_prize');
+  }
+  assert.equal(classifyProduct('ランダム生写真 新衣装ver.').kind,'photo');
+  assert.equal(classifyProduct('RANDOM PHOTO SET').kind,'photo');
+  assert.equal(classifyProduct('ACRYLIC PANEL NEW OUTFIT VERSION').kind,'acrylic_stand');
+  assert.equal(classifyProduct('アクリルスタンド').kind,'acrylic_stand');
+  assert.equal(classifyProduct('PHOTOBOOK WITH BONUS RANDOM PHOTO AND A CHANCE TO WIN AN ACRYLIC PANEL').kind,'book');
+  assert.notEqual(classifyProduct('ACRYLIC PANEL WITH A PHOTO PRINT').kind,'mixed_photo_prize');
+});
+
+test('the actual PVC-rubber towel holder is not classified as its towel contents', () => {
+  const product=publicProduct('CS-0099');
+  for (const name of [product.name,product.enName,'FACE TOWEL HOLDER','タオル用ホルダー']) {
+    const item=classifyProduct(name);assert.equal(item.kind,'towel_holder',name);
+    assert.equal(item.jimpassCode,'205');assert.equal(item.generalCode,'105');assert.equal(item.requiresReview,true);
+  }
+  assert.equal(classifyCatalogProduct(product).kind,'towel_holder');
+  for (const name of ['FACE TOWEL','タオル','マフラータオル']) {
+    const item=classifyProduct(name);assert.equal(item.kind,'towel',name);assert.equal(item.jimpassCode,'22');assert.equal(item.generalCode,'069');
+  }
 });
 
 test('obvious cloth, doll and decorative goods have mapped codes', () => {
@@ -105,7 +210,7 @@ test('digital photo books and event rights do not receive invented freight codes
 
 test('JSON provenance mirror matches embedded browser rules and all General codes exist', async () => {
   const mirror = JSON.parse(await fs.readFile(new URL('../dist/category-rules.json', import.meta.url), 'utf8'));
-  assert.deepEqual(mirror, CATEGORY_RULES);
+  assert.ok(isDeepStrictEqual(mirror, CATEGORY_RULES), 'The JSON provenance mirror must exactly match the browser rules.');
   const general = JSON.parse(await fs.readFile(new URL('../dist/general-config.json', import.meta.url), 'utf8'));
   for (const rule of CATEGORY_RULES.rules) {
     if (!rule.general?.code) continue;

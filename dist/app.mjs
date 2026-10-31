@@ -1,6 +1,6 @@
 import {parseOrders} from './parser.mjs';
 import {findMatches, safeUrl} from './catalog-match.mjs';
-import {classifyProduct,classifyCatalogProduct} from './categories.mjs?v=2';
+import {classifyProduct,classifyCatalogProduct} from './categories.mjs?v=3';
 import {exportWorkbook} from './exporter.mjs';
 import {initNavigation} from './navigation.mjs';
 import {loadJson,loadTemplate} from './data.mjs?v=3';
@@ -13,7 +13,7 @@ import {formatJimpassName,isValidJimpassName,jimpassNameLength} from './jimpass-
 import {initDownloadReview} from './download-review.mjs';
 import {CARRIERS,resolveOrderShipping} from './order-shipping.mjs';
 import {getFixedShippingErrors} from './fixed-shipping.mjs';
-import {suggestPostmallHs} from './postmall-hs.mjs?v=2';
+import {suggestPostmallHs} from './postmall-hs.mjs?v=3';
 
 const $ = id => document.getElementById(id);
 const dummy = {recipient:'홍길동', phone:'01000000000', postal:'00000', address:'예시 주소 (실제 주소로 변경)', address2:'예시 상세주소', customs:'P000000000000'};
@@ -128,8 +128,9 @@ function assignCategory(item, reference) {
 function currentCategory(item) {return template()==='postmall'?normalizedHsCode(item.postmallHsCode):template()==='jimpass'?item.jimpassCategory:item.generalCategory;}
 function rawEditableName(item){return String((template()==='postmall'?item.postmallName:template()==='general'?item.hoottownName:item.jimpassName)??item.name??'');}
 function exportName(item) {const raw=rawEditableName(item);return template()==='postmall'?raw:template()==='general'?(unsupportedNameScript.test(raw)?raw:shortenHoottownName(raw)):formatJimpassName(raw);}
+function hoottownCategoryDisplayLabel(category){return `${category.code} · ${category.category} / ${category.latestItemLabel??category.item}`;}
 function populateCategories(select,value) {
-  selectOptions(select,config.categories.map(c=>({value:c.code,label:`${c.code} · ${c.category} / ${c.item}`})),'미분류 · 직접 선택'); select.value=value??'';
+  selectOptions(select,config.categories.map(c=>({value:c.code,label:hoottownCategoryDisplayLabel(c)})),'미분류 · 직접 선택'); select.value=value??'';
 }
 function itemCategoryLabel(item){return template()==='postmall'?`HS CODE · ${item.classification?.label||'상품별 확인'}`:`품목코드 · ${item.classification?.label||'미분류'}`;}
 function itemCategoryNote(item){

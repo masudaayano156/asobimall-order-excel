@@ -42,7 +42,7 @@ test('Jimpass and Postmall deferred entry keep their existing blank shipping beh
 for (const kind of ['general', 'hoottown-fast']) test(`${kind} real XLSX writes blank tracking, ETC in F and numeric carrier code 35 with the original G formula`, async () => {
   const templateBytes = new Uint8Array(await fs.readFile(new URL(`../dist/templates/${kind}.xlsx`, import.meta.url)));
   const rows = [
-    {...order, name: 'SAMPLE DEFERRED GOODS', quantity: 10, unitPrice: 500, category: '291', ...resolveOrderShipping(order, kind)},
+    {...order, name: 'SAMPLE DEFERRED GOODS', quantity: 10, unitPrice: 500, category: '127', ...resolveOrderShipping(order, kind)},
     {orderNo: 'SAMPLE-NOW', name: 'SAMPLE KNOWN CARRIER', quantity: 2, unitPrice: 200, category: '105', ...resolveOrderShipping({...order, shippingEntry: 'now'}, kind)},
   ];
   const before = structuredClone(rows);

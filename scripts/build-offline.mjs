@@ -18,6 +18,10 @@ const policy = "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsaf
 // Explicit public-file allowlist. Do not walk the checkout or include Git,
 // deployment manifests, reference captures, credentials, or user order data.
 const sourceFiles = [
+  'tests/mapping-audit.test.mjs',
+  'dist/postmall-hs-core.mjs', 'tests/postmall-hs-expanded.test.mjs',
+  'scripts/apply-unclassified-goods-policy.mjs', 'tests/unclassified-goods.test.mjs',
+  'scripts/build-product-materials.mjs', 'dist/product-materials.mjs', 'dist/material-evidence.mjs', 'tests/material-evidence.test.mjs',
   'dist/order-shipping.mjs', 'tests/order-shipping.test.mjs',
   'dist/postmall-hs.mjs', 'tests/postmall-hs.test.mjs',
   'dist/fixed-shipping.mjs', 'tests/fixed-shipping.test.mjs',

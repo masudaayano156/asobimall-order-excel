@@ -89,6 +89,9 @@ npm test
 - `tests/postmall-export.test.mjs`: 포스트몰 가로 20개 상품 배치·독립 HS 코드·주문 구획·원본 서식과 데이터 보존
 - `tests/postmall-hs.test.mjs`: 종류·재질 조건에 맞는 HS 제안과 부품·다른 재질·혼합 구성의 오분류 방지
 - `tests/order-shipping.test.mjs`: 훗타운 추후 입력의 ETC 기본값·운송장 공란·원본 수식 코드 35와 운송정보 전환 검증
+- `tests/mapping-audit.test.mjs`: 전체 2,997개 상품의 배대지 코드·HS 형식·공식 출처·비실물 제외·범용 철강제 오분류 방지
+- `tests/material-evidence.test.mjs`: 공개 소재 자료의 상품 식별·설명 해시와 무관한 브랜드·판매안내 제외
+- `tests/unclassified-goods.test.mjs`: 확인된 미분류 굿즈의 기타완구 제안과 음식·의료·전자 등 다른 종류 보호
 - `tests/postcode.test.mjs`: 주소 검색 수신 메시지의 토큰·우편번호·주소 검증과 불필요한 값 제외
 - 파서·상품 매칭·분류·엑셀 내보내기 테스트: 수량·금액·중복 후보·양식별 열 처리 등
 

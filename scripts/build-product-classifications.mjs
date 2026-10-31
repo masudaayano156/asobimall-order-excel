@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath, pathToFileURL} from 'node:url';
 import {applyMixedGoodsPolicy} from './apply-mixed-goods-policy.mjs';
+import {applyUnclassifiedGoodsPolicy} from './apply-unclassified-goods-policy.mjs';
 
 const root = path.resolve(fileURLToPath(new URL('../', import.meta.url)));
 const registryPath = path.join(root, 'dist/product-classifications.json');
@@ -9,7 +10,8 @@ const dataset = JSON.parse(await fs.readFile(registryPath, 'utf8'));
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'dist/catalog.json'), 'utf8'));
 const general = JSON.parse(await fs.readFile(path.join(root, 'dist/general-config.json'), 'utf8'));
 const mixedGoodsPolicy = applyMixedGoodsPolicy(dataset, general, catalog);
-if (mixedGoodsPolicy.changed) await fs.writeFile(registryPath, JSON.stringify(dataset, null, 2) + '\n');
+const unclassifiedGoodsPolicy = applyUnclassifiedGoodsPolicy(dataset, general, catalog);
+if (mixedGoodsPolicy.changed || unclassifiedGoodsPolicy.changed) await fs.writeFile(registryPath, JSON.stringify(dataset, null, 2) + '\n');
 const byCode = new Map(catalog.products.map(product => [String(product.code), product]));
 const normalized = value => String(value ?? '').normalize('NFKC').replace(/\s+/g, ' ').trim();
 const seen = new Set();
@@ -42,19 +44,33 @@ for (const record of records) {
 const body = JSON.stringify(records, null, 2).replace(/</g, '\\u003c');
 await fs.writeFile(path.join(root, 'dist/product-classifications.mjs'), `// Generated from product-classifications.json by scripts/build-product-classifications.mjs.\nexport const PRODUCT_DETAIL_CLASSIFICATIONS = ${body};\n`);
 const {CATEGORY_RULES, classifyCatalogProduct} = await import(pathToFileURL(path.join(root, 'dist/categories.mjs')).href);
+const {suggestPostmallHs} = await import(pathToFileURL(path.join(root, 'dist/postmall-hs.mjs')).href);
+const {PRODUCT_MATERIALS} = await import(pathToFileURL(path.join(root, 'dist/product-materials.mjs')).href);
 await fs.writeFile(path.join(root, 'dist/category-rules.json'), JSON.stringify(CATEGORY_RULES, null, 2) + '\n');
 const rows = catalog.products.map(product => {
   const classification = classifyCatalogProduct(product);
   const reviewed = records.find(record => record.identity.code === product.code);
+  const hs = suggestPostmallHs({name: product.enName || product.name, product, classification});
   return {code: product.code, id: product.id, name: product.enName || product.name,
     productUrl: product.productUrl, kind: classification.kind,
     jimpassCode: classification.jimpassCode, generalCode: classification.generalCode,
     status: reviewed?.status ?? (classification.source === 'product-detail' ? 'preexisting_detail' : classification.jimpassCode && classification.generalCode ? 'name_rule' : 'not_reviewed'),
-    requiresReview: classification.requiresReview, reason: classification.reason};
+    requiresReview: classification.requiresReview, reason: classification.reason,
+    nonPhysical: Boolean(classification.nonPhysical),
+    postmallHsCode: hs?.code ?? '', postmallRuleId: hs?.ruleId ?? '', postmallSourceUrl: hs?.sourceUrl ?? '',
+    postmallRequiresReview: Boolean(hs?.requiresReview),
+    mappingPolicyId: classification.mappingPolicy?.id ?? ''};
 });
 const counts = {};
 for (const row of rows) counts[row.status] = (counts[row.status] ?? 0) + 1;
 const report = {schemaVersion: 1, generatedAt: dataset.reviewScope?.completedAt ?? null, catalogProducts: rows.length,
+  lastMappingAuditDate: '2026-10-31', publicMaterialEvidenceProducts: PRODUCT_MATERIALS.length,
+  providerCoverage: {
+    jimpass: {proposed: rows.filter(r => !r.nonPhysical && r.jimpassCode).length, pending: rows.filter(r => !r.nonPhysical && !r.jimpassCode).length},
+    hoottown: {proposed: rows.filter(r => !r.nonPhysical && r.generalCode).length, pending: rows.filter(r => !r.nonPhysical && !r.generalCode).length},
+    postmall: {proposed: rows.filter(r => !r.nonPhysical && r.postmallHsCode).length, pending: rows.filter(r => !r.nonPhysical && !r.postmallHsCode).length},
+    excludedNonPhysical: rows.filter(r => r.nonPhysical).length,
+  },
   detailReviewedProducts: CATEGORY_RULES.productOverrides.filter(entry => entry.status !== 'source_missing').length, byStatus: counts,
   productsWithBothCodes: rows.filter(row => row.jimpassCode && row.generalCode).length,
   productsWithoutBothCodes: rows.filter(row => !row.jimpassCode || !row.generalCode).length,

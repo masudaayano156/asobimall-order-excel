@@ -71,7 +71,8 @@ test('paper-sticker suggestions require actual paper evidence and reject clear, 
   assert.equal(suggestPostmallHs({name: 'STICKER', classification: {...proof('紙'), kind: 'sticker'}}).code, '482110');
   assert.equal(suggestPostmallHs({name: 'STICKER', classification: {kind: 'sticker'}}), null);
   assert.equal(suggestPostmallHs({name: 'STICKER', classification: {kind: 'sticker', evidence: {material: '종이'}}}), null, 'Unverified generic rule metadata is insufficient.');
-  for (const material of ['종이·PET', 'PVC', 'アクリル', '폴리에스테르']) assert.equal(suggestPostmallHs({name: 'STICKER', classification: {...proof(material), kind: 'sticker'}}), null);
+  for (const material of ['종이·PET', 'アクリル', '폴리에스테르']) assert.equal(suggestPostmallHs({name: 'STICKER', classification: {...proof(material), kind: 'sticker'}}), null);
+  assert.equal(suggestPostmallHs({name: 'STICKER', classification: {...proof('PVC'), kind: 'sticker'}}).code, '391990');
   assert.equal(suggestPostmallHs({name: 'CLEAR PAPER STICKER', classification: {...proof('종이'), kind: 'sticker'}}), null);
 });
 
@@ -149,7 +150,7 @@ test('printed books and photo books stay separate from digital downloads, blank 
 
 test('real dolls and base-metal can badges remain separate from doll-design accessories and acrylic badges', () => {
   assert.equal(actual('CT-00332').code, '950300', 'The official stuffed-toy category is sufficient physical-kind evidence.');
-  assert.equal(actual('FZ-00305'), null, 'The real Chibi Plushie Costume product is clothing for a doll, not the doll body.');
+  assert.equal(actual('FZ-00305').ruleId, 'doll-clothing-accessory-950300-v1', 'The costume is a doll accessory, not the doll body.');
   assert.equal(suggestPostmallHs({name: 'PVC ACTION FIGURE', classification: {kind: 'figure'}}).code, '950300');
   for (const name of ['DOLL CLOTHES', 'DOLL OUTFIT', 'CHIBI PLUSHIE COSTUME', 'ちびぬいコスチューム', 'DOLL ACRYLIC STAND', 'DOLL KEYCHAIN']) assert.equal(suggestPostmallHs({name, classification: {kind: 'doll'}}), null);
   assert.equal(suggestPostmallHs({name: 'CAN BADGE', classification: {...proof('紙・PET・ブリキ'), kind: 'badge'}}).code, '711719');
