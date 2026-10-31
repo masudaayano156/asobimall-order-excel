@@ -88,6 +88,7 @@ npm test
 - `tests/english-orders.test.mjs`: 영어 주문의 상품 연결·품목코드·세 양식 출력과 영어 상품명 유지
 - `tests/postmall-export.test.mjs`: 포스트몰 가로 20개 상품 배치·독립 HS 코드·주문 구획·원본 서식과 데이터 보존
 - `tests/postmall-hs.test.mjs`: 종류·재질 조건에 맞는 HS 제안과 부품·다른 재질·혼합 구성의 오분류 방지
+- `tests/order-shipping.test.mjs`: 훗타운 추후 입력의 ETC 기본값·운송장 공란·원본 수식 코드 35와 운송정보 전환 검증
 - `tests/postcode.test.mjs`: 주소 검색 수신 메시지의 토큰·우편번호·주소 검증과 불필요한 값 제외
 - 파서·상품 매칭·분류·엑셀 내보내기 테스트: 수량·금액·중복 후보·양식별 열 처리 등
 

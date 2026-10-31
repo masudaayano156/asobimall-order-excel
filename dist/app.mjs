@@ -11,12 +11,12 @@ import {phoneDigits,formatPhone,isValidPhone} from './phone.mjs';
 import {createOrderSection,updateOrderSectionSummary} from './order-sections.mjs';
 import {formatJimpassName,isValidJimpassName,jimpassNameLength} from './jimpass-name.mjs';
 import {initDownloadReview} from './download-review.mjs';
+import {CARRIERS,resolveOrderShipping} from './order-shipping.mjs';
 import {getFixedShippingErrors} from './fixed-shipping.mjs';
 import {suggestPostmallHs} from './postmall-hs.mjs?v=2';
 
 const $ = id => document.getElementById(id);
 const dummy = {recipient:'홍길동', phone:'01000000000', postal:'00000', address:'예시 주소 (실제 주소로 변경)', address2:'예시 상세주소', customs:'P000000000000'};
-const CARRIERS={japanpost:{label:'우체국 · Japan Post',jimpass:'우체국',hoottown:'[일본]JAPAN POST(日本郵便)'},yamato:{label:'야마토 · Yamato',jimpass:'야마토',hoottown:'[일본]YAMATO(ヤマト運輸)'},sagawa:{label:'사가와 · Sagawa',jimpass:'사가와',hoottown:'[일본]SAGAWA(佐川急便)'},other:{label:'기타 운송사',jimpass:'그 외',hoottown:'[일본]기타 운송사(ETC)'}};
 let config, fastConfig, postmallConfig, catalog = {products:[]}, orders = [], items = [], parsedText = '', busy = false, analyzing = false, demoActive = false;
 let productPickers = [], orderSections = [], thumbnailImages = new Map();
 let confirmDownloadReview, reviewPending = false, postcodeSearch, stateRevision = 0, activeDownloadRevision = null;
@@ -238,7 +238,7 @@ function renderItems() {
   renderOrderShipping();
 }
 function normalizedItems(includeExcluded=false) {
-  return items.filter(i=>includeExcluded||!i.classification?.nonPhysical).map(i=>{const o=orders[i.orderIndex]??orders.find(o=>o.orderNo===i.orderNo),now=o?.shippingEntry==='now',c=now&&template()!=='postmall'?CARRIERS[o?.carrierKey]:null;return {...i,name:exportName(i),rawEditableName:rawEditableName(i),postmallHsCode:normalizedHsCode(i.postmallHsCode),tracking:now?(o?.tracking??''):'',carrier:c?.hoottown??'',localCarrier:c?.jimpass??'',category:currentCategory(i),unitPrice:Number.isFinite(i.amount)?i.amount:null,color:i.color??i.option.replace(/^[^:：]+[:：]\s*/,''),size:i.size??''};});
+  return items.filter(i=>includeExcluded||!i.classification?.nonPhysical).map(i=>{const o=orders[i.orderIndex]??orders.find(o=>o.orderNo===i.orderNo);return {...i,name:exportName(i),rawEditableName:rawEditableName(i),postmallHsCode:normalizedHsCode(i.postmallHsCode),...resolveOrderShipping(o,effectiveTemplate()),category:currentCategory(i),unitPrice:Number.isFinite(i.amount)?i.amount:null,color:i.color??i.option.replace(/^[^:：]+[:：]\s*/,''),size:i.size??''};});
 }
 function fixedRateDisplayLabel(value){return String(value??'').replace(/^\s*\[[^\]]*고정배송비[^\]]*\$\s*[\d,.]+[^\]]*\]\s*/iu,'');}
 function fixedRateDisplayError(value){return String(value??'').replace(/\[[^\]]*고정배송비[^\]]*\$\s*[\d,.]+[^\]]*\]\s*/giu,'');}
@@ -280,6 +280,7 @@ function refreshFixedShippingOptions(rows=normalizedItems()){
 function shippingEntryNote(order) {
   if(template()==='postmall')return order.shippingEntry==='now'?'발송 메일에서 확인한 운송장번호를 입력하세요. 포스트몰 양식에는 운송사 열이 없으며 미발급 운송장번호는 공란으로 작성할 수 있습니다.':'운송장번호를 공란 초안으로 작성합니다. 원본 안내에 따라 미발급 번호는 추후 입력할 수 있으며 포스트몰 양식에는 운송사 열이 없습니다.';
   const fast=effectiveTemplate()==='hoottown-fast';
+  if(template()==='general'&&order.shippingEntry!=='now')return `운송장번호는 공란, 현지 운송사는 ${CARRIERS.other.hoottown}로 엑셀에 자동 입력됩니다. 실제 운송사를 확인한 뒤 배대지에서 수정해 주세요.${fast?' THE빠른배송의 실제 업로드 전에는 운송장번호를 보완해 주세요.':''}`;
   return order.shippingEntry==='now'
     ? `발송 메일에서 확인한 운송장번호와 운송사를 입력하세요. 비운 값은 초안 엑셀에도 빈칸으로 작성됩니다.${fast?' THE빠른배송은 실제 업로드 전에 운송장번호와 현지 운송사를 모두 입력해야 합니다.':''}`
     : `운송장번호와 현지 운송사를 엑셀에 빈칸으로 작성합니다. 발송 메일을 받으면 배대지에서 직접 입력하세요.${fast?' THE빠른배송은 실제 업로드 전에 운송장번호와 현지 운송사를 모두 입력해야 합니다.':''}`;
@@ -342,7 +343,8 @@ function updateSummary() {
   for(const [index,order] of orders.entries()){const total=allRows.filter(i=>i.orderIndex===index).reduce((s,i)=>s+(Number.isFinite(i.unitPrice)?i.unitPrice*(i.quantity||0):0),0);if(order.subtotal!==null&&Math.abs(total-order.subtotal)>0.02)notes.push(`${order.orderNo}: 원문 소계 ${money(order.subtotal)}와 상품 합계가 다릅니다. 단가와 수량, 누락된 상품을 확인해 주세요.`);}
   const usesDummy=Object.entries(dummy).some(([id,v])=>id==='phone'?phoneDigits($(id).value)===phoneDigits(v):$(id).value===v);
   if(usesDummy)notes.push('수취인 예시 정보가 포함됩니다.');
-  const shippingInfo=(excluded?`실물 없는 전자 참가권 ${excluded}개는 배송용 엑셀에서 제외합니다. `:'')+(laterCount?`운송정보 ${laterCount}건은 추후 배대지에서 직접 입력하도록 ${template()==='postmall'?'운송장번호를':'운송장번호·현지 운송사를'} 공란으로 작성합니다. `:'')+(template()==='postmall'&&categoriesMissing?'HS 공란은 코드가 확인되지 않은 초안입니다. 포스트몰 실제 업로드 전에 공식 HS 찾기에서 상품별 코드를 확인해 주세요. ':'');
+  const laterInfo=!laterCount?'':template()==='general'?`추후 입력 ${laterCount}건은 운송장번호를 비우고 현지 운송사를 기타(ETC)로 자동 입력합니다. 실제 운송사를 확인한 뒤 배대지에서 수정해 주세요. `:`운송정보 ${laterCount}건은 추후 배대지에서 직접 입력하도록 ${template()==='postmall'?'운송장번호를':'운송장번호·현지 운송사를'} 공란으로 작성합니다. `;
+  const shippingInfo=(excluded?`실물 없는 전자 참가권 ${excluded}개는 배송용 엑셀에서 제외합니다. `:'')+laterInfo+(template()==='postmall'&&categoriesMissing?'HS 공란은 코드가 확인되지 않은 초안입니다. 포스트몰 실제 업로드 전에 공식 HS 찾기에서 상품별 코드를 확인해 주세요. ':'');
   status('export-status',shippingInfo+(notes.length?`${notes.join(' / ')} 확인이 필요한 값이 있어도 초안 엑셀은 내려받을 수 있습니다.`:'입력한 수취인 정보와 확인한 상품으로 엑셀을 만듭니다.'),!!notes.length);
   const missing=refreshRequiredFields();if($('download-label'))$('download-label').textContent=missing||quickMissing.length?'초안 엑셀 다운로드':'엑셀 다운로드';
   syncDownloadButton();
