@@ -1,0 +1,18 @@
+{
+  "description": "Exact English display aliases captured from ASOBIMALL screenshots when its live Google widget output varies. Every entry is limited to a verified public product identity; no general text-normalization rule is implied.",
+  "overrides": [
+    {
+      "id": 198469,
+      "slug": "CS-0292",
+      "sourceName": "CUTIE STREET メンバー別アクスタ-キュートなキューたい衣装ver.-",
+      "productUrl": "https://asobisystem.shop/products/CS-0292",
+      "imageUrl": "https://images.groobee.com/images/asobisystem/p9BYdqyLiCy1wAam8H0ILLiqprjKe7JqMCy1SJ48.jpg",
+      "aliases": [
+        "CUTIE STREET Member-Specific Acrylic Stands -Cute Taiko Outfit Version-"
+      ],
+      "method": "captured-asobimall-english-selector-display",
+      "observedAt": "2026-10-30",
+      "evidence": "Exact product title in the user-provided ASOBIMALL English-mode screenshot. Public product ID, source title, canonical URL and image were independently verified on the official public product endpoint/page. The current widget returns an extra Cute; retain both observed outputs as product-specific aliases."
+    }
+  ]
+}

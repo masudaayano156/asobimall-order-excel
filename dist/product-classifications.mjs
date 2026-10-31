@@ -1,0 +1,16539 @@
+// Generated from product-classifications.json by scripts/build-product-classifications.mjs.
+export const PRODUCT_DETAIL_CLASSIFICATIONS = [
+  {
+    "inventoryPosition": 1,
+    "identity": {
+      "code": "ASB-CT0030",
+      "id": 205681,
+      "name": "好きななちさんカスタムしてねフォルダ(証明写真2枚入り/全8種)",
+      "productUrl": "https://asobisystem.shop/products/ASB-CT0030"
+    },
+    "status": "mapped",
+    "kind": "photo_holder",
+    "label": "사진 보관용 아크릴 케이스",
+    "reason": "상세의 아크릴 본체·사진 구성과 치수를 확인해 사진 보관용품으로 분류했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "사진이 부속된 케이스이며 배대지의 세부 보관용품 구분을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-CT0030",
+      "checkedAt": "2026-10-30T14:50:48Z",
+      "material": "아크릴",
+      "facts": [
+        "공식 상세에 아크릴 본체와 사진 또는 사진 스티커의 별도 치수가 기재됨."
+      ],
+      "descriptionSha256": "413f94c781ca7503242fbd04b92e04e122e7065c59ff3fb8aa7520fae7c09ef2",
+      "responseSha256": "4ecf8c7fb9fb119c29bfe7e5c36654cef87976c08586acc986cf8c22a33bd012"
+    }
+  },
+  {
+    "inventoryPosition": 1,
+    "identity": {
+      "code": "LARME-006",
+      "id": 205873,
+      "name": "タペストリー",
+      "productUrl": "https://asobisystem.shop/products/LARME-006"
+    },
+    "status": "mapped",
+    "kind": "textile_wall_hanging",
+    "label": "섬유 타페스트리",
+    "reason": "섬유 타페스트리: 종이 인쇄물이 아닌 완성된 섬유 장식품 후보입니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 인쇄물이 아닌 완성된 섬유 장식품 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/LARME-006",
+      "checkedAt": "2026-10-31",
+      "material": "ポリエステル、PVC",
+      "facts": [
+        "상세에 B3 크기 타페스트리와 폴리에스테르·PVC 소재가 명시되어 있습니다."
+      ],
+      "descriptionSha256": "e6a492052b15497017a859d3e03af9513bcdd4e0be00027761fd1eddb5a61213"
+    }
+  },
+  {
+    "inventoryPosition": 3,
+    "identity": {
+      "code": "LARME-037",
+      "id": 205834,
+      "name": "写真付きミニフォトケース",
+      "productUrl": "https://asobisystem.shop/products/LARME-037"
+    },
+    "status": "mapped",
+    "kind": "photo_holder",
+    "label": "사진 보관용 아크릴 케이스",
+    "reason": "상세의 아크릴 본체·사진 구성과 치수를 확인해 사진 보관용품으로 분류했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "사진이 부속된 케이스이며 배대지의 세부 보관용품 구분을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/LARME-037",
+      "checkedAt": "2026-10-30T14:50:50Z",
+      "material": "아크릴 / 금속",
+      "facts": [
+        "공식 상세에 아크릴 본체와 사진 또는 사진 스티커의 별도 치수가 기재됨."
+      ],
+      "descriptionSha256": "bf48b78956014d4119ac8e8c61745ee4040d11b2758aa52d2fafe3f4e3921938",
+      "responseSha256": "68e4b4f6a1d14bd0f5e6db13d81488ba8289d860e66f028400dad1cac3c4da71"
+    }
+  },
+  {
+    "inventoryPosition": 3,
+    "identity": {
+      "code": "NP-060",
+      "id": 205515,
+      "name": "オリジナルスケートボード（NAKAKI PANTZ）",
+      "productUrl": "https://asobisystem.shop/products/NP-060"
+    },
+    "status": "mapped",
+    "kind": "skateboard_deck",
+    "label": "목재 스케이트보드 데크",
+    "reason": "목재 스케이트보드 데크: 바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "jimpass": {
+      "code": "61",
+      "label": "기타레져용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=39"
+    },
+    "general": {
+      "code": "182",
+      "label": "[목록통관] 기타 레져용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A184:C184"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/NP-060",
+      "checkedAt": "2026-10-31",
+      "material": "차이나메이플 목재",
+      "facts": [
+        "차이나메이플 트윈테일 데크와 라이딩·벽 장식 용도를 설명하며 8인치 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "be2c7e793bb384e4052358d07e301bb8caa281814be4aa3ef56e7474a358ef78"
+    }
+  },
+  {
+    "inventoryPosition": 5,
+    "identity": {
+      "code": "TU-00022",
+      "id": 205514,
+      "name": "オリジナルスケートボード（火曜び）",
+      "productUrl": "https://asobisystem.shop/products/TU-00022"
+    },
+    "status": "mapped",
+    "kind": "skateboard_deck",
+    "label": "스케이트보드 데크",
+    "reason": "목재 트윈테일 데크와 주행 용도를 확인해 레저용 보드로 분류했습니다.",
+    "jimpass": {
+      "code": "61",
+      "label": "기타레져용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=39"
+    },
+    "general": {
+      "code": "182",
+      "label": "[목록통관] 기타 레져용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A184:C184"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "데크 단품의 휠·트럭 포함 여부와 배대지의 보드 세부 분류를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TU-00022",
+      "checkedAt": "2026-10-30T14:50:52Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "중국산 메이플 목재의 트윈테일 데크.",
+        "주행과 벽면 전시 용도를 설명하며 8인치 규격을 제시함."
+      ],
+      "descriptionSha256": "eac8ce5049fbb9e744e81312ae1923874e6a9c95f3827ed6ab835737aa7758a4",
+      "responseSha256": "78bd8b842d8797f9190520e099f0c7b483dbff201c05c9e975c962e18df12a50"
+    }
+  },
+  {
+    "inventoryPosition": 5,
+    "identity": {
+      "code": "sn-00096",
+      "id": 205513,
+      "name": "オリジナルスケートボード（佐藤なつみ）",
+      "productUrl": "https://asobisystem.shop/products/sn-00096"
+    },
+    "status": "mapped",
+    "kind": "skateboard_deck",
+    "label": "목재 스케이트보드 데크",
+    "reason": "목재 스케이트보드 데크: 바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "jimpass": {
+      "code": "61",
+      "label": "기타레져용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=39"
+    },
+    "general": {
+      "code": "182",
+      "label": "[목록통관] 기타 레져용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A184:C184"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00096",
+      "checkedAt": "2026-10-31",
+      "material": "차이나메이플 목재",
+      "facts": [
+        "차이나메이플 트윈테일 데크와 라이딩·벽 장식 용도를 설명하며 8인치 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "f5338d9842d8ec55a2a2adbe10eba4e0c673ecdef2fea83f9892c1b215573367"
+    }
+  },
+  {
+    "inventoryPosition": 7,
+    "identity": {
+      "code": "HC-024",
+      "id": 205511,
+      "name": "オリジナルスケートボード（原田ちあき）",
+      "productUrl": "https://asobisystem.shop/products/HC-024"
+    },
+    "status": "mapped",
+    "kind": "skateboard_deck",
+    "label": "스케이트보드 데크",
+    "reason": "목재 트윈테일 데크와 주행 용도를 확인해 레저용 보드로 분류했습니다.",
+    "jimpass": {
+      "code": "61",
+      "label": "기타레져용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=39"
+    },
+    "general": {
+      "code": "182",
+      "label": "[목록통관] 기타 레져용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A184:C184"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "데크 단품의 휠·트럭 포함 여부와 배대지의 보드 세부 분류를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HC-024",
+      "checkedAt": "2026-10-30T14:50:54Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "중국산 메이플 목재의 트윈테일 데크.",
+        "주행과 벽면 전시 용도를 설명하며 8인치 규격을 제시함."
+      ],
+      "descriptionSha256": "d2ed6667f9879c42faedb9318cee29c0478152d54b9223b02c4687374e8c3828",
+      "responseSha256": "bb2b3d251dcb092f8199882fff31765e354f636d59a10c4b8e9f8189fdf15fe9"
+    }
+  },
+  {
+    "inventoryPosition": 7,
+    "identity": {
+      "code": "YN-00045",
+      "id": 205510,
+      "name": "オリジナルスケートボード（ヨシダナツミ）",
+      "productUrl": "https://asobisystem.shop/products/YN-00045"
+    },
+    "status": "mapped",
+    "kind": "skateboard_deck",
+    "label": "목재 스케이트보드 데크",
+    "reason": "목재 스케이트보드 데크: 바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "jimpass": {
+      "code": "61",
+      "label": "기타레져용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=39"
+    },
+    "general": {
+      "code": "182",
+      "label": "[목록통관] 기타 레져용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A184:C184"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "바퀴가 달린 완성 스케이트와 구분한 레저용 데크 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00045",
+      "checkedAt": "2026-10-31",
+      "material": "차이나메이플 목재",
+      "facts": [
+        "차이나메이플 트윈테일 데크와 라이딩·벽 장식 용도를 설명하며 8인치 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "c6e8f51296355eb94e5b9748ee289de6b9ea1d87ba8fcc42a9f253bc00452e38"
+    }
+  },
+  {
+    "inventoryPosition": 9,
+    "identity": {
+      "code": "ASB-FM0016",
+      "id": 204815,
+      "name": "こまり印",
+      "productUrl": "https://asobisystem.shop/products/ASB-FM0016"
+    },
+    "status": "mapped",
+    "kind": "printed_paper_goods",
+    "label": "평면 종이 인쇄 굿즈",
+    "reason": "종이 재질·치수와 공개 이미지의 평면 인쇄물 형태를 확인해 종이 굿즈로 분류했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-FM0016",
+      "checkedAt": "2026-10-30T14:50:56Z",
+      "material": "종이",
+      "facts": [
+        "상세에 종이 재질과 약 44~50×46~48mm 치수를 명시함.",
+        "공개 상품 이미지의 부모 검수에서 평면 인쇄 굿즈 형태를 교차 확인함."
+      ],
+      "descriptionSha256": "6cf2ff87e7b19a3c9673296814fe6d32007a03fa4e15670965a46df2b477ff11",
+      "responseSha256": "21754aa700c11c0402a914227c116e4611177b141324e7e023f7db7835fa8e59",
+      "imageSourceUrl": "https://images.groobee.com/images/asobisystem/BcupuPoekMxhbf2ZCzFOOIYG27iy9V2sH3iQtUgH.jpg",
+      "imageReview": "부모 에이전트의 공개 상품 이미지 교차 검수"
+    }
+  },
+  {
+    "inventoryPosition": 9,
+    "identity": {
+      "code": "KL-0023",
+      "id": 204554,
+      "name": "ランダムカプセル-KAWAII LAB.グループ別- ver.2（全20種）",
+      "productUrl": "https://asobisystem.shop/products/KL-0023"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0023",
+      "checkedAt": "2026-10-31",
+      "material": "アクリル",
+      "facts": [
+        "후보는 파우치·참·미니 타페스트리·캔배지 각각 5종으로 총 20종입니다."
+      ],
+      "descriptionSha256": "d7322deafbf71d0751891189064da51c5e7c8147530fe1b98ebc28676eaf7db6"
+    },
+    "policyOriginalReviewReason": "소재란의 아크릴만으로 모든 후보를 분류할 수 없습니다. 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 11,
+    "identity": {
+      "code": "KL-0024",
+      "id": 204553,
+      "name": "ランダムカプセル-KAWAII LAB.グループ別- ver.3（全29種）",
+      "productUrl": "https://asobisystem.shop/products/KL-0024"
+    },
+    "status": "mapped",
+    "kind": "acrylic_stand",
+    "label": "아크릴 스탠드",
+    "reason": "랜덤 상품이지만 상세의 29종 모두 아크릴 스탠드임을 확인했습니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0024",
+      "checkedAt": "2026-10-30T14:50:58Z",
+      "material": "아크릴",
+      "facts": [
+        "상세 구성은 흔들리는 아크릴 스탠드 29종이며 그룹별 7·7·7·8종.",
+        "재질은 아크릴로 명시됨."
+      ],
+      "descriptionSha256": "d225e98e9c4e25d494d6ac757056fc7460e55e2c0021ff72d6a1627ba6cb83ae",
+      "responseSha256": "e1b91776069845877e4ce08a86efd7a163c3c45507bcbc45e179dc128bbd8fce"
+    }
+  },
+  {
+    "inventoryPosition": 11,
+    "identity": {
+      "code": "FZ-00664",
+      "id": 204156,
+      "name": "FRUITS ZIPPER クリアボトル",
+      "productUrl": "https://asobisystem.shop/products/FZ-00664"
+    },
+    "status": "mapped",
+    "kind": "plastic_bottle",
+    "label": "PET 물병",
+    "reason": "PET 물병: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "181",
+      "label": "그릇/식기/컵(플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "132",
+      "label": "[목록통관] 식기/주방용품 (플라스틱)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A134:C134"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00664",
+      "checkedAt": "2026-10-31",
+      "material": "本体：ポリエチレンテレフタレート",
+      "facts": [
+        "500ml 용량의 보틀이며 본체 소재가 PET로 명시되어 있습니다."
+      ],
+      "descriptionSha256": "927cc64847b616f0265cf4ac9893136fdc9ec1febf8bcbd30d67f9d2c287c177"
+    }
+  },
+  {
+    "inventoryPosition": 13,
+    "identity": {
+      "code": "FZ-00187",
+      "id": 144420,
+      "name": "FRUITS ZIPPER OFFICIAL FAN LIGHT CUSTOM PARTS",
+      "productUrl": "https://asobisystem.shop/products/FZ-00187"
+    },
+    "status": "mapped",
+    "kind": "fanlight_decoration",
+    "label": "응원봉용 실리콘 장식 부품",
+    "reason": "실리콘 커스텀 장식 부품으로 확인되어 응원봉 본체의 전자제품 코드를 사용하지 않습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "응원봉용 장식 부품에 대한 전용 코드가 없어 액세서리 후보를 배대지에서 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00187",
+      "checkedAt": "2026-10-30T14:51:00Z",
+      "material": "실리콘",
+      "facts": [
+        "공식 응원봉 전용 커스텀 장식 부품이며 재질은 실리콘.",
+        "응원봉 본체나 발광 전자기기로 안내하지 않음."
+      ],
+      "descriptionSha256": "c7ad95214e2fb9c71386b8531ef7d578c9a1a1804b4b8d53ed8fbebd83ea5ea3",
+      "responseSha256": "4094e141fe362547cf7e0edacbddedf6bcda1461d68657958392caa3e7e23100"
+    }
+  },
+  {
+    "inventoryPosition": 13,
+    "identity": {
+      "code": "FZ-006680",
+      "id": 204179,
+      "name": "FRUITS ZIPPER メンバー別マグカップ（全8種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-006680"
+    },
+    "status": "mapped",
+    "kind": "ceramic_mug",
+    "label": "도자기 머그컵",
+    "reason": "도자기 머그컵: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "180",
+      "label": "그릇/식기/컵(도자기,유리제품)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "131",
+      "label": "[목록통관] 식기/주방용품 (자기)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A133:C133"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-006680",
+      "checkedAt": "2026-10-31",
+      "material": "陶器",
+      "facts": [
+        "약 360cc 머그컵이며 소재가 도자기로 명시되어 있습니다."
+      ],
+      "descriptionSha256": "4899dfa724d8b0aff8764459aadce6ff0c57b086cff123a89cfa9c76deb024ca"
+    }
+  },
+  {
+    "inventoryPosition": 15,
+    "identity": {
+      "code": "FZ-00607",
+      "id": 190601,
+      "name": "FRUITS ZIPPER official Light Strap ＆ hand Strap(全7種)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00607"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "휴대폰·응원봉용 스트랩",
+    "reason": "상세의 연결·착용 용도를 확인해 휴대폰·응원봉용 스트랩으로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00607",
+      "checkedAt": "2026-10-30T14:51:02Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에서 목·손목 또는 휴대폰·응원봉에 연결하는 스트랩 용도를 확인함.",
+        "발광기기나 휴대전화 본체가 아닌 외부 연결 액세서리."
+      ],
+      "descriptionSha256": "bc4ec41b6db75d5a3e909147198f055999b164316bf702d970fb524249bd2f0d",
+      "responseSha256": "9aa5464f4257ed154eb56d3feaaeb22003ae32ca79fea4aeb4f4ae56b83cd305"
+    }
+  },
+  {
+    "inventoryPosition": 15,
+    "identity": {
+      "code": "FZ-00657",
+      "id": 201575,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition ver.6-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00657"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00657",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 볼록 스티커·미니 포토케이스·주머니·캔배지로 구성되어 있습니다."
+      ],
+      "descriptionSha256": "7e7ad2bfa3e6bdc1defafa964b900fe20f1b272ee10aba3c7e6dc6968c9f648a"
+    },
+    "policyOriginalReviewReason": "문구·가방·액세서리 후보가 섞여 실제 받은 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 17,
+    "identity": {
+      "code": "CT-00366",
+      "id": 202833,
+      "name": "CANDY TUNE メンバー別CANDY CIRCUSラバーバンド（全7種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00366"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "멤버별 러버 손목밴드",
+    "reason": "공개 이미지에서 고리형 손목밴드를 확인했으며 재질 사양 확인을 남겼습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "정확한 재질 배합은 미기재되어 실물 사양 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00366",
+      "checkedAt": "2026-10-30T14:51:04Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공개 상품 이미지의 부모 검수에서 7종 고리형 손목밴드를 확인함.",
+        "상세 본문에는 구체 재질 배합이 기재되지 않음."
+      ],
+      "descriptionSha256": "9676a90f22d4a47cc4a3704da57fb69f420c8da43a49e864f84ad35897a54d33",
+      "responseSha256": "614f08bf104ffdf9f41d8bef1304c220f67ab3b4ce921b8e5b6cc8af75231bc7",
+      "imageSourceUrl": "https://images.groobee.com/images/asobisystem/zs3AZS7ydtDZ84MWCeb3fIsT0TfgGmbcQ0p0DJ0R.jpg",
+      "imageReview": "부모 에이전트의 공개 상품 이미지 교차 검수"
+    }
+  },
+  {
+    "inventoryPosition": 17,
+    "identity": {
+      "code": "CT-00368",
+      "id": 202831,
+      "name": "CANDY TUNE ランダムカプセル-standard edition ver.3-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00368"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00368",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 볼록 스티커·미니 포토케이스·주머니·캔배지로 구성되어 있습니다."
+      ],
+      "descriptionSha256": "e8e600719ad48bcae5d9f42ec804b171978ca4fbe73040f899b13a35a4ee0b13"
+    },
+    "policyOriginalReviewReason": "문구·가방·액세서리 후보가 섞여 실제 받은 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 19,
+    "identity": {
+      "code": "CS-0085",
+      "id": 180139,
+      "name": "CUTIE STREET OFFICIAL FAN LIGHT CUSTOM PARTS",
+      "productUrl": "https://asobisystem.shop/products/CS-0085"
+    },
+    "status": "mapped",
+    "kind": "fanlight_decoration",
+    "label": "응원봉용 실리콘 장식 부품",
+    "reason": "실리콘 커스텀 장식 부품으로 확인되어 응원봉 본체의 전자제품 코드를 사용하지 않습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "응원봉용 장식 부품에 대한 전용 코드가 없어 액세서리 후보를 배대지에서 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0085",
+      "checkedAt": "2026-10-30T14:51:07Z",
+      "material": "실리콘",
+      "facts": [
+        "공식 응원봉 전용 커스텀 장식 부품이며 재질은 실리콘.",
+        "응원봉 본체나 발광 전자기기로 안내하지 않음."
+      ],
+      "descriptionSha256": "34457220365eccfb5eec8679a5ee4fbc0351eb91bbc2335bcf99b9bd7e3408de",
+      "responseSha256": "61151781d6a29469644eae66e0e77c38248b2f49a76ea28098aa767dc3f4de44"
+    }
+  },
+  {
+    "inventoryPosition": 19,
+    "identity": {
+      "code": "CS-0372",
+      "id": 204134,
+      "name": "CUTIE STREET ステーショナリー5点セット",
+      "productUrl": "https://asobisystem.shop/products/CS-0372"
+    },
+    "status": "mapped",
+    "kind": "stationery_set",
+    "label": "문구 5종 세트",
+    "reason": "문구 5종 세트: 모두 문구류인 세트 전체에 대한 일반 문구 품목 후보입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "모두 문구류인 세트 전체에 대한 일반 문구 품목 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0372",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "플랫 케이스·B5 노트·펜케이스·15cm 자·볼펜의 5종 구성을 상세에서 확인했습니다."
+      ],
+      "descriptionSha256": "78c95fcad82b89a48e1d226e195ae88a540280bfa696a13955aef3a865350f51"
+    }
+  },
+  {
+    "inventoryPosition": 21,
+    "identity": {
+      "code": "CS-0375",
+      "id": 204130,
+      "name": "CUTIE STREET CUTIE LAND ラバーマグネット",
+      "productUrl": "https://asobisystem.shop/products/CS-0375"
+    },
+    "status": "mapped",
+    "kind": "magnet",
+    "label": "라버 자석 생활소품",
+    "reason": "라버 재질과 크기를 확인한 자석 생활소품입니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자석 전용 코드가 없어 생활소품 후보를 사용하며 배대지 세부 항목 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0375",
+      "checkedAt": "2026-10-30T14:51:09Z",
+      "material": "라버",
+      "facts": [
+        "상세에 라버 재질과 약 7.5×5.9cm 크기가 명시됨."
+      ],
+      "descriptionSha256": "ed76f8eb3be8f806d0136003ff6334ae9f97a83e777cb0cc7399557466b67d92",
+      "responseSha256": "a7bde2f1c83f01e3357e866eb0cc5481c36d1de629dcf216e22c848a37e98dfd"
+    }
+  },
+  {
+    "inventoryPosition": 21,
+    "identity": {
+      "code": "CS-0298",
+      "id": 198463,
+      "name": "CUTIE STREET ランダムカプセル-standard edition ver.3-（全24種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0298"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0298",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 캔배지 8종·드롭풍 스티커 8종·아크릴 스마트폰 스탠드 겸 키홀더 8종입니다."
+      ],
+      "descriptionSha256": "b100765b25a69a71bdadb762632366f95fdcdd61c4a81354ecac9c5a3231b80a"
+    },
+    "policyOriginalReviewReason": "실제 당첨 품목에 따라 문구·액세서리 등 분류가 달라집니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 23,
+    "identity": {
+      "code": "CS-0311",
+      "id": 203971,
+      "name": "真鍋凪咲 生誕祭2026 スマホショルダー",
+      "productUrl": "https://asobisystem.shop/products/CS-0311"
+    },
+    "status": "mapped",
+    "kind": "phone_shoulder_strap",
+    "label": "휴대폰 숄더 액세서리",
+    "reason": "폴리에스터·금속·ABS 구성의 휴대폰 숄더이며 수납 가방 포함 여부는 확인이 필요합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에 파우치·수납부 포함 여부가 없어 실제 숄더 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0311",
+      "checkedAt": "2026-10-30T14:51:11Z",
+      "material": "폴리에스터 / 아연합금 / ABS",
+      "facts": [
+        "상세 재질은 폴리에스터·아연합금·ABS."
+      ],
+      "descriptionSha256": "6c6a7fc8871db752701e5e3c1d668a57a76ce8b1ab4448c996dc90eb81aeb7a0",
+      "responseSha256": "8207643041be7a17e46abfbd889540d2e70f197503f08140cdc118a20acedd56"
+    }
+  },
+  {
+    "inventoryPosition": 23,
+    "identity": {
+      "code": "KLF-0036",
+      "id": 203984,
+      "name": "ふるーつちゃんバルーンスティック",
+      "productUrl": "https://asobisystem.shop/products/KLF-0036"
+    },
+    "status": "mapped",
+    "kind": "balloon_stick",
+    "label": "손잡이 풍선",
+    "reason": "손잡이 풍선: 전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "jimpass": {
+      "code": "176",
+      "label": "기타 완구",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "127",
+      "label": "[목록통관] 기타 완구",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A129:C129"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLF-0036",
+      "checkedAt": "2026-10-31",
+      "material": "透明フィルム(OH)",
+      "facts": [
+        "상세에서 투명 필름 소재와 약 20cm 손잡이, 풍선 본체 크기를 확인했습니다."
+      ],
+      "descriptionSha256": "a7a6b389e606508d217c4d4c06380a1b9d13533ee871b5bad46aed8aa2b3179a"
+    }
+  },
+  {
+    "inventoryPosition": 25,
+    "identity": {
+      "code": "KLF-0038",
+      "id": 203982,
+      "name": "あめちゅんバルーンスティック",
+      "productUrl": "https://asobisystem.shop/products/KLF-0038"
+    },
+    "status": "mapped",
+    "kind": "balloon_stick",
+    "label": "응원용 풍선 스틱",
+    "reason": "투명 필름 본체와 손잡이를 확인해 응원용 풍선 완구로 분류했습니다.",
+    "jimpass": {
+      "code": "176",
+      "label": "기타 완구",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "127",
+      "label": "[목록통관] 기타 완구",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A129:C129"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLF-0038",
+      "checkedAt": "2026-10-30T14:51:13Z",
+      "material": "투명 필름",
+      "facts": [
+        "투명 필름 재질이며 풍선 본체와 약 20cm 손잡이 치수를 구분해 안내함."
+      ],
+      "descriptionSha256": "a7a6b389e606508d217c4d4c06380a1b9d13533ee871b5bad46aed8aa2b3179a",
+      "responseSha256": "c42a47143b7fd3bd0157c4e7de2f1a9b1520fe79e3daa2dcd58dd80d7f7baf11"
+    }
+  },
+  {
+    "inventoryPosition": 25,
+    "identity": {
+      "code": "KLF-0040",
+      "id": 203980,
+      "name": "ぶーけちゃんバルーンスティック",
+      "productUrl": "https://asobisystem.shop/products/KLF-0040"
+    },
+    "status": "mapped",
+    "kind": "balloon_stick",
+    "label": "손잡이 풍선",
+    "reason": "손잡이 풍선: 전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "jimpass": {
+      "code": "176",
+      "label": "기타 완구",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "127",
+      "label": "[목록통관] 기타 완구",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A129:C129"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLF-0040",
+      "checkedAt": "2026-10-31",
+      "material": "透明フィルム(OH)",
+      "facts": [
+        "상세에서 투명 필름 소재와 약 20cm 손잡이, 풍선 본체 크기를 확인했습니다."
+      ],
+      "descriptionSha256": "a7a6b389e606508d217c4d4c06380a1b9d13533ee871b5bad46aed8aa2b3179a"
+    }
+  },
+  {
+    "inventoryPosition": 27,
+    "identity": {
+      "code": "KLF-0042",
+      "id": 203978,
+      "name": "にゃんすとバルーンスティック",
+      "productUrl": "https://asobisystem.shop/products/KLF-0042"
+    },
+    "status": "mapped",
+    "kind": "balloon_stick",
+    "label": "응원용 풍선 스틱",
+    "reason": "투명 필름 본체와 손잡이를 확인해 응원용 풍선 완구로 분류했습니다.",
+    "jimpass": {
+      "code": "176",
+      "label": "기타 완구",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "127",
+      "label": "[목록통관] 기타 완구",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A129:C129"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLF-0042",
+      "checkedAt": "2026-10-30T14:51:15Z",
+      "material": "투명 필름",
+      "facts": [
+        "투명 필름 재질이며 풍선 본체와 약 20cm 손잡이 치수를 구분해 안내함."
+      ],
+      "descriptionSha256": "a7a6b389e606508d217c4d4c06380a1b9d13533ee871b5bad46aed8aa2b3179a",
+      "responseSha256": "3df434729a1287d764f16229a448500425186f4af544243b5050f00958d54bb9"
+    }
+  },
+  {
+    "inventoryPosition": 27,
+    "identity": {
+      "code": "KLF-0044",
+      "id": 203976,
+      "name": "とぅいんくる☆バルーンスティック",
+      "productUrl": "https://asobisystem.shop/products/KLF-0044"
+    },
+    "status": "mapped",
+    "kind": "balloon_stick",
+    "label": "손잡이 풍선",
+    "reason": "손잡이 풍선: 전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "jimpass": {
+      "code": "176",
+      "label": "기타 완구",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "127",
+      "label": "[목록통관] 기타 완구",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A129:C129"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전동·발광 기기가 아닌 풍선 굿즈 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLF-0044",
+      "checkedAt": "2026-10-31",
+      "material": "透明フィルム(OH)",
+      "facts": [
+        "상세에서 투명 필름 소재와 약 20cm 손잡이, 풍선 본체 크기를 확인했습니다."
+      ],
+      "descriptionSha256": "a7a6b389e606508d217c4d4c06380a1b9d13533ee871b5bad46aed8aa2b3179a"
+    }
+  },
+  {
+    "inventoryPosition": 29,
+    "identity": {
+      "code": "KR-0012",
+      "id": 203616,
+      "name": "KR Shopper",
+      "productUrl": "https://asobisystem.shop/products/KR-0012"
+    },
+    "status": "mapped",
+    "kind": "shopping_bag",
+    "label": "폴리에틸렌 쇼핑백",
+    "reason": "폴리에틸렌 본체와 손잡이 치수를 확인한 쇼핑백입니다.",
+    "jimpass": {
+      "code": "6",
+      "label": "가방 및 지갑",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "059",
+      "label": "[목록통관] 가방",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A61:C61"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KR-0012",
+      "checkedAt": "2026-10-30T14:51:17Z",
+      "material": "폴리에틸렌",
+      "facts": [
+        "폴리에틸렌 재질.",
+        "손잡이를 제외한 본체 450×350×130mm와 별도 손잡이 치수를 제시함."
+      ],
+      "descriptionSha256": "10a22178369bc810bd3b7ecb04da4e239649f773eab1f5e73aa746a28ad7b5b9",
+      "responseSha256": "c3e22b55d17e7747556b0fe7528d16108792afa6f1172f3c11a8cd2b9e5ee210"
+    }
+  },
+  {
+    "inventoryPosition": 29,
+    "identity": {
+      "code": "AGL-00202",
+      "id": 203745,
+      "name": "AG!の手～かゆみに届け～",
+      "productUrl": "https://asobisystem.shop/products/AGL-00202"
+    },
+    "status": "mapped",
+    "kind": "backscratcher",
+    "label": "신축형 효자손",
+    "reason": "신축형 효자손: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00202",
+      "checkedAt": "2026-10-31",
+      "material": "ABS樹脂（手部分）、ステンレス（伸縮シャフト）、EVAまたはTPR（グリップ）",
+      "facts": [
+        "가려운 곳을 긁는 신축 도구로 설명되며 ABS 손·스테인리스 샤프트·EVA/TPR 손잡이 소재가 기재됩니다."
+      ],
+      "descriptionSha256": "11a54790bb80687e3d41c25f004a350968aae5314d9291ebbb1d5adbe3e3b545"
+    }
+  },
+  {
+    "inventoryPosition": 31,
+    "identity": {
+      "code": "AGL-00204",
+      "id": 203743,
+      "name": "リーダーズランダムグッズ～From AG! with Love～",
+      "productUrl": "https://asobisystem.shop/products/AGL-00204"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00204",
+      "checkedAt": "2026-10-30T14:51:19Z",
+      "material": "아크릴 / 주석도금강판 / 종이",
+      "facts": [
+        "17종 구성은 배지·참·마스킹테이프·삼각 파우치·아크릴 키링으로 서로 다른 물품.",
+        "실제 수령 품목이 랜덤임."
+      ],
+      "descriptionSha256": "79030d66c4878a864730894ccaa10921535f78da14c406314cceb6af4245ee8c",
+      "responseSha256": "595372e14c21bde738026d54627c9c346ed0a53da7930ec7f905a802e0465760"
+    },
+    "policyOriginalReviewReason": "당첨·수령한 실물의 종류에 따라 품목코드가 달라지므로 실제 품목을 확인해 주세요.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 31,
+    "identity": {
+      "code": "AGL-00210",
+      "id": 203737,
+      "name": "【青春部限定】Onaka Yummyエプロン＆ミトン～RIN Birthbay Item～",
+      "productUrl": "https://asobisystem.shop/products/AGL-00210"
+    },
+    "status": "needs_review",
+    "kind": "apron_mitten_set",
+    "label": "앞치마·오븐 장갑 세트",
+    "reason": "앞치마·오븐 장갑 세트: 상의류와 장갑이 함께 있어 어느 한 품목으로 일괄 확정하지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "상의류와 장갑이 함께 있어 어느 한 품목으로 일괄 확정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00210",
+      "checkedAt": "2026-10-31",
+      "material": "・エプロン / 本体リネン、糸ポリエステル\n・ミトン / 本体リネン、糸ポリエステル",
+      "facts": [
+        "리넨/폴리에스테르 앞치마와 같은 소재의 미톤을 함께 판매하는 세트입니다."
+      ],
+      "descriptionSha256": "3eeb4fa9d97a02a54bf77cd06f5d3d3107a196b4282555f8943cf81698dbfaed"
+    }
+  },
+  {
+    "inventoryPosition": 33,
+    "identity": {
+      "code": "AGL-00208",
+      "id": 203739,
+      "name": "【青春部限定】Onaka Yummyエプロン～RIN Birthbay Item～",
+      "productUrl": "https://asobisystem.shop/products/AGL-00208"
+    },
+    "status": "mapped",
+    "kind": "apron",
+    "label": "리넨 앞치마",
+    "reason": "리넨 본체와 착용용 앞치마 형태를 확인해 의류로 분류했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00208",
+      "checkedAt": "2026-10-30T14:51:21Z",
+      "material": "폴리에스터 / 리넨",
+      "facts": [
+        "본문에서 앞치마 용도·형태를 설명함.",
+        "본체는 리넨, 실은 폴리에스터이며 약 1000×960mm."
+      ],
+      "descriptionSha256": "d6e3ffef4d3019921fe33fd871b69fd7ac1f8aa24b67cbd74f900bd9356a09ba",
+      "responseSha256": "de332e5fa5b1a0989a1447caedec20de9f7c4c0e96cd5815cf006fe7a77c60a4"
+    }
+  },
+  {
+    "inventoryPosition": 33,
+    "identity": {
+      "code": "AGL-00209",
+      "id": 203738,
+      "name": "【青春部限定】Onaka Yummyミトン～RIN Birthbay Item～",
+      "productUrl": "https://asobisystem.shop/products/AGL-00209"
+    },
+    "status": "mapped",
+    "kind": "textile_mitten",
+    "label": "리넨 오븐 장갑",
+    "reason": "리넨 오븐 장갑: 가죽 아닌 섬유 장갑 기준 제안입니다.",
+    "jimpass": {
+      "code": "20",
+      "label": "장갑(천소재)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "067",
+      "label": "[목록통관] 장갑",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A69:C69"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "가죽 아닌 섬유 장갑 기준 제안입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00209",
+      "checkedAt": "2026-10-31",
+      "material": "本体リネン、糸ポリエステル",
+      "facts": [
+        "앞치마와 함께 쓰는 미톤이며 리넨 본체·폴리에스테르 실, 170×280mm 크기를 명시합니다."
+      ],
+      "descriptionSha256": "620f1add06f8ca931c8b20011a357b50dc30dba8343a54455fda6b0072d6748a"
+    }
+  },
+  {
+    "inventoryPosition": 35,
+    "identity": {
+      "code": "ASB-FM0011",
+      "id": 203297,
+      "name": "一生梓推し証明プレート",
+      "productUrl": "https://asobisystem.shop/products/ASB-FM0011"
+    },
+    "status": "mapped",
+    "kind": "acrylic_plate",
+    "label": "아크릴 기념 플레이트",
+    "reason": "아크릴 기념 플레이트의 재질·치수를 확인했으며 고정 방식은 추가 확인이 필요합니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에 고정·연결 방식이 없어 키링 등 별도 구성 여부를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-FM0011",
+      "checkedAt": "2026-10-30T14:51:23Z",
+      "material": "아크릴",
+      "facts": [
+        "아크릴 재질과 8×4.5cm 크기를 명시함."
+      ],
+      "descriptionSha256": "cd80501b291feac10675546d6f5444ec262be8443e8eb552da1eb9bd1a15b982",
+      "responseSha256": "bcee80335fe3fa7ce977caf9664c9f6452bc5a5d0aae004fc2c542b19a8fab7b"
+    }
+  },
+  {
+    "inventoryPosition": 35,
+    "identity": {
+      "code": "TI-0111",
+      "id": 203519,
+      "name": "同じ時を刻もう♡直筆刻印入り！魔法の解けない懐中時計",
+      "productUrl": "https://asobisystem.shop/products/TI-0111"
+    },
+    "status": "mapped",
+    "kind": "pocket_watch",
+    "label": "회중시계",
+    "reason": "회중시계: 전지 포함 여부와 실제 배송 조건은 확인해 주세요.",
+    "jimpass": {
+      "code": "18",
+      "label": "시계 및 부품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "058",
+      "label": "[목록통관] 시계",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A60:C60"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전지 포함 여부와 실제 배송 조건은 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0111",
+      "checkedAt": "2026-10-31",
+      "material": "本体：ABS、亜鉛合金\n外装：PU、PP、紙\n※R626電池 1個使用",
+      "facts": [
+        "ABS·아연합금 본체, 37×42×8mm 크기 및 R626 전지 1개 사용이 명시됩니다."
+      ],
+      "descriptionSha256": "3efe401011b126c43ffc4a6588e690b836b13400f716c64f4fa5880981843414"
+    }
+  },
+  {
+    "inventoryPosition": 37,
+    "identity": {
+      "code": "ASB-AS0041",
+      "id": 203531,
+      "name": "ASOBIEXPO POWER BANK（モバイルバッテリー）",
+      "productUrl": "https://asobisystem.shop/products/ASB-AS0041"
+    },
+    "status": "needs_review",
+    "kind": "powerbank",
+    "label": "보조배터리 사양 확인",
+    "reason": "보조배터리 사양이 없어 짐패스 코드는 비웠고 훗타운 충전지 항목만 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "021",
+      "label": "[목록통관] 건전지 충전기(충전지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A23:C23"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 전용 배터리 코드를 확인하지 못해 비웠으며 배터리 사양과 운송 가능 여부를 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-AS0041",
+      "checkedAt": "2026-10-30T14:51:26Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상품은 모바일 보조배터리로 판매됨.",
+        "상세에는 용량·배터리 종류·전압 없이 판매·일반 주의사항만 있음."
+      ],
+      "descriptionSha256": "9d1fd3b6531fa39f32cc98bb86756435b8c8b29504f48fe0bc589237b4ac8c71",
+      "responseSha256": "64b0705ebeef1f440d38f8a0f3cc77451c236165a0d16910f6cbe342c5477e19"
+    }
+  },
+  {
+    "inventoryPosition": 37,
+    "identity": {
+      "code": "ASB-AS0042",
+      "id": 203530,
+      "name": "ASOBIEXPO RANDOM CAPSULE Ver.2（ARTIST）",
+      "productUrl": "https://asobisystem.shop/products/ASB-AS0042"
+    },
+    "status": "needs_review",
+    "kind": "random_contents_unknown",
+    "label": "구성 미공개 랜덤 캡슐",
+    "reason": "구성 미공개 랜덤 캡슐: 실제 캡슐 구성품 확인 후 품목코드를 정해야 합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "실제 캡슐 구성품 확인 후 품목코드를 정해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-AS0042",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에는 공통 판매 안내만 있고 실제 구성품·소재가 없습니다."
+      ],
+      "descriptionSha256": "9d1fd3b6531fa39f32cc98bb86756435b8c8b29504f48fe0bc589237b4ac8c71"
+    }
+  },
+  {
+    "inventoryPosition": 39,
+    "identity": {
+      "code": "ASB-AS0078",
+      "id": 203536,
+      "name": "ASOBIEXPO RANDOM CAPSULE Ver.2（CREATOR）",
+      "productUrl": "https://asobisystem.shop/products/ASB-AS0078"
+    },
+    "status": "needs_review",
+    "kind": "random_contents_unconfirmed",
+    "label": "랜덤 캡슐 구성 확인",
+    "reason": "공식 상세에 랜덤 캡슐 구성품이 없어 품목코드를 비웠습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "실제 수령 가능한 품목 목록이 확인되지 않아 단일 코드를 넣지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-AS0078",
+      "checkedAt": "2026-10-30T14:51:28Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에 판매기간·일반 주의사항만 있으며 캡슐별 구성과 재질이 없음."
+      ],
+      "descriptionSha256": "9d1fd3b6531fa39f32cc98bb86756435b8c8b29504f48fe0bc589237b4ac8c71",
+      "responseSha256": "84494156c1e5ae100523b84d1e8b2c4c095d183f42d00b07c919bcb369cde441"
+    }
+  },
+  {
+    "inventoryPosition": 39,
+    "identity": {
+      "code": "FZ-00643",
+      "id": 203273,
+      "name": "FRUITS ZIPPER ランダムカプセル -KL夏祭り2026衣装 edition- （全15種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00643"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00643",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 캔배지 7종·아크릴 마커 7종·토트백 1종입니다."
+      ],
+      "descriptionSha256": "aae9b818df0d7e64fbe3a294c423f53c66bd676f18176c425a8ea6c3c0a1ea9b"
+    },
+    "policyOriginalReviewReason": "가방과 액세서리 등의 후보가 섞여 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 41,
+    "identity": {
+      "code": "CT-00350",
+      "id": 203265,
+      "name": "CANDY TUNE ランダムカプセル -KL夏祭り2026衣装 edition- （全15種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00350"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00350",
+      "checkedAt": "2026-10-30T14:51:30Z",
+      "material": "아크릴",
+      "facts": [
+        "상세 구성에 배지·아크릴 마커·토트백을 함께 기재함.",
+        "종별 개수만 다르며 실제 수령 품목은 랜덤."
+      ],
+      "descriptionSha256": "7a15fa95124da8482d3e5a09971dcb0b8c4d73c650b153bf24e19546d4f0f421",
+      "responseSha256": "2660daec4dc8fff458e9874b8987f77a3d1c52747e2cc66ceb2bce656a7f9a48"
+    },
+    "policyOriginalReviewReason": "배지·마커·가방은 물품 종류가 달라 실제 수령 품목별로 분류해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 41,
+    "identity": {
+      "code": "SS-0238",
+      "id": 203257,
+      "name": "SWEET STEADY ランダムカプセル -KL夏祭り2026衣装 edition- （全15種）",
+      "productUrl": "https://asobisystem.shop/products/SS-0238"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0238",
+      "checkedAt": "2026-10-31",
+      "material": "缶バッジ7種、アクリルマーカー7種、トートバッグ1種",
+      "facts": [
+        "후보는 캔배지 7종·아크릴 마커 7종·토트백 1종입니다."
+      ],
+      "descriptionSha256": "02e2c239122716e41d1226222445d9d2661de67819f4d215cccb8da085bb4176"
+    },
+    "policyOriginalReviewReason": "가방과 액세서리 등의 후보가 섞여 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 43,
+    "identity": {
+      "code": "CS-0305",
+      "id": 203230,
+      "name": "CUTIE STREET ランダムカプセル -KL夏祭り2026衣装 edition- （全17種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0305"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0305",
+      "checkedAt": "2026-10-30T14:51:32Z",
+      "material": "아크릴",
+      "facts": [
+        "상세 구성에 배지·아크릴 마커·토트백을 함께 기재함.",
+        "종별 개수만 다르며 실제 수령 품목은 랜덤."
+      ],
+      "descriptionSha256": "eec662a94f8e02731b86940381ec97aa8d28417a426cb4b783e3c7fb2f40551c",
+      "responseSha256": "1f1f3c1d8203491ec8d4a2a80360b78383efb8fa47996306053934bcd0ea45dd"
+    },
+    "policyOriginalReviewReason": "배지·마커·가방은 물품 종류가 달라 실제 수령 품목별로 분류해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 43,
+    "identity": {
+      "code": "CS-0346",
+      "id": 203154,
+      "name": "CUTIE STREET メンバー別メッセージラバーバンド（全8種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0346"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "러버 손목밴드",
+    "reason": "러버 손목밴드: 세부 소재·치수는 상세에 미기재되어 액세서리 품목 후보로 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "세부 소재·치수는 상세에 미기재되어 액세서리 품목 후보로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0346",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명과 상품 카테고리에서 러버밴드를 확인했습니다."
+      ],
+      "descriptionSha256": "52bbb0465b288329656eed537abce02d07fe160ecf8bbf011d3062d96e1f7db4"
+    }
+  },
+  {
+    "inventoryPosition": 45,
+    "identity": {
+      "code": "CS-0347",
+      "id": 203153,
+      "name": "CUTIE STREET猫耳ネッククーラー",
+      "productUrl": "https://asobisystem.shop/products/CS-0347"
+    },
+    "status": "needs_review",
+    "kind": "phase_change_neck_cooler",
+    "label": "목 착용 냉각 제품",
+    "reason": "자연 동결형 목 냉각 제품으로 확인되어 의류·전자제품 코드로 임의 분류하지 않습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 천 스카프나 전기 냉방기기가 아니며 충전물 성분과 적정 세부 품목을 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0347",
+      "checkedAt": "2026-10-30T14:51:34Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "26도 이하에서 자연 동결·반복 사용하는 냉각용 제품.",
+        "동결 상태로 목에 두르며 약 60~90분 사용 시간을 안내함."
+      ],
+      "descriptionSha256": "dacdeb87a1e941546a0eeda2c9d23130222b14bed22882faf3562316dfa515e7",
+      "responseSha256": "5577a6cfb1dc13e5b1abf7814b34e595ce755bc001a3513f27b7ed2fc08a77f7"
+    }
+  },
+  {
+    "inventoryPosition": 45,
+    "identity": {
+      "code": "CS-0348",
+      "id": 203152,
+      "name": "CUTIE STREET 8色ポップコーン",
+      "productUrl": "https://asobisystem.shop/products/CS-0348"
+    },
+    "status": "needs_review",
+    "kind": "popcorn",
+    "label": "팝콘",
+    "reason": "팝콘: 짐패스 공식 목록에서 팝콘에 직접 맞는 항목을 확인하지 못했습니다. 식품 수탁 조건을 확인해 주세요.",
+    "jimpass": null,
+    "general": {
+      "code": "247",
+      "label": "[일반통관] 기타 식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A249:C249"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 공식 목록에서 팝콘에 직접 맞는 항목을 확인하지 못했습니다. 식품 수탁 조건을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0348",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상품명은 팝콘이며 상세에 유통기한 2026-11-11 무렵이 명시됩니다."
+      ],
+      "descriptionSha256": "571ee82ac01316d2a7dd1a94f08ed2d85cc6e8077863596fcab46c4c5f6c4558"
+    }
+  },
+  {
+    "inventoryPosition": 47,
+    "identity": {
+      "code": "CS-0247",
+      "id": 192297,
+      "name": "CUTIE STREETメンバー別ハンドストラップ＆ペンライトストラップ（全8種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0247"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "휴대폰·응원봉용 스트랩",
+    "reason": "상세의 연결·착용 용도를 확인해 휴대폰·응원봉용 스트랩으로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0247",
+      "checkedAt": "2026-10-30T14:51:36Z",
+      "material": "아크릴 / 실리콘 / 나일론 / 아연합금 / 금속 / 철",
+      "facts": [
+        "상세에서 목·손목 또는 휴대폰·응원봉에 연결하는 스트랩 용도를 확인함.",
+        "발광기기나 휴대전화 본체가 아닌 외부 연결 액세서리."
+      ],
+      "descriptionSha256": "53e6cbcf25e40e415124e90d483b5623a70059e6490bf1f8139e7016b50f3b7d",
+      "responseSha256": "4e9448741ab0dd383d637d903e6c2f8e65089c82335a5fe99f1d14a7316a303b"
+    }
+  },
+  {
+    "inventoryPosition": 47,
+    "identity": {
+      "code": "ASB-KP0008",
+      "id": 203147,
+      "name": "PAMYU FES ラバーバンド",
+      "productUrl": "https://asobisystem.shop/products/ASB-KP0008"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "러버 손목밴드",
+    "reason": "러버 손목밴드: 세부 소재·치수는 상세에 미기재되어 액세서리 품목 후보로 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "세부 소재·치수는 상세에 미기재되어 액세서리 품목 후보로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-KP0008",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명과 상품 카테고리에서 러버밴드를 확인했습니다."
+      ],
+      "descriptionSha256": "9acae31ba4cc3f97a830f3918525cd6f8c39ef67444831569686f38655a4f635"
+    }
+  },
+  {
+    "inventoryPosition": 49,
+    "identity": {
+      "code": "CS-0283",
+      "id": 202641,
+      "name": "増田彩乃生誕祭2026 ひょっこりしてますだｯ⭐︎",
+      "productUrl": "https://asobisystem.shop/products/CS-0283"
+    },
+    "status": "needs_review",
+    "kind": "adhesive_pvc_goods_unresolved",
+    "label": "접착식 PVC 굿즈 용도 확인",
+    "reason": "PVC 본체와 접착 수지는 확인했지만 구체적인 물품 용도가 없어 코드를 비웠습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "구체적인 사용·부착 대상이 없어 장식물·기기 부품 중 어느 것인지 확인할 수 없습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0283",
+      "checkedAt": "2026-10-30T14:51:38Z",
+      "material": "수지 / PVC",
+      "facts": [
+        "본체 PVC·접착부 수지, 약 5.8×3.5cm를 명시함."
+      ],
+      "descriptionSha256": "ca220b55768211d4d8dbeaa1f9a1b3bb346f52997accddfebe744b014bb0b7bc",
+      "responseSha256": "7108744f89693e346aa26a83748ecc9ff3a87f99dd7e40ef5fffdd97619e2544"
+    }
+  },
+  {
+    "inventoryPosition": 49,
+    "identity": {
+      "code": "CS-0281",
+      "id": 202638,
+      "name": "増田彩乃生誕祭2026 と・め・ま・す・だ あやの〜！",
+      "productUrl": "https://asobisystem.shop/products/CS-0281"
+    },
+    "status": "needs_review",
+    "kind": "acrylic_goods_unknown",
+    "label": "용도 미기재 아크릴 굿즈",
+    "reason": "용도 미기재 아크릴 굿즈: 머리핀 등 실제 기능이 상세에 없어 소재만으로 특정 액세서리 분류를 확정하지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "머리핀 등 실제 기능이 상세에 없어 소재만으로 특정 액세서리 분류를 확정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0281",
+      "checkedAt": "2026-10-31",
+      "material": "アクリル、鉄、亜鉛合金",
+      "facts": [
+        "아크릴·철·아연합금 소재와 좌우 부품 치수만 명시되어 있습니다."
+      ],
+      "descriptionSha256": "e0952b683feed01023832f5837ba16682f566d235d6e1de7f0a167c706efee92"
+    }
+  },
+  {
+    "inventoryPosition": 51,
+    "identity": {
+      "code": "ASB-SS0009",
+      "id": 202460,
+      "name": "これかけたら莉世のことがもっと見えるよメガネ",
+      "productUrl": "https://asobisystem.shop/products/ASB-SS0009"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "안경",
+    "reason": "공식 안경 상품으로 분류하되 렌즈·재질 사양이 없어 확인 표시를 남겼습니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "안경의 렌즈·도수·차광 사양이 없어 실제 상품 사양을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-SS0009",
+      "checkedAt": "2026-10-30T14:51:40Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세의 상품은 안경이며 의류 카테고리에서 판매됨.",
+        "본문에는 렌즈·테 재질이나 도수·차광 사양이 기재되지 않음."
+      ],
+      "descriptionSha256": "b25eae4b98203d00f5ae53f4f5e7a44d257006034a480a045249a809ca056d41",
+      "responseSha256": "bfbeea7e0e798bc99a9e5a2ef38cbd82a65c4699deeea745bdf0a86a33214b42"
+    }
+  },
+  {
+    "inventoryPosition": 51,
+    "identity": {
+      "code": "FZ-00595",
+      "id": 190210,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition ver.5-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00595"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00595",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 풍선 키홀더 7종·마스킹테이프 7종·캔배지 7종·미니 파우치 1종입니다."
+      ],
+      "descriptionSha256": "dc113884eade43213d742ba2148fae29260c8910a18d3bb33105c1dfe797bf89"
+    },
+    "policyOriginalReviewReason": "실제 당첨 물품에 따라 품목코드가 달라집니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 53,
+    "identity": {
+      "code": "ZA251054_14E1",
+      "id": 190600,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：月足天音モデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_14E1"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "컬러 안경",
+    "reason": "Zoff 협업 안경이라는 상세 설명과 렌즈·테 규격 및 재질을 확인했습니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_14E1",
+      "checkedAt": "2026-10-30T14:51:42Z",
+      "material": "황동 / 유리 / 고무 / 플라스틱",
+      "facts": [
+        "본문에서 Zoff 협업 멤버 컬러 안경임을 명시함.",
+        "테·렌즈 세부 치수와 황동·유리·고무·플라스틱 재질을 안내함."
+      ],
+      "descriptionSha256": "47121ba4c52bd2a513e0744da3241658027e29a76487aca978ef73f29e482083",
+      "responseSha256": "0408cadb4382329eea10ceeb8f41f78d408cd0b705e78eddb8473683f12b2c13"
+    }
+  },
+  {
+    "inventoryPosition": 53,
+    "identity": {
+      "code": "ZA251054_43A4",
+      "id": 190599,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：鎮西寿々歌モデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_43A4"
+    },
+    "status": "mapped",
+    "kind": "glasses",
+    "label": "멤버 컬러 안경",
+    "reason": "멤버 컬러 안경: 주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_43A4",
+      "checkedAt": "2026-10-31",
+      "material": "真鍮、ガラス、ゴム、Plastic",
+      "facts": [
+        "Zoff 협업 안경으로 설명되며 황동·유리·고무·플라스틱 소재와 프레임 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "e9768f796211ab4e467b82fe89b6e8e04535855cdcb0fde2b9ff3fbb290ea225"
+    }
+  },
+  {
+    "inventoryPosition": 55,
+    "identity": {
+      "code": "ZA251054_43A3",
+      "id": 190598,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：櫻井優衣モデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_43A3"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "컬러 안경",
+    "reason": "Zoff 협업 안경이라는 상세 설명과 렌즈·테 규격 및 재질을 확인했습니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_43A3",
+      "checkedAt": "2026-10-30T14:51:44Z",
+      "material": "황동 / 유리 / 고무 / 플라스틱",
+      "facts": [
+        "본문에서 Zoff 협업 멤버 컬러 안경임을 명시함.",
+        "테·렌즈 세부 치수와 황동·유리·고무·플라스틱 재질을 안내함."
+      ],
+      "descriptionSha256": "3ce9033d779637a0f25783daa1b4ec48f49b77b613a9d86725d844460f9f3dae",
+      "responseSha256": "c627529de809eb7ecaf4fbd9d4074e17128d380c6f00011cd6e6007831426436"
+    }
+  },
+  {
+    "inventoryPosition": 55,
+    "identity": {
+      "code": "ZA251054_14E3",
+      "id": 190597,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：仲川瑠夏モデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_14E3"
+    },
+    "status": "mapped",
+    "kind": "glasses",
+    "label": "멤버 컬러 안경",
+    "reason": "멤버 컬러 안경: 주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_14E3",
+      "checkedAt": "2026-10-31",
+      "material": "真鍮、ガラス、ゴム、Plastic",
+      "facts": [
+        "Zoff 협업 안경으로 설명되며 황동·유리·고무·플라스틱 소재와 프레임 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "e69be3c86e389827cc476dddef443b6157f5c72d40ab9724061aad6ff33f852a"
+    }
+  },
+  {
+    "inventoryPosition": 57,
+    "identity": {
+      "code": "ZA251054_14E2",
+      "id": 190596,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：真中まなモデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_14E2"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "컬러 안경",
+    "reason": "Zoff 협업 안경이라는 상세 설명과 렌즈·테 규격 및 재질을 확인했습니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_14E2",
+      "checkedAt": "2026-10-30T14:51:46Z",
+      "material": "황동 / 유리 / 고무 / 플라스틱",
+      "facts": [
+        "본문에서 Zoff 협업 멤버 컬러 안경임을 명시함.",
+        "테·렌즈 세부 치수와 황동·유리·고무·플라스틱 재질을 안내함."
+      ],
+      "descriptionSha256": "21bb1fb881130e0c06e051b87a158f4f892353f37b24e633bf25f6e8f0b537eb",
+      "responseSha256": "88797e6f4d5b8dcb6bc81872fd372c805a3d1792fad44501d3d1819c9768b605"
+    }
+  },
+  {
+    "inventoryPosition": 57,
+    "identity": {
+      "code": "ZA251054_43A2",
+      "id": 190595,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：松本かれんモデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_43A2"
+    },
+    "status": "mapped",
+    "kind": "glasses",
+    "label": "멤버 컬러 안경",
+    "reason": "멤버 컬러 안경: 주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 실물인 안경 기준이며 렌즈 교환권은 별도 서비스입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_43A2",
+      "checkedAt": "2026-10-31",
+      "material": "真鍮、ガラス、ゴム、Plastic",
+      "facts": [
+        "Zoff 협업 안경으로 설명되며 황동·유리·고무·플라스틱 소재와 프레임 규격이 명시됩니다."
+      ],
+      "descriptionSha256": "de9191b7aa49ab310e357d5921d47454facf1adf65e91e02a98eae75b3ae8d3b"
+    }
+  },
+  {
+    "inventoryPosition": 59,
+    "identity": {
+      "code": "ZA251054_43A1",
+      "id": 190594,
+      "name": "Zoff｜FRUITS ZIPPER Member's color：早瀬ノエルモデル",
+      "productUrl": "https://asobisystem.shop/products/ZA251054_43A1"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "컬러 안경",
+    "reason": "Zoff 협업 안경이라는 상세 설명과 렌즈·테 규격 및 재질을 확인했습니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ZA251054_43A1",
+      "checkedAt": "2026-10-30T14:51:48Z",
+      "material": "황동 / 유리 / 고무 / 플라스틱",
+      "facts": [
+        "본문에서 Zoff 협업 멤버 컬러 안경임을 명시함.",
+        "테·렌즈 세부 치수와 황동·유리·고무·플라스틱 재질을 안내함."
+      ],
+      "descriptionSha256": "7b56b7514a362599b05e84306c2f3cf29e1bfeea6840c1f0505e0b7a120cb602",
+      "responseSha256": "d165d9011afd82541c1ac7a7a6bc262bd5f0e574186f59dd2014e953ac7002ac"
+    }
+  },
+  {
+    "inventoryPosition": 59,
+    "identity": {
+      "code": "TI-0083",
+      "id": 199743,
+      "name": "てぃ守り",
+      "productUrl": "https://asobisystem.shop/products/TI-0083"
+    },
+    "status": "mapped",
+    "kind": "photo_card_case",
+    "label": "PVC 체키 케이스",
+    "reason": "PVC 체키 케이스: 사진 인쇄물 자체가 아닌 보관 케이스 기준입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "사진 인쇄물 자체가 아닌 보관 케이스 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0083",
+      "checkedAt": "2026-10-31",
+      "material": "PVC",
+      "facts": [
+        "상세 설명에서 생일 체키 케이스이며 소재 PVC임을 명시합니다."
+      ],
+      "descriptionSha256": "76f9a85d00f30f90a214e67b2bc4a73d3e4adcd58b0fbc9037c664ff6a82a4b1"
+    }
+  },
+  {
+    "inventoryPosition": 61,
+    "identity": {
+      "code": "CT-00264",
+      "id": 192653,
+      "name": "CANDY TUNE OFFICIAL FAN LIGHT CUSTOM PARTS",
+      "productUrl": "https://asobisystem.shop/products/CT-00264"
+    },
+    "status": "mapped",
+    "kind": "fanlight_decoration",
+    "label": "응원봉용 실리콘 장식 부품",
+    "reason": "실리콘 커스텀 장식 부품으로 확인되어 응원봉 본체의 전자제품 코드를 사용하지 않습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "응원봉용 장식 부품에 대한 전용 코드가 없어 액세서리 후보를 배대지에서 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00264",
+      "checkedAt": "2026-10-30T14:51:51Z",
+      "material": "실리콘",
+      "facts": [
+        "공식 응원봉 전용 커스텀 장식 부품이며 재질은 실리콘.",
+        "응원봉 본체나 발광 전자기기로 안내하지 않음."
+      ],
+      "descriptionSha256": "9c4a3843db63ec8e925b2f1a163c1686274e6b9caaa9cd8220501fe5509774a9",
+      "responseSha256": "400e607511273f90c84e749c41f5b00cd5fbd311308d35eb996d7521ebb69efb"
+    }
+  },
+  {
+    "inventoryPosition": 61,
+    "identity": {
+      "code": "CT-00293",
+      "id": 192650,
+      "name": "CANDY TUNE ランダムカプセル-standard edition ver.2-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00293"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00293",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 캔배지 7종·코일 팔찌 7종·손수건 7종·주머니 1종입니다."
+      ],
+      "descriptionSha256": "566b00c369fb561b2079f6e30db11371ff5f1a320014187fe6aa9688436875bc"
+    },
+    "policyOriginalReviewReason": "서로 다른 품목의 후보가 섞여 실제 받은 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 63,
+    "identity": {
+      "code": "CT-00306",
+      "id": 196456,
+      "name": "PAPABUBBLE×飴やしき キャンディー",
+      "productUrl": "https://asobisystem.shop/products/CT-00306"
+    },
+    "status": "mapped",
+    "kind": "candy",
+    "label": "캔디",
+    "reason": "캔디 상품과 표시 유통기한을 확인했으며 유통기한·성분 확인이 필요합니다.",
+    "jimpass": {
+      "code": "146",
+      "label": "초콜릿/캔디",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=145"
+    },
+    "general": {
+      "code": "213",
+      "label": "[일반통관] 캔디",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A215:C215"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "표시 유통기한이 지난 상품입니다. 실제 판매·유통기한·성분 정보를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00306",
+      "checkedAt": "2026-10-30T14:51:53Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 식품 상품에 유통기한 2026-08-31을 표시함."
+      ],
+      "descriptionSha256": "c6481f0dc85df6abb54d41a3768d36fd2c82593ffae17c6159213204b18121d1",
+      "responseSha256": "2e09bd81a853b50487751372182a28cbb02eff4fc50a17d91520f8b889b5dec6"
+    }
+  },
+  {
+    "inventoryPosition": 63,
+    "identity": {
+      "code": "TI-0084",
+      "id": 199742,
+      "name": "波動上げてこカレンダー2026",
+      "productUrl": "https://asobisystem.shop/products/TI-0084"
+    },
+    "status": "mapped",
+    "kind": "paper_calendar",
+    "label": "종이 달력",
+    "reason": "종이 달력: 주된 인쇄물인 달력을 문구류로 제안하며 철은 제본 부속입니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 인쇄물인 달력을 문구류로 제안하며 철은 제본 부속입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0084",
+      "checkedAt": "2026-10-31",
+      "material": "紙、鉄",
+      "facts": [
+        "상세 설명이 생일 달력이며 소재를 종이·철로 명시합니다."
+      ],
+      "descriptionSha256": "fb1394f19670369025adf08f1cfa2e0d09b624a488752005c79da29915678f22"
+    }
+  },
+  {
+    "inventoryPosition": 65,
+    "identity": {
+      "code": "ASB-AS0015V",
+      "id": 199331,
+      "name": "ロッカーキー",
+      "productUrl": "https://asobisystem.shop/products/ASB-AS0015V"
+    },
+    "status": "mapped",
+    "kind": "locker_keyholder",
+    "label": "손목 고리형 로커 태그 키링",
+    "reason": "공개 이미지의 코일 손목 고리·분할 링·태그 구성을 확인해 키링으로 분류했습니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "재질은 미기재되어 실제 키홀더 사양 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-AS0015V",
+      "checkedAt": "2026-10-30T14:51:55Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공개 상품 이미지의 부모 검수에서 코일형 손목 고리·분할 링·납작한 로커 태그 구성을 확인함.",
+        "본문의 재질·크기 설명은 비어 있음."
+      ],
+      "descriptionSha256": "2d8fffea4fc69567878822fccfec106461c5bf6bb60329e24179ff627d4f023f",
+      "responseSha256": "bc1691d2b0b9ca2969534b33876bcb149d0588b6f62e231d10094a3512c897a3",
+      "imageSourceUrl": "https://images.groobee.com/images/asobisystem/FfvuN4IlsSBoltadQSWD6q7Tg49hdB0cRHWltG0i.jpg",
+      "imageReview": "부모 에이전트의 공개 상품 이미지 교차 검수"
+    }
+  },
+  {
+    "inventoryPosition": 65,
+    "identity": {
+      "code": "ASB-SS0024",
+      "id": 198838,
+      "name": "SWEET STEADY ランダムカプセル-standard edition ver.2-（全28種）",
+      "productUrl": "https://asobisystem.shop/products/ASB-SS0024"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASB-SS0024",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 멤버별 배지·스티커 세트·아크릴 참·플라이트 태그 각 7종입니다."
+      ],
+      "descriptionSha256": "8a528a527880d134cf1cc3554db29368e7f27f4e8a93086573e0e8ebf2e66e35"
+    },
+    "policyOriginalReviewReason": "문구와 액세서리의 분류가 달라 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 67,
+    "identity": {
+      "code": "AGL-00191",
+      "id": 194055,
+      "name": "COMIC AG! 筆記用具 ３点セット",
+      "productUrl": "https://asobisystem.shop/products/AGL-00191"
+    },
+    "status": "mapped",
+    "kind": "stationery_set",
+    "label": "연필·지우개·자 세트",
+    "reason": "세트의 연필·지우개·자와 각각의 재질을 확인해 문구용품으로 분류했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00191",
+      "checkedAt": "2026-10-30T14:51:57Z",
+      "material": "목재 / 흑연 / 점토 / 고무 / 수지 / PS",
+      "facts": [
+        "구성은 연필·지우개·자 3종.",
+        "연필은 목재·흑연·점토, 지우개는 PVC, 자는 PS 수지로 명시됨."
+      ],
+      "descriptionSha256": "cc7dfd2a81528ff5c169989966ce010b57903112214f6e593b2e40241340b7cf",
+      "responseSha256": "3867e1d2602d96c46c8331634bc7a524b093048da17593ceddec9c7ea1b6aa04"
+    }
+  },
+  {
+    "inventoryPosition": 67,
+    "identity": {
+      "code": "AGL-00106",
+      "id": 160494,
+      "name": "光るリコーダー",
+      "productUrl": "https://asobisystem.shop/products/AGL-00106"
+    },
+    "status": "mapped",
+    "kind": "fanlight",
+    "label": "응원봉·펜라이트",
+    "reason": "공식 펜라이트 분류와 ABS·폴리카보네이트 본체를 확인했습니다.",
+    "jimpass": {
+      "code": "217",
+      "label": "휴대용전등(랜턴등)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "012",
+      "label": "[목록통관] 휴대용손전등 (제한없음)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A14:C14"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "발광기기인 응원봉 기준입니다. 전지 종류·포함 여부와 실제 배송 조건을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00106",
+      "checkedAt": "2026-10-31",
+      "material": "本体\nABS樹脂、ポリカーボネート\nストラップ\n材ポリエステル",
+      "facts": [
+        "상세는 ABS/폴리카보네이트 본체와 스트랩의 규격·소재만 제공합니다.",
+        "공식 공개 카테고리 트리에서 상품에 부여된 추가 분류 ID 7652를 펜라이트로 확인했습니다."
+      ],
+      "descriptionSha256": "5e647c42b6dfae2e53aeee413b1a3bec1a4a28c4f987d5e14a546d2d54544418",
+      "responseSha256": "0d7fca272b8f3ff0b8cf4c3cd797d412fab31beef963132613b920b931d2ddfd",
+      "additionalCategory": {
+        "id": 7652,
+        "name": "ペンライト",
+        "slug": "leaders-penlight",
+        "path": [
+          "新しい学校のリーダーズ",
+          "グッズ",
+          "ペンライト"
+        ],
+        "sourceTreeUrl": "https://shop.api.groobee.com/categories",
+        "sourceTreeSha256": "b9a8a427c8ce5c5212a551ffabaa61324ad1687f9523a696b18e61412296d0cf",
+        "checkedAt": "2026-10-31"
+      }
+    }
+  },
+  {
+    "inventoryPosition": 69,
+    "identity": {
+      "code": "AGL-00127",
+      "id": 173540,
+      "name": "リーダーズランダムグッズ6(全13種)",
+      "productUrl": "https://asobisystem.shop/products/AGL-00127"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00127",
+      "checkedAt": "2026-10-30T14:51:59Z",
+      "material": "아크릴 / 폴리에스터 / 철 / 주석도금강판 / 라버 / 종이 / PVC / PET",
+      "facts": [
+        "13종 구성에 배지·조임 주머니·자석·러버 키 케이스·키링을 명시함."
+      ],
+      "descriptionSha256": "5825d46ec41115590c4a3fac3b735101239b83458e610a9cdee89551d3d83424",
+      "responseSha256": "9049a500b5bff7e4b7d3716feeff4b8eddb45aebcf9dc7c445651e967c3e71f1"
+    },
+    "policyOriginalReviewReason": "주머니·배지·자석·키링 등은 분류가 달라 실제 수령 품목을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 69,
+    "identity": {
+      "code": "AGL-00124",
+      "id": 173543,
+      "name": "RIN髪メジャー",
+      "productUrl": "https://asobisystem.shop/products/AGL-00124"
+    },
+    "status": "mapped",
+    "kind": "measuring_tape",
+    "label": "휴대 줄자",
+    "reason": "휴대 줄자: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00124",
+      "checkedAt": "2026-10-31",
+      "material": "PU合皮",
+      "facts": [
+        "상세에서 1.5m까지 늘어나는 메저라고 설명하고 PU 합피 외피를 명시합니다."
+      ],
+      "descriptionSha256": "474d9914c8cda9161b6e35996cb40354c7e6e9f28ab1825f7be1eefb3d25c9b2"
+    }
+  },
+  {
+    "inventoryPosition": 71,
+    "identity": {
+      "code": "AGL-00125",
+      "id": 173542,
+      "name": "SUZUKA顔ミニ財布",
+      "productUrl": "https://asobisystem.shop/products/AGL-00125"
+    },
+    "status": "mapped",
+    "kind": "synthetic_wallet",
+    "label": "합성가죽 미니 지갑",
+    "reason": "합성가죽·폴리에스터 소재의 미니 지갑으로 확인해 천연가죽 항목과 구분했습니다.",
+    "jimpass": {
+      "code": "6",
+      "label": "가방 및 지갑",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "061",
+      "label": "[목록통관] 지갑",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A63:C63"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00125",
+      "checkedAt": "2026-10-30T14:52:01Z",
+      "material": "폴리에스터 / 합성가죽 / 철",
+      "facts": [
+        "설명에서 동전 지갑 형태의 파우치임을 안내함.",
+        "합성가죽·폴리에스터·철 재질과 약 120×110.5mm 크기를 명시함."
+      ],
+      "descriptionSha256": "232ee0894d7cc83531cfde7cb95ef0e441a63cb657752e0baf3f479245defca3",
+      "responseSha256": "baa81884e7c90c302b29c608eef6a64376ea2ae5aa5469c02c001ff596f895ce"
+    }
+  },
+  {
+    "inventoryPosition": 71,
+    "identity": {
+      "code": "AGL-00126",
+      "id": 173541,
+      "name": "KANON髪テープ台",
+      "productUrl": "https://asobisystem.shop/products/AGL-00126"
+    },
+    "status": "mapped",
+    "kind": "tape_cutter_set",
+    "label": "마스킹테이프·커터 세트",
+    "reason": "마스킹테이프·커터 세트: 모두 문구류인 세트의 일반 문구 품목 후보입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "모두 문구류인 세트의 일반 문구 품목 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00126",
+      "checkedAt": "2026-10-31",
+      "material": "マスキングテープ / 紙\nテープカッター / アクリル",
+      "facts": [
+        "상세 구성은 종이 마스킹테이프와 아크릴 테이프 커터입니다."
+      ],
+      "descriptionSha256": "5ab14781984e6a7f7c474af04cdcf6edd9701dc706312a434d6b984c7b7158e6"
+    }
+  },
+  {
+    "inventoryPosition": 73,
+    "identity": {
+      "code": "tokutenkai_CT_0612-0614_2nd",
+      "id": 196893,
+      "name": "【CANDY TUNE】大特典会参加権（2026年6月12~14日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CT_0612-0614_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "상세의 시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배송할 실물 상품이 아니므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CT_0612-0614_2nd",
+      "checkedAt": "2026-10-30T14:52:03Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "시리얼 코드 발송과 이벤트 등록·전자 티켓 발권 절차를 안내함.",
+        "지정 행사장에서 촬영·전달회에 참여하는 권리이며 배송할 실물 상품을 판매하지 않음."
+      ],
+      "descriptionSha256": "62359e0c81dfb0f1bed8b032127b81f5f944894c42fd60b85014cf269d0ffe0d",
+      "responseSha256": "a7fd0077ea38c93b5a9dee6da2ea4e0816071b3b8f7b4700f7da131fafe90f47"
+    }
+  },
+  {
+    "inventoryPosition": 73,
+    "identity": {
+      "code": "tokutenkai_TI_0612-0614_2nd",
+      "id": 196892,
+      "name": "【Toi Toi Toi 】大特典会参加権（2026年6月12~14日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_TI_0612-0614_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_access",
+    "label": "행사 전자 참가권",
+    "reason": "공식 상세에서 전자·참가 서비스로 확인되어 배송 대상에서 제외합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "현장 참가 권리이며 물품 배송용 품목코드를 적용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_TI_0612-0614_2nd",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에서 시리얼 코드 전송·전자티켓 발권·현장 행사 참가 절차를 명시합니다."
+      ],
+      "descriptionSha256": "c7233f692e81f9c462664b5266cf464e34cbe8ccf1b038c550fdc1fab5239d65"
+    }
+  },
+  {
+    "inventoryPosition": 75,
+    "identity": {
+      "code": "tokutenkai_LY_0612-0614_2nd",
+      "id": 196891,
+      "name": "【log you】大特典会参加権（2026年6月12~14日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_LY_0612-0614_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "상세의 시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배송할 실물 상품이 아니므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_LY_0612-0614_2nd",
+      "checkedAt": "2026-10-30T14:52:05Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "시리얼 코드 발송과 이벤트 등록·전자 티켓 발권 절차를 안내함.",
+        "지정 행사장에서 촬영·전달회에 참여하는 권리이며 배송할 실물 상품을 판매하지 않음."
+      ],
+      "descriptionSha256": "c7233f692e81f9c462664b5266cf464e34cbe8ccf1b038c550fdc1fab5239d65",
+      "responseSha256": "5c716c6e09b8cf074dc18d108902c1565da69c64e2c4fa52e8743f13b937df30"
+    }
+  },
+  {
+    "inventoryPosition": 75,
+    "identity": {
+      "code": "tokutenkai_KLM_0612-0614_2nd",
+      "id": 196890,
+      "name": "【KAWAII LAB. MATES】特典会参加権（2026年6月12~14日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_KLM_0612-0614_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_access",
+    "label": "행사 전자 참가권",
+    "reason": "공식 상세에서 전자·참가 서비스로 확인되어 배송 대상에서 제외합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "현장 참가 권리이며 물품 배송용 품목코드를 적용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_KLM_0612-0614_2nd",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에서 시리얼 코드 전송·전자티켓 발권·현장 행사 참가 절차를 명시합니다."
+      ],
+      "descriptionSha256": "c7233f692e81f9c462664b5266cf464e34cbe8ccf1b038c550fdc1fab5239d65"
+    }
+  },
+  {
+    "inventoryPosition": 77,
+    "identity": {
+      "code": "CT-00319",
+      "id": 196441,
+      "name": "立花琴未生誕祭2026 K.Tセットアップ上",
+      "productUrl": "https://asobisystem.shop/products/CT-00319"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "투웨이 상의",
+    "reason": "2way 상의 설명과 신체 착용용 치수를 확인해 일반 의류로 분류했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00319",
+      "checkedAt": "2026-10-30T14:52:08Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "긴 소매·반소매 전환 2way 상의와 M 사이즈 옷 치수를 안내함."
+      ],
+      "descriptionSha256": "9dc4eb05c1d1a36f87b08c3246326403b43f44b9ad3f79e2f8c65793efdbc8f6",
+      "responseSha256": "8de7832039ec15242c9b943967480061275e0ce0f9ad2e64488c40c8a5aa88e7"
+    }
+  },
+  {
+    "inventoryPosition": 77,
+    "identity": {
+      "code": "CT-00320",
+      "id": 196440,
+      "name": "立花琴未生誕祭2026 K.Tセットアップ下",
+      "productUrl": "https://asobisystem.shop/products/CT-00320"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "의류 하의",
+    "reason": "의류 하의: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00320",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에 XL 팬츠와 총장·허리·힙·밑위 치수가 명시됩니다."
+      ],
+      "descriptionSha256": "9fe6c3173df8a7743d75d4a361a018d8607c5947c811af9ebf851ebb00beedcf"
+    }
+  },
+  {
+    "inventoryPosition": 79,
+    "identity": {
+      "code": "CT-00332",
+      "id": 196465,
+      "name": "立花琴未生誕祭2026 ちぃさくなったことみ ～ ありがとう ～",
+      "productUrl": "https://asobisystem.shop/products/CT-00332"
+    },
+    "status": "mapped",
+    "kind": "plush",
+    "label": "봉제인형",
+    "reason": "감수 중 본문과 별개로 공식 상세의 봉제인형 카테고리를 확인했습니다.",
+    "jimpass": {
+      "code": "174",
+      "label": "인형",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "124",
+      "label": "[목록통관] 인형",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A126:C126"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "공식 카테고리는 봉제인형이며 재질·크기 사양은 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00332",
+      "checkedAt": "2026-10-30T14:52:10Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세의 하위 카테고리가 봉제인형(ぬいぐるみ, candy-tune_stuffed-toy)으로 지정됨.",
+        "본문에는 감수 중 안내만 있고 재질·크기 사양은 없음."
+      ],
+      "descriptionSha256": "e48ac832542e8a21cb75a92ce51396e652d3723797376aacc83d6fa40e58bd7e",
+      "responseSha256": "6c59fe3bdfc99df95d4a83faf706b81dd6eda302853fffeb9b6faea22e2b7200"
+    }
+  },
+  {
+    "inventoryPosition": 79,
+    "identity": {
+      "code": "CT-00325",
+      "id": 196437,
+      "name": "立花琴未生誕祭2026 ばらたおる",
+      "productUrl": "https://asobisystem.shop/products/CT-00325"
+    },
+    "status": "mapped",
+    "kind": "towel",
+    "label": "타월",
+    "reason": "타월: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "22",
+      "label": "타월",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00325",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 API 세부 카테고리가 타월이며 상세 크기는 약 34×85cm입니다."
+      ],
+      "descriptionSha256": "7467ed15ad68ba6805836c726c04ae1fee9e5a0e0689ee5572eb43fef38af714"
+    }
+  },
+  {
+    "inventoryPosition": 81,
+    "identity": {
+      "code": "TA-003",
+      "id": 195465,
+      "name": "ミラー-Slaydays-",
+      "productUrl": "https://asobisystem.shop/products/TA-003"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 손거울",
+    "reason": "휴대용 거울 용도와 치수를 확인해 생활소품으로 분류했습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "별도 손거울 코드가 없어 생활소품 후보를 사용하며 배대지 세부 항목 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TA-003",
+      "checkedAt": "2026-10-30T14:52:12Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "설명에서 휴대 가능한 작은 거울임을 안내함.",
+        "약 160.5×130mm 크기를 제시함."
+      ],
+      "descriptionSha256": "8a07e0e8f76ea6e1a1c8193e35f817b79aec21e89f5eee53e426c065246900fa",
+      "responseSha256": "95ee472602464fcf6b08a25833e5ada8771e8460b4a1773490e2559ea87d735a"
+    }
+  },
+  {
+    "inventoryPosition": 81,
+    "identity": {
+      "code": "TA-007",
+      "id": 195461,
+      "name": "タンブラー-Slaydays-",
+      "productUrl": "https://asobisystem.shop/products/TA-007"
+    },
+    "status": "needs_review",
+    "kind": "drinkware_material_unknown",
+    "label": "재질 미기재 컵·텀블러",
+    "reason": "재질 미기재 컵·텀블러: 배대지 코드가 금속·유리·도자기·플라스틱별로 달라 소재 확인이 필요합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "배대지 코드가 금속·유리·도자기·플라스틱별로 달라 소재 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TA-007",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세는 컵 또는 텀블러로 확인되지만 소재가 없습니다."
+      ],
+      "descriptionSha256": "ab7429ce4268045ca9dfcf12c1ed0fa86efa62355734f3132d29e237aa064b30"
+    }
+  },
+  {
+    "inventoryPosition": 83,
+    "identity": {
+      "code": "TI-0078",
+      "id": 195388,
+      "name": "Toi Toi Toi ネックストラップ",
+      "productUrl": "https://asobisystem.shop/products/TI-0078"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "휴대폰·응원봉용 스트랩",
+    "reason": "상세의 연결·착용 용도를 확인해 휴대폰·응원봉용 스트랩으로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0078",
+      "checkedAt": "2026-10-30T14:52:14Z",
+      "material": "폴리에스터 / 철",
+      "facts": [
+        "상세에서 목·손목 또는 휴대폰·응원봉에 연결하는 스트랩 용도를 확인함.",
+        "발광기기나 휴대전화 본체가 아닌 외부 연결 액세서리."
+      ],
+      "descriptionSha256": "35fdc90984db4dc7d2671b644ba79c4fbc3134b050c34eed6096f971a52a6c59",
+      "responseSha256": "44f1d0107bcda705db6dd37ca6240b7accf1dcf6f2c384e244e04d43f71e9182"
+    }
+  },
+  {
+    "inventoryPosition": 83,
+    "identity": {
+      "code": "ER-0027",
+      "id": 195026,
+      "name": "オーダー色紙_ブルー",
+      "productUrl": "https://asobisystem.shop/products/ER-0027"
+    },
+    "status": "mapped",
+    "kind": "custom_text_art",
+    "label": "주문 문자 색지 작품",
+    "reason": "주문 문자 색지 작품: 직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0027",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "구매자가 정한 최대 10글자와 낙관을 색지에 기입하는 주문 작품입니다."
+      ],
+      "descriptionSha256": "e2d531840df6e08d5ed72583a34ab3c01ccb4554f7fd4221701c9910f4d85fef"
+    }
+  },
+  {
+    "inventoryPosition": 85,
+    "identity": {
+      "code": "ER-0023",
+      "id": 195025,
+      "name": "オーダー色紙_イエロー",
+      "productUrl": "https://asobisystem.shop/products/ER-0023"
+    },
+    "status": "mapped",
+    "kind": "custom_artwork",
+    "label": "문자 주문제작 색지 작품",
+    "reason": "문자·낙관이 들어가는 주문 색지 작품으로 확인했으며 제작 방식은 확인이 필요합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "수작업 원화인지 인쇄 작품인지 명시되지 않아 일반 그림 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0023",
+      "checkedAt": "2026-10-30T14:52:16Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "주문자가 색지에 기재할 문자를 최대 10자 입력하는 주문 작품.",
+        "문자 외에 낙관이 들어가며 원화·인쇄 방식은 명확히 구분하지 않음."
+      ],
+      "descriptionSha256": "e2d531840df6e08d5ed72583a34ab3c01ccb4554f7fd4221701c9910f4d85fef",
+      "responseSha256": "5d85a8d15b84558249014d5c737d92364cc4fb00dac0d652c74516f22faaf0fd"
+    }
+  },
+  {
+    "inventoryPosition": 85,
+    "identity": {
+      "code": "ER-0024",
+      "id": 195024,
+      "name": "オーダー色紙_ピンク",
+      "productUrl": "https://asobisystem.shop/products/ER-0024"
+    },
+    "status": "mapped",
+    "kind": "custom_text_art",
+    "label": "주문 문자 색지 작품",
+    "reason": "주문 문자 색지 작품: 직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0024",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "구매자가 정한 최대 10글자와 낙관을 색지에 기입하는 주문 작품입니다."
+      ],
+      "descriptionSha256": "e2d531840df6e08d5ed72583a34ab3c01ccb4554f7fd4221701c9910f4d85fef"
+    }
+  },
+  {
+    "inventoryPosition": 87,
+    "identity": {
+      "code": "ER-0025",
+      "id": 195023,
+      "name": "オーダー色紙_柄グリーン",
+      "productUrl": "https://asobisystem.shop/products/ER-0025"
+    },
+    "status": "mapped",
+    "kind": "custom_artwork",
+    "label": "문자 주문제작 색지 작품",
+    "reason": "문자·낙관이 들어가는 주문 색지 작품으로 확인했으며 제작 방식은 확인이 필요합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "수작업 원화인지 인쇄 작품인지 명시되지 않아 일반 그림 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0025",
+      "checkedAt": "2026-10-30T14:52:18Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "주문자가 색지에 기재할 문자를 최대 10자 입력하는 주문 작품.",
+        "문자 외에 낙관이 들어가며 원화·인쇄 방식은 명확히 구분하지 않음."
+      ],
+      "descriptionSha256": "e2d531840df6e08d5ed72583a34ab3c01ccb4554f7fd4221701c9910f4d85fef",
+      "responseSha256": "f070876d36c9a859edcfa4b43f296c067f77e78f3a75aedeccc07b4d237c157c"
+    }
+  },
+  {
+    "inventoryPosition": 87,
+    "identity": {
+      "code": "ER-0026",
+      "id": 195022,
+      "name": "オーダー色紙_柄パープル",
+      "productUrl": "https://asobisystem.shop/products/ER-0026"
+    },
+    "status": "mapped",
+    "kind": "custom_text_art",
+    "label": "주문 문자 색지 작품",
+    "reason": "주문 문자 색지 작품: 직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "직접 그린 원화인지 인쇄 제작인지 단정하지 않고 일반 그림 후보로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0026",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "구매자가 정한 최대 10글자와 낙관을 색지에 기입하는 주문 작품입니다."
+      ],
+      "descriptionSha256": "a5014b9ddd7b7d5e28e0ecc93dab5291b564f79878a6411983bab3ee4d006b6d"
+    }
+  },
+  {
+    "inventoryPosition": 89,
+    "identity": {
+      "code": "ER-0005",
+      "id": 194034,
+      "name": "雲外蒼天 1",
+      "productUrl": "https://asobisystem.shop/products/ER-0005"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0005",
+      "checkedAt": "2026-10-30T14:52:20Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "a351d63a15a1910595b074066f1bd5e520ac801e8822e1b1459f1c102d41789a",
+      "responseSha256": "f7ab1589d91f95ea37e3129168990cbe1848f003df36eb94b63b6e1db4d98912"
+    }
+  },
+  {
+    "inventoryPosition": 89,
+    "identity": {
+      "code": "ER-0006",
+      "id": 194033,
+      "name": "雲外蒼天 2",
+      "productUrl": "https://asobisystem.shop/products/ER-0006"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0006",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 91,
+    "identity": {
+      "code": "ER-0007",
+      "id": 194032,
+      "name": "雲外蒼天 3",
+      "productUrl": "https://asobisystem.shop/products/ER-0007"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0007",
+      "checkedAt": "2026-10-30T14:52:22Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "responseSha256": "33a0236286caab1023b606096570e41c3354d3e2e7c160b5097e066c45408cd2"
+    }
+  },
+  {
+    "inventoryPosition": 91,
+    "identity": {
+      "code": "ER-0008",
+      "id": 194031,
+      "name": "雲外蒼天 4",
+      "productUrl": "https://asobisystem.shop/products/ER-0008"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0008",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 93,
+    "identity": {
+      "code": "ER-0009",
+      "id": 194030,
+      "name": "雲外蒼天 5",
+      "productUrl": "https://asobisystem.shop/products/ER-0009"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0009",
+      "checkedAt": "2026-10-30T14:52:24Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "responseSha256": "12dfe0e88db2debc36d8fccbe7ee70b0cacf8444c1baf48656982b0bca38aebd"
+    }
+  },
+  {
+    "inventoryPosition": 93,
+    "identity": {
+      "code": "ER-0010",
+      "id": 194029,
+      "name": "音依瑠 1",
+      "productUrl": "https://asobisystem.shop/products/ER-0010"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0010",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 95,
+    "identity": {
+      "code": "ER-0011",
+      "id": 194028,
+      "name": "音依瑠 2",
+      "productUrl": "https://asobisystem.shop/products/ER-0011"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0011",
+      "checkedAt": "2026-10-30T14:52:26Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "a351d63a15a1910595b074066f1bd5e520ac801e8822e1b1459f1c102d41789a",
+      "responseSha256": "30c50a5d34eff9401e9f5572e9c31891fd9350b1f780ce529a03aece75b919b6"
+    }
+  },
+  {
+    "inventoryPosition": 95,
+    "identity": {
+      "code": "ER-0012",
+      "id": 194027,
+      "name": "音依瑠 3",
+      "productUrl": "https://asobisystem.shop/products/ER-0012"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0012",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 97,
+    "identity": {
+      "code": "ER-0013",
+      "id": 194026,
+      "name": "楓愛夢天 1",
+      "productUrl": "https://asobisystem.shop/products/ER-0013"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0013",
+      "checkedAt": "2026-10-30T14:52:29Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "a351d63a15a1910595b074066f1bd5e520ac801e8822e1b1459f1c102d41789a",
+      "responseSha256": "1e5b41cb93369c39e46a8f7069b7a7776c145b3aad5c47a2fcb7dc104c46a7fd"
+    }
+  },
+  {
+    "inventoryPosition": 97,
+    "identity": {
+      "code": "ER-0014",
+      "id": 194025,
+      "name": "楓愛夢天 2",
+      "productUrl": "https://asobisystem.shop/products/ER-0014"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0014",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 99,
+    "identity": {
+      "code": "ER-0015",
+      "id": 194024,
+      "name": "萌妃翔 1",
+      "productUrl": "https://asobisystem.shop/products/ER-0015"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0015",
+      "checkedAt": "2026-10-30T14:52:30Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "responseSha256": "5cabac2656e7301dd4823963970438e3e9c2abd865422796f2dd32a92291d452"
+    }
+  },
+  {
+    "inventoryPosition": 99,
+    "identity": {
+      "code": "ER-0016",
+      "id": 194023,
+      "name": "萌妃翔 2",
+      "productUrl": "https://asobisystem.shop/products/ER-0016"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0016",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 101,
+    "identity": {
+      "code": "ER-0017",
+      "id": 194022,
+      "name": "勇往邁進 1",
+      "productUrl": "https://asobisystem.shop/products/ER-0017"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0017",
+      "checkedAt": "2026-10-30T14:52:33Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "a351d63a15a1910595b074066f1bd5e520ac801e8822e1b1459f1c102d41789a",
+      "responseSha256": "057ee67511b1662d379837af0e33d4c825db6561e6e942c3299fb32abcdb6fad"
+    }
+  },
+  {
+    "inventoryPosition": 101,
+    "identity": {
+      "code": "ER-0018",
+      "id": 194021,
+      "name": "勇往邁進 2",
+      "productUrl": "https://asobisystem.shop/products/ER-0018"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0018",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 103,
+    "identity": {
+      "code": "ER-0019",
+      "id": 194020,
+      "name": "勇往邁進 3",
+      "productUrl": "https://asobisystem.shop/products/ER-0019"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0019",
+      "checkedAt": "2026-10-30T14:52:35Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "responseSha256": "daf71deeca0da95264e9722909093ebfc09420c5ac540050b9bcaee0dbe4474e"
+    }
+  },
+  {
+    "inventoryPosition": 103,
+    "identity": {
+      "code": "ER-0020",
+      "id": 194019,
+      "name": "勇往邁進 4",
+      "productUrl": "https://asobisystem.shop/products/ER-0020"
+    },
+    "status": "mapped",
+    "kind": "artwork_unspecified_technique",
+    "label": "제작 기법 미확정 그림",
+    "reason": "제작 기법 미확정 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0020",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 작가 상품군과 개별 작품 치수를 확인했습니다.",
+        "동일 작가 시리즈의 공식 대표 사진에서 장식된 캔버스 미술품 형태를 확인했으며 개별 제작 기법은 미기재입니다."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/LDy9MMX5N80B6THhvmeXAnasqmWRu9kAU4QktfBg.jpg",
+        "productCode": "ER-0006",
+        "inspectedAt": "2026-10-31",
+        "scope": "동일 작가·시리즈의 대표 사진입니다. 각 개별 작품의 제작 기법을 확인한 것은 아닙니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 105,
+    "identity": {
+      "code": "ER-0021",
+      "id": 194018,
+      "name": "勇往邁進 5",
+      "productUrl": "https://asobisystem.shop/products/ER-0021"
+    },
+    "status": "mapped",
+    "kind": "artwork_technique_unconfirmed",
+    "label": "평면 미술 작품",
+    "reason": "작품의 실물 규격은 확인했지만 제작 기법이 없어 일반 그림 항목으로 남겼습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화·인쇄 여부가 없어 수작업 그림이나 판화 전용 코드로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ER-0021",
+      "checkedAt": "2026-10-30T14:52:37Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 작품 상품에 200mm 또는 400mm 규격과 35mm 두께를 안내함.",
+        "재질·수작업·인쇄 기법을 명시하지 않음."
+      ],
+      "descriptionSha256": "3b9e05283662a475c095405cb9330bd41e319c1a9e796da398e70d3c764629b0",
+      "responseSha256": "45bb2da65567af768cbac268671e07e1e40ff102e4e52e3b07e195414c343d74"
+    }
+  },
+  {
+    "inventoryPosition": 105,
+    "identity": {
+      "code": "AGL-00182",
+      "id": 194091,
+      "name": "リーダーズランダムグッズ〜祝御入学〜（全14種/ランダム）",
+      "productUrl": "https://asobisystem.shop/products/AGL-00182"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00182",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 캔배지 4종·아크릴 클립 7종·목걸이 스트랩 1종·미니 파우치 2종입니다."
+      ],
+      "descriptionSha256": "29ebd081186ffdbda67e7fb703744955ec01e44516902148a8f1368f11518f8e"
+    },
+    "policyOriginalReviewReason": "서로 다른 물품 후보가 섞여 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 107,
+    "identity": {
+      "code": "HC-001",
+      "id": 193002,
+      "name": "魔法少女を救って！住之江くんプラカップ(パステルブルー)",
+      "productUrl": "https://asobisystem.shop/products/HC-001"
+    },
+    "status": "mapped",
+    "kind": "plastic_cup",
+    "label": "플라스틱 컵",
+    "reason": "공식 설명에서 플라스틱 컵과 일상 식기 용도를 확인했습니다.",
+    "jimpass": {
+      "code": "181",
+      "label": "그릇/식기/컵(플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "132",
+      "label": "[목록통관] 식기/주방용품 (플라스틱)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A134:C134"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HC-001",
+      "checkedAt": "2026-10-30T14:52:39Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "콜라보 카페 굿즈로 판매되는 플라스틱 컵의 일상 사용 용도를 설명함."
+      ],
+      "descriptionSha256": "a7016555301044bcb4dc9e290d67fdd7685a6f0af9861a659b7d19855a93bf1c",
+      "responseSha256": "6d97c92e7c3215de84d481d621537524587e440cff1d5b5184173ee59c9f2eb8"
+    }
+  },
+  {
+    "inventoryPosition": 107,
+    "identity": {
+      "code": "HC-022",
+      "id": 192981,
+      "name": "魔法少女を救って！マウスパッド",
+      "productUrl": "https://asobisystem.shop/products/HC-022"
+    },
+    "status": "mapped",
+    "kind": "mouse_pad",
+    "label": "마우스패드",
+    "reason": "마우스패드: 전자 마우스 본체가 아닌 PC 주변 액세서리·생활 문구 후보입니다.",
+    "jimpass": {
+      "code": "90",
+      "label": "PC악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=83"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전자 마우스 본체가 아닌 PC 주변 액세서리·생활 문구 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HC-022",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에서 책상 위에 사용하는 마우스패드라고 설명합니다."
+      ],
+      "descriptionSha256": "2223f5a81433ce8c1f97dcf05b393a3dacbf76a7a6830f1625e51db149329c91"
+    }
+  },
+  {
+    "inventoryPosition": 109,
+    "identity": {
+      "code": "HC-023",
+      "id": 192980,
+      "name": "魔法少女を救って！レトロゲーム機型スタンド",
+      "productUrl": "https://asobisystem.shop/products/HC-023"
+    },
+    "status": "mapped",
+    "kind": "decorative_stand",
+    "label": "게임기 모양 장식 스탠드",
+    "reason": "게임기를 본뜬 장식 스탠드이며 실제 전자 게임기로 분류하지 않습니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HC-023",
+      "checkedAt": "2026-10-30T14:52:41Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 레트로 게임기 모양이며 장식용으로 세워 두는 스탠드라고 설명함."
+      ],
+      "descriptionSha256": "ccc0ea55a4984c5d365453fa3ad6b98903f657821e988a33a7951a0196d135ec",
+      "responseSha256": "868b5bafb461a365e01553f6f751dd6b9dd8eb7bd3cccf52974a83d7d548f9d9"
+    }
+  },
+  {
+    "inventoryPosition": 109,
+    "identity": {
+      "code": "CS-0232",
+      "id": 193009,
+      "name": "桜庭遥花 生誕祭2026 ぱるとおでかけストラップ",
+      "productUrl": "https://asobisystem.shop/products/CS-0232"
+    },
+    "status": "mapped",
+    "kind": "keychain",
+    "label": "아크릴 키홀더 스트랩",
+    "reason": "아크릴 키홀더 스트랩: 기기 본체가 아닌 키홀더 액세서리 기준입니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "기기 본체가 아닌 키홀더 액세서리 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0232",
+      "checkedAt": "2026-10-31",
+      "material": "アクリル、PP",
+      "facts": [
+        "공식 API 세부 카테고리가 키홀더이며 소재는 아크릴·PP입니다."
+      ],
+      "descriptionSha256": "e6269bbadd121f1b1c37c7d89dbb71ff14e8449016dd11f2c02fdfcb301ee55d"
+    }
+  },
+  {
+    "inventoryPosition": 111,
+    "identity": {
+      "code": "CS-0233",
+      "id": 193008,
+      "name": "桜庭遥花 生誕祭2026 前髪とめるのまかせてくださいクリップ",
+      "productUrl": "https://asobisystem.shop/products/CS-0233"
+    },
+    "status": "mapped",
+    "kind": "hair_accessory",
+    "label": "앞머리 고정 클립",
+    "reason": "좌우 클립의 재질·규격을 확인해 앞머리 고정용 헤어 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "25",
+      "label": "헤어 액세서리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0233",
+      "checkedAt": "2026-10-30T14:52:43Z",
+      "material": "아크릴 / 철",
+      "facts": [
+        "아크릴·철 재질과 좌우 클립의 개별 치수를 명시함."
+      ],
+      "descriptionSha256": "6ef82db1ee57c87aa3988355d9e94dd3d0d345c911e29cd21cc8bbabfafd3ec2",
+      "responseSha256": "e5302fce4c08ede97b4428db70293231e333cef2f9e7d09b65346b3b4f3339a7"
+    }
+  },
+  {
+    "inventoryPosition": 111,
+    "identity": {
+      "code": "CS-0235",
+      "id": 193006,
+      "name": "桜庭遥花 生誕祭2026 ぺたぺたぱるたん",
+      "productUrl": "https://asobisystem.shop/products/CS-0235"
+    },
+    "status": "mapped",
+    "kind": "sticker_material_unknown",
+    "label": "스티커",
+    "reason": "스티커: 종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0235",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명 또는 세부 카테고리에서 스티커인 것을 확인했습니다.",
+        "소재는 기재되어 있지 않습니다."
+      ],
+      "descriptionSha256": "ce0bd441f37ff9cb66fc7935dc09a878423e897a8e17a8de89191614e2dca271"
+    }
+  },
+  {
+    "inventoryPosition": 113,
+    "identity": {
+      "code": "SS-0164",
+      "id": 189408,
+      "name": "SWEET STEADY メンバー別ペンライトストラップver.2",
+      "productUrl": "https://asobisystem.shop/products/SS-0164"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "휴대폰·응원봉용 스트랩",
+    "reason": "상세의 연결·착용 용도를 확인해 휴대폰·응원봉용 스트랩으로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0164",
+      "checkedAt": "2026-10-30T14:52:45Z",
+      "material": "아연합금 / 철 / PVC",
+      "facts": [
+        "상세에서 목·손목 또는 휴대폰·응원봉에 연결하는 스트랩 용도를 확인함.",
+        "발광기기나 휴대전화 본체가 아닌 외부 연결 액세서리."
+      ],
+      "descriptionSha256": "d3f9052204fde75c97ae92d23c1d0f4e3698ef810ab88034a83519ff109f2369",
+      "responseSha256": "23f3133a9e878146e3ba07350de0384fcd25bb5a54cb7d97572f72176824cd72"
+    }
+  },
+  {
+    "inventoryPosition": 113,
+    "identity": {
+      "code": "SS-0224",
+      "id": 192182,
+      "name": "SWEET STEADY ランダムカプセル-standard edition ver.1-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/SS-0224"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0224",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 A4 토트백 1종·멤버 키홀더 두 종류 각 7종·캔배지 7종입니다."
+      ],
+      "descriptionSha256": "28e874d21dcb82a264d4f76ee127f221ab7ba5aca38abdc2056bb077b64f1492"
+    },
+    "policyOriginalReviewReason": "가방과 액세서리 후보가 섞여 실제 받은 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 115,
+    "identity": {
+      "code": "CS-0204",
+      "id": 185048,
+      "name": "CUTIE STREET ランダムカプセル-standard edition ver.2-（全24種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0204"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0204",
+      "checkedAt": "2026-10-30T14:52:48Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "24종 구성은 아크릴 클립·네임 배지·캔 배지 각 8종."
+      ],
+      "descriptionSha256": "e9479b440dbec3fbf8633bf568d8beaefd032db0e6efb148b88925f4c0415548",
+      "responseSha256": "d132b5932eb158ea038b1ddc73106eb9428c0d21dfb31563d4e57fe2d3dd5391"
+    },
+    "policyOriginalReviewReason": "클립의 사용 용도와 실제 수령 품목을 확인한 뒤 각각 분류해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 115,
+    "identity": {
+      "code": "SS-0204",
+      "id": 190790,
+      "name": "奥田彩友 生誕祭 2026 「みんなにいっぱい水を飲ませるコップ」",
+      "productUrl": "https://asobisystem.shop/products/SS-0204"
+    },
+    "status": "needs_review",
+    "kind": "drinkware_material_unknown",
+    "label": "재질 미기재 컵·텀블러",
+    "reason": "재질 미기재 컵·텀블러: 배대지 코드가 금속·유리·도자기·플라스틱별로 달라 소재 확인이 필요합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "배대지 코드가 금속·유리·도자기·플라스틱별로 달라 소재 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0204",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세는 컵 또는 텀블러로 확인되지만 소재가 없습니다."
+      ],
+      "descriptionSha256": "7db781492d82b451259f32162754f03ca63ad5c8fa0ba2f4d730560ab1e3a21e"
+    }
+  },
+  {
+    "inventoryPosition": 117,
+    "identity": {
+      "code": "AGL-00163",
+      "id": 178369,
+      "name": "AG!マフラ〜",
+      "productUrl": "https://asobisystem.shop/products/AGL-00163"
+    },
+    "status": "mapped",
+    "kind": "scarf",
+    "label": "방한용 머플러",
+    "reason": "겨울용 머플러의 규격과 섬유 재질을 확인했습니다.",
+    "jimpass": {
+      "code": "14",
+      "label": "넥타이/숄/스카프",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "066",
+      "label": "[목록통관] 숄/스카프",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A68:C68"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00163",
+      "checkedAt": "2026-10-30T14:52:50Z",
+      "material": "아크릴 / 폴리우레탄",
+      "facts": [
+        "겨울용 줄무늬 머플러로 설명됨.",
+        "약 210×27cm, 아크릴 90%·폴리우레탄 10%."
+      ],
+      "descriptionSha256": "38341a8a0f0ad09ff19ce7ef4ce7152d6190fd4e19fd215267ae419c1e458a3d",
+      "responseSha256": "dcf632cc6d0e589979cffba31f76a26f2e4218db7b9af82f35fc047883deddd5"
+    }
+  },
+  {
+    "inventoryPosition": 117,
+    "identity": {
+      "code": "AGL-00165",
+      "id": 178367,
+      "name": "【青春部限定】お弁当セットぅ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00165"
+    },
+    "status": "mapped",
+    "kind": "plastic_lunch_set",
+    "label": "플라스틱 도시락·젓가락 세트",
+    "reason": "플라스틱 도시락·젓가락 세트: 모두 플라스틱 식기인 세트 기준 제안입니다.",
+    "jimpass": {
+      "code": "181",
+      "label": "그릇/식기/컵(플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "132",
+      "label": "[목록통관] 식기/주방용품 (플라스틱)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A134:C134"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "모두 플라스틱 식기인 세트 기준 제안입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00165",
+      "checkedAt": "2026-10-31",
+      "material": "ポリスチレン・ポリプロピレン（プラスチック） / ポリスチレン（プラスチック）",
+      "facts": [
+        "도시락 480ml와 젓가락의 2종 세트이며 PS·PP 플라스틱 소재가 명시됩니다."
+      ],
+      "descriptionSha256": "2218d66b9bf72b64f76b7bb1dfb3a86568db619d2798c624657d6d7f3cc3c091"
+    }
+  },
+  {
+    "inventoryPosition": 119,
+    "identity": {
+      "code": "AGL-00169",
+      "id": 182114,
+      "name": "AG! PEN feat. JETSTREAM",
+      "productUrl": "https://asobisystem.shop/products/AGL-00169"
+    },
+    "status": "mapped",
+    "kind": "multi_pen",
+    "label": "다색 볼펜·샤프 겸용 펜",
+    "reason": "4색 볼펜이 중심이고 샤프 기능을 함께 가진 필기구임을 확인했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "079",
+      "label": "[목록통관] 볼펜",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A81:C81"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00169",
+      "checkedAt": "2026-10-30T14:52:52Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "JETSTREAM의 검정·빨강·파랑·초록 4색 볼펜과 샤프 기능을 결합한 펜.",
+        "볼 지름과 샤프심 지름은 각각 0.5mm."
+      ],
+      "descriptionSha256": "d5a3b04165eb7bf8ad2a77aa14cac06c95fb6fc3276212f390bf5e9484092563",
+      "responseSha256": "8f294d3d70516a26c28b04e7831c34efdb56a1f6bf92375c6c9a08ffe7839fe1"
+    }
+  },
+  {
+    "inventoryPosition": 119,
+    "identity": {
+      "code": "CT-00285",
+      "id": 190281,
+      "name": "桐原美月 生誕祭2026 チェックバンダナ",
+      "productUrl": "https://asobisystem.shop/products/CT-00285"
+    },
+    "status": "mapped",
+    "kind": "cotton_bandana",
+    "label": "면 반다나",
+    "reason": "면 반다나: 두건·스카프로 사용하는 섬유 액세서리 후보입니다.",
+    "jimpass": {
+      "code": "14",
+      "label": "넥타이/숄/스카프",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "066",
+      "label": "[목록통관] 숄/스카프",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A68:C68"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "두건·스카프로 사용하는 섬유 액세서리 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00285",
+      "checkedAt": "2026-10-31",
+      "material": "綿100%",
+      "facts": [
+        "상세는 본인 감수 반다나이며 면 100%, 약 70×70cm가 명시됩니다."
+      ],
+      "descriptionSha256": "1678c2c933689b935fb90efd412803e2c53853d67f525c278f8154ba6dfd8854"
+    }
+  },
+  {
+    "inventoryPosition": 121,
+    "identity": {
+      "code": "FZ-00609",
+      "id": 191007,
+      "name": "9012 イオンコードレス ストレートアイロン (月足天音/赤色)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00609"
+    },
+    "status": "mapped",
+    "kind": "cordless_hair_iron_set",
+    "label": "충전식 헤어 고데기 세트",
+    "reason": "코드리스 고데기 본체와 부속품 구성을 확인했으며 배터리 운송 조건 확인이 필요합니다.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "리튬이온 전지 보관 봉투가 포함됩니다. 배터리 사양·운송 조건과 세트 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00609",
+      "checkedAt": "2026-10-30T14:52:54Z",
+      "material": "아크릴 / 실리콘 / 폴리에스터 / 알루미늄 / PET / ASB / PC",
+      "facts": [
+        "주상품은 코드리스 스트레이트 헤어 고데기.",
+        "실리콘 커버·파우치·헤어클립·USB-C 케이블·전지 보관 봉투·스티커가 부속됨."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291",
+      "responseSha256": "3271c8adb288a665cf017c5bdbc63831e76dc6630a02abaa6c665ef224695a38"
+    }
+  },
+  {
+    "inventoryPosition": 121,
+    "identity": {
+      "code": "FZ-00610",
+      "id": 191006,
+      "name": "9012 イオンコードレス ストレートアイロン (鎮西寿々歌/オレンジ)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00610"
+    },
+    "status": "mapped",
+    "kind": "hair_styling_iron_set",
+    "label": "무선 고데기·부속품 세트",
+    "reason": "무선 고데기·부속품 세트: 주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00610",
+      "checkedAt": "2026-10-31",
+      "material": "・9012 イオンコードレス ストレートアイロン\n└アイロン本体材質：PC、PET、アルミニウム\n└シリコンカバー材質（白）：シリコン\n・シリコンカバー（メンバーカラー）\nシリコン（耐熱温度250℃、耐冷温度-40℃）\n・ポーチ（メンバーカラー）\nポリエステル\n・ヘアクリップ（メンバーカラー）\nアクリル/ASB",
+      "facts": [
+        "실제 본품은 무선 스트레이트 고데기이며 실리콘 커버·파우치·헤어클립·USB 케이블·리튬이온 전지 수납 주머니가 함께 안내됩니다.",
+        "본체 소재는 PC·PET·알루미늄입니다."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291"
+    }
+  },
+  {
+    "inventoryPosition": 123,
+    "identity": {
+      "code": "FZ-00611",
+      "id": 190994,
+      "name": "9012 イオンコードレス ストレートアイロン (櫻井優衣/ミントグリーン)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00611"
+    },
+    "status": "mapped",
+    "kind": "cordless_hair_iron_set",
+    "label": "충전식 헤어 고데기 세트",
+    "reason": "코드리스 고데기 본체와 부속품 구성을 확인했으며 배터리 운송 조건 확인이 필요합니다.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "리튬이온 전지 보관 봉투가 포함됩니다. 배터리 사양·운송 조건과 세트 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00611",
+      "checkedAt": "2026-10-30T14:52:56Z",
+      "material": "아크릴 / 실리콘 / 폴리에스터 / 알루미늄 / PET / ASB / PC",
+      "facts": [
+        "주상품은 코드리스 스트레이트 헤어 고데기.",
+        "실리콘 커버·파우치·헤어클립·USB-C 케이블·전지 보관 봉투·스티커가 부속됨."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291",
+      "responseSha256": "20b6b49a14af91f87fd54ac53e813086f1a3e0d4698f1ef03cf2275409c11f50"
+    }
+  },
+  {
+    "inventoryPosition": 123,
+    "identity": {
+      "code": "FZ-00612",
+      "id": 190993,
+      "name": "9012 イオンコードレス ストレートアイロン (仲川瑠夏/紫色)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00612"
+    },
+    "status": "mapped",
+    "kind": "hair_styling_iron_set",
+    "label": "무선 고데기·부속품 세트",
+    "reason": "무선 고데기·부속품 세트: 주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00612",
+      "checkedAt": "2026-10-31",
+      "material": "・9012 イオンコードレス ストレートアイロン\n└アイロン本体材質：PC、PET、アルミニウム\n└シリコンカバー材質（白）：シリコン\n・シリコンカバー（メンバーカラー）\nシリコン（耐熱温度250℃、耐冷温度-40℃）\n・ポーチ（メンバーカラー）\nポリエステル\n・ヘアクリップ（メンバーカラー）\nアクリル/ASB",
+      "facts": [
+        "실제 본품은 무선 스트레이트 고데기이며 실리콘 커버·파우치·헤어클립·USB 케이블·리튬이온 전지 수납 주머니가 함께 안내됩니다.",
+        "본체 소재는 PC·PET·알루미늄입니다."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291"
+    }
+  },
+  {
+    "inventoryPosition": 125,
+    "identity": {
+      "code": "FZ-00613",
+      "id": 190992,
+      "name": "9012 イオンコードレス ストレートアイロン (真中まな/空色)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00613"
+    },
+    "status": "mapped",
+    "kind": "cordless_hair_iron_set",
+    "label": "충전식 헤어 고데기 세트",
+    "reason": "코드리스 고데기 본체와 부속품 구성을 확인했으며 배터리 운송 조건 확인이 필요합니다.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "리튬이온 전지 보관 봉투가 포함됩니다. 배터리 사양·운송 조건과 세트 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00613",
+      "checkedAt": "2026-10-30T14:52:58Z",
+      "material": "아크릴 / 실리콘 / 폴리에스터 / 알루미늄 / PET / ASB / PC",
+      "facts": [
+        "주상품은 코드리스 스트레이트 헤어 고데기.",
+        "실리콘 커버·파우치·헤어클립·USB-C 케이블·전지 보관 봉투·스티커가 부속됨."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291",
+      "responseSha256": "0db9b437fb8f677e489fa4c5dfc72d1dbe6eb7edf185916ffc8755be7653cb45"
+    }
+  },
+  {
+    "inventoryPosition": 125,
+    "identity": {
+      "code": "FZ-00614",
+      "id": 190991,
+      "name": "9012 イオンコードレス ストレートアイロン (松本かれん/ベビーピンク)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00614"
+    },
+    "status": "mapped",
+    "kind": "hair_styling_iron_set",
+    "label": "무선 고데기·부속품 세트",
+    "reason": "무선 고데기·부속품 세트: 주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주된 기기인 고데기 기준입니다. 부속품 세트 처리와 리튬이온 전지 배송 조건을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00614",
+      "checkedAt": "2026-10-31",
+      "material": "・9012 イオンコードレス ストレートアイロン\n└アイロン本体材質：PC、PET、アルミニウム\n└シリコンカバー材質（白）：シリコン\n・シリコンカバー（メンバーカラー）\nシリコン（耐熱温度250℃、耐冷温度-40℃）\n・ポーチ（メンバーカラー）\nポリエステル\n・ヘアクリップ（メンバーカラー）\nアクリル/ASB",
+      "facts": [
+        "실제 본품은 무선 스트레이트 고데기이며 실리콘 커버·파우치·헤어클립·USB 케이블·리튬이온 전지 수납 주머니가 함께 안내됩니다.",
+        "본체 소재는 PC·PET·알루미늄입니다."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291"
+    }
+  },
+  {
+    "inventoryPosition": 127,
+    "identity": {
+      "code": "FZ-00615",
+      "id": 190990,
+      "name": "9012 イオンコードレス ストレートアイロン (早瀬ノエル/黄色)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00615"
+    },
+    "status": "mapped",
+    "kind": "cordless_hair_iron_set",
+    "label": "충전식 헤어 고데기 세트",
+    "reason": "코드리스 고데기 본체와 부속품 구성을 확인했으며 배터리 운송 조건 확인이 필요합니다.",
+    "jimpass": {
+      "code": "81",
+      "label": "헤어드라이기/세팅기",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=62"
+    },
+    "general": {
+      "code": "020",
+      "label": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A22:C22"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "리튬이온 전지 보관 봉투가 포함됩니다. 배터리 사양·운송 조건과 세트 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00615",
+      "checkedAt": "2026-10-30T14:53:00Z",
+      "material": "아크릴 / 실리콘 / 폴리에스터 / 알루미늄 / PET / ASB / PC",
+      "facts": [
+        "주상품은 코드리스 스트레이트 헤어 고데기.",
+        "실리콘 커버·파우치·헤어클립·USB-C 케이블·전지 보관 봉투·스티커가 부속됨."
+      ],
+      "descriptionSha256": "6360f35555e49716efc86af56300ed6e76dfc42cce25cd5a75abd80ae4922291",
+      "responseSha256": "7c5660519cf19e3bf6097ec786c9ccccec0758517527e1af4af348ff9aff1a6d"
+    }
+  },
+  {
+    "inventoryPosition": 127,
+    "identity": {
+      "code": "FZ-00624",
+      "id": 192634,
+      "name": "Noel Hayase バングルライト",
+      "productUrl": "https://asobisystem.shop/products/FZ-00624"
+    },
+    "status": "needs_review",
+    "kind": "light_bangle_unknown",
+    "label": "발광 팔찌 굿즈",
+    "reason": "발광 팔찌 굿즈: 장신구인지 발광기기인지 기능 확인 후 품목코드를 정해야 합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "장신구인지 발광기기인지 기능 확인 후 품목코드를 정해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00624",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명은 뱅글 라이트이나 광원·전지·소재 설명이 없습니다."
+      ],
+      "descriptionSha256": "7aab23842b9ed3de54d14e7dcd93ffc8f95d7787737ee5f5cacebfa81d4320a4"
+    }
+  },
+  {
+    "inventoryPosition": 129,
+    "identity": {
+      "code": "KL-0022",
+      "id": 183720,
+      "name": "ドンジャラNEO KAWAII LAB.",
+      "productUrl": "https://asobisystem.shop/products/KL-0022"
+    },
+    "status": "mapped",
+    "kind": "tabletop_game",
+    "label": "돈자라 탁상 게임",
+    "reason": "휴대형 돈자라 NEO 게임 상품으로 확인해 오락용품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "173",
+      "label": "오락용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "123",
+      "label": "[목록통관] 오락용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A125:C125"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "타일·보드 등 구체 구성과 사용 연령은 본문에 없어 실물을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0022",
+      "checkedAt": "2026-10-30T14:53:02Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 휴대 가능한 돈자라 NEO 시리즈 상품임을 설명함."
+      ],
+      "descriptionSha256": "1565e7ae0231ca6f8358a81c291ce14bd56063697aee1169cea961806b6cbdd9",
+      "responseSha256": "ec99de683ff0617f8da2ea9e5d650a0a39baed8d13762ca43b6bdee0f52ecc56"
+    }
+  },
+  {
+    "inventoryPosition": 129,
+    "identity": {
+      "code": "FZ-00571",
+      "id": 189596,
+      "name": "櫻井優衣 ぺったりゆい5枚セット",
+      "productUrl": "https://asobisystem.shop/products/FZ-00571"
+    },
+    "status": "mapped",
+    "kind": "paper_stickers",
+    "label": "종이 스티커 세트",
+    "reason": "종이 스티커 세트: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00571",
+      "checkedAt": "2026-10-31",
+      "material": "紙",
+      "facts": [
+        "상세는 스티커 세트로 설명하며 소재 종이와 약 90×50mm 이내 크기를 명시합니다."
+      ],
+      "descriptionSha256": "d5cb85f09208b7c1166e89e9bb3a92d0ffe070dbda801501bd6354b540aa7622"
+    }
+  },
+  {
+    "inventoryPosition": 131,
+    "identity": {
+      "code": "FZ-00582",
+      "id": 189511,
+      "name": "岩盤浴ならぬラーメン浴ゆい",
+      "productUrl": "https://asobisystem.shop/products/FZ-00582"
+    },
+    "status": "mapped",
+    "kind": "noodle_lid_weight",
+    "label": "컵라면 뚜껑 고정 소품",
+    "reason": "PVC 재질의 뚜껑 누름 용도가 명시되어 인형 대신 주방 소품으로 분류했습니다.",
+    "jimpass": {
+      "code": "179",
+      "label": "주방 소품 (플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "138",
+      "label": "[목록통관] 기타 주방용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A140:C140"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00582",
+      "checkedAt": "2026-10-30T14:53:04Z",
+      "material": "PVC",
+      "facts": [
+        "본문에 컵라면 등의 뚜껑을 눌러 주는 용도라고 명시함.",
+        "재질은 PVC."
+      ],
+      "descriptionSha256": "9dc4ddf23989ca433cd1f1e6e5226b63c1e586fb0ffe9453cd004e8e83397f3d",
+      "responseSha256": "a570dd27a8def81d26e94339c660f13ef040b436b55adae806b3907fee435d98"
+    }
+  },
+  {
+    "inventoryPosition": 131,
+    "identity": {
+      "code": "FZ-00194",
+      "id": 144411,
+      "name": "OSHI API スマホストラップショルダー＆フォンタブ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00194"
+    },
+    "status": "mapped",
+    "kind": "phone_shoulder_strap",
+    "label": "스마트폰 숄더 스트랩·폰탭",
+    "reason": "스마트폰 숄더 스트랩·폰탭: 휴대전화 본체나 가방이 아닌 장착용 액세서리 기준입니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "휴대전화 본체나 가방이 아닌 장착용 액세서리 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00194",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에서 스마트폰 숄더 스트랩과 폰탭 구성 및 길이 83~149cm 조절을 안내합니다."
+      ],
+      "descriptionSha256": "89ee0e81ba0a7edf9a3b2e3d0693a547e7145e5dfd4a58e4a9fb11c1f6b6895d"
+    }
+  },
+  {
+    "inventoryPosition": 133,
+    "identity": {
+      "code": "FZ-00529",
+      "id": 184719,
+      "name": "OSHI API スマホストラップショルダー＆フォンタブ（FZver.）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00529"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "휴대폰·응원봉용 스트랩",
+    "reason": "상세의 연결·착용 용도를 확인해 휴대폰·응원봉용 스트랩으로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00529",
+      "checkedAt": "2026-10-30T14:53:06Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에서 목·손목 또는 휴대폰·응원봉에 연결하는 스트랩 용도를 확인함.",
+        "발광기기나 휴대전화 본체가 아닌 외부 연결 액세서리."
+      ],
+      "descriptionSha256": "fda7f04a4575afac6ed93a8defe2f66a894d64847b6583d6ced0ebac40141103",
+      "responseSha256": "4de455344ff689a124ffd30c6c0f2c3860091e63337032a74fa327364ebf7063"
+    }
+  },
+  {
+    "inventoryPosition": 133,
+    "identity": {
+      "code": "FZ-00532",
+      "id": 184698,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition ver.4-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00532"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00532",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "후보는 핀 1종·A4 토트백 7종·참 7종·캔배지 7종입니다."
+      ],
+      "descriptionSha256": "c9d9b56b8ddd0f95a8fa851f63ce31d2b73976fb004d9a39837fe8d0dac86495"
+    },
+    "policyOriginalReviewReason": "가방과 액세서리 후보가 섞여 실제 당첨 물품을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 135,
+    "identity": {
+      "code": "SS-0187",
+      "id": 188745,
+      "name": "白石まゆみ 生誕祭 2025 「きみのお名前(おしえて！)ネームプレート♡」",
+      "productUrl": "https://asobisystem.shop/products/SS-0187"
+    },
+    "status": "needs_review",
+    "kind": "nameplate_unresolved",
+    "label": "이름표 구성 확인",
+    "reason": "이름표의 재질·고정 방식이 없어 배지·키링·장식판 중 하나로 단정하지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배지·키링·장식판 중 실제 고정 방식이 확인되지 않아 코드를 비웠습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0187",
+      "checkedAt": "2026-10-30T14:53:08Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "판매기간과 일반 주의사항만 있으며 재질·크기·연결 방식이 없음."
+      ],
+      "descriptionSha256": "a7b200477d97ac0a4322ef768b169422afd92bbe4baf862598c26be2b47dbe80",
+      "responseSha256": "04496b559db28c98f41f482d3a0bd28646089dca44729264d0db746e96852439"
+    }
+  },
+  {
+    "inventoryPosition": 135,
+    "identity": {
+      "code": "TI-0052",
+      "id": 186636,
+      "name": "Toi Toi Toi 福袋",
+      "productUrl": "https://asobisystem.shop/products/TI-0052"
+    },
+    "status": "needs_review",
+    "kind": "lucky_bag_unknown_goods",
+    "label": "구성 미지정 복주머니",
+    "reason": "구성 미지정 복주머니: 동봉 굿즈의 실제 종류가 없어 세트 전체 품목이나 가격 배분을 임의로 정하지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "동봉 굿즈의 실제 종류가 없어 세트 전체 품목이나 가격 배분을 임의로 정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0052",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "구성은 종류 미공개 굿즈 3~4점과 엽서 1매·랜덤 체키 1매입니다."
+      ],
+      "descriptionSha256": "4e2f9d5f86423797206d3b1a55ae4af209e76756a4318bfc3a3a9e780f171eb9"
+    }
+  },
+  {
+    "inventoryPosition": 137,
+    "identity": {
+      "code": "CS-0207",
+      "id": 186236,
+      "name": "佐野愛花 生誕祭2025 爆食のおともっ！",
+      "productUrl": "https://asobisystem.shop/products/CS-0207"
+    },
+    "status": "needs_review",
+    "kind": "goods_unresolved",
+    "label": "실물 종류·용도 확인",
+    "reason": "상세에 물품 설명이 없어 별칭만으로 품목코드를 지정하지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "제품의 종류·용도·재질이 없어 상품의 별칭만으로 분류하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0207",
+      "checkedAt": "2026-10-30T14:53:10Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에는 일반적인 배송·교환 주의사항만 제공함."
+      ],
+      "descriptionSha256": "6356f7cfd405e153f8457d3a1283b56ee9306011bab434de285cae44b3fd9384",
+      "responseSha256": "416a0f561733b3809f82e472ed63d6b6be5637b265671f383d3ae6d21087486c"
+    }
+  },
+  {
+    "inventoryPosition": 137,
+    "identity": {
+      "code": "CS-0208",
+      "id": 186235,
+      "name": "佐野愛花 生誕祭2025 愛花が髪の毛まとめますバンド",
+      "productUrl": "https://asobisystem.shop/products/CS-0208"
+    },
+    "status": "mapped",
+    "kind": "hair_band",
+    "label": "머리 정리 밴드",
+    "reason": "머리 정리 밴드: 상세에 소재·치수는 없으며 헤어 액세서리 기준으로 제안합니다.",
+    "jimpass": {
+      "code": "25",
+      "label": "헤어 액세서리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에 소재·치수는 없으며 헤어 액세서리 기준으로 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0208",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상품명에서 머리카락을 정리하는 밴드임을 명시합니다."
+      ],
+      "descriptionSha256": "6356f7cfd405e153f8457d3a1283b56ee9306011bab434de285cae44b3fd9384"
+    }
+  },
+  {
+    "inventoryPosition": 139,
+    "identity": {
+      "code": "CS-0210",
+      "id": 186233,
+      "name": "佐野愛花 生誕祭2025 もぐもぐホルダー",
+      "productUrl": "https://asobisystem.shop/products/CS-0210"
+    },
+    "status": "needs_review",
+    "kind": "goods_unresolved",
+    "label": "실물 종류·용도 확인",
+    "reason": "상세에 물품 설명이 없어 별칭만으로 품목코드를 지정하지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "제품의 종류·용도·재질이 없어 상품의 별칭만으로 분류하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0210",
+      "checkedAt": "2026-10-30T14:53:13Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에는 일반적인 배송·교환 주의사항만 제공함."
+      ],
+      "descriptionSha256": "6356f7cfd405e153f8457d3a1283b56ee9306011bab434de285cae44b3fd9384",
+      "responseSha256": "9bf16673c0f1096335ff188dfe4edd7f111f5fc404ead1c65d2cb5209f81c900"
+    }
+  },
+  {
+    "inventoryPosition": 139,
+    "identity": {
+      "code": "CS-0193",
+      "id": 186242,
+      "name": "KANA ITAKURA CHEKI HOLDER-Birthday 2025-",
+      "productUrl": "https://asobisystem.shop/products/CS-0193"
+    },
+    "status": "mapped",
+    "kind": "photo_card_holder",
+    "label": "체키 홀더",
+    "reason": "체키 홀더: 사진 본체가 아닌 보관 홀더 기준이며 소재는 상세 미기재입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "사진 본체가 아닌 보관 홀더 기준이며 소재는 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0193",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명이 CHEKI HOLDER로 명시되어 있습니다."
+      ],
+      "descriptionSha256": "5ef60860807da4da1869b27db00d126a3704a5bc921b8796932131c3a2ad7db0"
+    }
+  },
+  {
+    "inventoryPosition": 141,
+    "identity": {
+      "code": "ASU-040",
+      "id": 186115,
+      "name": "ジークレー作品「推しのつくりかた」1",
+      "productUrl": "https://asobisystem.shop/products/ASU-040"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-040",
+      "checkedAt": "2026-10-30T14:53:15Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "161065ba2c54cfefafb80e2c6082d13845434f19a2e1b391bb824840feea2a8e"
+    }
+  },
+  {
+    "inventoryPosition": 141,
+    "identity": {
+      "code": "ASU-041",
+      "id": 186114,
+      "name": "ジークレー作品「推しのつくりかた」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-041"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-041",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 143,
+    "identity": {
+      "code": "ASU-042",
+      "id": 186113,
+      "name": "ジークレー作品「推しのつくりかた」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-042"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-042",
+      "checkedAt": "2026-10-30T14:53:17Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "0e3faedd5f8a952520d60ac9029af3b2977d89b7d47665f61eaa0d7bda09cc17"
+    }
+  },
+  {
+    "inventoryPosition": 143,
+    "identity": {
+      "code": "ASU-043",
+      "id": 186112,
+      "name": "ジークレー作品「ツーショット」1",
+      "productUrl": "https://asobisystem.shop/products/ASU-043"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-043",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 145,
+    "identity": {
+      "code": "ASU-044",
+      "id": 186111,
+      "name": "ジークレー作品「ツーショット」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-044"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-044",
+      "checkedAt": "2026-10-30T14:53:19Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "0f2300d5905a76ec52fa9bacc1f83be588791680d972e213c1f177d2f53d4a27"
+    }
+  },
+  {
+    "inventoryPosition": 145,
+    "identity": {
+      "code": "ASU-045",
+      "id": 186110,
+      "name": "ジークレー作品「ツーショット」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-045"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-045",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 147,
+    "identity": {
+      "code": "ASU-046",
+      "id": 186109,
+      "name": "ジークレー作品「ファンに変身する魔法」1",
+      "productUrl": "https://asobisystem.shop/products/ASU-046"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-046",
+      "checkedAt": "2026-10-30T14:53:21Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "a59c062d006f06a6b1792d2c49ec2ef61bba90225145e56c3626d4199ec0b6a2"
+    }
+  },
+  {
+    "inventoryPosition": 147,
+    "identity": {
+      "code": "ASU-047",
+      "id": 186108,
+      "name": "ジークレー作品「ファンに変身する魔法」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-047"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-047",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 149,
+    "identity": {
+      "code": "ASU-048",
+      "id": 186107,
+      "name": "ジークレー作品「ファンに変身する魔法」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-048"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-048",
+      "checkedAt": "2026-10-30T14:53:23Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "28e219af4ee4fe3b13b39187557b30431ea9b8d28331c73529cc3dd054a1b3a1"
+    }
+  },
+  {
+    "inventoryPosition": 149,
+    "identity": {
+      "code": "ASU-049",
+      "id": 186106,
+      "name": "ジークレー作品「運命だって思わせて」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-049"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-049",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 151,
+    "identity": {
+      "code": "ASU-050",
+      "id": 186104,
+      "name": "ジークレー作品「運命だって思わせて」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-050"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-050",
+      "checkedAt": "2026-10-30T14:53:25Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "2752663d68e27ffe7d73b42d1fb76852c25b948b3a3d0009169a856f44c85de9"
+    }
+  },
+  {
+    "inventoryPosition": 151,
+    "identity": {
+      "code": "ASU-051",
+      "id": 186103,
+      "name": "ジークレー作品「新しい春もあなたがいれば」1",
+      "productUrl": "https://asobisystem.shop/products/ASU-051"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-051",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 153,
+    "identity": {
+      "code": "ASU-052",
+      "id": 186102,
+      "name": "ジークレー作品「新しい春もあなたがいれば」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-052"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-052",
+      "checkedAt": "2026-10-30T14:53:27Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "eb0a80d89f60685c03eb7b8b901b301ab64900a4d8574472f082b37cee9a9be3"
+    }
+  },
+  {
+    "inventoryPosition": 153,
+    "identity": {
+      "code": "ASU-053",
+      "id": 186101,
+      "name": "ジークレー作品「新しい春もあなたがいれば」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-053"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-053",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 155,
+    "identity": {
+      "code": "ASU-054",
+      "id": 186100,
+      "name": "ジークレー作品「世界がどれだけカラフルでも」1",
+      "productUrl": "https://asobisystem.shop/products/ASU-054"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-054",
+      "checkedAt": "2026-10-30T14:53:29Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "61eec008c139de8e5d6934831cc5b1caee55e56cd16edac2439d31925c77a1f0"
+    }
+  },
+  {
+    "inventoryPosition": 155,
+    "identity": {
+      "code": "ASU-055",
+      "id": 186099,
+      "name": "ジークレー作品「世界がどれだけカラフルでも」2",
+      "productUrl": "https://asobisystem.shop/products/ASU-055"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-055",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 157,
+    "identity": {
+      "code": "ASU-056",
+      "id": 186098,
+      "name": "ジークレー作品「世界がどれだけカラフルでも」3",
+      "productUrl": "https://asobisystem.shop/products/ASU-056"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/ASU-056",
+      "checkedAt": "2026-10-30T14:53:31Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "619f5cfc5a1bf5d417b5f140d458268fe4bd4506dd87f66142f18229df6486ca"
+    }
+  },
+  {
+    "inventoryPosition": 157,
+    "identity": {
+      "code": "FZ-00516",
+      "id": 186022,
+      "name": "FRUITS ZIPPERパノラマ新聞",
+      "productUrl": "https://asobisystem.shop/products/FZ-00516"
+    },
+    "status": "mapped",
+    "kind": "printed_newspaper",
+    "label": "종이 신문",
+    "reason": "종이 신문: 신문 전용 항목이 없어 인쇄물·기타 서적 후보를 사용합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "142",
+      "label": "[목록통관] 기타 서적",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A144:C144"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "신문 전용 항목이 없어 인쇄물·기타 서적 후보를 사용합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00516",
+      "checkedAt": "2026-10-31",
+      "material": "紙",
+      "facts": [
+        "상세에서 공연장에서 판매한 파노라마 신문으로 설명하고 소재를 종이로 명시합니다."
+      ],
+      "descriptionSha256": "d7a16a0863818a111b2d8a9137f6c4d8525eaf69a44da4f5dec2bb7c620f0670"
+    }
+  },
+  {
+    "inventoryPosition": 159,
+    "identity": {
+      "code": "RF-0015",
+      "id": 185581,
+      "name": "ジークレー作品「ロッコ」",
+      "productUrl": "https://asobisystem.shop/products/RF-0015"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0015",
+      "checkedAt": "2026-10-30T14:53:34Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "63cabc4e9188a77c3d343e9aded976ddc210f4f32681a167efe4efe4edf5cae7"
+    }
+  },
+  {
+    "inventoryPosition": 159,
+    "identity": {
+      "code": "RF-0016",
+      "id": 185580,
+      "name": "ジークレー作品「ルイ」",
+      "productUrl": "https://asobisystem.shop/products/RF-0016"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0016",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 161,
+    "identity": {
+      "code": "RF-0017",
+      "id": 185579,
+      "name": "ジークレー作品「リム」",
+      "productUrl": "https://asobisystem.shop/products/RF-0017"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0017",
+      "checkedAt": "2026-10-30T14:53:36Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "42a2ca74773b73bc629d2afcb5b9dc35332211d1c2773c0f627fbc2c60f5311a"
+    }
+  },
+  {
+    "inventoryPosition": 161,
+    "identity": {
+      "code": "RF-0018",
+      "id": 185578,
+      "name": "ジークレー作品「モケット」",
+      "productUrl": "https://asobisystem.shop/products/RF-0018"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0018",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 163,
+    "identity": {
+      "code": "RF-0019",
+      "id": 185577,
+      "name": "ジークレー作品「モーリー」",
+      "productUrl": "https://asobisystem.shop/products/RF-0019"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0019",
+      "checkedAt": "2026-10-30T14:53:38Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "f69923f11e36202333cb84b17bea2b7344b0141f602b22c9762116477b3191e0"
+    }
+  },
+  {
+    "inventoryPosition": 163,
+    "identity": {
+      "code": "RF-0020",
+      "id": 185576,
+      "name": "ジークレー作品_「ボボ」",
+      "productUrl": "https://asobisystem.shop/products/RF-0020"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0020",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 165,
+    "identity": {
+      "code": "RF-0021",
+      "id": 185575,
+      "name": "ジークレー作品「ホール」",
+      "productUrl": "https://asobisystem.shop/products/RF-0021"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0021",
+      "checkedAt": "2026-10-30T14:53:40Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "771b8e5ff18b2652340e5c902bf60f07a9859b8ad3941acd540961b488114c1a"
+    }
+  },
+  {
+    "inventoryPosition": 165,
+    "identity": {
+      "code": "RF-0022",
+      "id": 185574,
+      "name": "ジークレー作品「ベリー」",
+      "productUrl": "https://asobisystem.shop/products/RF-0022"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0022",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 167,
+    "identity": {
+      "code": "RF-0023",
+      "id": 185573,
+      "name": "ジークレー作品「ベール」",
+      "productUrl": "https://asobisystem.shop/products/RF-0023"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0023",
+      "checkedAt": "2026-10-30T14:53:42Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "1dcff2df077fe8684f247adb806b8972338fd955fb017f9cf2080b4423664913"
+    }
+  },
+  {
+    "inventoryPosition": 167,
+    "identity": {
+      "code": "RF-0024",
+      "id": 185572,
+      "name": "ジークレー作品「ハニー」",
+      "productUrl": "https://asobisystem.shop/products/RF-0024"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0024",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 169,
+    "identity": {
+      "code": "RF-0025",
+      "id": 185571,
+      "name": "ジークレー作品「トト」",
+      "productUrl": "https://asobisystem.shop/products/RF-0025"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0025",
+      "checkedAt": "2026-10-30T14:53:44Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "d2d29e3a9eb91779ff45dacafe040acd79c1c2c603b4087402d921eb24718f79"
+    }
+  },
+  {
+    "inventoryPosition": 169,
+    "identity": {
+      "code": "RF-0026",
+      "id": 185570,
+      "name": "ジークレー作品「チャール」",
+      "productUrl": "https://asobisystem.shop/products/RF-0026"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0026",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 171,
+    "identity": {
+      "code": "RF-0027",
+      "id": 185569,
+      "name": "ジークレー作品「セイム」",
+      "productUrl": "https://asobisystem.shop/products/RF-0027"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0027",
+      "checkedAt": "2026-10-30T14:53:46Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "ca02cfec4d4a06746381acd9d2a51116dfb971c9a30cf2c1cc03afd6f0e08ad2"
+    }
+  },
+  {
+    "inventoryPosition": 171,
+    "identity": {
+      "code": "RF-0028",
+      "id": 185568,
+      "name": "ジークレー作品「シャイン」",
+      "productUrl": "https://asobisystem.shop/products/RF-0028"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0028",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d"
+    }
+  },
+  {
+    "inventoryPosition": 173,
+    "identity": {
+      "code": "RF-0029",
+      "id": 185567,
+      "name": "ジークレー作品「キュー」",
+      "productUrl": "https://asobisystem.shop/products/RF-0029"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 방식의 실물 작품과 300mm 정방형 규격을 확인해 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0029",
+      "checkedAt": "2026-10-30T14:53:48Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 지클레 작품 상품에 300×300mm 실물 규격을 명시함."
+      ],
+      "descriptionSha256": "f8d7c51782ca37acdfabdac5325d0fd28f57e913692300d12c28eab3a0d4739d",
+      "responseSha256": "a66926d0d920e4ba31f6babd26f4227229fa9088486e33dd40b37bd121e6023f"
+    }
+  },
+  {
+    "inventoryPosition": 173,
+    "identity": {
+      "code": "RF-0030",
+      "id": 185566,
+      "name": "ジークレー作品「REDFISH HOUSE」",
+      "productUrl": "https://asobisystem.shop/products/RF-0030"
+    },
+    "status": "mapped",
+    "kind": "giclee_print",
+    "label": "지클레 인쇄 작품",
+    "reason": "지클레 인쇄 작품: 인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "인쇄 기법이 명시된 작품 기준이며 지지체·액자 구성은 상세 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0030",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명에서 지클레 작품으로 명시되며 개별 작품 치수가 제공됩니다."
+      ],
+      "descriptionSha256": "cc9935cb116e5540da99482f1b1386e24c8f27703d97c11d924a5363be8494bb"
+    }
+  },
+  {
+    "inventoryPosition": 175,
+    "identity": {
+      "code": "OK-0011",
+      "id": 185096,
+      "name": "おくだま アクリルマグネット",
+      "productUrl": "https://asobisystem.shop/products/OK-0011"
+    },
+    "status": "mapped",
+    "kind": "magnet",
+    "label": "아크릴 자석 소품",
+    "reason": "공식 자석 카테고리를 확인했으며 생활소품 후보로 분류하되 사양 확인을 남겼습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자석 전용 코드가 없어 생활소품 후보를 사용하며 실물 사양을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/OK-0011",
+      "checkedAt": "2026-10-30T14:53:50Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세의 품목 카테고리는 자석.",
+        "본문은 인쇄 가공·배송 주의사항만 제공하며 크기·세부 재질은 없음."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "4755fa0be10a199a27650f43bdc1d315647cc2ce3a4aa612f8180c7d7c82ad2a"
+    }
+  },
+  {
+    "inventoryPosition": 175,
+    "identity": {
+      "code": "DAF-0017",
+      "id": 185085,
+      "name": "DAF 缶ミラー",
+      "productUrl": "https://asobisystem.shop/products/DAF-0017"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "휴대용 거울: 특정 화장 용도나 벽걸이 가구로 단정하지 않고 생활용품 후보를 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도나 벽걸이 가구로 단정하지 않고 생활용품 후보를 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/DAF-0017",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명이 미러이며 휴대용 굿즈로 판매되는 것을 확인했습니다."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788"
+    }
+  },
+  {
+    "inventoryPosition": 177,
+    "identity": {
+      "code": "DAF-0022",
+      "id": 185080,
+      "name": "DAF アクリルコースター",
+      "productUrl": "https://asobisystem.shop/products/DAF-0022"
+    },
+    "status": "mapped",
+    "kind": "acrylic_coaster",
+    "label": "아크릴 코스터",
+    "reason": "아크릴 코스터 상품을 주방 소품으로 제안하며 구체 재질·사용 사양은 확인이 필요합니다.",
+    "jimpass": {
+      "code": "179",
+      "label": "주방 소품 (플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "138",
+      "label": "[목록통관] 기타 주방용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A140:C140"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "컵 받침 용도와 실제 재질을 확인해 주세요. 내열·식품 접촉 사양은 확인되지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/DAF-0022",
+      "checkedAt": "2026-10-30T14:53:53Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 아크릴 코스터 상품이며 본문은 인쇄 가공 주의사항을 제공함.",
+        "상세 재질 배합·내열 사양은 별도로 없음."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "a1ad3c8baff89c1bae241b931e380ed9af1ae9402d6d9a30a74d4b7a8569326e"
+    }
+  },
+  {
+    "inventoryPosition": 177,
+    "identity": {
+      "code": "DAF-0023",
+      "id": 185079,
+      "name": "DAF アクリルカラビナ",
+      "productUrl": "https://asobisystem.shop/products/DAF-0023"
+    },
+    "status": "mapped",
+    "kind": "acrylic_carabiner",
+    "label": "아크릴 카라비너",
+    "reason": "아크릴 카라비너: 일반 액세서리 후보이며 안전·등산 장구로 분류하지 않습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 액세서리 후보이며 안전·등산 장구로 분류하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/DAF-0023",
+      "checkedAt": "2026-10-31",
+      "material": "아크릴(공식 상세 상품명에 명시)",
+      "facts": [
+        "공식 상세 상품명은 아크릴 카라비너입니다."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788"
+    }
+  },
+  {
+    "inventoryPosition": 179,
+    "identity": {
+      "code": "KKM-00056",
+      "id": 184608,
+      "name": "kakimaku コンパクトミラー",
+      "productUrl": "https://asobisystem.shop/products/KKM-00056"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "휴대용 거울 상품은 확인했으나 세부 사양이 없어 생활소품 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "거울의 구체 재질·크기와 배대지 세부 항목을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KKM-00056",
+      "checkedAt": "2026-10-30T14:53:55Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 휴대용 거울 상품이며 본문은 인쇄 가공·배송 주의사항만 제공함."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "e5ce6b022cc3363c22ed4db6bbcd3e8a7ba42221d0d5e3faf5eb756737bbf63e"
+    }
+  },
+  {
+    "inventoryPosition": 179,
+    "identity": {
+      "code": "NP-059",
+      "id": 184600,
+      "name": "ナカキンチャク",
+      "productUrl": "https://asobisystem.shop/products/NP-059"
+    },
+    "status": "needs_review",
+    "kind": "drawstring_pouch",
+    "label": "소재 미기재 주머니",
+    "reason": "소재 미기재 주머니: 짐패스 가죽·비가죽 구분에 필요한 소재가 없어 해당 코드 확정을 보류합니다.",
+    "jimpass": null,
+    "general": {
+      "code": "059",
+      "label": "[목록통관] 가방",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A61:C61"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 가죽·비가죽 구분에 필요한 소재가 없어 해당 코드 확정을 보류합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/NP-059",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상품명에서 킨차쿠 형태의 주머니를 나타내지만 소재 설명이 없습니다."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788"
+    }
+  },
+  {
+    "inventoryPosition": 181,
+    "identity": {
+      "code": "UT-00035",
+      "id": 184596,
+      "name": "utu ミニキャンバス 「ビーニーヘッドホンマン」",
+      "productUrl": "https://asobisystem.shop/products/UT-00035"
+    },
+    "status": "mapped",
+    "kind": "canvas_art",
+    "label": "캔버스 미술 작품",
+    "reason": "공식 캔버스 아트 카테고리는 확인했지만 제작 기법이 없어 일반 그림 항목을 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화와 인쇄 작품 구분이 없어 수작업 그림·판화 전용 항목으로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00035",
+      "checkedAt": "2026-10-30T14:53:57Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세의 하위 카테고리는 캔버스 아트.",
+        "본문에 재질·크기·제작 방식 없이 인쇄 가공·배송 주의사항만 있음."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "7c7d072f14c26683f47768ef39f453988d61072be601d60b752d4dbda70ddcaf"
+    }
+  },
+  {
+    "inventoryPosition": 181,
+    "identity": {
+      "code": "UT-00036",
+      "id": 184595,
+      "name": "utu ミニキャンバス 「orange」",
+      "productUrl": "https://asobisystem.shop/products/UT-00036"
+    },
+    "status": "mapped",
+    "kind": "canvas_art_unspecified_technique",
+    "label": "제작 기법 미확정 캔버스 그림",
+    "reason": "제작 기법 미확정 캔버스 그림: 일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "일반 그림 항목을 제안합니다. 손으로 그린 원화·인쇄 여부는 별도로 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00036",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 API 세부 카테고리가 캔버스 아트이며 공식 상품 사진에서도 캔버스 형태의 그림을 확인했습니다.",
+        "원화·인쇄 제작 여부는 상세에서 확인되지 않습니다."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "visualCorroboration": {
+        "sourceUrl": "https://images.groobee.com/images/asobisystem/aXDNXvYiPxTCg9sbsSIlD7bvdZkd0Q0XHNgcznrT.png",
+        "productCode": "UT-00036",
+        "inspectedAt": "2026-10-31",
+        "scope": "해당 상품 사진과 공식 캔버스 아트 카테고리를 함께 확인했습니다. 제작 기법은 미확정입니다."
+      }
+    }
+  },
+  {
+    "inventoryPosition": 183,
+    "identity": {
+      "code": "UT-00037",
+      "id": 184594,
+      "name": "utu ミニキャンバス 「track!」",
+      "productUrl": "https://asobisystem.shop/products/UT-00037"
+    },
+    "status": "mapped",
+    "kind": "canvas_art",
+    "label": "캔버스 미술 작품",
+    "reason": "공식 캔버스 아트 카테고리는 확인했지만 제작 기법이 없어 일반 그림 항목을 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화와 인쇄 작품 구분이 없어 수작업 그림·판화 전용 항목으로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00037",
+      "checkedAt": "2026-10-30T14:53:59Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세의 하위 카테고리는 캔버스 아트.",
+        "본문에 재질·크기·제작 방식 없이 인쇄 가공·배송 주의사항만 있음."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "bdfc1d3d73d76ee7be8e21c52a2b80396c804c1f1b5121a17762b2f595539bb5"
+    }
+  },
+  {
+    "inventoryPosition": 183,
+    "identity": {
+      "code": "CS-0139",
+      "id": 175533,
+      "name": "CUTIE STREET Official Light Strap(全8種)",
+      "productUrl": "https://asobisystem.shop/products/CS-0139"
+    },
+    "status": "mapped",
+    "kind": "light_bag_strap",
+    "label": "응원봉·가방 장식 스트랩",
+    "reason": "응원봉·가방 장식 스트랩: 발광 본체가 아닌 장식 액세서리 기준입니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "발광 본체가 아닌 장식 액세서리 기준입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0139",
+      "checkedAt": "2026-10-31",
+      "material": "PVC・アクリル・合金",
+      "facts": [
+        "상세에서 펜라이트나 가방에 부착하는 스트랩이며 PVC·아크릴·합금 소재로 안내합니다."
+      ],
+      "descriptionSha256": "f2afd1ae68869171bea9cdfc256dc4bd50f520a286364643ed0805ffa7600073"
+    }
+  },
+  {
+    "inventoryPosition": 185,
+    "identity": {
+      "code": "tokutenkai_CT_251129",
+      "id": 185035,
+      "name": "【CANDY TUNE】特典会参加権（2025年11月29日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CT_251129"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "상세의 시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배송할 실물 상품이 아니므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CT_251129",
+      "checkedAt": "2026-10-30T14:54:01Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "시리얼 코드 발송과 이벤트 등록·전자 티켓 발권 절차를 안내함.",
+        "지정 행사장에서 촬영·전달회에 참여하는 권리이며 배송할 실물 상품을 판매하지 않음."
+      ],
+      "descriptionSha256": "a518a24edbf4fcbde82d6193227009e761752c8fa5d78e553a1adc125daad4eb",
+      "responseSha256": "eddd6575363446a49104b60b58665fb32713a69de6a1203d5b1f310d26b99cb5"
+    }
+  },
+  {
+    "inventoryPosition": 185,
+    "identity": {
+      "code": "tokutenkai_CS_251129",
+      "id": 185034,
+      "name": "【CUTIE STREET】特典会参加権（2025年11月29日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CS_251129"
+    },
+    "status": "non_physical",
+    "kind": "event_access",
+    "label": "행사 전자 참가권",
+    "reason": "공식 상세에서 전자·참가 서비스로 확인되어 배송 대상에서 제외합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "현장 참가 권리이며 물품 배송용 품목코드를 적용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CS_251129",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "상세에서 시리얼 코드 전송·전자티켓 발권·현장 행사 참가 절차를 명시합니다."
+      ],
+      "descriptionSha256": "a518a24edbf4fcbde82d6193227009e761752c8fa5d78e553a1adc125daad4eb"
+    }
+  },
+  {
+    "inventoryPosition": 187,
+    "identity": {
+      "code": "tokutenkai_KLS_251129_2nd",
+      "id": 185033,
+      "name": "【KAWAII LAB. SOUTH】特典会参加権（2025年11月29日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_KLS_251129_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "상세의 시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배송할 실물 상품이 아니므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_KLS_251129_2nd",
+      "checkedAt": "2026-10-30T14:54:03Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "시리얼 코드 발송과 이벤트 등록·전자 티켓 발권 절차를 안내함.",
+        "지정 행사장에서 촬영·전달회에 참여하는 권리이며 배송할 실물 상품을 판매하지 않음."
+      ],
+      "descriptionSha256": "f918ae1692598c364bcdbea5da1deac5a84f12211e75d481c395728346119e3f",
+      "responseSha256": "6f9397f38aee84857506f37df9e18e3687a3335389a59271b6201348c30033f1"
+    }
+  },
+  {
+    "inventoryPosition": 187,
+    "identity": {
+      "code": "FM-0019",
+      "id": 184288,
+      "name": "澪川舞香 生誕祭2025 らぶまかしゃん♡ろんてぃー",
+      "productUrl": "https://asobisystem.shop/products/FM-0019"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "면 긴소매 티셔츠",
+    "reason": "면 긴소매 티셔츠: 공식 상세에서 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FM-0019",
+      "checkedAt": "2026-10-31",
+      "material": "綿100％",
+      "facts": [
+        "상세에서 긴소매 티셔츠·면 100% 및 M/L/XL 의류 치수를 명시합니다."
+      ],
+      "descriptionSha256": "d3a27240bebfea7c9c3fb1f374a96bb6ed7a1ef4fdea57d35176b0496afee1a6"
+    }
+  },
+  {
+    "inventoryPosition": 189,
+    "identity": {
+      "code": "FM-0020",
+      "id": 184287,
+      "name": "澪川舞香 生誕祭2025 まかしゃん つれてって♡ ケース",
+      "productUrl": "https://asobisystem.shop/products/FM-0020"
+    },
+    "status": "mapped",
+    "kind": "photo_case",
+    "label": "가방 부착용 사진 케이스",
+    "reason": "PVC 재질과 사진 보관·가방 부착 용도가 확인된 사진 케이스입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FM-0020",
+      "checkedAt": "2026-10-30T14:54:05Z",
+      "material": "PVC",
+      "facts": [
+        "체키 사진을 넣어 가방에 부착하는 용도를 명시함.",
+        "PVC 재질이며 약 74×143mm."
+      ],
+      "descriptionSha256": "82051a48b2be616db0e4c36ea6836e27361efd77bebf30cf092fb6be331197be",
+      "responseSha256": "1a46b62cf77ae51a0b05c09716661c6d1200905b40ffd67f6ead6e91dc07ed1d"
+    }
+  },
+  {
+    "inventoryPosition": 189,
+    "identity": {
+      "code": "FM-0024",
+      "id": 184239,
+      "name": "瀬乃まりん 生誕祭2025 おでかけ♡まりんケース",
+      "productUrl": "https://asobisystem.shop/products/FM-0024"
+    },
+    "status": "mapped",
+    "kind": "pvc_photo_holder",
+    "label": "PVC 체키 케이스",
+    "reason": "PVC 체키 케이스: 사진 인쇄물 자체가 아닌 보관용 문구·잡화 후보입니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "사진 인쇄물 자체가 아닌 보관용 문구·잡화 후보입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FM-0024",
+      "checkedAt": "2026-10-31",
+      "material": "PVC",
+      "facts": [
+        "상세에서 체키를 넣어 가방에 부착하는 케이스와 PVC 소재를 명시합니다."
+      ],
+      "descriptionSha256": "fd532ca04f3ff4d41605a883814dc514e599c64a88899af84baf3fdef819fa53"
+    }
+  },
+  {
+    "inventoryPosition": 191,
+    "identity": {
+      "code": "tokutenkai_FZ_251115-16_3rd",
+      "id": 184093,
+      "name": "【FRUITS ZIPPER】特典会参加権（2025年11月15日〜2025年11月16日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_FZ_251115-16_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "상세의 시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "배송할 실물 상품이 아니므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_FZ_251115-16_3rd",
+      "checkedAt": "2026-10-30T14:54:07Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "시리얼 코드 발송과 이벤트 등록·전자 티켓 발권 절차를 안내함.",
+        "지정 행사장에서 촬영·전달회에 참여하는 권리이며 배송할 실물 상품을 판매하지 않음."
+      ],
+      "descriptionSha256": "00f11b914be7f181f323c82377a23c4f769359fecf40f1e805f00e4f01ce7d04",
+      "responseSha256": "babbedd2460f63bf46006f0d1aab570ef2beea0b14710d1029cde098c616ae59"
+    }
+  },
+  {
+    "inventoryPosition": 191,
+    "identity": {
+      "code": "CS-0179",
+      "id": 183834,
+      "name": "梅田みゆ 生誕祭2025 ミラー-0時のシンデレラなミラー-",
+      "productUrl": "https://asobisystem.shop/products/CS-0179"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "휴대용 거울: 특정 화장 용도나 벽걸이 가구로 단정하지 않고 생활용품 후보를 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도나 벽걸이 가구로 단정하지 않고 생활용품 후보를 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0179",
+      "checkedAt": "2026-10-31",
+      "material": "亜鉛合金、ガラス",
+      "facts": [
+        "공식 상세 상품명이 미러이며 휴대용 굿즈로 판매되는 것을 확인했습니다."
+      ],
+      "descriptionSha256": "2f7b5890f6e518fe21e1c40ccbe7e948adb800e1254e101665756c2ab3d0279a"
+    }
+  },
+  {
+    "inventoryPosition": 193,
+    "identity": {
+      "code": "RF-0001",
+      "id": 183093,
+      "name": "ROOM KEY",
+      "productUrl": "https://asobisystem.shop/products/RF-0001"
+    },
+    "status": "needs_review",
+    "kind": "room_key_unresolved",
+    "label": "룸 키 굿즈 형태 확인",
+    "reason": "룸 키의 기능·형태·재질 설명이 없어 실제 열쇠나 키링으로 단정하지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "실제 열쇠인지 아크릴 키링 등 장식 굿즈인지 확인할 수 없습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0001",
+      "checkedAt": "2026-10-30T14:54:09Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에 인쇄 가공·배송 주의사항만 있고 실제 열쇠 기능이나 연결 구조가 없음."
+      ],
+      "descriptionSha256": "8a029e205f1108cf5b841b1b6250d1eca9046acf984f36e42078019d129517eb",
+      "responseSha256": "1a143c7b6e227d2d4195dc3684fdac9ab0ddd268defda475e9b5375a373a54f4"
+    }
+  },
+  {
+    "inventoryPosition": 193,
+    "identity": {
+      "code": "RF-0006",
+      "id": 183088,
+      "name": "STICKER1",
+      "productUrl": "https://asobisystem.shop/products/RF-0006"
+    },
+    "status": "mapped",
+    "kind": "sticker_material_unknown",
+    "label": "스티커",
+    "reason": "스티커: 종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0006",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명 또는 세부 카테고리에서 스티커인 것을 확인했습니다.",
+        "소재는 기재되어 있지 않습니다."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d"
+    }
+  },
+  {
+    "inventoryPosition": 195,
+    "identity": {
+      "code": "RF-0007",
+      "id": 183087,
+      "name": "STICKER2",
+      "productUrl": "https://asobisystem.shop/products/RF-0007"
+    },
+    "status": "needs_review",
+    "kind": "sticker_material_unconfirmed",
+    "label": "스티커 재질 확인",
+    "reason": "스티커 바탕 재질이 없어 종이로 단정하지 않고 훗타운 문구 항목만 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 종이인쇄물은 종이 재질 확인이 필요해 비웠고 훗타운 문구 항목만 후보로 남겼습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0007",
+      "checkedAt": "2026-10-30T14:54:12Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 스티커 상품의 본문에는 인쇄 가공·배송 주의사항만 있음.",
+        "종이·비닐 등 바탕 재질이 기재되지 않음."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d",
+      "responseSha256": "8f4121f7de4c2faeb43f338b39d84f66d4fa306008464ea47ad4fd930bcae3d4"
+    }
+  },
+  {
+    "inventoryPosition": 195,
+    "identity": {
+      "code": "RF-0008",
+      "id": 183086,
+      "name": "STICKER3",
+      "productUrl": "https://asobisystem.shop/products/RF-0008"
+    },
+    "status": "mapped",
+    "kind": "sticker_material_unknown",
+    "label": "스티커",
+    "reason": "스티커: 종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0008",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명 또는 세부 카테고리에서 스티커인 것을 확인했습니다.",
+        "소재는 기재되어 있지 않습니다."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d"
+    }
+  },
+  {
+    "inventoryPosition": 197,
+    "identity": {
+      "code": "RF-0009",
+      "id": 183085,
+      "name": "STICKER4",
+      "productUrl": "https://asobisystem.shop/products/RF-0009"
+    },
+    "status": "needs_review",
+    "kind": "sticker_material_unconfirmed",
+    "label": "스티커 재질 확인",
+    "reason": "스티커 바탕 재질이 없어 종이로 단정하지 않고 훗타운 문구 항목만 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 종이인쇄물은 종이 재질 확인이 필요해 비웠고 훗타운 문구 항목만 후보로 남겼습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0009",
+      "checkedAt": "2026-10-30T14:54:13Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 스티커 상품의 본문에는 인쇄 가공·배송 주의사항만 있음.",
+        "종이·비닐 등 바탕 재질이 기재되지 않음."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d",
+      "responseSha256": "eaf62c37c1e19abd2f48a353ce543e77982069e274ba1518087ba90b81144a63"
+    }
+  },
+  {
+    "inventoryPosition": 197,
+    "identity": {
+      "code": "RF-0010",
+      "id": 183084,
+      "name": "STICKER5",
+      "productUrl": "https://asobisystem.shop/products/RF-0010"
+    },
+    "status": "mapped",
+    "kind": "sticker_material_unknown",
+    "label": "스티커",
+    "reason": "스티커: 종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 소재로 단정하지 않고 문구·잡화 품목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0010",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명 또는 세부 카테고리에서 스티커인 것을 확인했습니다.",
+        "소재는 기재되어 있지 않습니다."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d"
+    }
+  },
+  {
+    "inventoryPosition": 199,
+    "identity": {
+      "code": "RF-0011",
+      "id": 183083,
+      "name": "POST CARD1",
+      "productUrl": "https://asobisystem.shop/products/RF-0011"
+    },
+    "status": "mapped",
+    "kind": "postcard",
+    "label": "인쇄 엽서",
+    "reason": "공식 인쇄 엽서 상품으로 분류했으며 재질이 미기재되어 종이 여부 확인이 필요합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "140",
+      "label": "[목록통관] 엽서",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A142:C142"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 엽서가 맞는지 확인해 주세요. 아크릴 등 다른 소재이면 품목을 변경해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0011",
+      "checkedAt": "2026-10-30T14:54:16Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 POST CARD 상품이며 본문은 인쇄 가공·배송 주의사항을 제공함.",
+        "재질·규격은 별도로 기재되지 않음."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d",
+      "responseSha256": "5855d344ba502ed122c85434ba5fc88f1742c305576cfea8b6a7bd0f901a25f0"
+    }
+  },
+  {
+    "inventoryPosition": 199,
+    "identity": {
+      "code": "RF-0012",
+      "id": 183082,
+      "name": "POST CARD2",
+      "productUrl": "https://asobisystem.shop/products/RF-0012"
+    },
+    "status": "mapped",
+    "kind": "postcard",
+    "label": "엽서",
+    "reason": "엽서: 엽서 기준 제안이며 소재·치수는 본문에 미기재입니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "140",
+      "label": "[목록통관] 엽서",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A142:C142"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "엽서 기준 제안이며 소재·치수는 본문에 미기재입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0012",
+      "checkedAt": "2026-10-31",
+      "material": "상세 미기재",
+      "facts": [
+        "공식 상세 상품명이 POST CARD2로 명시되어 있습니다."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d"
+    }
+  },
+  {
+    "inventoryPosition": 201,
+    "identity": {
+      "code": "RF-0013",
+      "id": 183081,
+      "name": "POST CARD3",
+      "productUrl": "https://asobisystem.shop/products/RF-0013"
+    },
+    "status": "mapped",
+    "kind": "postcard",
+    "label": "인쇄 엽서",
+    "reason": "공식 인쇄 엽서 상품으로 분류했으며 재질이 미기재되어 종이 여부 확인이 필요합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "140",
+      "label": "[목록통관] 엽서",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A142:C142"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 엽서가 맞는지 확인해 주세요. 아크릴 등 다른 소재이면 품목을 변경해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0013",
+      "checkedAt": "2026-10-30T14:54:18Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 POST CARD 상품이며 본문은 인쇄 가공·배송 주의사항을 제공함.",
+        "재질·규격은 별도로 기재되지 않음."
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d",
+      "responseSha256": "b64ed4a0314a1df365bd6be98dcfe6d10f138ce5f66d807ff401f73085d75814"
+    }
+  },
+  {
+    "inventoryPosition": 201,
+    "identity": {
+      "code": "RF-0014",
+      "id": 183080,
+      "name": "POST CARD4",
+      "productUrl": "https://asobisystem.shop/products/RF-0014"
+    },
+    "status": "mapped",
+    "kind": "postcard",
+    "label": "엽서",
+    "reason": "공식 상품명이 POST CARD4로 명시되어 엽서 항목을 제안합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "140",
+      "label": "[목록통관] 엽서",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A142:C142"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세 본문에는 소재·치수가 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/RF-0014",
+      "apiUrl": "https://shop.api.groobee.com/products/RF-0014",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:19Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "POST CARD4"
+      ],
+      "sourceCategories": [
+        {
+          "id": 11013,
+          "slug": "redfish",
+          "name": "REDFISH"
+        }
+      ],
+      "descriptionSha256": "b496c6f04a80bfe18653ff6b3110a1d4ce54e594e32b5c8fa687edba595b6b1d",
+      "responseSha256": "1e11caf9191c24548ec287c6bada25a78bdeaa92d9c49237d02b3fa618e5b725"
+    }
+  },
+  {
+    "inventoryPosition": 203,
+    "identity": {
+      "code": "KPP-021",
+      "id": 182846,
+      "name": "KPP dreamin dreamin ランダムカプセル（全8種）",
+      "productUrl": "https://asobisystem.shop/products/KPP-021"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KPP-021",
+      "checkedAt": "2026-10-30T14:54:20Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문 선두 구성표에 아크릴 마커 3종·배지 2종·파우치 1종·러버밴드 2종을 명시함."
+      ],
+      "descriptionSha256": "94e0279293c5209985e1d5099ed367c25f4ff184b0d9fc1e71292c841d024eef",
+      "responseSha256": "0ce939c9b7997d96723cb3ebd5a2e04781f4ff0d0e5341e1b851583b0cec7bcf"
+    },
+    "policyOriginalReviewReason": "마커·배지·파우치·러버밴드는 물품 종류가 달라 실제 수령 품목별로 분류해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 203,
+    "identity": {
+      "code": "KPP-010",
+      "id": 182854,
+      "name": "KPP ランダムカプセル（全8種）",
+      "productUrl": "https://asobisystem.shop/products/KPP-010"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KPP-010",
+      "apiUrl": "https://shop.api.groobee.com/products/KPP-010",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:21Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "缶バッジ2種",
+        "ミニ巾着1種",
+        "アクリルマーカー4種",
+        "シリコンバンド1種"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1940,
+          "slug": "kyary",
+          "name": "きゃりーぱみゅぱみゅ"
+        },
+        {
+          "id": 1943,
+          "slug": "kyary-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "8557bd3e817fe7077c7754ce5a7c1a460f4ff2b123cf6fcfd8ea918c9a45d597",
+      "responseSha256": "50d243d0a6e9c86db32ee2aa3b402fb5bd955699d72006021ea44fafac11c934"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 205,
+    "identity": {
+      "code": "BY-00025",
+      "id": 182528,
+      "name": "BEY パロサント",
+      "productUrl": "https://asobisystem.shop/products/BY-00025"
+    },
+    "status": "needs_review",
+    "kind": "aromatic_wood",
+    "label": "방향용 팔로산토 목재",
+    "reason": "향을 내는 목재 사용법은 확인했지만 훗타운 코드를 확인하지 못해 비웠습니다.",
+    "jimpass": {
+      "code": "196",
+      "label": "방향제",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "훗타운에 해당 목재 방향제 전용 항목이 없으며 천연 목재의 세부 사양·운송 가능 여부 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00025",
+      "checkedAt": "2026-10-30T14:54:22Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "방 안에 그대로 두거나 표면을 깎아 향을 내는 목재라고 설명함.",
+        "불을 붙인 뒤 꺼서 접시에 놓고 향을 즐기는 사용법도 안내함."
+      ],
+      "descriptionSha256": "db7198e7e67fd8872e916a6e714272a153ce124ad3c99a2bfe7a3ab2a7c6ac02",
+      "responseSha256": "7cd6b60977d3599d6371f2b6fb4e28f90b236c9df211a071814d5f6e52e41569"
+    }
+  },
+  {
+    "inventoryPosition": 205,
+    "identity": {
+      "code": "BY-00026",
+      "id": 182527,
+      "name": "BEY 手拭い",
+      "productUrl": "https://asobisystem.shop/products/BY-00026"
+    },
+    "status": "mapped",
+    "kind": "tenugui",
+    "label": "일본식 손수건·수건",
+    "reason": "공식 상품명이 手拭い로 명시되어 수건류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "22",
+      "label": "타월",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세 본문에는 섬유 소재·치수가 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00026",
+      "apiUrl": "https://shop.api.groobee.com/products/BY-00026",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:23Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "BEY 手拭い"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3298,
+          "slug": "bey",
+          "name": "BEY"
+        }
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "5021b8defb195cf1031bb6c6fa8d8367bd2a75e804809c64d22c96e0811b1a2c"
+    }
+  },
+  {
+    "inventoryPosition": 207,
+    "identity": {
+      "code": "BY-00027",
+      "id": 182526,
+      "name": "BEY 湯呑み",
+      "productUrl": "https://asobisystem.shop/products/BY-00027"
+    },
+    "status": "needs_review",
+    "kind": "teacup_material_unconfirmed",
+    "label": "찻잔 재질 확인",
+    "reason": "찻잔 재질이 없어 도자·유리·금속·목재·플라스틱 중 하나로 추정하지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "양식은 도자·유리·금속·목재·플라스틱을 구분하므로 재질을 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00027",
+      "checkedAt": "2026-10-30T14:54:24Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 찻잔 상품이지만 본문은 인쇄 가공·배송 주의사항뿐이며 소재가 없음."
+      ],
+      "descriptionSha256": "03dac267b84f449d4505159a2183b948eb878560f37cc9309308ba63f64fe788",
+      "responseSha256": "5c5b447fd9c61194899d154be3404656a036979b239c5349baec7f6c61c5b396"
+    }
+  },
+  {
+    "inventoryPosition": 207,
+    "identity": {
+      "code": "CS-0144",
+      "id": 175526,
+      "name": "CUTIE STREET ランダムカプセル-standard edition ver.1-（全25種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0144"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0144",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0144",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:25Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "メンバー別ミニ巾着8種",
+        "メンバー別缶バッジ8種",
+        "メンバー別めじるしチャーム8種",
+        "バンド1種"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        }
+      ],
+      "descriptionSha256": "e077faf871e765eab79d812e413ac60add34548c1f52512d36e8d66b38b65a6b",
+      "responseSha256": "3a80b915a38e0e20427b0b215c341955e18767a25ac65bd175448cc229b545a4"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 209,
+    "identity": {
+      "code": "CT-002533",
+      "id": 181961,
+      "name": "小川奈々子 生誕祭2025 あなたの幸せを守ります。なちまもり(アクリル)",
+      "productUrl": "https://asobisystem.shop/products/CT-002533"
+    },
+    "status": "mapped",
+    "kind": "acrylic_charm",
+    "label": "아크릴 부적형 장식",
+    "reason": "본문에 명시된 아크릴 부적을 장식 액세서리로 제안하며 연결 구성을 확인해야 합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "연결 고리·끈 등 구성은 기재되지 않아 장식 액세서리 세부 형태를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-002533",
+      "checkedAt": "2026-10-30T14:54:26Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 생일 기념 아크릴 부적 상품을 직접 소개함."
+      ],
+      "descriptionSha256": "e1051b58f4801d77fd811704bdbda7cb5f191365616b56098847be48e8dd471b",
+      "responseSha256": "5f69eb1ef62014e88d44ae26b2b681e3f8b9d9b7d4037bdec639fdef25a50d02"
+    }
+  },
+  {
+    "inventoryPosition": 209,
+    "identity": {
+      "code": "tokutenkai_FZ_251004-05_2nd",
+      "id": 181717,
+      "name": "【FRUITS ZIPPER】特典会参加権（2025年10月4日〜2025年10月5日）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_FZ_251004-05_2nd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 행사 참여권",
+    "reason": "전자티켓 발권·시리얼코드로 이용하는 행사 참여권이므로 배송용 실물 코드를 넣지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_FZ_251004-05_2nd",
+      "apiUrl": "https://shop.api.groobee.com/products/tokutenkai_FZ_251004-05_2nd",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:27Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "행사 참여권",
+        "전자티켓 발권용 시리얼코드"
+      ],
+      "facts": [
+        "シリアルコード",
+        "電子チケット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "c4957b1b1fa3eb4571c56986718a5f17fe2570d226fc96037abc03e2f5b55310",
+      "responseSha256": "f41ece295c61b74a54b460422ee696d25a73a3600cfed1e3ae0e0d9b1fa64243"
+    }
+  },
+  {
+    "inventoryPosition": 211,
+    "identity": {
+      "code": "KR-0009",
+      "id": 181318,
+      "name": "LiveHouseTourTowel",
+      "productUrl": "https://asobisystem.shop/products/KR-0009"
+    },
+    "status": "mapped",
+    "kind": "towel",
+    "label": "공연 타월",
+    "reason": "공식 상세 설명과 타월 카테고리에서 같은 물품 종류를 확인했습니다.",
+    "jimpass": {
+      "code": "22",
+      "label": "타월",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KR-0009",
+      "checkedAt": "2026-10-30T14:54:28Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 라이브하우스 투어 타월이라고 명시함.",
+        "공식 하위 카테고리도 타월."
+      ],
+      "descriptionSha256": "197aadf87a74b9e49c928de8ed0ee3161e0f89fee5c34fe85395fc7d99ca74a0",
+      "responseSha256": "5563a885e9ced5044c14e0301caf89fb66ec93e9ebe1486ccd766c16e8ee7762"
+    }
+  },
+  {
+    "inventoryPosition": 211,
+    "identity": {
+      "code": "KR-0010",
+      "id": 181317,
+      "name": "PVC Clear Bangle",
+      "productUrl": "https://asobisystem.shop/products/KR-0010"
+    },
+    "status": "mapped",
+    "kind": "pvc_bangle",
+    "label": "PVC 손목 밴드",
+    "reason": "공식 설명의 PVC 클리어 밴드는 착용하는 장식 액세서리입니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KR-0010",
+      "apiUrl": "https://shop.api.groobee.com/products/KR-0010",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:29Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "PVC Clear Bangle",
+        "クリアバンド"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3099,
+          "slug": "KlangRuler",
+          "name": "Klang Ruler"
+        },
+        {
+          "id": 3100,
+          "slug": "klangruler_goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 3108,
+          "slug": "klangruler_rubberband",
+          "name": "ラバーバンド"
+        }
+      ],
+      "descriptionSha256": "a79a866bdf8a49d9a2bedbf45d0913200dc258e9e63086f976e5e43f575b15e7",
+      "responseSha256": "ec30bfb6b2049bbb755d51c935949ce967b778cb6164118dfbc64966259de9c5"
+    }
+  },
+  {
+    "inventoryPosition": 213,
+    "identity": {
+      "code": "KL-0021",
+      "id": 181136,
+      "name": "あそばにゃそんそん 公式ソンソンヘッド",
+      "productUrl": "https://asobisystem.shop/products/KL-0021"
+    },
+    "status": "mapped",
+    "kind": "costume_headwear",
+    "label": "폴리에스터 머리 착용물",
+    "reason": "머리 둘레 규격과 폴리에스터 재질을 확인해 모자·머리 착용물로 분류했습니다.",
+    "jimpass": {
+      "code": "15",
+      "label": "모자",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "062",
+      "label": "[목록통관] 모자(밀짚모자 제외)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A64:C64"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0021",
+      "checkedAt": "2026-10-30T14:54:30Z",
+      "material": "폴리에스터",
+      "facts": [
+        "머리 둘레 약 71cm의 프리 사이즈를 안내함.",
+        "폴리에스터 재질의 방송 공식 머리 착용 굿즈."
+      ],
+      "descriptionSha256": "baaf984b3d4ea83ed353634cb60b4078c11ed5d6e330fceb44415e3157b49b1b",
+      "responseSha256": "1aba3c36ad20544f44808baecd61fa19a78faabbc863299e7307fd095ee311b7"
+    }
+  },
+  {
+    "inventoryPosition": 213,
+    "identity": {
+      "code": "KL-0018",
+      "id": 181139,
+      "name": "あそばにゃそんそん ランダムカプセル-カワラボグループ別-（全16種）",
+      "productUrl": "https://asobisystem.shop/products/KL-0018"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0018",
+      "apiUrl": "https://shop.api.groobee.com/products/KL-0018",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:31Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "トートバッグ 4種",
+        "アクリルキーホルダー 4種",
+        "缶バッジ 8種"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5607,
+          "slug": "kawaiilab",
+          "name": "KAWAII LAB."
+        }
+      ],
+      "descriptionSha256": "a53c0e0a02889544c2177fa6154c802758920c3f112c3513ca33ae65ddd690bc",
+      "responseSha256": "eef7b547aa21d950df10b18d6a136238ce44a3a7eba1e5cc6075cb6c17b601b5"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 215,
+    "identity": {
+      "code": "SR-0002",
+      "id": 181116,
+      "name": "腕につけて盛り上がろうラババン",
+      "productUrl": "https://asobisystem.shop/products/SR-0002"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "실리콘·러버 손목밴드",
+    "reason": "상세에서 이벤트용 러버밴드임을 확인해 착용 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SR-0002",
+      "checkedAt": "2026-10-30T14:54:33Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 이벤트용 러버밴드로 안내함.",
+        "착용용 고리 형태의 패션 액세서리이며 전기기기가 아님."
+      ],
+      "descriptionSha256": "885caa8c102977db98be73ef78d1fd6786f7cd6e1bcb1f0413111d397c91b22e",
+      "responseSha256": "8a25230ddbafa185f20476d4109c2b8602ca0b8e2d3b7810ccbdbd5e85736e5f"
+    }
+  },
+  {
+    "inventoryPosition": 215,
+    "identity": {
+      "code": "SS-0137",
+      "id": 180438,
+      "name": "栗田なつか 生誕祭 2025 ♡なつかのハートの魔法！きらっ！♡",
+      "productUrl": "https://asobisystem.shop/products/SS-0137"
+    },
+    "status": "mapped",
+    "kind": "acrylic_stand",
+    "label": "아크릴 스탠드",
+    "reason": "공식 추가 카테고리가 아크릴 스탠드로 확인되어 장식품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "카테고리로 형태를 확인했으나 소재·규격은 상세에 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0137",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0137",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:34Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクスタ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        }
+      ],
+      "descriptionSha256": "a7269f420178be28a316b5361d4634696e29f458ea75ec24525881dabb999fcf",
+      "responseSha256": "e1e2ee9c8eadd84d06360b22371e40432687e1186f5dddf3ecb32693a53dfc20",
+      "additionalCategoryProof": [
+        {
+          "id": 5667,
+          "name": "アクスタ",
+          "slug": "SS_acsta",
+          "path": [
+            "SWEET STEADY",
+            "グッズ",
+            "アクスタ"
+          ],
+          "ancestorIds": [
+            5600,
+            8312
+          ],
+          "source": "https://shop.api.groobee.com/categories"
+        }
+      ],
+      "categoryTreeSource": "https://shop.api.groobee.com/categories",
+      "categoryTreeCheckedAt": "2026-10-31",
+      "categoryTreeResponseSha256": "b9a8a427c8ce5c5212a551ffabaa61324ad1687f9523a696b18e61412296d0cf",
+      "categoryTreeSnapshotSha256": "d3ee78e06560d4da31f88c8207b878a3ce3a56f2c5e213e20a5bd41d861f4aeb"
+    }
+  },
+  {
+    "inventoryPosition": 217,
+    "identity": {
+      "code": "TI-0025",
+      "id": 179432,
+      "name": "一条カオリ生誕祭米",
+      "productUrl": "https://asobisystem.shop/products/TI-0025"
+    },
+    "status": "mapped",
+    "kind": "rice",
+    "label": "정미 쌀",
+    "reason": "정미 시기와 300g 원료미 표시를 확인해 곡물·기타 식품으로 분류했습니다.",
+    "jimpass": {
+      "code": "235",
+      "label": "곡물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=145"
+    },
+    "general": {
+      "code": "247",
+      "label": "[일반통관] 기타 식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A249:C249"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "정미 시기와 실제 원료·곡물 운송 가능 여부를 배대지에서 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0025",
+      "checkedAt": "2026-10-30T14:54:35Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "일본 국내산 복수 원료미 100%, 300g(2합)으로 표기함.",
+        "정미 시기는 7월 초순이라고 명시함."
+      ],
+      "descriptionSha256": "250dc6767fb04dcd3f9cd03cb8c054681f54e63366a37714a350697dc353ae9e",
+      "responseSha256": "2701925c57ec96e84ac11ea352f4c5fe7588107d805d66b8046679afb909a9ed"
+    }
+  },
+  {
+    "inventoryPosition": 217,
+    "identity": {
+      "code": "CS-0101",
+      "id": 179440,
+      "name": "CUTIE STREET ラバーバンド",
+      "productUrl": "https://asobisystem.shop/products/CS-0101"
+    },
+    "status": "mapped",
+    "kind": "wristband",
+    "label": "장식용 손목 밴드",
+    "reason": "상세의 실리콘·PVC 손목 밴드로 확인되어 비귀금속 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0101",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0101",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:36Z",
+      "material": "素材: シリコンラバー",
+      "components": [
+        "손목 착용 밴드"
+      ],
+      "facts": [
+        "ラバーバンド",
+        "シリコンラバー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        },
+        {
+          "id": 7344,
+          "slug": "cutiestreet_goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 10384,
+          "slug": "cutiestreet_rubberband",
+          "name": "ラバーバンド"
+        }
+      ],
+      "descriptionSha256": "124914879bfd9c32f2fb843cccbf2f85601a489c02e4caab020199090713bee2",
+      "responseSha256": "15831e1f700fb7463ded3eaee4ffe150a8df135872bf851e1cbf8486c4e32c98"
+    }
+  },
+  {
+    "inventoryPosition": 219,
+    "identity": {
+      "code": "CS-0102",
+      "id": 179439,
+      "name": "CUTIE STREET ラバーバンド/CUTIE STREET",
+      "productUrl": "https://asobisystem.shop/products/CS-0102"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "실리콘·러버 손목밴드",
+    "reason": "상세에서 이벤트용 러버밴드임을 확인해 착용 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0102",
+      "checkedAt": "2026-10-30T14:54:37Z",
+      "material": "실리콘 / 라버",
+      "facts": [
+        "본문에서 이벤트용 러버밴드로 안내함.",
+        "착용용 고리 형태의 패션 액세서리이며 전기기기가 아님."
+      ],
+      "descriptionSha256": "124914879bfd9c32f2fb843cccbf2f85601a489c02e4caab020199090713bee2",
+      "responseSha256": "6412aa20582b734f4bd22f368ef67b9aef73b9131720146ba15dc20fe26359d3"
+    }
+  },
+  {
+    "inventoryPosition": 219,
+    "identity": {
+      "code": "YN-00043",
+      "id": 179205,
+      "name": "ビーチサンダル",
+      "productUrl": "https://asobisystem.shop/products/YN-00043"
+    },
+    "status": "mapped",
+    "kind": "sandals",
+    "label": "비치샌들",
+    "reason": "공식 설명의 비치샌들은 폴리우레탄 본체와 폴리에스터 표면의 신발입니다.",
+    "jimpass": {
+      "code": "10",
+      "label": "신발류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "057",
+      "label": "[목록통관] 신발",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A59:C59"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00043",
+      "apiUrl": "https://shop.api.groobee.com/products/YN-00043",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:38Z",
+      "material": "素材: 本体：ポリウレタン\n表面：ポリエステル（印刷部分）",
+      "components": [],
+      "facts": [
+        "ビーチサンダル",
+        "本体：ポリウレタン",
+        "表面：ポリエステル"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5149,
+          "slug": "yoshidanatsumi",
+          "name": "ヨシダナツミ"
+        }
+      ],
+      "descriptionSha256": "7f22f9d7bc098f29a7ece704b8e06d9677aa394e6b9ce674a7ab466014062365",
+      "responseSha256": "6995aeac74751627c19e642894a6bacbb52a4931df2b996a17468415ffd4a405"
+    }
+  },
+  {
+    "inventoryPosition": 221,
+    "identity": {
+      "code": "YN-00044",
+      "id": 179204,
+      "name": "タンブラー",
+      "productUrl": "https://asobisystem.shop/products/YN-00044"
+    },
+    "status": "mapped",
+    "kind": "plastic_tumbler",
+    "label": "플라스틱 텀블러",
+    "reason": "음료 용도·폴리프로필렌 재질·473ml 용량을 확인한 플라스틱 텀블러입니다.",
+    "jimpass": {
+      "code": "181",
+      "label": "그릇/식기/컵(플라스틱)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "132",
+      "label": "[목록통관] 식기/주방용품 (플라스틱)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A134:C134"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00044",
+      "checkedAt": "2026-10-30T14:54:39Z",
+      "material": "폴리프로필렌",
+      "facts": [
+        "찬 음료를 넣으면 색이 변하는 음료 용기.",
+        "폴리프로필렌 재질, 473ml 용량과 빨대 치수를 안내함."
+      ],
+      "descriptionSha256": "e10e50f24c157948131d114b291a217543abbd92ef112db7fd7d82569c9d97d0",
+      "responseSha256": "7f829c03d0e51420047ccafa126f2ced6007a2bf59d3a44a24b972ec01b0deb4"
+    }
+  },
+  {
+    "inventoryPosition": 221,
+    "identity": {
+      "code": "sn-00078",
+      "id": 179198,
+      "name": "シガレットケース",
+      "productUrl": "https://asobisystem.shop/products/sn-00078"
+    },
+    "status": "mapped",
+    "kind": "cigarette_case",
+    "label": "휴대용 담배 보관 케이스",
+    "reason": "담배가 아닌 휴대용 보관 케이스로 명시되어 생활 잡화 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "케이스의 소재는 명시되지 않아 소재별 세부 분류는 추가 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00078",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00078",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:40Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "シガレットケース",
+        "ケース部分"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "eefd646f34c8314a0652b318bc83c1ae392642a871db4d79fd31f77b2a2e1453",
+      "responseSha256": "12f50df3edde5eda7d352451fddea12598577dd1d902e3c28247efca1f14d168"
+    }
+  },
+  {
+    "inventoryPosition": 223,
+    "identity": {
+      "code": "sn-00081",
+      "id": 179195,
+      "name": "summer time",
+      "productUrl": "https://asobisystem.shop/products/sn-00081"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00081",
+      "checkedAt": "2026-10-30T14:54:41Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "b93bbe4b11e45de7b1d62e4f3617c318fa7d2a095d3945b50998cd4875f26030",
+      "responseSha256": "044651af5882f03a025f4b1db19d855619410639279fd04a3e7cf5035710264a"
+    }
+  },
+  {
+    "inventoryPosition": 223,
+    "identity": {
+      "code": "sn-00082",
+      "id": 179194,
+      "name": "青を求めて",
+      "productUrl": "https://asobisystem.shop/products/sn-00082"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00082",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00082",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:42Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "8e3dade7c97d088027ff3d94340a4a69f59bbff479c0f5c63677a43c1e4b8bba",
+      "responseSha256": "34065532001173a83c76e8b36d8cb3fe6c7c885fef0f06bb255fb51eb0eac032"
+    }
+  },
+  {
+    "inventoryPosition": 225,
+    "identity": {
+      "code": "sn-00083",
+      "id": 179193,
+      "name": "水光",
+      "productUrl": "https://asobisystem.shop/products/sn-00083"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00083",
+      "checkedAt": "2026-10-30T14:54:43Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "8e3dade7c97d088027ff3d94340a4a69f59bbff479c0f5c63677a43c1e4b8bba",
+      "responseSha256": "fe2ac8a4a2ede608b3f209f1aa2d1039469116ab1f797bd643c3a1901da7e0bd"
+    }
+  },
+  {
+    "inventoryPosition": 225,
+    "identity": {
+      "code": "sn-00084",
+      "id": 179192,
+      "name": "湯上がりアイス",
+      "productUrl": "https://asobisystem.shop/products/sn-00084"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00084",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00084",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:44Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "8e3dade7c97d088027ff3d94340a4a69f59bbff479c0f5c63677a43c1e4b8bba",
+      "responseSha256": "b664ccfcbc7313c32bfd9641878677ba92ba5b66b24c838f82ecbc70e9b22c6f"
+    }
+  },
+  {
+    "inventoryPosition": 227,
+    "identity": {
+      "code": "sn-00085",
+      "id": 179191,
+      "name": "浮遊",
+      "productUrl": "https://asobisystem.shop/products/sn-00085"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00085",
+      "checkedAt": "2026-10-30T14:54:45Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "b93bbe4b11e45de7b1d62e4f3617c318fa7d2a095d3945b50998cd4875f26030",
+      "responseSha256": "578c57a92114555c1e321f26e2a752b94c70fc5bd9bf039102a660e980ffdff0"
+    }
+  },
+  {
+    "inventoryPosition": 227,
+    "identity": {
+      "code": "sn-00086",
+      "id": 179190,
+      "name": "立夏",
+      "productUrl": "https://asobisystem.shop/products/sn-00086"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00086",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00086",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:46Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "648772a603ad50fee8a6b5127080e9334b4430ca1b781c383330325f315f5541",
+      "responseSha256": "2957a6fda3952f63a148750c6f4229be478510541173912e3eb43c2a31698d4c"
+    }
+  },
+  {
+    "inventoryPosition": 229,
+    "identity": {
+      "code": "sn-00087",
+      "id": 179189,
+      "name": "鼓動",
+      "productUrl": "https://asobisystem.shop/products/sn-00087"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00087",
+      "checkedAt": "2026-10-30T14:54:47Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "648772a603ad50fee8a6b5127080e9334b4430ca1b781c383330325f315f5541",
+      "responseSha256": "e261f7c2c12d9afbd48e75ee2ece190d91f59aa21c780d39be11b078fdf8640a"
+    }
+  },
+  {
+    "inventoryPosition": 229,
+    "identity": {
+      "code": "sn-00088",
+      "id": 179188,
+      "name": "海凛",
+      "productUrl": "https://asobisystem.shop/products/sn-00088"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00088",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00088",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:48Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "648772a603ad50fee8a6b5127080e9334b4430ca1b781c383330325f315f5541",
+      "responseSha256": "0c5623bf347c4b98ef209be904d571a31d0d07746e561f413468023bc6616ac4"
+    }
+  },
+  {
+    "inventoryPosition": 231,
+    "identity": {
+      "code": "sn-00089",
+      "id": 179187,
+      "name": "海の出会い",
+      "productUrl": "https://asobisystem.shop/products/sn-00089"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00089",
+      "checkedAt": "2026-10-30T14:54:49Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "b93bbe4b11e45de7b1d62e4f3617c318fa7d2a095d3945b50998cd4875f26030",
+      "responseSha256": "c4de267f337f740c7e233bacef137e034ab51332c9a1c1a25f8924325b0c7055"
+    }
+  },
+  {
+    "inventoryPosition": 231,
+    "identity": {
+      "code": "sn-00093",
+      "id": 179182,
+      "name": "POKEBERU",
+      "productUrl": "https://asobisystem.shop/products/sn-00093"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00093",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00093",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:50Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "165322c0fde7f7d35e6c5f75d7762fb3b0f28ee6b4f5ca2cb3ce67f303018f11",
+      "responseSha256": "16e198d635ff6cf538a4dca0b164ffe679b2ddf1fd04d03175d4b964e8d4aa0f"
+    }
+  },
+  {
+    "inventoryPosition": 233,
+    "identity": {
+      "code": "sn-00094",
+      "id": 179180,
+      "name": "SUMAHO",
+      "productUrl": "https://asobisystem.shop/products/sn-00094"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art",
+    "label": "아크릴 UV 인쇄 작품",
+    "reason": "아크릴 바탕과 UV 인쇄 기법·작품 규격이 명시되어 인쇄화로 분류했습니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00094",
+      "checkedAt": "2026-10-30T14:54:51Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "상세에 아크릴 바탕과 한 면 또는 양면 UV 인쇄를 명시함.",
+        "A4·B4 또는 350mm 원형의 전시용 평면 작품 규격을 안내함."
+      ],
+      "descriptionSha256": "165322c0fde7f7d35e6c5f75d7762fb3b0f28ee6b4f5ca2cb3ce67f303018f11",
+      "responseSha256": "e82038418129222e8c80fd65aa0f97eaf37e509a38c2d63bceef5564403b21af"
+    }
+  },
+  {
+    "inventoryPosition": 233,
+    "identity": {
+      "code": "sn-00095",
+      "id": 179178,
+      "name": "GARAKEE",
+      "productUrl": "https://asobisystem.shop/products/sn-00095"
+    },
+    "status": "mapped",
+    "kind": "acrylic_uv_art_print",
+    "label": "아크릴 UV 인쇄화",
+    "reason": "공식 상세에 아크릴과 UV 인쇄 방식이 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00095",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00095",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:52Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリル",
+        "UVプリント"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "165322c0fde7f7d35e6c5f75d7762fb3b0f28ee6b4f5ca2cb3ce67f303018f11",
+      "responseSha256": "34acc44cbdcefe010823910fed1411561e286bd2a08427e4e356d279c78834d9"
+    }
+  },
+  {
+    "inventoryPosition": 235,
+    "identity": {
+      "code": "FZ-00484",
+      "id": 179063,
+      "name": "【幕張公演】FRUITS ZIPPER ランダムカプセル-standard edition ver.3-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00484"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00484",
+      "checkedAt": "2026-10-30T14:54:54Z",
+      "material": "아크릴 / 면 / 고무 / 직물",
+      "facts": [
+        "22종 구성에 아크릴 머리끈·캔 배지·자카드 손수건 타월을 명시함."
+      ],
+      "descriptionSha256": "404fcd826ce16d2b4d8f4018e7227df4efbad14b88feeee8592c2e7524c3731f",
+      "responseSha256": "831f3ba7e5cf6498a42853853358a668e937e1b149a73bb8081cf107498a647c"
+    },
+    "policyOriginalReviewReason": "헤어 액세서리·배지·타월은 물품 종류가 달라 실제 수령 품목별로 분류해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 235,
+    "identity": {
+      "code": "FZ-00489",
+      "id": 179060,
+      "name": "【幕張公演】FRUITS ZIPPER PVCラバーコンパクトミラー",
+      "productUrl": "https://asobisystem.shop/products/FZ-00489"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 상세에서 휴대용 거울임을 확인해 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도로 명시되지 않아 화장용 도구로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00489",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00489",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:54Z",
+      "material": "素材: PVC",
+      "components": [],
+      "facts": [
+        "コンパクトミラー",
+        "裏：ミラー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "ed78fc56b24cbda3c85666630d0cb750c1b1aa8f76c487254bfc0021580251be",
+      "responseSha256": "22d82c773e1fe26df1c718a74d1627ea44fd8c2b762b0383259bcf5cbed7d17c"
+    }
+  },
+  {
+    "inventoryPosition": 237,
+    "identity": {
+      "code": "FZ-00310",
+      "id": 154516,
+      "name": "【幕張公演】FRUITS ZIPPER Official Light Strap(全7種)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00310"
+    },
+    "status": "mapped",
+    "kind": "device_strap",
+    "label": "응원봉용 라버 스트랩",
+    "reason": "라버 재질과 본체·참의 치수를 확인한 응원봉용 스트랩입니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00310",
+      "checkedAt": "2026-10-30T14:54:56Z",
+      "material": "라버",
+      "facts": [
+        "응원봉 스트랩 용도를 직접 설명함.",
+        "라버 재질과 본체·장식 참의 별도 치수를 제시함."
+      ],
+      "descriptionSha256": "4f97a471b2c2a695b9ae7b77d4d7eceaa8723be15de22cc96bba72f1ccc55b77",
+      "responseSha256": "14095a9ad960c758564f30e62dbeea0e87972332117b9e059677c1d581111c5d"
+    }
+  },
+  {
+    "inventoryPosition": 237,
+    "identity": {
+      "code": "CT-00241",
+      "id": 178811,
+      "name": "CANDY TUNE ランダムカプセル-standard edition ver.1-（全28種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00241"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00241",
+      "apiUrl": "https://shop.api.groobee.com/products/CT-00241",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:56Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "缶バッジ7種",
+        "ミニ巾着7種",
+        "アクリルめじるしマーカー7種",
+        "ラバーバンド 7種"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        },
+        {
+          "id": 3094,
+          "slug": "candy-tune_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "f46ed2d1fcab43ab2e7aac14e747932892a3c7087215436a5dc55ff6232fa524",
+      "responseSha256": "2ca060a45f8457ecb5e29c2adf18f74f3cc74abdbefc7f62bd30bb83cf509b08"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 239,
+    "identity": {
+      "code": "FZ-00479",
+      "id": 178269,
+      "name": "るなぴとハムカツ𝑳𝒐𝒗𝒆𝑭𝒐𝒓𝒆𝒗𝒆𝒓ぎゅっ( ´›ω‹｀)おしゃれぱーかー🌼ハムハム共和国🌼",
+      "productUrl": "https://asobisystem.shop/products/FZ-00479"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "면 의류",
+    "reason": "면 100%와 상의 치수·공식 의류 카테고리를 확인했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00479",
+      "checkedAt": "2026-10-30T14:54:58Z",
+      "material": "면",
+      "facts": [
+        "면 100%와 상의 길이·가슴 폭·어깨 폭·소매 길이를 명시함.",
+        "공식 하위 카테고리가 후드 또는 티셔츠."
+      ],
+      "descriptionSha256": "0b96e93910e4f710d6844159dc4e61320f37d8264555409cebf85c1e10d95524",
+      "responseSha256": "d0b97e365cdcc646d91a446fcf895f0fb4d8da545ecb1cc9336e95eec82c1f36"
+    }
+  },
+  {
+    "inventoryPosition": 239,
+    "identity": {
+      "code": "TU-00014",
+      "id": 177965,
+      "name": "秘密のドリンク用グラス",
+      "productUrl": "https://asobisystem.shop/products/TU-00014"
+    },
+    "status": "needs_review",
+    "kind": "drink_cup_material_unconfirmed",
+    "label": "음료용 컵",
+    "reason": "음료용 컵은 확인되나 재질이 명시되지 않아 짐패스의 재질별 식기 코드는 확인이 필요합니다.",
+    "jimpass": null,
+    "general": {
+      "code": "138",
+      "label": "[목록통관] 기타 주방용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A140:C140"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "유리·플라스틱·금속 중 재질을 추정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TU-00014",
+      "apiUrl": "https://shop.api.groobee.com/products/TU-00014",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:54:59Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ドリンク用グラス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5145,
+          "slug": "Tuesday",
+          "name": "火曜び"
+        }
+      ],
+      "descriptionSha256": "ca4b0eaeb63a62a96054c5bde2038c990e25f4a026c26d06f91b43997a97369e",
+      "responseSha256": "53fd71a2cdd40927da027ca4adea3d55ae958d5ed33e2b41c32baeacc7cf390e"
+    }
+  },
+  {
+    "inventoryPosition": 241,
+    "identity": {
+      "code": "TI-0017",
+      "id": 177952,
+      "name": "星野ティナカレー",
+      "productUrl": "https://asobisystem.shop/products/TI-0017"
+    },
+    "status": "needs_review",
+    "kind": "curry_food",
+    "label": "카레 식품 사양 확인",
+    "reason": "카레 식품은 확인했으나 원료·가공 형태가 없어 훗타운 기타 식품만 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "247",
+      "label": "[일반통관] 기타 식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A249:C249"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원료와 가공 형태가 없어 짐패스의 소스 등 특정 세부 코드를 선택하지 않았습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/TI-0017",
+      "checkedAt": "2026-10-30T14:55:00Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 생일 기념 카레 판매라고 명시함.",
+        "원재료·중량·레토르트 등 가공 형태와 유통기한은 없음."
+      ],
+      "descriptionSha256": "6bd3d32536fdcfea19ce7965e078fa75dfeb30f05d8d6acf4ead60b9deb305b4",
+      "responseSha256": "845a2db5b4e4e5ab5c8e4364b7498e8116751d0437458c98f084d8fc34931aa4"
+    }
+  },
+  {
+    "inventoryPosition": 241,
+    "identity": {
+      "code": "FZ-00422-asobiexpo",
+      "id": 175335,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition ver.2-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00422-asobiexpo"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00422-asobiexpo",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00422-asobiexpo",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:01Z",
+      "material": "素材: ポリエステル、コットン\nミニ巾着\n素材: コットン100%\nアクリルスマホスタンド",
+      "components": [],
+      "facts": [
+        "ミニ巾着",
+        "ジャガードリストバンド",
+        "缶バッジ",
+        "アクリルスマホスタンド"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "1ebb7216ee35670808e5a315c95a43b02f1b3fe108ab821a98490cdf27e6b00f",
+      "responseSha256": "e52fa313f02275abaf68f0e9f2c97f9713d57f2a3584d3eb13d946fe398fdea6"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 243,
+    "identity": {
+      "code": "KR-0006-asobiexpo",
+      "id": 175137,
+      "name": "Logo T-Shrits",
+      "productUrl": "https://asobisystem.shop/products/KR-0006-asobiexpo"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "면 의류",
+    "reason": "면 100%와 상의 치수·공식 의류 카테고리를 확인했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KR-0006-asobiexpo",
+      "checkedAt": "2026-10-30T14:55:02Z",
+      "material": "면",
+      "facts": [
+        "면 100%와 상의 길이·가슴 폭·어깨 폭·소매 길이를 명시함.",
+        "공식 하위 카테고리가 후드 또는 티셔츠."
+      ],
+      "descriptionSha256": "3b43e205dfae925291de8fee71e0809a506af2d29db29449cbca2c8744e6ec58",
+      "responseSha256": "9940b7bbf9b76a906dfc04f9a6ec9a39ee7506a937ad5568caf7e74ad6555305"
+    }
+  },
+  {
+    "inventoryPosition": 243,
+    "identity": {
+      "code": "CS-0118",
+      "id": 174874,
+      "name": "増田彩乃 生誕祭2025 あやのといっしょストラップ（スマホストラップ）",
+      "productUrl": "https://asobisystem.shop/products/CS-0118"
+    },
+    "status": "mapped",
+    "kind": "phone_strap",
+    "label": "스마트폰 장식 스트랩",
+    "reason": "공식 상품명이 스마트폰 스트랩으로 명시되어 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0118",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0118",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:03Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "スマホストラップ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        },
+        {
+          "id": 7344,
+          "slug": "cutiestreet_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "0fe239a789d9f62c5e87cc2f164d15615c41d9833b56de50c9f766f537733167",
+      "responseSha256": "cc5ecf486c7e7f7045447e30b41c7af741bedc863fc6539e27186128b707d48f"
+    }
+  },
+  {
+    "inventoryPosition": 245,
+    "identity": {
+      "code": "FZ-00450",
+      "id": 174047,
+      "name": "真中まな生誕祭2025 マナカマナダラケ(いつも一緒だよ)",
+      "productUrl": "https://asobisystem.shop/products/FZ-00450"
+    },
+    "status": "mapped",
+    "kind": "acrylic_sticker",
+    "label": "아크릴 스티커",
+    "reason": "아크릴 스티커로 명시되어 종이인쇄물 대신 비종이 문구·장식용품으로 분류했습니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00450",
+      "checkedAt": "2026-10-30T14:55:04Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 두께가 있는 아크릴 스티커라고 명시함."
+      ],
+      "descriptionSha256": "d19a35f0d70f372c18158af8fd6243bb2e48c23ac56e548ed0db00aa2329bc9b",
+      "responseSha256": "c670cf575664a4afa29f3f71103b2dbc6542522e9275b431286a98104d9aa6c1"
+    }
+  },
+  {
+    "inventoryPosition": 245,
+    "identity": {
+      "code": "FZ-00422",
+      "id": 169202,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition ver.2-（全22種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00422"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00422",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00422",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:05Z",
+      "material": "素材: ポリエステル、コットン\nミニ巾着\n素材: コットン100%\nアクリルスマホスタンド",
+      "components": [],
+      "facts": [
+        "ミニ巾着",
+        "ジャガードリストバンド",
+        "缶バッジ",
+        "アクリルスマホスタンド"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "5a67e9bc26d65c7d2ffb37faf37b1fbe21f806c4c5fa943269006b166b6cdce7",
+      "responseSha256": "23589990c93f5add78b93d0cf379f3b4f96df49fadde9ae9c01716f1c4d99855"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 247,
+    "identity": {
+      "code": "KR-0006",
+      "id": 174184,
+      "name": "Logo T-Shrits",
+      "productUrl": "https://asobisystem.shop/products/KR-0006"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "면 의류",
+    "reason": "면 100%와 상의 치수·공식 의류 카테고리를 확인했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KR-0006",
+      "checkedAt": "2026-10-30T14:55:06Z",
+      "material": "면",
+      "facts": [
+        "면 100%와 상의 길이·가슴 폭·어깨 폭·소매 길이를 명시함.",
+        "공식 하위 카테고리가 후드 또는 티셔츠."
+      ],
+      "descriptionSha256": "ade47183fc1f95d5dd75e906c373cb17a74f610e0de384e33508e09e24cb63a6",
+      "responseSha256": "d08100d882694693ad5e2500b4652f2523327d5c94ff2ab602e7a1a4da099b96"
+    }
+  },
+  {
+    "inventoryPosition": 247,
+    "identity": {
+      "code": "AGL-00069",
+      "id": 143711,
+      "name": "【青春部限定】部員の名札（ランダム/全5種）",
+      "productUrl": "https://asobisystem.shop/products/AGL-00069"
+    },
+    "status": "mapped",
+    "kind": "pin_name_badge",
+    "label": "핀 부착 명찰 배지",
+    "reason": "학생 역할명이 적힌 아크릴·황동·스틸 명찰로 확인되어 착용 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00069",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00069",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:07Z",
+      "material": "素材: アクリル 真鍮 スチール",
+      "components": [],
+      "facts": [
+        "名札",
+        "アクリル 真鍮 スチール"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 5814,
+          "slug": "leaders-badge",
+          "name": "バッジ"
+        }
+      ],
+      "descriptionSha256": "fda7bc789c702829c094cf284155fdfa6c0106ee4516ba99ea01f9a9177e8ebe",
+      "responseSha256": "ce22b1a4acfbdb7d59455857e4fedf776d6b0836c4deed2dd8c05eda1bc6997d"
+    }
+  },
+  {
+    "inventoryPosition": 249,
+    "identity": {
+      "code": "APMG-0038",
+      "id": 176632,
+      "name": "青春イノシシ ATARASHII GAKKO! THE MOVIE 劇場プログラム",
+      "productUrl": "https://asobisystem.shop/products/APMG-0038"
+    },
+    "status": "mapped",
+    "kind": "book",
+    "label": "영화 프로그램 책자",
+    "reason": "48쪽 구성·종이 재질·책자 규격을 확인해 서책으로 분류했습니다.",
+    "jimpass": {
+      "code": "102",
+      "label": "서책 및 잡지류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "139",
+      "label": "[목록통관] 책/잡지류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A141:C141"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/APMG-0038",
+      "checkedAt": "2026-10-30T14:55:08Z",
+      "material": "종이",
+      "facts": [
+        "영화 관련 인터뷰·제작 배경·미공개 사진을 담은 48쪽 프로그램 책자.",
+        "종이 재질과 약 210×211.5mm 규격을 명시함."
+      ],
+      "descriptionSha256": "050fcc30863d3a0a89e070704be9ed36ff56138053f743cb6bf6df28eb13db89",
+      "responseSha256": "13e55af1b77408e2030f884098faa04fb8288623628e80eefd7ef7b650bade9f"
+    }
+  },
+  {
+    "inventoryPosition": 249,
+    "identity": {
+      "code": "AGL-00045",
+      "id": 140349,
+      "name": "青春の光",
+      "productUrl": "https://asobisystem.shop/products/AGL-00045"
+    },
+    "status": "mapped",
+    "kind": "portable_light",
+    "label": "코인전지 발광 라이트",
+    "reason": "공식 라이트 분류와 코인전지·점등·점멸 설명이 있어 휴대 발광기기로 분류합니다.",
+    "jimpass": {
+      "code": "217",
+      "label": "휴대용전등(랜턴등)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "012",
+      "label": "[목록통관] 휴대용손전등 (제한없음)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A14:C14"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "전지 포함 구성과 운송 가능 조건은 신청 시 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00045",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00045",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:09Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "コイン電池CR1620×2個",
+        "BLUE",
+        "ライト"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 5494,
+          "slug": "leaders-light",
+          "name": "ライト"
+        }
+      ],
+      "descriptionSha256": "d280e9971a92145bce1b049d9b9dcc084cf2a0a8c5010fb3525a9beae5ccbe67",
+      "responseSha256": "940735fdaf0539deb0e66da6e4e08b59e5ceccc23af6244229777bb0990fc395"
+    }
+  },
+  {
+    "inventoryPosition": 251,
+    "identity": {
+      "code": "AGL-00115",
+      "id": 167493,
+      "name": "リーダーズランダムグッズ5（全17種)",
+      "productUrl": "https://asobisystem.shop/products/AGL-00115"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00115",
+      "checkedAt": "2026-10-30T14:55:10Z",
+      "material": "아크릴 / 철 / 주석도금강판 / 종이 / PVC / PET",
+      "facts": [
+        "17종 구성은 손수건·우산 마커·배지·아크릴 키링."
+      ],
+      "descriptionSha256": "fa8c7ae146b5bc4b4668165921e9c4bc9f6eb7dc923a211897a5b12a6c6f1e38",
+      "responseSha256": "06379f2a96adba1c6adda5db1fb0f747cb307400dc9dc4d8867d228753c18a2c"
+    },
+    "policyOriginalReviewReason": "손수건·우산 마커·배지·키링은 물품 종류가 달라 실제 수령 품목을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 251,
+    "identity": {
+      "code": "AGL-00166",
+      "id": 178366,
+      "name": "リーダーズランダムグッズ 総集編（全20種）",
+      "productUrl": "https://asobisystem.shop/products/AGL-00166"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00166",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00166",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:11Z",
+      "material": "素材: ・ラバーキーホルダー\nPVC\n・上履き入れ\nポリエステル\n・アンブレラマーカー\nPVC\n・One Heart ぷくぷくキーホルダー\nPVC\n・お多福マグネット\nアクリル・磁石\n・アクリルキーホルダー\nアクリル\n・缶バッジ\n紙,PET,ブリキ,鉄\n・巾着\nポリエステル",
+      "components": [],
+      "facts": [
+        "ラバーキーホルダー",
+        "上履き入れ",
+        "お多福マグネット",
+        "巾着"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "a9bf4f1d5a88b8a6c08dea398ce455ba4230b86fe27d1bc174fa98f7ac7925a5",
+      "responseSha256": "37b9e652390588c675bf32a0f9ef1a0703682f09e8446572b23b168756f7ff48"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 253,
+    "identity": {
+      "code": "AGL-00035",
+      "id": 134123,
+      "name": "青春日本代表スリッパ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00035"
+    },
+    "status": "mapped",
+    "kind": "slippers",
+    "label": "실내용 슬리퍼",
+    "reason": "실내용 슬리퍼 용도와 PVC·EVA 재질을 확인해 신발로 분류했습니다.",
+    "jimpass": {
+      "code": "10",
+      "label": "신발류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "057",
+      "label": "[목록통관] 신발",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A59:C59"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00035",
+      "checkedAt": "2026-10-30T14:55:12Z",
+      "material": "PVC / EVA",
+      "facts": [
+        "집에서 사용하는 슬리퍼로 설명함.",
+        "표면 PVC·심재 EVA, 최대 약 27cm 프리 사이즈."
+      ],
+      "descriptionSha256": "37d2fae4d800ba6893206cd915ed0a985457c0dfb9224e27bc84756cb245799c",
+      "responseSha256": "358f5279d5d0a2b9181e4f31a1a73c2766696eaaef689cc778ef079b6de2a48a"
+    }
+  },
+  {
+    "inventoryPosition": 253,
+    "identity": {
+      "code": "AGL-00128",
+      "id": 173539,
+      "name": "旅セッッッット",
+      "productUrl": "https://asobisystem.shop/products/AGL-00128"
+    },
+    "status": "needs_review",
+    "kind": "mixed_travel_set",
+    "label": "여러 용품이 포함된 여행 세트",
+    "reason": "파우치·안대·거울·칫솔이 함께 포함되어 단일 품목코드를 강제하지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "가방·거울·칫솔 등 실제 구성별 분리 입력 여부를 배대지에서 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00128",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00128",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:14Z",
+      "material": "素材: アイマスク\n素材: ポリエステル\n吊り下げポーチ\n素材: ポリエステル\n衣装ポーチ\n素材: ポリエステル\nミラー\n素材: PS、ガラス\n歯ブラシ\n素材: 毛:ナイロン\n柄:AS樹脂\n耐熱:80°\nキャップ:ポリプロピレン",
+      "components": [
+        "안대",
+        "걸이형 파우치",
+        "의류 파우치",
+        "거울",
+        "칫솔"
+      ],
+      "facts": [
+        "アイマスク",
+        "吊り下げポーチ",
+        "衣装ポーチ",
+        "ミラー",
+        "歯ブラシ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 9900,
+          "slug": "leaders-travelset",
+          "name": "トラベルセット"
+        }
+      ],
+      "descriptionSha256": "c5dabd619cc430b7475a2326d34d980b3449b5eaf5c94587a8030cdee3d07dd0",
+      "responseSha256": "a4d8bded400ccbab8111e3ae141273c60b89db318b31f5ee28485be8a6d093a5"
+    }
+  },
+  {
+    "inventoryPosition": 255,
+    "identity": {
+      "code": "tokutenkai_FZ_2505240525_3rd",
+      "id": 173524,
+      "name": "【FRUITS ZIPPER】イベント終了後特典会 参加権（2025年5月24-25日：KAWAII LAB. SESSION Vol.13・Vol.14 in 幕張）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_FZ_2505240525_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_FZ_2505240525_3rd",
+      "checkedAt": "2026-10-30T14:55:14Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "32456bc9dd62bae8f91b77da8c92ceecfcc6bbd80326396b6c11cb06304d882c",
+      "responseSha256": "e866c668a02896c1bcac760234087a13ad38089b005b3efaf3092e065fdcb503"
+    }
+  },
+  {
+    "inventoryPosition": 255,
+    "identity": {
+      "code": "tokutenkai_CT_2505240525_3rd",
+      "id": 173523,
+      "name": "【CANDY TUNE】イベント終了後特典会 参加権（2025年5月24-25日：KAWAII LAB. SESSION Vol.13・Vol.14 in 幕張）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CT_2505240525_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 행사 참여권",
+    "reason": "전자티켓 발권·시리얼코드로 이용하는 행사 참여권이므로 배송용 실물 코드를 넣지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CT_2505240525_3rd",
+      "apiUrl": "https://shop.api.groobee.com/products/tokutenkai_CT_2505240525_3rd",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:16Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "행사 참여권",
+        "전자티켓 발권용 시리얼코드"
+      ],
+      "facts": [
+        "シリアルコード",
+        "電子チケット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        }
+      ],
+      "descriptionSha256": "32456bc9dd62bae8f91b77da8c92ceecfcc6bbd80326396b6c11cb06304d882c",
+      "responseSha256": "226f604300f100c2a3ae01b60a40d487a50f34c4b08f000203f53c45a4447bb4"
+    }
+  },
+  {
+    "inventoryPosition": 257,
+    "identity": {
+      "code": "tokutenkai_SS_2505240525_3rd",
+      "id": 173522,
+      "name": "【SWEET STEADY】イベント終了後特典会 参加権（2025年5月24-25日：KAWAII LAB. SESSION Vol.13・Vol.14 in 幕張）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_SS_2505240525_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_SS_2505240525_3rd",
+      "checkedAt": "2026-10-30T14:55:17Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "32456bc9dd62bae8f91b77da8c92ceecfcc6bbd80326396b6c11cb06304d882c",
+      "responseSha256": "a525107b3f5782d4828ccbb3d476b4047089e5575d6fdb3be9d33fd175ee08bb"
+    }
+  },
+  {
+    "inventoryPosition": 257,
+    "identity": {
+      "code": "tokutenkai_CS_2505240525_3rd",
+      "id": 173520,
+      "name": "【CUTIE STREET】イベント終了後特典会 参加権（2025年5月24-25日：KAWAII LAB. SESSION Vol.13・Vol.14 in 幕張）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CS_2505240525_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 행사 참여권",
+    "reason": "전자티켓 발권·시리얼코드로 이용하는 행사 참여권이므로 배송용 실물 코드를 넣지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CS_2505240525_3rd",
+      "apiUrl": "https://shop.api.groobee.com/products/tokutenkai_CS_2505240525_3rd",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:18Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "행사 참여권",
+        "전자티켓 발권용 시리얼코드"
+      ],
+      "facts": [
+        "シリアルコード",
+        "電子チケット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        }
+      ],
+      "descriptionSha256": "32456bc9dd62bae8f91b77da8c92ceecfcc6bbd80326396b6c11cb06304d882c",
+      "responseSha256": "371fdc7654994033647018cba2049ff635757b153b6083b8101aba4d44f2adea"
+    }
+  },
+  {
+    "inventoryPosition": 259,
+    "identity": {
+      "code": "tokutenkai_KLM_2505240525_3rd",
+      "id": 173516,
+      "name": "【KAWAII LAB. MATES】イベント終了後特典会 参加権（2025年5月24-25日：KAWAII LAB. SESSION Vol.13・Vol.14 in 幕張）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_KLM_2505240525_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_KLM_2505240525_3rd",
+      "checkedAt": "2026-10-30T14:55:19Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "0184b26760d4ba83545f20e4e984847b6e6e97b59a5de4832b44e75425561b19",
+      "responseSha256": "7909ef059d741336de9a64f2e2cd5066e7e5b28fe6f6772e966925772fdfa7c5"
+    }
+  },
+  {
+    "inventoryPosition": 259,
+    "identity": {
+      "code": "CS-0090",
+      "id": 173108,
+      "name": "川本笑瑠 生誕祭2025 タンブラー",
+      "productUrl": "https://asobisystem.shop/products/CS-0090"
+    },
+    "status": "mapped",
+    "kind": "steel_tumbler",
+    "label": "스테인리스 텀블러",
+    "reason": "공식 상세에 텀블러와 스테인리스 소재가 명시되어 금속 식기로 분류합니다.",
+    "jimpass": {
+      "code": "182",
+      "label": "그릇/식기/컵(철제품)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "129",
+      "label": "[목록통관] 식기/주방용품 (금속)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A131:C131"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0090",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0090",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:20Z",
+      "material": "素材: ステンレス",
+      "components": [],
+      "facts": [
+        "タンブラー",
+        "ステンレス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        },
+        {
+          "id": 7344,
+          "slug": "cutiestreet_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "c97e5e71cfee278f492e247b2ea186e7c21e20e2ce240b5a57e019f513eb4fda",
+      "responseSha256": "f7b093a166943af576b94a2f363bf195ff45d11f286e9787ba8caa1dc8c89196"
+    }
+  },
+  {
+    "inventoryPosition": 261,
+    "identity": {
+      "code": "FZ-00432",
+      "id": 170761,
+      "name": "櫻井優衣 生誕祭2025 デジタル写真集 - A -",
+      "productUrl": "https://asobisystem.shop/products/FZ-00432"
+    },
+    "status": "mapped",
+    "kind": "download_card",
+    "label": "디지털 사진집 다운로드 카드",
+    "reason": "디지털 사진집이지만 본문에 실물 엠카드 배송이 명시되어 카드류로 분류했습니다.",
+    "jimpass": {
+      "code": "107",
+      "label": "카드류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "디지털 콘텐츠와 별개로 실물 카드가 배송됩니다. 카드 재질과 실제 주문 구성을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00432",
+      "checkedAt": "2026-10-30T14:55:21Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에 배송되는 엠카드의 디자인이라는 문구가 있음.",
+        "엠카드·다운로드 카드로 디지털 사진집을 내려받는다고 명시함."
+      ],
+      "descriptionSha256": "dac08054e97fd2245558660add9824c2a8325d56c843c05ac7f1dae3280d02ec",
+      "responseSha256": "20084590e9132b234ecf5fe58c44d08a872bcfd443efb636de5d05a337786ff5"
+    }
+  },
+  {
+    "inventoryPosition": 261,
+    "identity": {
+      "code": "FZ-00437",
+      "id": 170806,
+      "name": "櫻井優衣 生誕祭2025 デジタル写真集 - B-",
+      "productUrl": "https://asobisystem.shop/products/FZ-00437"
+    },
+    "status": "mapped",
+    "kind": "physical_download_card",
+    "label": "사진집 다운로드용 실물 카드",
+    "reason": "배송되는 엠카드로 사진집을 다운로드하는 상품이므로 실물 카드 항목을 제안합니다.",
+    "jimpass": {
+      "code": "107",
+      "label": "카드류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "디지털 콘텐츠 제목과 달리 실물 카드가 배송되는 상품입니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00437",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00437",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:22Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "배송되는 엠카드",
+        "디지털 사진집 다운로드 이용권"
+      ],
+      "facts": [
+        "お届けするエムカード",
+        "エムカード(ダウンロードカード)"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "89fac73b929455aff3c480fb7dfa90151529e55fbb0ddcd48e7504da9325d1b5",
+      "responseSha256": "8e482328a46a7a9fb49acecdc1dad127cbfd3e04bb951e82fbb1947ad0774f1e"
+    }
+  },
+  {
+    "inventoryPosition": 263,
+    "identity": {
+      "code": "CS-0076",
+      "id": 170158,
+      "name": "桜庭遥花生誕祭2025 桜庭遥花の分身",
+      "productUrl": "https://asobisystem.shop/products/CS-0076"
+    },
+    "status": "needs_review",
+    "kind": "goods_unresolved",
+    "label": "생일 굿즈 형태 확인",
+    "reason": "본문에도 별칭만 있고 물품 종류·재질이 없어 코드를 비웠습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "상품명만으로 인형·아크릴 등 물품 종류를 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0076",
+      "checkedAt": "2026-10-30T14:55:23Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문은 생일 공식 굿즈의 별칭만 소개하고 재질·크기·용도·구성을 제공하지 않음."
+      ],
+      "descriptionSha256": "4c6e880eff631fd962757242efef3228fa45bc5b3ccb325e651b579cd72a8773",
+      "responseSha256": "cec321c879afb617a8f1e4f9c9503d0b58149be4394f48e6c6d337e96a710b66"
+    }
+  },
+  {
+    "inventoryPosition": 263,
+    "identity": {
+      "code": "CS-0077",
+      "id": 170157,
+      "name": "桜庭遥花生誕祭2025 開運！ぱるたん神社御守り",
+      "productUrl": "https://asobisystem.shop/products/CS-0077"
+    },
+    "status": "mapped",
+    "kind": "decorative_amulet",
+    "label": "장식용 부적",
+    "reason": "공식 설명에 신사 부적으로 명시되어 장식품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "135",
+      "label": "장식품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "151",
+      "label": "[목록통관] 장식품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A153:C153"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "섬유나 내부 구성 소재는 기재되지 않아 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0077",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0077",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:24Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "神社御守り",
+        "御守り"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        },
+        {
+          "id": 7344,
+          "slug": "cutiestreet_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "11f952e19f91bc61c3b423ea30fcee1fc8ca3974d2a4b640e3c0893582897d93",
+      "responseSha256": "deb59d9c34dcdbba6fab12428ce57adb3039ebc105095b932843faf7afd4b0d1"
+    }
+  },
+  {
+    "inventoryPosition": 265,
+    "identity": {
+      "code": "FZ-00382",
+      "id": 165184,
+      "name": "KAWAII LAB. 3rd Anniv. SP LIVE ラバーバンド／FRUITS ZIPPER",
+      "productUrl": "https://asobisystem.shop/products/FZ-00382"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "실리콘 손목밴드",
+    "reason": "본문의 러버밴드 용도와 실리콘 재질을 확인해 착용 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00382",
+      "checkedAt": "2026-10-30T14:55:25Z",
+      "material": "실리콘",
+      "facts": [
+        "본문에서 러버밴드·실리콘 밴드라고 소개함.",
+        "실리콘 또는 실리콘 고무 재질을 명시함."
+      ],
+      "descriptionSha256": "fa565fecf3302a07931cc75c5d33c9f39caf4132c0a2d05e7b03d8ceba7c3d5f",
+      "responseSha256": "2a3caf1f4a2ff5057f8be919d77b3ece79ea1f4ea93d37762ab2c0c617936a6e"
+    }
+  },
+  {
+    "inventoryPosition": 265,
+    "identity": {
+      "code": "SS-0082",
+      "id": 165182,
+      "name": "KAWAII LAB. 3rd Anniv. SP LIVE ラバーバンド／SWEET STEADY",
+      "productUrl": "https://asobisystem.shop/products/SS-0082"
+    },
+    "status": "mapped",
+    "kind": "wristband",
+    "label": "장식용 손목 밴드",
+    "reason": "상세의 실리콘·PVC 손목 밴드로 확인되어 비귀금속 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0082",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0082",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:26Z",
+      "material": "素材: シリコン",
+      "components": [
+        "손목 착용 밴드"
+      ],
+      "facts": [
+        "ラバーバンド",
+        "シリコン"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        }
+      ],
+      "descriptionSha256": "fa565fecf3302a07931cc75c5d33c9f39caf4132c0a2d05e7b03d8ceba7c3d5f",
+      "responseSha256": "2139387dfc9fea2c03aef0bdd613e2e630e1e62603b5ef69126e3c91131bb303"
+    }
+  },
+  {
+    "inventoryPosition": 267,
+    "identity": {
+      "code": "CS-0052",
+      "id": 165181,
+      "name": "KAWAII LAB. 3rd Anniv. SP LIVE ラバーバンド／CUTIE STREET",
+      "productUrl": "https://asobisystem.shop/products/CS-0052"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "실리콘 손목밴드",
+    "reason": "본문의 러버밴드 용도와 실리콘 재질을 확인해 착용 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0052",
+      "checkedAt": "2026-10-30T14:55:27Z",
+      "material": "실리콘",
+      "facts": [
+        "본문에서 러버밴드·실리콘 밴드라고 소개함.",
+        "실리콘 또는 실리콘 고무 재질을 명시함."
+      ],
+      "descriptionSha256": "fa565fecf3302a07931cc75c5d33c9f39caf4132c0a2d05e7b03d8ceba7c3d5f",
+      "responseSha256": "12aae61477fd42d94226ab3ec6388c2e68baa254d8e07007fca48a300e32d1df"
+    }
+  },
+  {
+    "inventoryPosition": 267,
+    "identity": {
+      "code": "FZ-00403",
+      "id": 168619,
+      "name": "3rd Anniv. SP LIVEランダムアクリル（FRUITS ZIPPER/全7種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00403"
+    },
+    "status": "mapped",
+    "kind": "acrylic_keychain",
+    "label": "아크릴 키홀더",
+    "reason": "공식 추가 카테고리가 키홀더이며 상세에 아크릴 소재가 명시되어 키링으로 분류합니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00403",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00403",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:28Z",
+      "material": "素材: アクリル",
+      "components": [],
+      "facts": [
+        "キーホルダー",
+        "アクリル"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "ed5ce441218424b3655641e0da2311bde4b76c39c24867957e6c071e33fb1ab9",
+      "responseSha256": "0b01b11f38ae4a5eda8af9badf715304b6c3ce6db8b056d08cbb86463138246e",
+      "additionalCategoryProof": [
+        {
+          "id": 1935,
+          "name": "キーホルダー",
+          "slug": "fruitszipper-keyring",
+          "path": [
+            "FRUITS ZIPPER（KAWAII LAB)",
+            "グッズ",
+            "キーホルダー"
+          ],
+          "ancestorIds": [
+            1930,
+            1933
+          ],
+          "source": "https://shop.api.groobee.com/categories"
+        }
+      ],
+      "categoryTreeSource": "https://shop.api.groobee.com/categories",
+      "categoryTreeCheckedAt": "2026-10-31",
+      "categoryTreeResponseSha256": "b9a8a427c8ce5c5212a551ffabaa61324ad1687f9523a696b18e61412296d0cf",
+      "categoryTreeSnapshotSha256": "d3ee78e06560d4da31f88c8207b878a3ce3a56f2c5e213e20a5bd41d861f4aeb"
+    }
+  },
+  {
+    "inventoryPosition": 269,
+    "identity": {
+      "code": "CT-00190",
+      "id": 168618,
+      "name": "3rd Anniv. SP LIVEランダムアクリル（CANDY TUNE/全7種）",
+      "productUrl": "https://asobisystem.shop/products/CT-00190"
+    },
+    "status": "mapped",
+    "kind": "keychain",
+    "label": "아크릴 키홀더",
+    "reason": "공식 추가 카테고리에서 키홀더를 확인했으며 아크릴 재질·치수를 교차 확인했습니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "아크릴 키홀더의 정확한 연결 고리·부속 구조는 상세에 없어 실물 구성을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00190",
+      "checkedAt": "2026-10-30T14:55:29Z",
+      "material": "아크릴",
+      "facts": [
+        "멤버별 아크릴 굿즈이며 약 90×50mm 이내의 치수를 안내함.",
+        "상품의 실제 추가 카테고리 4726을 공개 카테고리 트리에서 키홀더로 확인함."
+      ],
+      "descriptionSha256": "ed5ce441218424b3655641e0da2311bde4b76c39c24867957e6c071e33fb1ab9",
+      "responseSha256": "bf376b1fce4149cdd64d92166a30e1de947d2b48b5653af68039110109be714b",
+      "additionalCategory": {
+        "id": 4726,
+        "name": "キーホルダー",
+        "slug": "candy-tune_keychain",
+        "path": [
+          "CANDY TUNE",
+          "グッズ",
+          "キーホルダー"
+        ],
+        "sourceUrl": "https://shop.api.groobee.com/categories",
+        "checkedAt": "2026-10-31",
+        "treeResponseSha256": "b9a8a427c8ce5c5212a551ffabaa61324ad1687f9523a696b18e61412296d0cf",
+        "categoryMapSha256": "d3ee78e06560d4da31f88c8207b878a3ce3a56f2c5e213e20a5bd41d861f4aeb"
+      }
+    }
+  },
+  {
+    "inventoryPosition": 269,
+    "identity": {
+      "code": "SS-0098",
+      "id": 168617,
+      "name": "3rd Anniv. SP LIVEランダムアクリル（SWEET STEADY/全7種）",
+      "productUrl": "https://asobisystem.shop/products/SS-0098"
+    },
+    "status": "mapped",
+    "kind": "acrylic_keychain",
+    "label": "아크릴 키홀더",
+    "reason": "공식 추가 카테고리가 키홀더이며 상세에 아크릴 소재가 명시되어 키링으로 분류합니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0098",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0098",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:30Z",
+      "material": "素材: アクリル",
+      "components": [],
+      "facts": [
+        "キーホルダー",
+        "アクリル"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        }
+      ],
+      "descriptionSha256": "ed5ce441218424b3655641e0da2311bde4b76c39c24867957e6c071e33fb1ab9",
+      "responseSha256": "0df3002042d393a2f41218247aa5042928e2b44ecccc49074200ea15d8747b13",
+      "additionalCategoryProof": [
+        {
+          "id": 6872,
+          "name": "キーホルダー",
+          "slug": "sweet-steady_keychain",
+          "path": [
+            "SWEET STEADY",
+            "グッズ",
+            "キーホルダー"
+          ],
+          "ancestorIds": [
+            5600,
+            8312
+          ],
+          "source": "https://shop.api.groobee.com/categories"
+        }
+      ],
+      "categoryTreeSource": "https://shop.api.groobee.com/categories",
+      "categoryTreeCheckedAt": "2026-10-31",
+      "categoryTreeResponseSha256": "b9a8a427c8ce5c5212a551ffabaa61324ad1687f9523a696b18e61412296d0cf",
+      "categoryTreeSnapshotSha256": "d3ee78e06560d4da31f88c8207b878a3ce3a56f2c5e213e20a5bd41d861f4aeb"
+    }
+  },
+  {
+    "inventoryPosition": 271,
+    "identity": {
+      "code": "CS-0069",
+      "id": 168616,
+      "name": "3rd Anniv. SP LIVEランダムアクリル（CUTIE STREET/全8種）",
+      "productUrl": "https://asobisystem.shop/products/CS-0069"
+    },
+    "status": "mapped",
+    "kind": "keychain",
+    "label": "아크릴 키링",
+    "reason": "공식 키홀더 카테고리와 아크릴 재질·치수를 확인했습니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0069",
+      "checkedAt": "2026-10-30T14:55:31Z",
+      "material": "아크릴",
+      "facts": [
+        "공식 상세의 하위 카테고리가 키홀더.",
+        "아크릴 재질과 약 90×50mm 이내의 멤버별 치수를 안내함."
+      ],
+      "descriptionSha256": "ed5ce441218424b3655641e0da2311bde4b76c39c24867957e6c071e33fb1ab9",
+      "responseSha256": "56251f07e4465bd636272b5552e7f715677efa8866ccb94e5ff359390fad913d"
+    }
+  },
+  {
+    "inventoryPosition": 271,
+    "identity": {
+      "code": "FZ-00398",
+      "id": 168628,
+      "name": "サンスポコラボ FRUITS ZIPPER 新聞",
+      "productUrl": "https://asobisystem.shop/products/FZ-00398"
+    },
+    "status": "mapped",
+    "kind": "newspaper",
+    "label": "타블로이드 신문",
+    "reason": "공식 상세에 타블로이드판 신문으로 명시되어 인쇄 출판물 항목을 제안합니다.",
+    "jimpass": {
+      "code": "102",
+      "label": "서책 및 잡지류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "139",
+      "label": "[목록통관] 책/잡지류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A141:C141"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "두 코드표에 신문 전용 항목이 없어 출판물의 상위 범주를 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00398",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00398",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:32Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "新聞",
+        "タブロイド判"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "2904e936c9e8cce10b9b942384a370395b404d906e5c76b73207f4168ff69c55",
+      "responseSha256": "ce71c052468095400b124ec810ff0e7f382caa24b0ca183d3f865607c18f6f66"
+    }
+  },
+  {
+    "inventoryPosition": 273,
+    "identity": {
+      "code": "tokutenkai_FZ_250222_3rd",
+      "id": 167951,
+      "name": "【FRUITS ZIPPER】ライブ終了後特典会 参加権（2025年2月22日：KAWAII LAB. 3rd Anniversary Special LIVE〜わたし“たち”の一番かわいいところ〜）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_FZ_250222_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_FZ_250222_3rd",
+      "checkedAt": "2026-10-30T14:55:33Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "c92b87cb546ce58152e0b17f687d727f2cc383fd853c7a8893ef924da2af9d1a",
+      "responseSha256": "df3e39715124f6bdc0826ea9ee5f5986d00a9908d0de9655f4758b8b6704f336"
+    }
+  },
+  {
+    "inventoryPosition": 273,
+    "identity": {
+      "code": "tokutenkai_CT_250222_3rd",
+      "id": 167950,
+      "name": "【CANDY TUNE】ライブ終了後特典会 参加権（2025年2月22日：KAWAII LAB. 3rd Anniversary Special LIVE〜わたし“たち”の一番かわいいところ〜）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CT_250222_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 행사 참여권",
+    "reason": "전자티켓 발권·시리얼코드로 이용하는 행사 참여권이므로 배송용 실물 코드를 넣지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CT_250222_3rd",
+      "apiUrl": "https://shop.api.groobee.com/products/tokutenkai_CT_250222_3rd",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:34Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "행사 참여권",
+        "전자티켓 발권용 시리얼코드"
+      ],
+      "facts": [
+        "シリアルコード",
+        "電子チケット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        }
+      ],
+      "descriptionSha256": "c92b87cb546ce58152e0b17f687d727f2cc383fd853c7a8893ef924da2af9d1a",
+      "responseSha256": "44040fe2dbe40a9e3efd26749b8897c182a749a7bd0cd35732362952f187ea2e"
+    }
+  },
+  {
+    "inventoryPosition": 275,
+    "identity": {
+      "code": "tokutenkai_SS_250222_3rd",
+      "id": 167949,
+      "name": "【SWEET STEADY】ライブ終了後特典会 参加権（2025年2月22日：KAWAII LAB. 3rd Anniversary Special LIVE〜わたし“たち”の一番かわいいところ〜）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_SS_250222_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_SS_250222_3rd",
+      "checkedAt": "2026-10-30T14:55:35Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "c92b87cb546ce58152e0b17f687d727f2cc383fd853c7a8893ef924da2af9d1a",
+      "responseSha256": "846bf22011d6f773ea467779a2f1f6bdb5de97b8e6a0f09d1316c0fdba5d1c8d"
+    }
+  },
+  {
+    "inventoryPosition": 275,
+    "identity": {
+      "code": "tokutenkai_CS_250222_3rd",
+      "id": 167948,
+      "name": "【CUTIE STREET】ライブ終了後特典会 参加権（2025年2月22日：KAWAII LAB. 3rd Anniversary Special LIVE〜わたし“たち”の一番かわいいところ〜）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_CS_250222_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 행사 참여권",
+    "reason": "전자티켓 발권·시리얼코드로 이용하는 행사 참여권이므로 배송용 실물 코드를 넣지 않습니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_CS_250222_3rd",
+      "apiUrl": "https://shop.api.groobee.com/products/tokutenkai_CS_250222_3rd",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:37Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "행사 참여권",
+        "전자티켓 발권용 시리얼코드"
+      ],
+      "facts": [
+        "シリアルコード",
+        "電子チケット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        }
+      ],
+      "descriptionSha256": "c92b87cb546ce58152e0b17f687d727f2cc383fd853c7a8893ef924da2af9d1a",
+      "responseSha256": "6180309c6ee6bf219baef41cad2363a385c4fb3b7548460d331683d68a8f0358"
+    }
+  },
+  {
+    "inventoryPosition": 277,
+    "identity": {
+      "code": "tokutenkai_KLM_250222_3rd",
+      "id": 167947,
+      "name": "【KAWAII LAB. MATES】ライブ終了後特典会 参加権（2025年2月22日：KAWAII LAB. 3rd Anniversary Special LIVE〜わたし“たち”の一番かわいいところ〜）",
+      "productUrl": "https://asobisystem.shop/products/tokutenkai_KLM_250222_3rd"
+    },
+    "status": "non_physical",
+    "kind": "event_participation",
+    "label": "전자 티켓형 행사 참가권",
+    "reason": "공연 참가 조건·시리얼 코드·전자 티켓 발권 절차를 확인한 행사 참가권입니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "현장 행사 참가권이므로 배송대행 엑셀에서 제외해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/tokutenkai_KLM_250222_3rd",
+      "checkedAt": "2026-10-30T14:55:38Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공연 티켓을 참가 조건으로 하며 시리얼 코드와 전자 티켓 발권을 안내함.",
+        "촬영·현장 전달회 참가권이며 해외 배송용 실물 상품을 안내하지 않음."
+      ],
+      "descriptionSha256": "c92b87cb546ce58152e0b17f687d727f2cc383fd853c7a8893ef924da2af9d1a",
+      "responseSha256": "1246995657829f95a6a33564c9be44db83d70e6db4d6ab213c6a9dd64321ea65"
+    }
+  },
+  {
+    "inventoryPosition": 277,
+    "identity": {
+      "code": "AGL-00112",
+      "id": 167496,
+      "name": "あの日のKANONのマスク",
+      "productUrl": "https://asobisystem.shop/products/AGL-00112"
+    },
+    "status": "mapped",
+    "kind": "replica_costume_mask",
+    "label": "폴리에스터 의상용 마스크",
+    "reason": "폴리에스터 소재의 무대 마스크 복제품으로 확인되어 패션 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "077",
+      "label": "[목록통관] 기타 의류/패션잡화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A79:C79"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "의료용 또는 방한용 기능은 명시되지 않아 해당 전용 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00112",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00112",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:39Z",
+      "material": "素材: ポリエステル",
+      "components": [],
+      "facts": [
+        "マスクを再現したレプリカ",
+        "ポリエステル"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 9281,
+          "slug": "leaders-mask",
+          "name": "マスク"
+        }
+      ],
+      "descriptionSha256": "29d86904c9968b1447aac5c53bb8ff197e60119e236d8301436e36d14207836f",
+      "responseSha256": "681d14eaf61122e74841fb3db1c76c3a139512b075a128fa2d38438b34941c81"
+    }
+  },
+  {
+    "inventoryPosition": 279,
+    "identity": {
+      "code": "AGL-00107",
+      "id": 165544,
+      "name": "新春！祝ファンクラブ1周年！その場でわかる迎春オンラインくじ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00107"
+    },
+    "status": "needs_review",
+    "kind": "mixed_physical_lottery",
+    "label": "실물·행사 경품 혼합 온라인 추첨",
+    "reason": "온라인 추첨이지만 서로 다른 실물 경품과 행사 기회가 섞여 있어 당첨 결과 확인이 필요합니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "당첨 결과에 따라 실물 물품 또는 행사 권리로 달라지므로 결과 확인 후 분류해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00107",
+      "checkedAt": "2026-10-30T14:55:40Z",
+      "material": "아크릴 / 폴리에스터 / 아연합금 / PP",
+      "facts": [
+        "사인 태피스트리·접이식 우산·아크릴 스탠드·핀 배지·클리어파일을 경품으로 명시함.",
+        "특상은 멤버와 대화하는 기회이며 실제 당첨 품목이 달라짐."
+      ],
+      "descriptionSha256": "d8fa2bcff554f737ff4bea7ef1e8e8551ae22dd2e10d13f731dcaa77fa7f8d52",
+      "responseSha256": "e54639aa3c9f787c65c07922e3ee63fc190b981979fac2da5974af9c3d318c4d"
+    }
+  },
+  {
+    "inventoryPosition": 279,
+    "identity": {
+      "code": "CT-00175",
+      "id": 165183,
+      "name": "KAWAII LAB. 3rd Anniv. SP LIVE ラバーバンド／CANDY TUNE",
+      "productUrl": "https://asobisystem.shop/products/CT-00175"
+    },
+    "status": "mapped",
+    "kind": "wristband",
+    "label": "장식용 손목 밴드",
+    "reason": "상세의 실리콘·PVC 손목 밴드로 확인되어 비귀금속 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00175",
+      "apiUrl": "https://shop.api.groobee.com/products/CT-00175",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:41Z",
+      "material": "素材: シリコン",
+      "components": [
+        "손목 착용 밴드"
+      ],
+      "facts": [
+        "ラバーバンド",
+        "シリコン"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        },
+        {
+          "id": 3094,
+          "slug": "candy-tune_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "82be064efe2a05d6bae9998efec9a7ef5f951e36853f0d6ce77da215fd2505a5",
+      "responseSha256": "875d61d794de954ac6c6529b3306f4192bb922638956d2c8afe472af974557f1"
+    }
+  },
+  {
+    "inventoryPosition": 281,
+    "identity": {
+      "code": "CT-00158",
+      "id": 165207,
+      "name": "CANDY TUNE 37card-1st single edition-",
+      "productUrl": "https://asobisystem.shop/products/CT-00158"
+    },
+    "status": "mapped",
+    "kind": "voice_download_card",
+    "label": "음성 서비스 부속 종이 카드",
+    "reason": "음성 서비스 상품이지만 종이 카드의 실물 규격이 명시되어 카드류로 분류했습니다.",
+    "jimpass": {
+      "code": "107",
+      "label": "카드류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "실물 종이 카드이며 표시된 음성 서비스 유효기간은 지났습니다. 실제 상품 상태를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00158",
+      "checkedAt": "2026-10-30T14:55:42Z",
+      "material": "종이",
+      "facts": [
+        "음성 전화·전용 웹 재생 서비스를 제공하는 실물 카드.",
+        "종이 재질, 약 85.6×54mm 규격이며 서비스 유효기한은 2025-02-14로 명시됨."
+      ],
+      "descriptionSha256": "86b7d7a2665f5301f7a3dd6bf1932c05a4d5f931574837d3faa8fcf16a7e57be",
+      "responseSha256": "a1d1e98f94c94fdda76bfe75414727199a160a0558e9cb8cf2dea5b90d8aca2c"
+    }
+  },
+  {
+    "inventoryPosition": 281,
+    "identity": {
+      "code": "SS-0065",
+      "id": 165206,
+      "name": "SWEET STEADY 37card-1st single edition-",
+      "productUrl": "https://asobisystem.shop/products/SS-0065"
+    },
+    "status": "mapped",
+    "kind": "physical_voice_card",
+    "label": "음성 이용권이 포함된 실물 종이 카드",
+    "reason": "종이 소재와 카드 규격이 명시된 음성 이용권 카드로 실물 카드 항목을 제안합니다.",
+    "jimpass": {
+      "code": "107",
+      "label": "카드류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0065",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0065",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:43Z",
+      "material": "素材: 紙",
+      "components": [
+        "실물 종이 카드",
+        "전화·웹 음성 이용권"
+      ],
+      "facts": [
+        "ボイス付きカード",
+        "紙",
+        "85.6mm×54mm"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        },
+        {
+          "id": 8312,
+          "slug": "sweet-steady_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "53e9e9294d616f23143d4c19566301a06cd24988ef454d952bb345a14d927db5",
+      "responseSha256": "f31849ceef79665044b267a3fec9c974373c7ed1c413bb66fe8899394d41afef"
+    }
+  },
+  {
+    "inventoryPosition": 283,
+    "identity": {
+      "code": "CS-0024",
+      "id": 165205,
+      "name": "CUTIE STREET 37card-1st single edition-",
+      "productUrl": "https://asobisystem.shop/products/CS-0024"
+    },
+    "status": "mapped",
+    "kind": "voice_download_card",
+    "label": "음성 서비스 부속 종이 카드",
+    "reason": "음성 서비스 상품이지만 종이 카드의 실물 규격이 명시되어 카드류로 분류했습니다.",
+    "jimpass": {
+      "code": "107",
+      "label": "카드류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "실물 종이 카드이며 표시된 음성 서비스 유효기간은 지났습니다. 실제 상품 상태를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0024",
+      "checkedAt": "2026-10-30T14:55:44Z",
+      "material": "종이",
+      "facts": [
+        "음성 전화·전용 웹 재생 서비스를 제공하는 실물 카드.",
+        "종이 재질, 약 85.6×54mm 규격이며 서비스 유효기한은 2025-02-14로 명시됨."
+      ],
+      "descriptionSha256": "d21f8c45e8941b2b7eec36b79f21767b5fdd17a118d55da1454eb10fb343dc94",
+      "responseSha256": "229cffcc10dc807fcec52e19974e54f80b8d6da9ccacfe437238cb59246be77c"
+    }
+  },
+  {
+    "inventoryPosition": 283,
+    "identity": {
+      "code": "CT-00165",
+      "id": 164702,
+      "name": "小川奈々子生誕ハンドミラー",
+      "productUrl": "https://asobisystem.shop/products/CT-00165"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 상세에서 휴대용 거울임을 확인해 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도로 명시되지 않아 화장용 도구로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00165",
+      "apiUrl": "https://shop.api.groobee.com/products/CT-00165",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:45Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ハンドミラー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        },
+        {
+          "id": 3094,
+          "slug": "candy-tune_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "a5d09ffd936d956070a8766fccde6269daab3d02874c2f5116fafbf1a190d59d",
+      "responseSha256": "6d5ff1d2a9d2fa9f1c65701b28775c4719423ab2d9b9742470664b2c28a7a5c6"
+    }
+  },
+  {
+    "inventoryPosition": 285,
+    "identity": {
+      "code": "KL-0005",
+      "id": 164180,
+      "name": "KAWAII LAB.honey（vol.1）",
+      "productUrl": "https://asobisystem.shop/products/KL-0005"
+    },
+    "status": "needs_review",
+    "kind": "main_goods_unresolved",
+    "label": "주상품 형태 확인",
+    "reason": "특전 카드 2장만 설명되어 주상품의 물품 종류를 확인할 수 없습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "특전 정보만으로 주상품을 잡지나 카드로 추정할 수 없습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KL-0005",
+      "checkedAt": "2026-10-30T14:55:46Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에 선행 예약 특전인 랜덤 트레이딩 카드 2장만 기재됨.",
+        "주상품의 페이지·매체·재질·크기를 설명하지 않음."
+      ],
+      "descriptionSha256": "4ab15697d59e09c1461c48e61db3b32f3fc97b70de0ce2993c7434c198f9b511",
+      "responseSha256": "ef61970d20d6e4d1d77d5133f394e5c22b8a4280b52fcaf38424a1b5d49c4e29"
+    }
+  },
+  {
+    "inventoryPosition": 285,
+    "identity": {
+      "code": "FZ-00297",
+      "id": 154968,
+      "name": "FRUITS ZIPPER OFFICIAL FAN LIGHT CUSTOM PARTS「FRUITS ZIPPER JAPAN TOUR 2024 - AUTUMN -Ver.」",
+      "productUrl": "https://asobisystem.shop/products/FZ-00297"
+    },
+    "status": "mapped",
+    "kind": "fanlight_decorative_parts",
+    "label": "실리콘 응원봉 장식 부품",
+    "reason": "본체 미포함 실리콘 장식 부품으로 명시되어 발광기기나 전기 부품 코드를 제외합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00297",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00297",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:47Z",
+      "material": "素材: シリコン",
+      "components": [
+        "넥밴드",
+        "리본",
+        "액세서리"
+      ],
+      "facts": [
+        "本体は付属しておりません",
+        "シリコン",
+        "ネックバンドサイズ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 7216,
+          "slug": "fruitszipper-penlight-parts",
+          "name": "ペンライトパーツ"
+        }
+      ],
+      "descriptionSha256": "ad3be632236b747e6822df038de9153b67161b5b900718c2a71ac69e0587524e",
+      "responseSha256": "c9eb3ba4913fc297e0a8c44b9437f9a6299a34727ef245a50bae5d9608c6b7e6"
+    }
+  },
+  {
+    "inventoryPosition": 287,
+    "identity": {
+      "code": "FZ-00308",
+      "id": 154518,
+      "name": "FRUITS ZIPPER ランダムカプセル-standard edition-（全29種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00308"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "의료·문구·액세서리 랜덤 캡슐",
+    "reason": "케이블 홀더·링·반창고·메모장·배지가 섞인 랜덤 상품이므로 단일 코드를 넣지 않습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "반창고·문구·액세서리는 코드가 다르므로 실제 수령 품목별로 분류해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00308",
+      "checkedAt": "2026-10-30T14:55:48Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "29종에 케이블 홀더·아크릴 링·반창고 2장 세트·미니 메모장·배지를 명시함."
+      ],
+      "descriptionSha256": "36ab265a23548a347a06ca2d8a1bef0869c0c06114da9f79cf1fc0fb85482b1f",
+      "responseSha256": "45911ac8d8a3a9a47245671ef84e350400ea8fb729741fea03e26ec0236cd0da"
+    }
+  },
+  {
+    "inventoryPosition": 287,
+    "identity": {
+      "code": "AGL-00100",
+      "id": 156638,
+      "name": "リーダーズランダムグッズ4",
+      "productUrl": "https://asobisystem.shop/products/AGL-00100"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00100",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00100",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:49Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "降臨アクキー",
+        "缶バッジ",
+        "浮世絵巾着",
+        "コードクリップ",
+        "上履き入れ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 4288,
+          "slug": "leaders-random",
+          "name": "ランダム商品"
+        }
+      ],
+      "descriptionSha256": "7aa6afd15061743d71d950c363a0e0734862ddd1781dd830d9790ad2fa632afc",
+      "responseSha256": "d2b68b4467cba91aa75752194957b2a48bf0ab1c270e97f3a53cf2252ffba9ec"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 289,
+    "identity": {
+      "code": "AGL-00101",
+      "id": 156637,
+      "name": "NIPPON CALLING 風呂敷",
+      "productUrl": "https://asobisystem.shop/products/AGL-00101"
+    },
+    "status": "mapped",
+    "kind": "multipurpose_fabric",
+    "label": "보자기·다용도 패브릭",
+    "reason": "70cm 정방형 천과 포장·인테리어 등 다용도 사용법을 확인해 일반 패브릭으로 분류했습니다.",
+    "jimpass": {
+      "code": "169",
+      "label": "테이블커버/일반패브릭",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=163"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00101",
+      "checkedAt": "2026-10-30T14:55:50Z",
+      "material": "TC",
+      "facts": [
+        "약 70×70cm의 펼친 천으로 보자기·도시락 포장·스카프·테이블 천 등의 사용법을 안내함.",
+        "TC 또는 폴리에스터 재질을 명시함."
+      ],
+      "descriptionSha256": "b71bd84614506c374985485ab6e84238cd37444a802bc6254625d4a3fccdc04a",
+      "responseSha256": "06ce1867b165b371e698d5459d902ca73c56253b2aa6e13a5f113417a1652f91"
+    }
+  },
+  {
+    "inventoryPosition": 289,
+    "identity": {
+      "code": "FZ-00341",
+      "id": 162377,
+      "name": "月足天音 2024生誕記念 スマホストラップ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00341"
+    },
+    "status": "mapped",
+    "kind": "beaded_phone_strap",
+    "label": "비즈 스마트폰 스트랩",
+    "reason": "ABS 비즈·금속 연결부·아크릴 참의 스마트폰 스트랩으로 확인되어 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00341",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00341",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:51Z",
+      "material": "素材: ビーズ：ABS樹脂\n金具： 亜鉛合金、鉄、ステンレス\nチャーム：アクリル",
+      "components": [],
+      "facts": [
+        "スマホストラップ",
+        "ビーズ：ABS樹脂",
+        "チャーム：アクリル"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "da4b0978ab7f549a0c7dc113e956055a0aa22aedbe01aa559283a2a6b36117c6",
+      "responseSha256": "04ec62228ceca49dbd26f5241582e4c86cb92dd3a806a9d72d6e721b5a8e6467"
+    }
+  },
+  {
+    "inventoryPosition": 291,
+    "identity": {
+      "code": "FZ-00348",
+      "id": 160619,
+      "name": "【FC限定】FRUITS ZIPPER卓上カレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/FZ-00348"
+    },
+    "status": "mapped",
+    "kind": "paper_calendar",
+    "label": "종이 탁상 달력",
+    "reason": "달력의 종이 재질·탁상 규격·사진과 기념일 인쇄 구성을 확인했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00348",
+      "checkedAt": "2026-10-30T14:55:52Z",
+      "material": "종이",
+      "facts": [
+        "2025년 1월 시작의 사진·기념일 수록 탁상 달력.",
+        "종이 재질과 약 158×170mm 규격을 명시함."
+      ],
+      "descriptionSha256": "19d45f5c81b3c22cacb3779c9ffd10db3d924591bda318b6d66738b3ecf5702a",
+      "responseSha256": "3cac6be5834a7103e26b3b5350604fbd256eccdaf732e0fd763b4c725e4ce04b"
+    }
+  },
+  {
+    "inventoryPosition": 291,
+    "identity": {
+      "code": "FZ-00349",
+      "id": 160617,
+      "name": "【FC限定】FRUITS ZIPPERタペストリーカレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/FZ-00349"
+    },
+    "status": "mapped",
+    "kind": "tapestry_calendar",
+    "label": "태피스트리형 달력",
+    "reason": "B2 태피스트리형 달력으로 명시되어 소재를 가정하지 않고 문구류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 또는 섬유 소재가 명시되지 않아 종이 인쇄물로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00349",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00349",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:53Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "タペストリータイプ",
+        "カレンダー",
+        "B2サイズ 1枚"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 1933,
+          "slug": "fruitszipper-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 7665,
+          "slug": "fruitszipper-calendar",
+          "name": "カレンダー"
+        }
+      ],
+      "descriptionSha256": "915189ec6674bb68ee3c305520b3a5a13b2ecd53043321f2592ca7da0fe47eae",
+      "responseSha256": "b381e954a3153b229a494c40b5f6d8ae6d42cce820d4e448fcd82fe4d54070a1"
+    }
+  },
+  {
+    "inventoryPosition": 293,
+    "identity": {
+      "code": "CT-00153",
+      "id": 160615,
+      "name": "【FC限定】CANDY TUNE卓上カレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/CT-00153"
+    },
+    "status": "mapped",
+    "kind": "paper_calendar",
+    "label": "종이 탁상 달력",
+    "reason": "달력의 종이 재질·탁상 규격·사진과 기념일 인쇄 구성을 확인했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00153",
+      "checkedAt": "2026-10-30T14:55:54Z",
+      "material": "종이",
+      "facts": [
+        "2025년 1월 시작의 사진·기념일 수록 탁상 달력.",
+        "종이 재질과 약 158×170mm 규격을 명시함."
+      ],
+      "descriptionSha256": "ff4c677d5a0fcf90b843fe9f87fd438f2f91457eb397914fcb22c48e9ed298d0",
+      "responseSha256": "0a9b1a4940085f3e605f863aedbd5c63552d56759d314adca6d95f0b9de81520"
+    }
+  },
+  {
+    "inventoryPosition": 293,
+    "identity": {
+      "code": "CT-00154",
+      "id": 160614,
+      "name": "【FC限定】CANDY TUNEタペストリーカレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/CT-00154"
+    },
+    "status": "mapped",
+    "kind": "tapestry_calendar",
+    "label": "태피스트리형 달력",
+    "reason": "B2 태피스트리형 달력으로 명시되어 소재를 가정하지 않고 문구류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 또는 섬유 소재가 명시되지 않아 종이 인쇄물로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00154",
+      "apiUrl": "https://shop.api.groobee.com/products/CT-00154",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:56Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "タペストリータイプ",
+        "カレンダー",
+        "B2サイズ 1枚"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        },
+        {
+          "id": 3094,
+          "slug": "candy-tune_goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 7666,
+          "slug": "candy-tune_calendar",
+          "name": "カレンダー"
+        }
+      ],
+      "descriptionSha256": "eb61e6141065fa86d26951d039edf7698f0536fafb4431a181dfbe565e5d151c",
+      "responseSha256": "9e53bfed0e0b1806279a133eabef247d9113a00bf36c125d64224b5f4a6696b1"
+    }
+  },
+  {
+    "inventoryPosition": 295,
+    "identity": {
+      "code": "SS-0060",
+      "id": 160611,
+      "name": "【FC限定】SWEET STEADY卓上カレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/SS-0060"
+    },
+    "status": "mapped",
+    "kind": "paper_calendar",
+    "label": "종이 탁상 달력",
+    "reason": "달력의 종이 재질·탁상 규격·사진과 기념일 인쇄 구성을 확인했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0060",
+      "checkedAt": "2026-10-30T14:55:57Z",
+      "material": "종이",
+      "facts": [
+        "2025년 1월 시작의 사진·기념일 수록 탁상 달력.",
+        "종이 재질과 약 158×170mm 규격을 명시함."
+      ],
+      "descriptionSha256": "9c4bb468beba86e4dfbc8e5fbbec0ea874fc1851f89c801fb3e03226ee7bec0d",
+      "responseSha256": "9fd83251b611cd395900a321384f2fc24eba86e1a6206c20fa2cd248668507b5"
+    }
+  },
+  {
+    "inventoryPosition": 295,
+    "identity": {
+      "code": "SS-0061",
+      "id": 160610,
+      "name": "【FC限定】SWEET STEADYタペストリーカレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/SS-0061"
+    },
+    "status": "mapped",
+    "kind": "tapestry_calendar",
+    "label": "태피스트리형 달력",
+    "reason": "B2 태피스트리형 달력으로 명시되어 소재를 가정하지 않고 문구류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 또는 섬유 소재가 명시되지 않아 종이 인쇄물로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0061",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0061",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:55:58Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "タペストリータイプ",
+        "カレンダー",
+        "B2サイズ 1枚"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        },
+        {
+          "id": 7667,
+          "slug": "ss_calendar",
+          "name": "カレンダー"
+        }
+      ],
+      "descriptionSha256": "3b75e311f2b47aac4f924e0619783a744f480b7a0cbca83b044f6ddb0f1080a2",
+      "responseSha256": "1877581a7a39c2ae5519cb7c1ece1d753aace38e1c4fda4b4f46613988e98d22"
+    }
+  },
+  {
+    "inventoryPosition": 297,
+    "identity": {
+      "code": "CS-0015",
+      "id": 160568,
+      "name": "【FC限定】CUTIE STREET卓上カレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/CS-0015"
+    },
+    "status": "mapped",
+    "kind": "paper_calendar",
+    "label": "종이 탁상 달력",
+    "reason": "달력의 종이 재질·탁상 규격·사진과 기념일 인쇄 구성을 확인했습니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0015",
+      "checkedAt": "2026-10-30T14:55:59Z",
+      "material": "종이",
+      "facts": [
+        "2025년 1월 시작의 사진·기념일 수록 탁상 달력.",
+        "종이 재질과 약 158×170mm 규격을 명시함."
+      ],
+      "descriptionSha256": "c655effd92186e70dd42c794662224ae83e439bc225e00fa52c5633af94ca280",
+      "responseSha256": "f9d37b77f53ab9d9807a9dda0003560e553086ecea66f230999e7f0a8663078a"
+    }
+  },
+  {
+    "inventoryPosition": 297,
+    "identity": {
+      "code": "CS-0016",
+      "id": 160567,
+      "name": "【FC限定】CUTIE STREETタペストリーカレンダー2025",
+      "productUrl": "https://asobisystem.shop/products/CS-0016"
+    },
+    "status": "mapped",
+    "kind": "tapestry_calendar",
+    "label": "태피스트리형 달력",
+    "reason": "B2 태피스트리형 달력으로 명시되어 소재를 가정하지 않고 문구류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 또는 섬유 소재가 명시되지 않아 종이 인쇄물로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CS-0016",
+      "apiUrl": "https://shop.api.groobee.com/products/CS-0016",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:00Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "タペストリータイプ",
+        "カレンダー",
+        "B2サイズ 1枚"
+      ],
+      "sourceCategories": [
+        {
+          "id": 7311,
+          "slug": "cutiestreet",
+          "name": "CUTIE STREET"
+        },
+        {
+          "id": 7344,
+          "slug": "cutiestreet_goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 7656,
+          "slug": "cutiestreet_calendar",
+          "name": "カレンダー"
+        }
+      ],
+      "descriptionSha256": "6fa374088762317968afbc4e8a5c640ad7cd966c766b882efddad8403dc56c85",
+      "responseSha256": "7b84352f423245f14057b7aaee425da2e235266abe8fd3ddaa1941f0fb0d4126"
+    }
+  },
+  {
+    "inventoryPosition": 299,
+    "identity": {
+      "code": "AGL-00102",
+      "id": 156636,
+      "name": "新しい学校の風呂敷",
+      "productUrl": "https://asobisystem.shop/products/AGL-00102"
+    },
+    "status": "mapped",
+    "kind": "multipurpose_fabric",
+    "label": "보자기·다용도 패브릭",
+    "reason": "70cm 정방형 천과 포장·인테리어 등 다용도 사용법을 확인해 일반 패브릭으로 분류했습니다.",
+    "jimpass": {
+      "code": "169",
+      "label": "테이블커버/일반패브릭",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=163"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00102",
+      "checkedAt": "2026-10-30T14:56:01Z",
+      "material": "폴리에스터",
+      "facts": [
+        "약 70×70cm의 펼친 천으로 보자기·도시락 포장·스카프·테이블 천 등의 사용법을 안내함.",
+        "TC 또는 폴리에스터 재질을 명시함."
+      ],
+      "descriptionSha256": "995bc90bd17c2084235542b8b710bb9886ae367d80177b670a360f64b680e166",
+      "responseSha256": "92ecde6babc6755c238734cba03869d4a9817a56046c56ff65e7e600af027bb0"
+    }
+  },
+  {
+    "inventoryPosition": 299,
+    "identity": {
+      "code": "YN-00035",
+      "id": 156237,
+      "name": "キャンバスパネル「夏至AM4時半」",
+      "productUrl": "https://asobisystem.shop/products/YN-00035"
+    },
+    "status": "mapped",
+    "kind": "canvas_artwork",
+    "label": "캔버스 아트 패널",
+    "reason": "공식 상품명이 캔버스 패널이므로 제작 방식을 가정하지 않는 그림의 상위 범주를 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손그림·인쇄 여부가 명시되지 않아 해당 전용 하위 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00035",
+      "apiUrl": "https://shop.api.groobee.com/products/YN-00035",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:02Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "キャンバス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5149,
+          "slug": "yoshidanatsumi",
+          "name": "ヨシダナツミ"
+        },
+        {
+          "id": 7243,
+          "slug": "YN_canvaspanel",
+          "name": "キャンバスパネル"
+        }
+      ],
+      "descriptionSha256": "63994aedb3aabd447de1ac3e135589bfd0bbd6c7d9cc22c51dd1b71d0d3f8965",
+      "responseSha256": "5bc085dfc983355742bb446d7f471b907aa3fe397b65cb0b5e156fd0da1b7ae4"
+    }
+  },
+  {
+    "inventoryPosition": 301,
+    "identity": {
+      "code": "YN-00036",
+      "id": 156236,
+      "name": "キャンバスパネル「波チェック」",
+      "productUrl": "https://asobisystem.shop/products/YN-00036"
+    },
+    "status": "mapped",
+    "kind": "canvas_art",
+    "label": "캔버스 패널 작품",
+    "reason": "공식 캔버스 패널 카테고리와 실물 규격을 확인했으며 제작 기법은 확인이 필요합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "수작업 그림과 인쇄 작품 중 제작 방식을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00036",
+      "checkedAt": "2026-10-30T14:56:03Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 하위 카테고리가 캔버스 패널이며 F6 410×318mm 규격을 안내함.",
+        "수작업·인쇄 방식과 바탕 재질의 세부 사양은 기재하지 않음."
+      ],
+      "descriptionSha256": "1f41acedcf746c119f67b62240705ad002b0a59c0e65c97e2ff37db9bbc1fa92",
+      "responseSha256": "613351e23891db14beab03cd638c8773ec6fcf1af2c85fec76c7f5097a5ec533"
+    }
+  },
+  {
+    "inventoryPosition": 301,
+    "identity": {
+      "code": "YN-00037",
+      "id": 156235,
+      "name": "キャンバスパネル「肌の後は喉の保湿を」",
+      "productUrl": "https://asobisystem.shop/products/YN-00037"
+    },
+    "status": "mapped",
+    "kind": "canvas_artwork",
+    "label": "캔버스 아트 패널",
+    "reason": "공식 상품명이 캔버스 패널이므로 제작 방식을 가정하지 않는 그림의 상위 범주를 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손그림·인쇄 여부가 명시되지 않아 해당 전용 하위 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YN-00037",
+      "apiUrl": "https://shop.api.groobee.com/products/YN-00037",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:04Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "キャンバス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5149,
+          "slug": "yoshidanatsumi",
+          "name": "ヨシダナツミ"
+        },
+        {
+          "id": 7243,
+          "slug": "YN_canvaspanel",
+          "name": "キャンバスパネル"
+        }
+      ],
+      "descriptionSha256": "1f41acedcf746c119f67b62240705ad002b0a59c0e65c97e2ff37db9bbc1fa92",
+      "responseSha256": "76ee86a854d959ff3c61b31f73d08660a85e7423739c7a7bb6c52ff1acc02839"
+    }
+  },
+  {
+    "inventoryPosition": 303,
+    "identity": {
+      "code": "KLC_10009",
+      "id": 153407,
+      "name": "NEW KAWAII ＜初回限定盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10009"
+    },
+    "status": "mapped",
+    "kind": "music_disc",
+    "label": "음악 싱글 CD",
+    "reason": "본문의 싱글 CD 매체·수록곡·음반 품번을 확인해 실물 음악 CD로 분류했습니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10009",
+      "checkedAt": "2026-10-30T14:56:05Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 FRUITS ZIPPER의 두 번째 싱글 CD라고 명시함.",
+        "출시사·음반 품번·수록곡 목록과 약 127×143mm 규격을 제공함."
+      ],
+      "descriptionSha256": "700c2adbe57a33632d32598082105fa662e250a6c9e46c2a5b308407af66ca1a",
+      "responseSha256": "564cd1cacb8057d43d429d19efd8155fc14f3ad8a320cace9ad43109aaf6b9eb"
+    }
+  },
+  {
+    "inventoryPosition": 303,
+    "identity": {
+      "code": "KLC_10010",
+      "id": 153406,
+      "name": "NEW KAWAII ＜鎮西寿々歌盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10010"
+    },
+    "status": "mapped",
+    "kind": "music_cd",
+    "label": "음악 싱글 CD",
+    "reason": "공식 상세에 싱글 CD와 수록곡이 명시되어 실물 음악 음반으로 분류합니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10010",
+      "apiUrl": "https://shop.api.groobee.com/products/KLC_10010",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:06Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "음악 싱글 CD"
+      ],
+      "facts": [
+        "シングルCD",
+        "収録曲"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "0c0bc238b8246cd4756d1c5038c9e47de5c9452825428fd9058ceb97ddc1ed88",
+      "responseSha256": "fc5bd1860e10d9dd0596e9ea6377381c1917ab78c870447a7c5429eeac5cc8c5"
+    }
+  },
+  {
+    "inventoryPosition": 305,
+    "identity": {
+      "code": "KLC_10011",
+      "id": 153405,
+      "name": "NEW KAWAII ＜仲川瑠夏盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10011"
+    },
+    "status": "mapped",
+    "kind": "music_disc",
+    "label": "음악 싱글 CD",
+    "reason": "본문의 싱글 CD 매체·수록곡·음반 품번을 확인해 실물 음악 CD로 분류했습니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10011",
+      "checkedAt": "2026-10-30T14:56:07Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 FRUITS ZIPPER의 두 번째 싱글 CD라고 명시함.",
+        "출시사·음반 품번·수록곡 목록과 약 127×143mm 규격을 제공함."
+      ],
+      "descriptionSha256": "b647c8d083464b0077a518066bc1b533f6a66a12d77db8c3e8edd6d112a2ffec",
+      "responseSha256": "4f1d38193daa4f7a989de19bcd625c4bdba3f93cfb7df89ade1222bb9fa1ac8f"
+    }
+  },
+  {
+    "inventoryPosition": 305,
+    "identity": {
+      "code": "KLC_10012",
+      "id": 153404,
+      "name": "NEW KAWAII ＜月足天音盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10012"
+    },
+    "status": "mapped",
+    "kind": "music_cd",
+    "label": "음악 싱글 CD",
+    "reason": "공식 상세에 싱글 CD와 수록곡이 명시되어 실물 음악 음반으로 분류합니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10012",
+      "apiUrl": "https://shop.api.groobee.com/products/KLC_10012",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:08Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "음악 싱글 CD"
+      ],
+      "facts": [
+        "シングルCD",
+        "収録曲"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "28cffbda82788c27e80f548ff1264559441d1f4e568a1ac36844af63d22b2c2b",
+      "responseSha256": "8086b23b4cbe8da35b01fcdefa23eea1537884d447b672144a6781822d5e80f0"
+    }
+  },
+  {
+    "inventoryPosition": 307,
+    "identity": {
+      "code": "KLC_10013",
+      "id": 153403,
+      "name": "NEW KAWAII ＜松本かれん盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10013"
+    },
+    "status": "mapped",
+    "kind": "music_disc",
+    "label": "음악 싱글 CD",
+    "reason": "본문의 싱글 CD 매체·수록곡·음반 품번을 확인해 실물 음악 CD로 분류했습니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10013",
+      "checkedAt": "2026-10-30T14:56:09Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 FRUITS ZIPPER의 두 번째 싱글 CD라고 명시함.",
+        "출시사·음반 품번·수록곡 목록과 약 127×143mm 규격을 제공함."
+      ],
+      "descriptionSha256": "fea90c462a95f99dee3660e2b479f1372c11d31bbf8896ab5a8dffe09a8577c2",
+      "responseSha256": "3559d1655c76eb4f2aeae4c873a15f81df7f790054b2ccb497f47dee3b0f4615"
+    }
+  },
+  {
+    "inventoryPosition": 307,
+    "identity": {
+      "code": "KLC_10014",
+      "id": 153402,
+      "name": "NEW KAWAII ＜早瀬ノエル盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10014"
+    },
+    "status": "mapped",
+    "kind": "music_cd",
+    "label": "음악 싱글 CD",
+    "reason": "공식 상세에 싱글 CD와 수록곡이 명시되어 실물 음악 음반으로 분류합니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10014",
+      "apiUrl": "https://shop.api.groobee.com/products/KLC_10014",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:10Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "음악 싱글 CD"
+      ],
+      "facts": [
+        "シングルCD",
+        "収録曲"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "7c59ed8ad9818b9d4b1bb708d7453b84409eebaf9b0667dbc302854d041bdd1f",
+      "responseSha256": "e697e0d711c177cde15a538a81896eb07fa4e084ca70478ae9ac6be616d6b598"
+    }
+  },
+  {
+    "inventoryPosition": 309,
+    "identity": {
+      "code": "KLC_10015",
+      "id": 153401,
+      "name": "NEW KAWAII ＜櫻井優衣盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10015"
+    },
+    "status": "mapped",
+    "kind": "music_disc",
+    "label": "음악 싱글 CD",
+    "reason": "싱글 CD 매체는 확인했으나 본문 품번과 상품 코드가 달라 버전 확인이 필요합니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "본문 품번이 상품 식별 코드와 다릅니다. 실제 주문한 멤버 버전과 음반 표기를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10015",
+      "checkedAt": "2026-10-30T14:56:11Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 두 번째 싱글 CD와 수록곡을 안내함.",
+        "상품 식별은 KLC_10015이나 본문 품번은 KLC_10013으로 달라 표기 오류 가능성이 있음."
+      ],
+      "descriptionSha256": "dbaf48b29d383e2c5ceeb502307199d3e573a553bf5b9de51507d15118768df0",
+      "responseSha256": "b80bd976319882898dbc0a527b4ede81b755d1dd37bbc74ef9b52dca613c9305"
+    }
+  },
+  {
+    "inventoryPosition": 309,
+    "identity": {
+      "code": "KLC_10016",
+      "id": 153400,
+      "name": "NEW KAWAII ＜真中まな盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10016"
+    },
+    "status": "mapped",
+    "kind": "music_cd",
+    "label": "음악 싱글 CD",
+    "reason": "공식 상세에 싱글 CD와 수록곡이 명시되어 실물 음악 음반으로 분류합니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10016",
+      "apiUrl": "https://shop.api.groobee.com/products/KLC_10016",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:12Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "음악 싱글 CD"
+      ],
+      "facts": [
+        "シングルCD",
+        "収録曲"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "51da678306eea6b429e29053eae164b492b4704ae0147a8fbe91c42f8accb6e2",
+      "responseSha256": "e157a6cdbf9151689075e7bd281cfcba02d204845d711003cf54ea317136e3c2"
+    }
+  },
+  {
+    "inventoryPosition": 311,
+    "identity": {
+      "code": "KLC_10017",
+      "id": 153399,
+      "name": "NEW KAWAII ＜通常盤＞",
+      "productUrl": "https://asobisystem.shop/products/KLC_10017"
+    },
+    "status": "mapped",
+    "kind": "music_disc",
+    "label": "음악 싱글 CD",
+    "reason": "본문의 싱글 CD 매체·수록곡·음반 품번을 확인해 실물 음악 CD로 분류했습니다.",
+    "jimpass": {
+      "code": "103",
+      "label": "영화 음악 CD DVD",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "143",
+      "label": "[목록통관] 음반(CD, LP, LD)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A145:C145"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KLC_10017",
+      "checkedAt": "2026-10-30T14:56:13Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 FRUITS ZIPPER의 두 번째 싱글 CD라고 명시함.",
+        "출시사·음반 품번·수록곡 목록과 약 127×143mm 규격을 제공함."
+      ],
+      "descriptionSha256": "f79e7a7e175e9b5039aa6a00bae025dd3921eecffbc3812c4af6735017f2d30b",
+      "responseSha256": "3bde4b07c029f94ca285deac248d4b853c70cfd6ec68c98e5d34ff2f290c0e42"
+    }
+  },
+  {
+    "inventoryPosition": 311,
+    "identity": {
+      "code": "FZ-00270",
+      "id": 152402,
+      "name": "仲川瑠夏生誕記念おにぎりケース",
+      "productUrl": "https://asobisystem.shop/products/FZ-00270"
+    },
+    "status": "needs_review",
+    "kind": "food_storage_case_material_unconfirmed",
+    "label": "주먹밥 보관 케이스",
+    "reason": "주먹밥 케이스인 것은 확인되나 재질이 없어 짐패스의 재질별 주방 항목 확인이 필요합니다.",
+    "jimpass": null,
+    "general": {
+      "code": "138",
+      "label": "[목록통관] 기타 주방용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A140:C140"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "플라스틱·금속 등 재질을 추정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00270",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00270",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:14Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "おにぎりケース"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "579099c243ed94071b18bba69e29b6d8f38942011e8c877878e2f3a4163f7e58",
+      "responseSha256": "6ebce617a02bf8c7640cd5446a70f02daad88c7a365b16ae4d614173831182b6"
+    }
+  },
+  {
+    "inventoryPosition": 313,
+    "identity": {
+      "code": "sn-00059",
+      "id": 152076,
+      "name": "フォンタブ（小）",
+      "productUrl": "https://asobisystem.shop/products/sn-00059"
+    },
+    "status": "needs_review",
+    "kind": "phone_tab_spec_unconfirmed",
+    "label": "폰 탭 실물 사양 확인",
+    "reason": "NFT 프로젝트 소개만 있고 폰 탭의 실물 사양이 없어 물품코드를 비웠습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "본문의 NFT 소개만으로 실물 폰 탭 구성을 확인할 수 없으며 디지털 상품으로도 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00059",
+      "checkedAt": "2026-10-30T14:56:15Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문은 City Pop TOKYO NFT 프로젝트 소개와 일반 주의사항을 제공함.",
+        "폰 탭의 재질·규격·연결 구조와 구성품은 없음."
+      ],
+      "descriptionSha256": "0510e92d6b8e8db866f8601a7c1c335e51ce1a701ca4efaa26163dc8ebc271ae",
+      "responseSha256": "a9fc6f786e95be80b18e0b6e5937946d0a4b21849cb3ec9190b8ae94b095bcbc"
+    }
+  },
+  {
+    "inventoryPosition": 313,
+    "identity": {
+      "code": "sn-00063",
+      "id": 152072,
+      "name": "ネックストラップ",
+      "productUrl": "https://asobisystem.shop/products/sn-00063"
+    },
+    "status": "mapped",
+    "kind": "neck_strap",
+    "label": "목걸이형 스트랩",
+    "reason": "공식 상품명이 넥스트랩으로 명시되어 착용 액세서리 항목을 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에는 스트랩의 소재·연결 구조가 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00063",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00063",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:16Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ネックストラップ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        }
+      ],
+      "descriptionSha256": "0510e92d6b8e8db866f8601a7c1c335e51ce1a701ca4efaa26163dc8ebc271ae",
+      "responseSha256": "cee6f830618aa520e2980b64349848bf624ad4bb42650dd57da07f71fb88c5d9"
+    }
+  },
+  {
+    "inventoryPosition": 315,
+    "identity": {
+      "code": "FZ-00264",
+      "id": 151566,
+      "name": "真中まな生誕記念ZINE2024",
+      "productUrl": "https://asobisystem.shop/products/FZ-00264"
+    },
+    "status": "needs_review",
+    "kind": "zine_format_unconfirmed",
+    "label": "ZINE 매체·구성 확인",
+    "reason": "본문에 ZINE의 매체·페이지·재질이 없어 서책 코드를 임의로 넣지 않았습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "ZINE이라는 상품명만으로 실물 책이나 디지털 자료를 확정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00264",
+      "checkedAt": "2026-10-30T14:56:17Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에는 생일 기념 굿즈라는 소개만 있음.",
+        "페이지 수·종이 재질·실물 또는 디지털 매체 구분이 없음."
+      ],
+      "descriptionSha256": "3a338bff8d172c709324ce266db250cd9dc9c37bf62ac0ac48dfdacd8b2418c7",
+      "responseSha256": "4acda262812af768ba1b884c83c20b37ece6e3e6beb0df6f77f4716246904009"
+    }
+  },
+  {
+    "inventoryPosition": 315,
+    "identity": {
+      "code": "YTR_00008",
+      "id": 150631,
+      "name": "ゆうたろう日めくりカレンダー 「ゆうたろうってゆったろうって」",
+      "productUrl": "https://asobisystem.shop/products/YTR_00008"
+    },
+    "status": "mapped",
+    "kind": "daily_calendar",
+    "label": "일력 달력",
+    "reason": "엽서 크기의 일력 달력으로 명시되어 문구류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "소재가 명시되지 않아 종이 인쇄물로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YTR_00008",
+      "apiUrl": "https://shop.api.groobee.com/products/YTR_00008",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:19Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "日めくりカレンダー",
+        "148mm×100mm"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4078,
+          "slug": "yutaro",
+          "name": "ゆうたろう"
+        }
+      ],
+      "descriptionSha256": "80972ecc8d9c0d708661e240373dff5c4ed8d1fc69022767d0a29204213420a9",
+      "responseSha256": "2656e5b354c4eaded5b7c8cee1ab0dc999bd4ab53c26bf4d3dcadd8248ab9e92"
+    }
+  },
+  {
+    "inventoryPosition": 317,
+    "identity": {
+      "code": "YTR_00009",
+      "id": 150628,
+      "name": "ゆうたろう日めくりカレンダー 「ゆうたろうってゆったろうって」 イベント限定版表紙",
+      "productUrl": "https://asobisystem.shop/products/YTR_00009"
+    },
+    "status": "mapped",
+    "kind": "daily_calendar",
+    "label": "일력형 달력",
+    "reason": "일력형 달력과 엽서 크기 규격을 확인했으며 종이 재질 여부는 확인이 필요합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "달력의 페이지·바탕 재질이 미기재되어 종이 인쇄물 여부를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YTR_00009",
+      "checkedAt": "2026-10-30T14:56:20Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 일력형 달력의 이벤트 한정판 표지라고 안내함.",
+        "엽서 크기인 약 148×100mm 규격을 명시함."
+      ],
+      "descriptionSha256": "7fd939631f284f4f98447e9f4c29f2f5db5dea4e0b42ed425f7fe607c697198a",
+      "responseSha256": "abfb3567eeb7884ac5317cff2a0fd627afeda0f1296afe9d4994fae5e3e8ad82"
+    }
+  },
+  {
+    "inventoryPosition": 317,
+    "identity": {
+      "code": "SS-0030",
+      "id": 150612,
+      "name": "SWEET STEADY HOTEL KEY",
+      "productUrl": "https://asobisystem.shop/products/SS-0030"
+    },
+    "status": "mapped",
+    "kind": "acrylic_keychain",
+    "label": "호텔키 모양 아크릴 키링",
+    "reason": "호텔키 모양 키홀더와 아크릴·고리 부속이 명시되어 키링으로 분류합니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/SS-0030",
+      "apiUrl": "https://shop.api.groobee.com/products/SS-0030",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:21Z",
+      "material": "素材: アクリル、ナスカン",
+      "components": [],
+      "facts": [
+        "キーホルダー",
+        "アクリル、ナスカン"
+      ],
+      "sourceCategories": [
+        {
+          "id": 5600,
+          "slug": "sweet_steady",
+          "name": "SWEET STEADY"
+        }
+      ],
+      "descriptionSha256": "e361aea662973aeb562c61fbbd3003889abef20217a6b4ac7f57a3a72845c73f",
+      "responseSha256": "cad1fa0adb4dcdd9d7ed664b4fef1aa1f3543772360b474c4f09300150dee5f9"
+    }
+  },
+  {
+    "inventoryPosition": 319,
+    "identity": {
+      "code": "FZ-00188",
+      "id": 144419,
+      "name": "FRUITS ZIPPERランダムカプセル -2nd Anniv. edition-vol.1（ランダム全28種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00188"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00188",
+      "checkedAt": "2026-10-30T14:56:22Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "28종에 러버밴드·미니 조임 주머니·아크릴 머리끈 팔찌·리본 키링을 각 7종 명시함."
+      ],
+      "descriptionSha256": "6cfcf070d36172a5261c9aeb1cf0fe45bfdde279eea36413a2d034a66e07713a",
+      "responseSha256": "8e7eb6a0b5028ec49e821204168e2cfe224223c93a73c81d487d9417fd4c6e75"
+    },
+    "policyOriginalReviewReason": "주머니와 각 액세서리는 물품 종류가 달라 실제 수령 품목을 확인해야 합니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 319,
+    "identity": {
+      "code": "FZ-00189",
+      "id": 144418,
+      "name": "FRUITS ZIPPERランダムカプセル -2nd Anniv. edition-vol.2（ランダム全28種）",
+      "productUrl": "https://asobisystem.shop/products/FZ-00189"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00189",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00189",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:23Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "リボンブレス",
+        "めじるしマーカー",
+        "ミニポーチ",
+        "クリアチャーム"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "29928dd7ac6e38d9d75e6d4e9ae1ff26227fb1cc9d8282d5e3816da8f1943773",
+      "responseSha256": "c134a36f0d379315274fce574481c82f5bd28e767859bcc82f6b4cb4a42f26ec"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 321,
+    "identity": {
+      "code": "AGL-00082",
+      "id": 148773,
+      "name": "リーダーズの水筒",
+      "productUrl": "https://asobisystem.shop/products/AGL-00082"
+    },
+    "status": "mapped",
+    "kind": "metal_drink_bottle",
+    "label": "스테인리스 보온·보냉 물병",
+    "reason": "보온·보냉 용도와 350ml 용량·스테인리스 재질을 확인한 금속 음료 용기입니다.",
+    "jimpass": {
+      "code": "182",
+      "label": "그릇/식기/컵(철제품)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "129",
+      "label": "[목록통관] 식기/주방용품 (금속)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A131:C131"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00082",
+      "checkedAt": "2026-10-30T14:56:24Z",
+      "material": "스테인리스 / PP",
+      "facts": [
+        "보온·보냉 가능한 휴대용 물병이라고 설명함.",
+        "350ml, 18-8 스테인리스·PP 등의 재질을 명시함."
+      ],
+      "descriptionSha256": "01832236eee534b2d6eafe6097f4bf59801672e582b7a5370c21f66156625474",
+      "responseSha256": "220523bccc0e79e45c28a35ecfec6dab060181fe459a379fac2bc862cfa60654"
+    }
+  },
+  {
+    "inventoryPosition": 321,
+    "identity": {
+      "code": "AGL-00083",
+      "id": 148772,
+      "name": "AG!ラババン（ランダム／全4種）",
+      "productUrl": "https://asobisystem.shop/products/AGL-00083"
+    },
+    "status": "mapped",
+    "kind": "wristband",
+    "label": "장식용 손목 밴드",
+    "reason": "상세의 실리콘·PVC 손목 밴드로 확인되어 비귀금속 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00083",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00083",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:25Z",
+      "material": "素材: PVC",
+      "components": [
+        "손목 착용 밴드"
+      ],
+      "facts": [
+        "ラババン",
+        "腕章",
+        "PVC"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        }
+      ],
+      "descriptionSha256": "07eddef5dffda6fc97cb1059abd67cdbcb254007cc95d7cb9199ff5b949854e3",
+      "responseSha256": "9e8cec678084f3c23251e4c78ffa154f8398b90bb63e91cdebda7d8642731705"
+    }
+  },
+  {
+    "inventoryPosition": 323,
+    "identity": {
+      "code": "AGL-00085",
+      "id": 148770,
+      "name": "【青春部限定】モバイルバッテリー＜受注販売＞",
+      "productUrl": "https://asobisystem.shop/products/AGL-00085"
+    },
+    "status": "needs_review",
+    "kind": "powerbank",
+    "label": "USB 보조배터리",
+    "reason": "5000mAh USB 보조배터리 사양은 확인했지만 짐패스 배터리 코드를 확인하지 못했습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "021",
+      "label": "[목록통관] 건전지 충전기(충전지)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A23:C23"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "짐패스 전용 배터리 코드를 확인하지 못해 비웠으며 배터리 운송 조건 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00085",
+      "checkedAt": "2026-10-30T14:56:26Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "USB-A·USB-C 포트로 휴대폰·태블릿을 충전하는 배터리.",
+        "5000mAh·18.5Wh·3.7V, 정격 2800mAh와 Type-C 케이블 부속을 명시함."
+      ],
+      "descriptionSha256": "88858edcfbb6d4b46e3f7ea8cd3070abf24726e95c768684be88218b6d39db13",
+      "responseSha256": "6ea11cd37faec236a30d51b89239e6bea2a14a887eecda7b7502f3f2ccec2f49"
+    }
+  },
+  {
+    "inventoryPosition": 323,
+    "identity": {
+      "code": "FZ-00216",
+      "id": 145726,
+      "name": "早瀬ノエル生誕記念 ギターピック",
+      "productUrl": "https://asobisystem.shop/products/FZ-00216"
+    },
+    "status": "mapped",
+    "kind": "guitar_pick",
+    "label": "기타 피크",
+    "reason": "공식 상품명이 기타 피크로 명시되어 소재를 가정하지 않는 악기부품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "131",
+      "label": "악기부품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=129"
+    },
+    "general": {
+      "code": "104",
+      "label": "[목록통관] 악기부품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A106:C106"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "공식 상세 본문은 비어 있으며 소재·규격은 추가 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00216",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00216",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:27Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ギターピック"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseSha256": "0d58d0bb4f6257c9a69f1effda107b9a15577ff125b39185b0a2b1ce0a72d01f"
+    }
+  },
+  {
+    "inventoryPosition": 325,
+    "identity": {
+      "code": "FZ-00173",
+      "id": 144209,
+      "name": "櫻井優衣生誕記念 ショルダーストラップ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00173"
+    },
+    "status": "mapped",
+    "kind": "shoulder_strap",
+    "label": "숄더 스트랩",
+    "reason": "공식 숄더 스트랩 상품을 액세서리로 제안하며 세부 구성은 확인이 필요합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "재질·연결부 구성이 없어 실제 스트랩 구성품을 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00173",
+      "checkedAt": "2026-10-30T14:56:28Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에서 생일 기념 숄더 스트랩을 판매함.",
+        "본문에는 재질·길이·연결부 구성 사양이 없음."
+      ],
+      "descriptionSha256": "7fa14de773a8a18cd634291a44ffebbcaa463d7032b45a93150e103e39fccd0a",
+      "responseSha256": "b93f51ffde046ce7e1f61d310a3c7760bd5d6dd6f4414fd63130292554186dac"
+    }
+  },
+  {
+    "inventoryPosition": 325,
+    "identity": {
+      "code": "AGL-00071",
+      "id": 143709,
+      "name": "【青春部限定】腕章〜部員の証〜",
+      "productUrl": "https://asobisystem.shop/products/AGL-00071"
+    },
+    "status": "mapped",
+    "kind": "armband",
+    "label": "착용용 완장",
+    "reason": "섬유 완장과 안전핀·고리 부속이 명시되어 착용 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00071",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00071",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:29Z",
+      "material": "素材: 本体：ポリエステル、ポリプロピレン\n金具部分：スチール、亜鉛合金",
+      "components": [],
+      "facts": [
+        "腕章",
+        "安全ピンとナスカン",
+        "ポリエステル、ポリプロピレン"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 5815,
+          "slug": "leaders-armband",
+          "name": "腕章"
+        }
+      ],
+      "descriptionSha256": "cda6bced304677e2ff1ec20abbbc13f0348511d6793a41edfca442735eadd14b",
+      "responseSha256": "d7d068b3db3e83d6c1eeb9beb0eb0ec84e76af03c3f670e88e8fcf35d8841778"
+    }
+  },
+  {
+    "inventoryPosition": 327,
+    "identity": {
+      "code": "AGL-00075",
+      "id": 143705,
+      "name": "スマホストラップぅ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00075"
+    },
+    "status": "mapped",
+    "kind": "phone_strap",
+    "label": "목 착용 휴대폰 스트랩",
+    "reason": "목 착용 휴대폰 스트랩과 폰 탭 구성·조절 길이를 확인했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00075",
+      "checkedAt": "2026-10-30T14:56:30Z",
+      "material": "TPU",
+      "facts": [
+        "목에 걸어 쓰는 휴대폰 스트랩과 오리지널 폰 탭 부속을 명시함.",
+        "끈 두께 8mm·조절 길이 83~149cm, 재질 표기는 TPU."
+      ],
+      "descriptionSha256": "0ea3d7aa7c25c02ce3f4eb1057034825994a809bbfebec30cd1e2c5c9387bf86",
+      "responseSha256": "b19fb6dcecf6ad08fb3e7c8ac3abe8869c69c1c053bb4e316a48225aa331e7ea"
+    }
+  },
+  {
+    "inventoryPosition": 327,
+    "identity": {
+      "code": "AGL-00056",
+      "id": 140352,
+      "name": "リーダーズランダムグッズ3",
+      "productUrl": "https://asobisystem.shop/products/AGL-00056"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00056",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00056",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:31Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "巾着",
+        "キーホルダー達",
+        "缶バッジ達"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 4288,
+          "slug": "leaders-random",
+          "name": "ランダム商品"
+        }
+      ],
+      "descriptionSha256": "4d3b8b514cb64d3c658298da9fe597790afd84b9980e1bc8ad9cb8f0870138f4",
+      "responseSha256": "c006bf301ea711e51648e8ec72dfe1af8754cc32e8d3ac2c9d68646702c05797"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 329,
+    "identity": {
+      "code": "CT-00087",
+      "id": 139636,
+      "name": "開運！名前入りChopsticks(お箸)",
+      "productUrl": "https://asobisystem.shop/products/CT-00087"
+    },
+    "status": "mapped",
+    "kind": "chopsticks",
+    "label": "식사용 젓가락",
+    "reason": "본문의 식탁용 젓가락 용도를 확인해 식사용 도구로 분류했습니다.",
+    "jimpass": {
+      "code": "178",
+      "label": "주방 소품(포크/나이프/국자 등)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "133",
+      "label": "[목록통관] 스푼/포크/칼/국자 등",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A135:C135"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00087",
+      "checkedAt": "2026-10-30T14:56:32Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 식탁·일상에서 쓰는 젓가락이라고 직접 안내함."
+      ],
+      "descriptionSha256": "1ce72f106089561ab770477fa8e6561c67458965146c16a1a45e22e7bdef689a",
+      "responseSha256": "7f1e41ec4cfbfdd6e132236a63ae96269662cf45e4f56116d13bedb2e6a37528"
+    }
+  },
+  {
+    "inventoryPosition": 329,
+    "identity": {
+      "code": "FZ-00145",
+      "id": 137295,
+      "name": "鎮西寿々歌生誕記念ビーズ付きストラップ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00145"
+    },
+    "status": "mapped",
+    "kind": "beaded_strap",
+    "label": "비즈 장식 스트랩",
+    "reason": "공식 상품명이 비즈 부착 스트랩으로 명시되어 장식 액세서리 항목을 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "비즈·연결부의 소재는 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00145",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00145",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:33Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ビーズ付きストラップ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        },
+        {
+          "id": 4634,
+          "slug": "fruitszipper-member",
+          "name": "メンバー"
+        },
+        {
+          "id": 4636,
+          "slug": "fz-chinzei",
+          "name": "鎮西寿々歌"
+        }
+      ],
+      "descriptionSha256": "a990d848c6f4b446cd05b7c916091d2cf4aa8ce5844cf83c78e0b0563d8e3a8f",
+      "responseSha256": "07d19c9700fcccbe6d77c90e1c2ee9403f1db299cc12c1da8b2d24150893157c"
+    }
+  },
+  {
+    "inventoryPosition": 331,
+    "identity": {
+      "code": "FZ-00135",
+      "id": 135968,
+      "name": "月足天音生誕記念ミラー",
+      "productUrl": "https://asobisystem.shop/products/FZ-00135"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 거울 상품임을 확인했으며 생활소품 후보와 세부 사양 확인을 남겼습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손거울 전용 세부 코드가 없어 생활소품 후보를 제안하며 실물 사양 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00135",
+      "checkedAt": "2026-10-30T14:56:34Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에서 거울 상품을 판매함.",
+        "전용 거울 코드와 재질·구조 세부 사양이 제한적임."
+      ],
+      "descriptionSha256": "12bebd81d078d87eae411bfc2c57f5173bbe67a4ae2fad05ca46bb9ffe80fa1d",
+      "responseSha256": "c971a727c8c8a28f1d36408aab76993abc107a6a790c4c12a15a6500a87284ad"
+    }
+  },
+  {
+    "inventoryPosition": 331,
+    "identity": {
+      "code": "FZ-00138",
+      "id": 135965,
+      "name": "月足天音生誕記念ZINE2023",
+      "productUrl": "https://asobisystem.shop/products/FZ-00138"
+    },
+    "status": "mapped",
+    "kind": "zine",
+    "label": "소책자·진",
+    "reason": "공식 상품명이 생일 기념 ZINE으로 명시되어 서적·잡지류 항목을 제안합니다.",
+    "jimpass": {
+      "code": "102",
+      "label": "서책 및 잡지류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "139",
+      "label": "[목록통관] 책/잡지류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A141:C141"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에는 쪽수·규격이 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00138",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00138",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:35Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ZINE2023"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "6d04394f6cc6dd4a37c42acd1249302d15d78fbe93f00e531651beadc35477f1",
+      "responseSha256": "3871f6a39c1ab00a9d9b8142fc00ba695819931091e82ac0f05743f765c26de1"
+    }
+  },
+  {
+    "inventoryPosition": 333,
+    "identity": {
+      "code": "AGL-00042",
+      "id": 134139,
+      "name": "スズカのメガネ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00042"
+    },
+    "status": "mapped",
+    "kind": "eyeglasses",
+    "label": "케이스 부속 안경",
+    "reason": "렌즈·다리·케이스 구성과 황동·유리·고무 재질을 확인한 안경입니다.",
+    "jimpass": {
+      "code": "16",
+      "label": "선글래스/안경",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "073",
+      "label": "[목록통관] 안경",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A75:C75"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00042",
+      "checkedAt": "2026-10-30T14:56:36Z",
+      "material": "황동 / 유리 / 고무",
+      "facts": [
+        "본문에서 렌즈와 안경다리에 인쇄된 안경이며 오리지널 케이스가 부속된다고 설명함.",
+        "황동·유리·고무 재질을 명시함."
+      ],
+      "descriptionSha256": "c6694bc196de66b970d76fc5b1b4b0bebc3cb62c7aa1e110c803fe9df623094b",
+      "responseSha256": "8b1951bae940a426f1837924c7094a134f108d18d3a4fd8d76899b30e4cf1d59"
+    }
+  },
+  {
+    "inventoryPosition": 333,
+    "identity": {
+      "code": "AGL-00041",
+      "id": 134138,
+      "name": "リーダーズランダムグッズ2",
+      "productUrl": "https://asobisystem.shop/products/AGL-00041"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00041",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00041",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:37Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "A4トートバッグ",
+        "ハンカチ",
+        "アクリルキーホルダー",
+        "ラバーバンド",
+        "コインケース"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        },
+        {
+          "id": 1774,
+          "slug": "leaders-goods",
+          "name": "グッズ"
+        },
+        {
+          "id": 4288,
+          "slug": "leaders-random",
+          "name": "ランダム商品"
+        }
+      ],
+      "descriptionSha256": "21bd6fa78e2b999a6aadda3fa15aef9d74bd6db2dd41ad23f05fe13956a6dbc7",
+      "responseSha256": "b2d6a5ab9f913fe3ac34649d2bc1e9f8a9d7f5005ce3fe47792ca51f9126f804"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 335,
+    "identity": {
+      "code": "FZ-00123",
+      "id": 133551,
+      "name": "「わたしの一番かわいいところ」メンバー別ACアダプタ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00123"
+    },
+    "status": "mapped",
+    "kind": "ac_adapter",
+    "label": "AC 전원 어댑터",
+    "reason": "AC 어댑터 상품이지만 전기 사양이 없어 전기 부속품·기타 전자제품 후보로 남겼습니다.",
+    "jimpass": {
+      "code": "201",
+      "label": "전기부속품류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "052",
+      "label": "[일반통관] 기타 전자제품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A54:C54"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "충전기 종류와 전기 정격이 없어 전기 부속품·기타 전자제품 후보를 배대지에서 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00123",
+      "checkedAt": "2026-10-30T14:56:38Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 AC 어댑터 상품이며 본문은 그래픽 디자인 배경을 설명함.",
+        "전압·출력·포트·전기 사양은 기재하지 않음."
+      ],
+      "descriptionSha256": "c1e45c55f70113ec2ad3c3c72f329e1e18b3e31b01c1972cb856381c4b7978cc",
+      "responseSha256": "8f6a1ddf496c48dfe152c2ed77d88127f462564ac6d22422942be79d055a29b7"
+    }
+  },
+  {
+    "inventoryPosition": 335,
+    "identity": {
+      "code": "FZ-00118",
+      "id": 133546,
+      "name": "FRUITS ZIPPER ネックストラップ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00118"
+    },
+    "status": "mapped",
+    "kind": "neck_strap",
+    "label": "목걸이형 스트랩",
+    "reason": "공식 상품명이 넥스트랩으로 명시되어 착용 액세서리 항목을 제안합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에는 스트랩의 소재·연결 구조가 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00118",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00118",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:40Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ネックストラップ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "d094836dec810770e54c044e67545e188fe4703e74c7ec59e58aed860a9bd12a",
+      "responseSha256": "f58bbd8804f2e02f0270acee87dd4f773f93d68376584644425219c75c9dd01a"
+    }
+  },
+  {
+    "inventoryPosition": 337,
+    "identity": {
+      "code": "9784901759250",
+      "id": 132098,
+      "name": "AMIAYA × STREET TOKYO FASHION 2021ss",
+      "productUrl": "https://asobisystem.shop/products/9784901759250"
+    },
+    "status": "mapped",
+    "kind": "photo_book_set",
+    "label": "사진집·손잡이 가방 구성",
+    "reason": "76쪽 실물 사진집을 확인했으며 함께 안내된 비닐 가방 구성을 확인해야 합니다.",
+    "jimpass": {
+      "code": "102",
+      "label": "서책 및 잡지류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "139",
+      "label": "[목록통관] 책/잡지류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A141:C141"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "주상품 사진집 외에 비닐 가방이 포함되어 부속 구성·별도 신고 여부 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/9784901759250",
+      "checkedAt": "2026-10-30T14:56:41Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 패션 사진집이며 컬러 76쪽이라고 명시함.",
+        "비닐제 손잡이 가방도 함께 안내함."
+      ],
+      "descriptionSha256": "425463dfe595d7dd61e6f4a27f45b0b9f758f157ff43eaff634003ca1ce97c17",
+      "responseSha256": "60f19e0bceae68b9e5a3b4efafa8ff137e1874eee1fb1c3f2af53f75116b4299"
+    }
+  },
+  {
+    "inventoryPosition": 337,
+    "identity": {
+      "code": "sn-00003",
+      "id": 125333,
+      "name": "pelorigirlglass",
+      "productUrl": "https://asobisystem.shop/products/sn-00003"
+    },
+    "status": "needs_review",
+    "kind": "drink_cup_material_unconfirmed",
+    "label": "음료용 컵",
+    "reason": "음료용 컵은 확인되나 재질이 명시되지 않아 짐패스의 재질별 식기 코드는 확인이 필요합니다.",
+    "jimpass": null,
+    "general": {
+      "code": "138",
+      "label": "[목록통관] 기타 주방용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A140:C140"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "유리·플라스틱·금속 중 재질을 추정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00003",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00003",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:42Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "台湾ビールグラス風コップ",
+        "170ml"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        },
+        {
+          "id": 4125,
+          "slug": "sn_glass",
+          "name": "グラス"
+        }
+      ],
+      "descriptionSha256": "1e2c4a8d8e5406cc49d542493b49c6fa5d68607101e86bad0f353297b037cb4e",
+      "responseSha256": "ad37b4dfc48b5d166a13be21c114d999d4e18ff8d962f9899d63ad9a0e4dc633"
+    }
+  },
+  {
+    "inventoryPosition": 339,
+    "identity": {
+      "code": "sn-00004",
+      "id": 125332,
+      "name": "pelorigirlsox",
+      "productUrl": "https://asobisystem.shop/products/sn-00004"
+    },
+    "status": "mapped",
+    "kind": "socks",
+    "label": "양말",
+    "reason": "공식 양말 카테고리와 남녀 발 착용 치수를 확인했습니다.",
+    "jimpass": {
+      "code": "12",
+      "label": "손수건/양말류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "063",
+      "label": "[목록통관] 양말",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A65:C65"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00004",
+      "checkedAt": "2026-10-30T14:56:43Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 하위 카테고리가 양말.",
+        "남성용 25~27cm·여성용 22~24cm 발 착용 치수를 안내함."
+      ],
+      "descriptionSha256": "7c9012d3ae56dd50e22a22dd54bcf76febc94cbd225b487ef44cabb280663c75",
+      "responseSha256": "eb796bc32145dbf31edf5b68faabaf580d9b42bf5d1a4768b54a0e0a575b9855"
+    }
+  },
+  {
+    "inventoryPosition": 339,
+    "identity": {
+      "code": "sn-00031",
+      "id": 129891,
+      "name": "缶ミラー",
+      "productUrl": "https://asobisystem.shop/products/sn-00031"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 상세에서 휴대용 거울임을 확인해 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도로 명시되지 않아 화장용 도구로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00031",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00031",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:44Z",
+      "material": "素材: イラスト部分 : アルミ素材\n鏡部分：ガラスミラー",
+      "components": [],
+      "facts": [
+        "缶ミラー",
+        "ガラスミラー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        },
+        {
+          "id": 4705,
+          "slug": "sn_canmirror",
+          "name": "缶ミラー"
+        }
+      ],
+      "descriptionSha256": "4f1afae77eb539a585933df4e7d78a760951e00ed465248fab444141de563fbd",
+      "responseSha256": "5bb7a11d88f52cda466d2c2514fd21ed66bdc5b08fd2a919d3cfc22fa137f2d4"
+    }
+  },
+  {
+    "inventoryPosition": 341,
+    "identity": {
+      "code": "sn-00032",
+      "id": 129890,
+      "name": "夢中",
+      "productUrl": "https://asobisystem.shop/products/sn-00032"
+    },
+    "status": "mapped",
+    "kind": "poster",
+    "label": "인쇄 포스터",
+    "reason": "공식 포스터 카테고리는 확인했으며 바탕 재질이 없어 종이 여부 확인이 필요합니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이 포스터가 맞는지 확인해 주세요. 직물 등 다른 바탕이면 코드를 변경해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00032",
+      "checkedAt": "2026-10-30T14:56:45Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세 하위 카테고리가 포스터.",
+        "본문에는 판매·포장 안내만 있으며 종이·직물 등 바탕 재질은 없음."
+      ],
+      "descriptionSha256": "e93b3404d91b2a35d5da7bff0282743d90215fd23e4cb9f441d629ca97c9ba87",
+      "responseSha256": "72307a4736e4e7715cfefe0472ae0203a786d2289c20903c6e57ba4554a49fc9"
+    }
+  },
+  {
+    "inventoryPosition": 341,
+    "identity": {
+      "code": "sn-00033",
+      "id": 129889,
+      "name": "今頃みんな探しているかな？",
+      "productUrl": "https://asobisystem.shop/products/sn-00033"
+    },
+    "status": "mapped",
+    "kind": "art_poster",
+    "label": "일러스트 포스터",
+    "reason": "공식 상품 카테고리가 포스터로 확인되어 인쇄화 항목을 제안합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세 본문에는 소재·규격이 기재되어 있지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00033",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00033",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:46Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ポスター"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        },
+        {
+          "id": 4707,
+          "slug": "sn_poster",
+          "name": "ポスター"
+        }
+      ],
+      "descriptionSha256": "f9f693827600240b72e810f6ee499417b39f93f3b74cfc53bb052bdd428afa1c",
+      "responseSha256": "60aa22cdb2a39d331c694e128f5053e20833f3569ab5b2dbbd80bad8f817e353"
+    }
+  },
+  {
+    "inventoryPosition": 343,
+    "identity": {
+      "code": "sn-00035",
+      "id": 129887,
+      "name": "お祭りストリート",
+      "productUrl": "https://asobisystem.shop/products/sn-00035"
+    },
+    "status": "needs_review",
+    "kind": "sticker_material_unconfirmed",
+    "label": "스티커 재질 확인",
+    "reason": "공식 스티커 카테고리와 크기는 확인했지만 재질이 없어 짐패스 코드는 비웠습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "종이·비닐 등 재질을 확인해야 하므로 짐패스 종이인쇄물 코드는 비웠습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00035",
+      "checkedAt": "2026-10-30T14:56:47Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 하위 카테고리가 스티커이고 약 75×121mm 크기를 안내함.",
+        "바탕 재질은 기재되지 않음."
+      ],
+      "descriptionSha256": "6bba23ccaa5fbadc7492523396af5cf086385252a0fd24af844c9d3d75a438d6",
+      "responseSha256": "0494513bacb888d5d8fecb1f73b324a27be2254873a386e92ec07e03b584e70e"
+    }
+  },
+  {
+    "inventoryPosition": 343,
+    "identity": {
+      "code": "sn-00038",
+      "id": 129884,
+      "name": "春の魅惑",
+      "productUrl": "https://asobisystem.shop/products/sn-00038"
+    },
+    "status": "mapped",
+    "kind": "acrylic_keychain",
+    "label": "아크릴 키홀더",
+    "reason": "공식 세부 카테고리가 아크릴 키홀더로 명시되어 키링으로 분류합니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/sn-00038",
+      "apiUrl": "https://shop.api.groobee.com/products/sn-00038",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:48Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリルキーホルダー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4118,
+          "slug": "satonatsumi",
+          "name": "佐藤なつみ"
+        },
+        {
+          "id": 4124,
+          "slug": "sn_acrylickeyholder",
+          "name": "アクリルキーホルダー"
+        }
+      ],
+      "descriptionSha256": "792b1b1ec5baec9f0d7f86a72894a74ca137c182a82b3ecc53b577b403c40e68",
+      "responseSha256": "6e0d1c141ed55286c15c616d93ea4d61d14f6be0e47fbaaf3727b0a19e702e5e"
+    }
+  },
+  {
+    "inventoryPosition": 345,
+    "identity": {
+      "code": "AGL-00019",
+      "id": 129365,
+      "name": "『マ人間』オンラインくじ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00019"
+    },
+    "status": "needs_review",
+    "kind": "mixed_physical_lottery",
+    "label": "서로 다른 실물 경품 온라인 추첨",
+    "reason": "실물 키링·배지·스티커·패널 경품이 섞인 추첨이므로 단일 코드를 넣지 않습니다.",
+    "jimpass": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "온라인 추첨이지만 실물 경품은 서로 다른 품목이므로 실제 당첨 결과 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00019",
+      "checkedAt": "2026-10-30T14:56:49Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "아크릴 키링·배지·스티커·사인 아크릴 패널·등신대 패널을 경품으로 명시함.",
+        "주문 후 실물 경품을 배송하는 일정이 안내됨."
+      ],
+      "descriptionSha256": "3dc8d2c6b5a69adb96b8ad2611b6c8e5bc43675bc51d33eded1b1a449cbc609f",
+      "responseSha256": "69d32769ce7411e2940364463e473522ca492a4c14ab11127d496aa0fb2f57eb"
+    }
+  },
+  {
+    "inventoryPosition": 345,
+    "identity": {
+      "code": "UT-00004",
+      "id": 127527,
+      "name": "キャンバスパネル 1",
+      "productUrl": "https://asobisystem.shop/products/UT-00004"
+    },
+    "status": "mapped",
+    "kind": "canvas_artwork",
+    "label": "캔버스 아트 패널",
+    "reason": "공식 상품명이 캔버스 패널이므로 제작 방식을 가정하지 않는 그림의 상위 범주를 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손그림·인쇄 여부가 명시되지 않아 해당 전용 하위 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00004",
+      "apiUrl": "https://shop.api.groobee.com/products/UT-00004",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:50Z",
+      "material": "素材: キャンバス",
+      "components": [],
+      "facts": [
+        "キャンバス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4397,
+          "slug": "utu",
+          "name": "utu"
+        }
+      ],
+      "descriptionSha256": "0c6e699a421f6c9a839d7ea949052688a3ce4f45a3072d330983116494589c23",
+      "responseSha256": "b00affee8dc885c923edcd5000efca77a058fb0c7414b1ce3f4e571e14a82e30"
+    }
+  },
+  {
+    "inventoryPosition": 347,
+    "identity": {
+      "code": "UT-00005",
+      "id": 127526,
+      "name": "キャンバスパネル 2",
+      "productUrl": "https://asobisystem.shop/products/UT-00005"
+    },
+    "status": "mapped",
+    "kind": "canvas_art",
+    "label": "캔버스 패널 작품",
+    "reason": "캔버스 재질은 확인했지만 제작 기법이 없어 일반 그림 항목으로 분류했습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화와 인쇄 작품 중 제작 방식이 기재되지 않아 일반 그림 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00005",
+      "checkedAt": "2026-10-30T14:56:51Z",
+      "material": "캔버스",
+      "facts": [
+        "캔버스 재질과 일본 생산을 명시함.",
+        "본문에서 수작업·인쇄 방식은 구분하지 않음."
+      ],
+      "descriptionSha256": "0c6e699a421f6c9a839d7ea949052688a3ce4f45a3072d330983116494589c23",
+      "responseSha256": "0c3dcf2c847bba5a0e5e8aad1c39612acc7314f408c985f23a5b3684fc94b1e1"
+    }
+  },
+  {
+    "inventoryPosition": 347,
+    "identity": {
+      "code": "UT-00006",
+      "id": 127525,
+      "name": "キャンバスパネル 3",
+      "productUrl": "https://asobisystem.shop/products/UT-00006"
+    },
+    "status": "mapped",
+    "kind": "canvas_artwork",
+    "label": "캔버스 아트 패널",
+    "reason": "공식 상품명이 캔버스 패널이므로 제작 방식을 가정하지 않는 그림의 상위 범주를 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손그림·인쇄 여부가 명시되지 않아 해당 전용 하위 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00006",
+      "apiUrl": "https://shop.api.groobee.com/products/UT-00006",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:52Z",
+      "material": "素材: キャンバス",
+      "components": [],
+      "facts": [
+        "キャンバス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4397,
+          "slug": "utu",
+          "name": "utu"
+        }
+      ],
+      "descriptionSha256": "0c6e699a421f6c9a839d7ea949052688a3ce4f45a3072d330983116494589c23",
+      "responseSha256": "62ed40bde748cc3c39fff118464a85fb16466411b998c57215be0de96b0242e4"
+    }
+  },
+  {
+    "inventoryPosition": 349,
+    "identity": {
+      "code": "UT-00007",
+      "id": 127524,
+      "name": "キャンバスパネル 4",
+      "productUrl": "https://asobisystem.shop/products/UT-00007"
+    },
+    "status": "mapped",
+    "kind": "canvas_art",
+    "label": "캔버스 패널 작품",
+    "reason": "캔버스 재질은 확인했지만 제작 기법이 없어 일반 그림 항목으로 분류했습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "원화와 인쇄 작품 중 제작 방식이 기재되지 않아 일반 그림 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00007",
+      "checkedAt": "2026-10-30T14:56:53Z",
+      "material": "캔버스",
+      "facts": [
+        "캔버스 재질과 일본 생산을 명시함.",
+        "본문에서 수작업·인쇄 방식은 구분하지 않음."
+      ],
+      "descriptionSha256": "0c6e699a421f6c9a839d7ea949052688a3ce4f45a3072d330983116494589c23",
+      "responseSha256": "fa56b6310985d7a188d16111a16929f94f6a8daed5833f857b0393b3a697ba0c"
+    }
+  },
+  {
+    "inventoryPosition": 349,
+    "identity": {
+      "code": "UT-00008",
+      "id": 127523,
+      "name": "キャンバスパネル 5",
+      "productUrl": "https://asobisystem.shop/products/UT-00008"
+    },
+    "status": "mapped",
+    "kind": "canvas_artwork",
+    "label": "캔버스 아트 패널",
+    "reason": "공식 상품명이 캔버스 패널이므로 제작 방식을 가정하지 않는 그림의 상위 범주를 제안합니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손그림·인쇄 여부가 명시되지 않아 해당 전용 하위 코드는 사용하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/UT-00008",
+      "apiUrl": "https://shop.api.groobee.com/products/UT-00008",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:54Z",
+      "material": "素材: キャンバス",
+      "components": [],
+      "facts": [
+        "キャンバス"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4397,
+          "slug": "utu",
+          "name": "utu"
+        }
+      ],
+      "descriptionSha256": "0c6e699a421f6c9a839d7ea949052688a3ce4f45a3072d330983116494589c23",
+      "responseSha256": "deed07193a6983b8391a37d56d40b94fe7e2cee6fb51a1475a799685170345b3"
+    }
+  },
+  {
+    "inventoryPosition": 351,
+    "identity": {
+      "code": "KN-004",
+      "id": 127665,
+      "name": "かわにしーる盛り合わせ",
+      "productUrl": "https://asobisystem.shop/products/KN-004"
+    },
+    "status": "mapped",
+    "kind": "paper_sticker",
+    "label": "종이 스티커",
+    "reason": "붙이는 용도와 종이 재질·규격을 확인한 스티커입니다.",
+    "jimpass": {
+      "code": "239",
+      "label": "종이인쇄물",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=100"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KN-004",
+      "checkedAt": "2026-10-30T14:56:55Z",
+      "material": "종이",
+      "facts": [
+        "붙이거나 휴대폰 케이스에 넣는 사용법을 안내함.",
+        "종이 재질과 약 60×60mm 크기를 명시함."
+      ],
+      "descriptionSha256": "c197dd97964ac8d81893f7358e86e69916906be1922d4a687b97d0a19f2f6968",
+      "responseSha256": "988b34a4c2b5a57226a3893c0b450b5f3bbfe044593cf6c8c2f2be889801a98c"
+    }
+  },
+  {
+    "inventoryPosition": 351,
+    "identity": {
+      "code": "AGL-00003",
+      "id": 127011,
+      "name": "リーダーズランダムグッズ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00003"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "혼합 랜덤 굿즈 · 잡화 제안",
+    "reason": "상세에 확인된 문구·장식·잡화를 넓은 항목으로 자동 제안했습니다. 배대지 업로드 전에 분류를 확인해 주세요.",
+    "jimpass": {
+      "code": "205",
+      "label": "잡화(문구류/ 장식품/빗등 잡화류)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "291",
+      "label": "[목록통관] 기타(ETC) 품목",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A293:C293"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자동 제안된 넓은 분류입니다. 실제 수령품과 배대지 안내를 확인해 주세요.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00003",
+      "apiUrl": "https://shop.api.groobee.com/products/AGL-00003",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:56Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "アクリルキーホルダー",
+        "缶バッジ",
+        "校章ハンドタオル",
+        "校章トートバッグ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1798,
+          "slug": "leaders",
+          "name": "新しい学校のリーダーズ"
+        }
+      ],
+      "descriptionSha256": "7138bf712b5f5621202ba9652a94f0425c2223e3dbaafe1a41b94bf5182ae125",
+      "responseSha256": "46345ed974a9278f427d2a495c4e1b3b204d8de8b0e11d32c9d8e1737094afa6"
+    },
+    "policyOriginalReviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "mappingPolicy": {
+      "id": "mixed-goods-broad-suggestion-v1",
+      "mode": "automatic-broad-suggestion",
+      "basedOn": "reviewed-composition-facts",
+      "requiresUserReview": true,
+      "officialDetermination": false
+    }
+  },
+  {
+    "inventoryPosition": 353,
+    "identity": {
+      "code": "AGL-00008",
+      "id": 126653,
+      "name": "バンダナフロシキスカーフ",
+      "productUrl": "https://asobisystem.shop/products/AGL-00008"
+    },
+    "status": "mapped",
+    "kind": "multipurpose_fabric",
+    "label": "보자기·다용도 패브릭",
+    "reason": "70cm 정방형 천과 포장·인테리어 등 다용도 사용법을 확인해 일반 패브릭으로 분류했습니다.",
+    "jimpass": {
+      "code": "169",
+      "label": "테이블커버/일반패브릭",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=163"
+    },
+    "general": {
+      "code": "069",
+      "label": "[목록통관] 타월/원단",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A71:C71"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AGL-00008",
+      "checkedAt": "2026-10-30T14:56:57Z",
+      "material": "폴리에스터",
+      "facts": [
+        "약 70×70cm의 펼친 천으로 보자기·도시락 포장·스카프·테이블 천 등의 사용법을 안내함.",
+        "TC 또는 폴리에스터 재질을 명시함."
+      ],
+      "descriptionSha256": "c39afec0e182bef0d0419340f3dea99e523d7ef6ccb5c763105374f8bb1aca7a",
+      "responseSha256": "c86638f22fc1a4c2d0498ecd6eafaed2c4589865110baadd540e40f4d852b2a2"
+    }
+  },
+  {
+    "inventoryPosition": 353,
+    "identity": {
+      "code": "BY-00011",
+      "id": 125611,
+      "name": "HUNTER HANAFUDA",
+      "productUrl": "https://asobisystem.shop/products/BY-00011"
+    },
+    "status": "mapped",
+    "kind": "original_canvas_artwork",
+    "label": "캔버스 원화 작품",
+    "reason": "서명된 캔버스 원화로 명시되어 그림 항목을 제안하며 제작 기법은 추가 추정하지 않습니다.",
+    "jimpass": {
+      "code": "133",
+      "label": "그림",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "148",
+      "label": "[목록통관] 그림",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A150:C150"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손으로 그린 기법인지에 대한 별도 명시는 없어 그림의 상위 범주를 사용합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00011",
+      "apiUrl": "https://shop.api.groobee.com/products/BY-00011",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:56:58Z",
+      "material": "素材: キャンバス",
+      "components": [],
+      "facts": [
+        "原画作品9点",
+        "キャンバス",
+        "サインあり"
+      ],
+      "sourceCategories": [],
+      "descriptionSha256": "d272c7c809ed2efcd3e950d355859162a8fc432459f7ceb26e827d7727ccf775",
+      "responseSha256": "dcc5573a985ef6c71c251c39ca274e0a20ea77b58f86f3bd4ed6362949e793b1"
+    }
+  },
+  {
+    "inventoryPosition": 355,
+    "identity": {
+      "code": "GYO-00008",
+      "id": 125513,
+      "name": "take a nap カラビナ",
+      "productUrl": "https://asobisystem.shop/products/GYO-00008"
+    },
+    "status": "mapped",
+    "kind": "decorative_carabiner",
+    "label": "키 정리용 카라비너",
+    "reason": "가방·벨트 고리 부착과 열쇠 정리 용도가 명시되어 키링 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "240",
+      "label": "키링",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=204"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/GYO-00008",
+      "checkedAt": "2026-10-30T14:56:59Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "가방·바지 벨트 고리에 달거나 열쇠고리를 묶는 용도를 명시함.",
+        "장식 포인트와 열쇠 정리용으로 판매됨."
+      ],
+      "descriptionSha256": "f359287bed34227f0bc57bd55196992fb329c573c24b5a26c3967229cb2b7aa9",
+      "responseSha256": "5485b7caeca4ab82a5560c1bd434cd4eb21137e9d3edac0ef57de35f75839d6c"
+    }
+  },
+  {
+    "inventoryPosition": 355,
+    "identity": {
+      "code": "YTR-00004",
+      "id": 123570,
+      "name": "【ゆうたろう×火曜び】 マグネット",
+      "productUrl": "https://asobisystem.shop/products/YTR-00004"
+    },
+    "status": "mapped",
+    "kind": "decorative_magnet",
+    "label": "생활 장식 마그넷",
+    "reason": "공식 상세에 마그넷 제품으로 명시되어 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자석 장식품의 상위 생활용품 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YTR-00004",
+      "apiUrl": "https://shop.api.groobee.com/products/YTR-00004",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:01Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "マグネット"
+      ],
+      "sourceCategories": [
+        {
+          "id": 4078,
+          "slug": "yutaro",
+          "name": "ゆうたろう"
+        },
+        {
+          "id": 4079,
+          "slug": "yutaro_kayoubi",
+          "name": "ゆうたろう×火曜び 限定グッズ"
+        }
+      ],
+      "descriptionSha256": "878786a04c1f23d81df4d03aedf767bed65f4b059ff2ce08378e2b7d9f76a148",
+      "responseSha256": "137d30f763e964cd4d5b535a27ffc059157374945ff6c88c7c38833c9e03761e"
+    }
+  },
+  {
+    "inventoryPosition": 357,
+    "identity": {
+      "code": "YTR-00002",
+      "id": 123567,
+      "name": "【ゆうたろう×火曜び】 缶ミラー",
+      "productUrl": "https://asobisystem.shop/products/YTR-00002"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 거울 상품임을 확인했으며 생활소품 후보와 세부 사양 확인을 남겼습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손거울 전용 세부 코드가 없어 생활소품 후보를 제안하며 실물 사양 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/YTR-00002",
+      "checkedAt": "2026-10-30T14:57:02Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에서 거울 상품을 판매함.",
+        "전용 거울 코드와 재질·구조 세부 사양이 제한적임."
+      ],
+      "descriptionSha256": "d3590b2c524e38d7e615ce16401958b6ad125105e472a3ec2ba376485bcc84f8",
+      "responseSha256": "2c2024704aea5edfd392419bcbc9bced6fff3ea92caffb00213554d83a5bd1de"
+    }
+  },
+  {
+    "inventoryPosition": 357,
+    "identity": {
+      "code": "CT-00034",
+      "id": 123412,
+      "name": "【10連特典あり】その場で分かる！ランダムグッズ 制服ver.",
+      "productUrl": "https://asobisystem.shop/products/CT-00034"
+    },
+    "status": "needs_review",
+    "kind": "mixed_random_goods",
+    "label": "서로 다른 품목의 랜덤 굿즈",
+    "reason": "서로 다른 종류 중 무작위로 받는 상품이므로 실제 수령 물품을 확인해야 합니다.",
+    "jimpass": null,
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "공통 캡슐·랜덤 상품명에 단일 품목코드를 강제하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CT-00034",
+      "apiUrl": "https://shop.api.groobee.com/products/CT-00034",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:03Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "S賞：",
+        "アクリルブロック",
+        "アクリルスタンド",
+        "缶バッジ",
+        "ステッカー",
+        "生写真"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3003,
+          "slug": "candy-tune",
+          "name": "CANDY TUNE"
+        },
+        {
+          "id": 3094,
+          "slug": "candy-tune_goods",
+          "name": "グッズ"
+        }
+      ],
+      "descriptionSha256": "a4bd24f622cc3986ea389a73c369ec4357fcea4ce537c208d4bf2f8631397797",
+      "responseSha256": "89d08d41081c8990deaffccf6d0890985c925ec2a1cb79bd4b0537d789bbbfae"
+    }
+  },
+  {
+    "inventoryPosition": 359,
+    "identity": {
+      "code": "BY-00009",
+      "id": 121770,
+      "name": "HANAFUDA TRUMPS",
+      "productUrl": "https://asobisystem.shop/products/BY-00009"
+    },
+    "status": "mapped",
+    "kind": "hanafuda_cards",
+    "label": "화투·트럼프 겸용 카드",
+    "reason": "54장으로 화투·트럼프 놀이를 하는 용도가 명시되어 오락용품으로 분류했습니다.",
+    "jimpass": {
+      "code": "173",
+      "label": "오락용품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=170"
+    },
+    "general": {
+      "code": "126",
+      "label": "[목록통관] 사행성 오락 (화투)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A128:C128"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00009",
+      "checkedAt": "2026-10-30T14:57:04Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "54장의 카드로 트럼프와 화투 두 가지 놀이가 가능하다고 설명함.",
+        "카드 크기는 58×89mm."
+      ],
+      "descriptionSha256": "aff32fdd3f75f4a90b082b82ca41bc36ac38fc6cdb11f25090d2bfed70ac268d",
+      "responseSha256": "38e422cc0e74c74087b5afcd40ee99abd02078264d7280b2cf051cf562ebae38"
+    }
+  },
+  {
+    "inventoryPosition": 359,
+    "identity": {
+      "code": "BY-00010",
+      "id": 121769,
+      "name": "HANAFUDA SOX",
+      "productUrl": "https://asobisystem.shop/products/BY-00010"
+    },
+    "status": "mapped",
+    "kind": "socks",
+    "label": "면 양말",
+    "reason": "면 100% 소재와 양말 착용 치수가 명시되어 양말류로 분류합니다.",
+    "jimpass": {
+      "code": "12",
+      "label": "손수건/양말류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "063",
+      "label": "[목록통관] 양말",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A65:C65"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/BY-00010",
+      "apiUrl": "https://shop.api.groobee.com/products/BY-00010",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:05Z",
+      "material": "素材: cotton 100%",
+      "components": [],
+      "facts": [
+        "HANAFUDA SOX",
+        "cotton 100%",
+        "25~27cm"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3298,
+          "slug": "bey",
+          "name": "BEY"
+        }
+      ],
+      "descriptionSha256": "27aafb74a92bdfd7efecdec7bf53c612974551829d056d35d9bda589bd14a25f",
+      "responseSha256": "bf277faaccbb5700b7b58856367415ca489898b4fed2c0c2f36fa32f2505432c"
+    }
+  },
+  {
+    "inventoryPosition": 361,
+    "identity": {
+      "code": "MIO-00001",
+      "id": 122599,
+      "name": "ONPU BOY",
+      "productUrl": "https://asobisystem.shop/products/MIO-00001"
+    },
+    "status": "mapped",
+    "kind": "metal_badge",
+    "label": "금속 캔 배지",
+    "reason": "착용하는 캔 배지라는 설명과 금속 재질·규격을 확인했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/MIO-00001",
+      "checkedAt": "2026-10-30T14:57:06Z",
+      "material": "금속",
+      "facts": [
+        "본문에서 겹쳐 달 수 있는 캔 배지라고 명시함.",
+        "금속 재질과 약 44mm 원형 또는 40mm 정방형 크기를 안내함."
+      ],
+      "descriptionSha256": "f5df77787f982ea44a8a5b48b8a6ce21c4d9734f25b196a82a60c860db990c0a",
+      "responseSha256": "e4df8da007a69f79a2dee2e9e0dc1d04c4f9bbe603892ae89c45be3810e6853e"
+    }
+  },
+  {
+    "inventoryPosition": 361,
+    "identity": {
+      "code": "MIO-00002",
+      "id": 122598,
+      "name": "Mr.MOON",
+      "productUrl": "https://asobisystem.shop/products/MIO-00002"
+    },
+    "status": "mapped",
+    "kind": "metal_badge",
+    "label": "금속 캔 배지",
+    "reason": "공식 설명에 지름 44mm의 금속 캔 배지로 명시되어 착용 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/MIO-00002",
+      "apiUrl": "https://shop.api.groobee.com/products/MIO-00002",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:07Z",
+      "material": "素材: 金属",
+      "components": [],
+      "facts": [
+        "缶バッジ",
+        "金属",
+        "直径44mm"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3777,
+          "slug": "miochin",
+          "name": "MIOCHIN"
+        }
+      ],
+      "descriptionSha256": "f5df77787f982ea44a8a5b48b8a6ce21c4d9734f25b196a82a60c860db990c0a",
+      "responseSha256": "d26adcf42e648a94913d64f0b1780f3d8b2bc9804a74d9a4a1fe5e64c99875fc"
+    }
+  },
+  {
+    "inventoryPosition": 363,
+    "identity": {
+      "code": "MIO-00003",
+      "id": 122597,
+      "name": "KiraKira Girl",
+      "productUrl": "https://asobisystem.shop/products/MIO-00003"
+    },
+    "status": "mapped",
+    "kind": "metal_badge",
+    "label": "금속 캔 배지",
+    "reason": "착용하는 캔 배지라는 설명과 금속 재질·규격을 확인했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/MIO-00003",
+      "checkedAt": "2026-10-30T14:57:08Z",
+      "material": "금속",
+      "facts": [
+        "본문에서 겹쳐 달 수 있는 캔 배지라고 명시함.",
+        "금속 재질과 약 44mm 원형 또는 40mm 정방형 크기를 안내함."
+      ],
+      "descriptionSha256": "86249a4fb91260cdb08b0908caed02ed432140cae9a4d171f9ce9ea4775c6624",
+      "responseSha256": "f203a15feaaec8457d2a066955557e6084b47b023a99498c7ecd765d5417bcd7"
+    }
+  },
+  {
+    "inventoryPosition": 363,
+    "identity": {
+      "code": "MIO-00004",
+      "id": 122596,
+      "name": "POP FLOWERS",
+      "productUrl": "https://asobisystem.shop/products/MIO-00004"
+    },
+    "status": "mapped",
+    "kind": "cotton_handkerchief",
+    "label": "면 손수건",
+    "reason": "20cm 정사각형 면 100% 손수건으로 명시되어 손수건류로 분류합니다.",
+    "jimpass": {
+      "code": "12",
+      "label": "손수건/양말류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "068",
+      "label": "[목록통관] 손수건",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A70:C70"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/MIO-00004",
+      "apiUrl": "https://shop.api.groobee.com/products/MIO-00004",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:09Z",
+      "material": "素材: 綿100％",
+      "components": [],
+      "facts": [
+        "ハンカチ",
+        "200mm × 200mm",
+        "綿100％"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3777,
+          "slug": "miochin",
+          "name": "MIOCHIN"
+        }
+      ],
+      "descriptionSha256": "ae972d74424a34d5fd19a4adaab1670edf65855a5bbd0f193b1a4c137f5e8f6e",
+      "responseSha256": "2b6ca9b960ada3f8f49b32344f7e6237be52b2cdd599523aee1441ac47a05f57"
+    }
+  },
+  {
+    "inventoryPosition": 365,
+    "identity": {
+      "code": "MIO-00005",
+      "id": 122595,
+      "name": "MIONOSEKAI",
+      "productUrl": "https://asobisystem.shop/products/MIO-00005"
+    },
+    "status": "mapped",
+    "kind": "ceramic_mug",
+    "label": "도자기 머그컵",
+    "reason": "도기 재질과 300ml 용량·컵 규격이 명시된 머그컵입니다.",
+    "jimpass": {
+      "code": "180",
+      "label": "그릇/식기/컵(도자기,유리제품)",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=177"
+    },
+    "general": {
+      "code": "131",
+      "label": "[목록통관] 식기/주방용품 (자기)",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A133:C133"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/MIO-00005",
+      "checkedAt": "2026-10-30T14:57:10Z",
+      "material": "도기",
+      "facts": [
+        "본문에서 캐릭터 머그컵이라고 명시함.",
+        "도기 재질, 약 300ml 용량과 지름 8cm·높이 9.2cm."
+      ],
+      "descriptionSha256": "62a53e2049a82d4ba97c7e7f8d1bec5ea67b495b5be98630f32667b74a0baa10",
+      "responseSha256": "685a5ae25917a1276506c99bdf3a18a2ff3c26ea4816178af7db4069d30c5fa4"
+    }
+  },
+  {
+    "inventoryPosition": 365,
+    "identity": {
+      "code": "FZ-00073",
+      "id": 122602,
+      "name": "【ファンクラブ限定】NEW KAWAIIフォトハンガー",
+      "productUrl": "https://asobisystem.shop/products/FZ-00073"
+    },
+    "status": "mapped",
+    "kind": "photo_hanger",
+    "label": "사진 옷걸이",
+    "reason": "공식 설명에 포토 행거로 명시되어 생활용 옷걸이 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "상세에 소재·규격이 없어 생활 소품의 상위 범주를 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00073",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00073",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:11Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "フォトハンガー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "e362831c9cb827e9f19aa748782211ec1a3e92c690ad6646d1755cdfb6d146ba",
+      "responseSha256": "3dbfbd5c50d88a17e45079255c348c530915624f1ca7591841246bd8add6ce81"
+    }
+  },
+  {
+    "inventoryPosition": 367,
+    "identity": {
+      "code": "HMC-00009",
+      "id": 122464,
+      "name": "AKKANBEE(佐藤なつみ)",
+      "productUrl": "https://asobisystem.shop/products/HMC-00009"
+    },
+    "status": "mapped",
+    "kind": "art_print",
+    "label": "캔버스·지클레 인쇄 작품",
+    "reason": "본문의 다색 인쇄 기법과 실물 규격·코팅 또는 액자 구성을 확인한 인쇄 작품입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HMC-00009",
+      "checkedAt": "2026-10-30T14:57:12Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "캔버스 10색 인쇄 또는 일본산 고급 종이의 12색 지클레 인쇄 기법을 설명함.",
+        "실물 규격·무게와 보호 코팅 또는 액자 구성을 안내함."
+      ],
+      "descriptionSha256": "4d1522cb01b2b52be76d0100f8e1245aa3c732bb23ca508aff321745416d2b26",
+      "responseSha256": "7a9b14a96d223a4cc34cfead4ef7ef73546fcfc1c2c16c9f5e56ff711ceb3d7b"
+    }
+  },
+  {
+    "inventoryPosition": 367,
+    "identity": {
+      "code": "HMC-00010",
+      "id": 122463,
+      "name": "Be yourself.(kakimaku)",
+      "productUrl": "https://asobisystem.shop/products/HMC-00010"
+    },
+    "status": "mapped",
+    "kind": "framed_giclee_print",
+    "label": "액자 지클레 인쇄화",
+    "reason": "와지에 12색 지클레 인쇄 후 액자에 넣은 작품으로 명시되어 인쇄화로 분류합니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HMC-00010",
+      "apiUrl": "https://shop.api.groobee.com/products/HMC-00010",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:13Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "와지 지클레 인쇄화",
+        "검은 액자·매트"
+      ],
+      "facts": [
+        "Giclee print",
+        "12色印刷",
+        "額装"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3769,
+          "slug": "hatsunemiku_collaboration",
+          "name": "初音ミクコラボ"
+        },
+        {
+          "id": 3771,
+          "slug": "hatsunemiku_art",
+          "name": "絵画"
+        },
+        {
+          "id": 3773,
+          "slug": "hatsunemiku_giclee",
+          "name": "ジクレープリント"
+        }
+      ],
+      "descriptionSha256": "ac4c5d9af5d1de9333223b89626bf947ea7dc6d25a2d30bd1101869aa62dd6d0",
+      "responseSha256": "6901181cc9e4058142df272c44f07a101ea5ad7c862ad3fb60fb28d3b05e3b60"
+    }
+  },
+  {
+    "inventoryPosition": 369,
+    "identity": {
+      "code": "HMC-00011",
+      "id": 122462,
+      "name": "mu.(kakimaku)",
+      "productUrl": "https://asobisystem.shop/products/HMC-00011"
+    },
+    "status": "mapped",
+    "kind": "art_print",
+    "label": "캔버스·지클레 인쇄 작품",
+    "reason": "본문의 다색 인쇄 기법과 실물 규격·코팅 또는 액자 구성을 확인한 인쇄 작품입니다.",
+    "jimpass": {
+      "code": "138",
+      "label": "판화, 인쇄화, 석판화",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=132"
+    },
+    "general": {
+      "code": "154",
+      "label": "[목록통관] 판화/인쇄화/석판화",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A156:C156"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HMC-00011",
+      "checkedAt": "2026-10-30T14:57:14Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "캔버스 10색 인쇄 또는 일본산 고급 종이의 12색 지클레 인쇄 기법을 설명함.",
+        "실물 규격·무게와 보호 코팅 또는 액자 구성을 안내함."
+      ],
+      "descriptionSha256": "c983dd1b3442db99bafbb6b14c0ca68bededf0b298474b736bf8ee65ef4572c8",
+      "responseSha256": "a186a84090b8c960108cc6adf821ca38b235562b553aa149ac8cde3f3f13945c"
+    }
+  },
+  {
+    "inventoryPosition": 369,
+    "identity": {
+      "code": "AN-000031",
+      "id": 119333,
+      "name": "ainou 23 フレグランスミスト オードトワレ 45ml",
+      "productUrl": "https://asobisystem.shop/products/AN-000031"
+    },
+    "status": "needs_review",
+    "kind": "eau_de_toilette_45ml",
+    "label": "45ml 오드투알레 향수",
+    "reason": "45ml 향수이나 훗타운 향수 코드는 미국센터 전용이므로 일본 주문에 넣지 않습니다.",
+    "jimpass": {
+      "code": "117",
+      "label": "향수 - 1.7oz(60ml) 이하 또는 1병 이하",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=108"
+    },
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "훗타운 일본센터 향수 운송 가능 여부·대체 품목과 주문 수량은 직접 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AN-000031",
+      "apiUrl": "https://shop.api.groobee.com/products/AN-000031",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:15Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "オードトワレ 45ml"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1733,
+          "slug": "ainou",
+          "name": "ainou"
+        }
+      ],
+      "descriptionSha256": "ed145f43803231864509c15ff4cfc4478d3f4a47ecd84c6846e298b248383b01",
+      "responseSha256": "1b856c663d569dfd53ebca353c28a3d7e336d791930e9d5e1bca6a0c573f6755"
+    }
+  },
+  {
+    "inventoryPosition": 371,
+    "identity": {
+      "code": "AN-000021",
+      "id": 119332,
+      "name": "ainou 8 フレグランスミスト オードトワレ 45ml",
+      "productUrl": "https://asobisystem.shop/products/AN-000021"
+    },
+    "status": "needs_review",
+    "kind": "perfume",
+    "label": "45ml 오드트왈렛",
+    "reason": "45ml 향수는 확인했으나 훗타운 향수 항목이 미국 센터 전용이어서 해당 코드를 비웠습니다.",
+    "jimpass": {
+      "code": "117",
+      "label": "향수 - 1.7oz(60ml) 이하 또는 1병 이하",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=108"
+    },
+    "general": {
+      "code": "",
+      "label": "",
+      "source": null
+    },
+    "requiresReview": true,
+    "reviewReason": "훗타운은 일본 출발에 적용 가능한 향수 코드를 확인할 수 없어 비웠습니다. 짐패스도 실제 운송 조건 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AN-000021",
+      "checkedAt": "2026-10-30T14:57:16Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "오드트왈렛 45ml 상품이며 톱·미들·베이스 향조를 안내함.",
+        "훗타운 원본 향수 카테고리는 미국 센터만 신청 가능하다고 명시함."
+      ],
+      "descriptionSha256": "938ffd91200b54232ed1642c8b8348836a6e9cd3abfe1a8553b1b9738d3b987c",
+      "responseSha256": "c3d6fae56d4dc1adbc8cdd245084fb6d093c524589b0a7152b13335cfa30884f"
+    }
+  },
+  {
+    "inventoryPosition": 371,
+    "identity": {
+      "code": "AN-000011",
+      "id": 119331,
+      "name": "ainou 0 フレグランスミスト オードトワレ 45ml",
+      "productUrl": "https://asobisystem.shop/products/AN-000011"
+    },
+    "status": "needs_review",
+    "kind": "eau_de_toilette_45ml",
+    "label": "45ml 오드투알레 향수",
+    "reason": "45ml 향수이나 훗타운 향수 코드는 미국센터 전용이므로 일본 주문에 넣지 않습니다.",
+    "jimpass": {
+      "code": "117",
+      "label": "향수 - 1.7oz(60ml) 이하 또는 1병 이하",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=108"
+    },
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "훗타운 일본센터 향수 운송 가능 여부·대체 품목과 주문 수량은 직접 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AN-000011",
+      "apiUrl": "https://shop.api.groobee.com/products/AN-000011",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:17Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "オードトワレ 45ml"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1733,
+          "slug": "ainou",
+          "name": "ainou"
+        }
+      ],
+      "descriptionSha256": "0ec5a8b31c0ce37d57cd2a48994e8918bbfca62fa040f4acff8eaf0ea992b70a",
+      "responseSha256": "b41c64984dc4a89715e3743dc8027d046d05e7ed0f735035ca865bbf7fa3a0d4"
+    }
+  },
+  {
+    "inventoryPosition": 373,
+    "identity": {
+      "code": "FZ-00050",
+      "id": 119293,
+      "name": "BE AT THE HEART おなまえ アクリルバッチ ランダム",
+      "productUrl": "https://asobisystem.shop/products/FZ-00050"
+    },
+    "status": "mapped",
+    "kind": "acrylic_badge",
+    "label": "이름 아크릴 배지",
+    "reason": "본문에 아크릴 이름 배지와 실물 치수가 명시되어 배지 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00050",
+      "checkedAt": "2026-10-30T14:57:18Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 투어 판매용 이름 아크릴 배지라고 명시함.",
+        "약 60×56mm 규격의 동일 물품 멤버별 랜덤 상품."
+      ],
+      "descriptionSha256": "affaa35abdfbdf0af39dd6e6a0567866adad88e6c274afbc3b09d4d2775c662b",
+      "responseSha256": "a0f2dbd4dab7a7313a74afef940f7c3bc3645f5f8511184dcd0b25654011183e"
+    }
+  },
+  {
+    "inventoryPosition": 373,
+    "identity": {
+      "code": "FZ-00046",
+      "id": 119290,
+      "name": "BE AT THE HEART コンパクトミラー",
+      "productUrl": "https://asobisystem.shop/products/FZ-00046"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 상세에서 휴대용 거울임을 확인해 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "특정 화장 용도로 명시되지 않아 화장용 도구로 단정하지 않습니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00046",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00046",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:20Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "コンパクトミラー"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "e3dc1eff1461ad4ce154ab24cea3e35805fa4006bc34313ddb3690aa37ab8b6e",
+      "responseSha256": "996cbd27d1f1570e19f1d43c9204755e2ebae2310ba5e4a301cc5af013dd3817"
+    }
+  },
+  {
+    "inventoryPosition": 375,
+    "identity": {
+      "code": "KG-00004",
+      "id": 116961,
+      "name": "Klang Ruler ロゴラバーバンド",
+      "productUrl": "https://asobisystem.shop/products/KG-00004"
+    },
+    "status": "mapped",
+    "kind": "rubber_wristband",
+    "label": "실리콘 손목밴드",
+    "reason": "본문의 러버밴드 용도와 실리콘 재질을 확인해 착용 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KG-00004",
+      "checkedAt": "2026-10-30T14:57:21Z",
+      "material": "실리콘 / 고무",
+      "facts": [
+        "본문에서 러버밴드·실리콘 밴드라고 소개함.",
+        "실리콘 또는 실리콘 고무 재질을 명시함."
+      ],
+      "descriptionSha256": "b5d9ca54a2a8108e8610efb96b4d571d2ad8ecf01d9c97046cfa3b807dc1158a",
+      "responseSha256": "09f90c28b174917208206bfda51da510c63a687878d58dd89e32f08edaca417d"
+    }
+  },
+  {
+    "inventoryPosition": 375,
+    "identity": {
+      "code": "HM-00005",
+      "id": 116627,
+      "name": "HOME ORIGINAL L/S THERMAL 『Boys Hold Hands?』",
+      "productUrl": "https://asobisystem.shop/products/HM-00005"
+    },
+    "status": "mapped",
+    "kind": "long_sleeve_tshirt",
+    "label": "긴팔 서멀 티셔츠",
+    "reason": "공식 설명에 유니섹스 긴팔 서멀 티셔츠로 명시되어 일반 의류로 분류합니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HM-00005",
+      "apiUrl": "https://shop.api.groobee.com/products/HM-00005",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:22Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "ロングスリーブのサーマルTシャツ",
+        "Unisex Size"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1981,
+          "slug": "home",
+          "name": "HOME"
+        }
+      ],
+      "descriptionSha256": "13c6904be8181ebfd1850e369e1b68a23a28e2246232ff372d1cea5ec27e61da",
+      "responseSha256": "5a54127e80247ccd55730fefff4483a027c1edc05d6b87dc86cdfeede4ce6409"
+    }
+  },
+  {
+    "inventoryPosition": 377,
+    "identity": {
+      "code": "HM-00004",
+      "id": 116626,
+      "name": "HOME ORIGINAL compact mirror",
+      "productUrl": "https://asobisystem.shop/products/HM-00004"
+    },
+    "status": "mapped",
+    "kind": "portable_mirror",
+    "label": "휴대용 거울",
+    "reason": "공식 거울 상품임을 확인했으며 생활소품 후보와 세부 사양 확인을 남겼습니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "손거울 전용 세부 코드가 없어 생활소품 후보를 제안하며 실물 사양 확인이 필요합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/HM-00004",
+      "checkedAt": "2026-10-30T14:57:23Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "공식 상세에서 거울 상품을 판매함.",
+        "전용 거울 코드와 재질·구조 세부 사양이 제한적임."
+      ],
+      "descriptionSha256": "9fcf8b746d39ad3288c1dd9a270b0dbdce6ccec331fee8176fa0ceab498f78a7",
+      "responseSha256": "7fd0222f2e933d28f45491c484efe54abb4705aeb06bb527987e066619a546b7"
+    }
+  },
+  {
+    "inventoryPosition": 377,
+    "identity": {
+      "code": "KM-00065",
+      "id": 116618,
+      "name": "マグネット 2種セット",
+      "productUrl": "https://asobisystem.shop/products/KM-00065"
+    },
+    "status": "mapped",
+    "kind": "decorative_magnet",
+    "label": "생활 장식 마그넷",
+    "reason": "공식 상세에 마그넷 제품으로 명시되어 생활 소품 항목을 제안합니다.",
+    "jimpass": {
+      "code": "197",
+      "label": "가정용소품",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=194"
+    },
+    "general": {
+      "code": "105",
+      "label": "[목록통관] 기타 문구/생활용품",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A107:C107"
+      }
+    },
+    "requiresReview": true,
+    "reviewReason": "자석 장식품의 상위 생활용품 항목을 제안합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/KM-00065",
+      "apiUrl": "https://shop.api.groobee.com/products/KM-00065",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:24Z",
+      "material": "素材: PP樹脂、磁石",
+      "components": [],
+      "facts": [
+        "マグネット",
+        "冷蔵庫",
+        "PP樹脂、磁石"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1701,
+          "slug": "kawaiimonstercafe",
+          "name": "KAWAII MONSTER CAFE"
+        }
+      ],
+      "descriptionSha256": "e777ce080e0fcc38f597e31ca14789db076ec9b2f5e4b2164af4a471ae823109",
+      "responseSha256": "55e71612f6a93ac5cb1f170d947a607e42ce9a847d124bdaee1d013a17f4c821"
+    }
+  },
+  {
+    "inventoryPosition": 379,
+    "identity": {
+      "code": "CB-00004",
+      "id": 116606,
+      "name": "CARBON DESIGN 01 × KIKUNO",
+      "productUrl": "https://asobisystem.shop/products/CB-00004"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "그래픽 티셔츠",
+    "reason": "본문에서 디자인·행사 기념 티셔츠라고 명시되어 일반 의류로 분류했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CB-00004",
+      "checkedAt": "2026-10-30T14:57:25Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 협업 디자인 또는 행사 기념 티셔츠라고 직접 설명함.",
+        "디자인 이름이나 행사 혜택과 별개로 판매 물품은 실물 티셔츠."
+      ],
+      "descriptionSha256": "abe82b281f2c6fa6480136222eaa21ab62e90a1a7dd6fc71a8abbbac5934496f",
+      "responseSha256": "67ff8213753b6df1e24a01792921d2fa2b5c839f468b5ec65b154f54ca884519"
+    }
+  },
+  {
+    "inventoryPosition": 379,
+    "identity": {
+      "code": "CB-00005",
+      "id": 116605,
+      "name": "CARBON DESIGN 02 × KEN YOKOKURA",
+      "productUrl": "https://asobisystem.shop/products/CB-00005"
+    },
+    "status": "mapped",
+    "kind": "tshirt",
+    "label": "그래픽 티셔츠",
+    "reason": "공식 설명에 크리에이터 협업 티셔츠로 명시되어 일반 의류로 분류합니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CB-00005",
+      "apiUrl": "https://shop.api.groobee.com/products/CB-00005",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:26Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "スペシャル T シャツ"
+      ],
+      "sourceCategories": [
+        {
+          "id": 3046,
+          "slug": "carbon",
+          "name": "CARBON"
+        }
+      ],
+      "descriptionSha256": "0a7d70f76937dd8e03fda3611444a4d4e0a39eefecd3a04400049d0d35dc7d86",
+      "responseSha256": "0c8a1bfd1429422bd33b254de5625660a04036d6e263e90f0858d02102dd5ab6"
+    }
+  },
+  {
+    "inventoryPosition": 381,
+    "identity": {
+      "code": "CB-00006",
+      "id": 116604,
+      "name": "CARBON DESIGN 03 × MOTTY",
+      "productUrl": "https://asobisystem.shop/products/CB-00006"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "그래픽 티셔츠",
+    "reason": "본문에서 디자인·행사 기념 티셔츠라고 명시되어 일반 의류로 분류했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/CB-00006",
+      "checkedAt": "2026-10-30T14:57:27Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 협업 디자인 또는 행사 기념 티셔츠라고 직접 설명함.",
+        "디자인 이름이나 행사 혜택과 별개로 판매 물품은 실물 티셔츠."
+      ],
+      "descriptionSha256": "d24d06ab6b13f8e573cdf1a37c6ac68fd8bbf1d5b794020d6969f46fb5b832fd",
+      "responseSha256": "e866e6e1a45bde7b387c0e4611b5303ba6be644e714f19deee5d3f64837b5ce0"
+    }
+  },
+  {
+    "inventoryPosition": 381,
+    "identity": {
+      "code": "FZ-00021",
+      "id": 112302,
+      "name": "Aurora Bangle",
+      "productUrl": "https://asobisystem.shop/products/FZ-00021"
+    },
+    "status": "mapped",
+    "kind": "wristband",
+    "label": "장식용 손목 밴드",
+    "reason": "상세의 실리콘·PVC 손목 밴드로 확인되어 비귀금속 장식 액세서리로 분류합니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00021",
+      "apiUrl": "https://shop.api.groobee.com/products/FZ-00021",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:28Z",
+      "material": "상세 소재란 미기재",
+      "components": [
+        "손목 착용 밴드"
+      ],
+      "facts": [
+        "Aurora Bangle",
+        "オーロラPVC素材"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1930,
+          "slug": "fruitszipper",
+          "name": "FRUITS ZIPPER（KAWAII LAB)"
+        }
+      ],
+      "descriptionSha256": "c8d666c4ccb149d7c98002bd4e596b41b0007d7f8b212a5112e0ce625fbb1f87",
+      "responseSha256": "998be030cc69ebb7708c7b9d816918ace18fa4d40a532d617410eb3ea2483e5f"
+    }
+  },
+  {
+    "inventoryPosition": 383,
+    "identity": {
+      "code": "FZ-00008",
+      "id": 111266,
+      "name": "月足天音ロゴ入りフォンタブ",
+      "productUrl": "https://asobisystem.shop/products/FZ-00008"
+    },
+    "status": "mapped",
+    "kind": "phone_tab",
+    "label": "휴대폰용 폰 탭",
+    "reason": "검은 끈을 포함한 폰 탭과 본체 치수가 명시되어 휴대폰 연결 액세서리로 분류했습니다.",
+    "jimpass": {
+      "code": "258",
+      "label": "기타 악세사리",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "076",
+      "label": "[목록통관] 기타 악세서리",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A78:C78"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/FZ-00008",
+      "checkedAt": "2026-10-30T14:57:29Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 검은 끈을 포함한 로고 폰 탭을 소개함.",
+        "본체 약 55×50mm 크기를 안내함."
+      ],
+      "descriptionSha256": "4b1e16ebbe21734808013d139f41e7c49464c8a6a5e81f98872985ad4687584a",
+      "responseSha256": "08689dbb7d387198cc1c84de1b2cb5c7c84a1ae5959f5c9dc25674db649f7b5d"
+    }
+  },
+  {
+    "inventoryPosition": 383,
+    "identity": {
+      "code": "AN-00004",
+      "id": 104543,
+      "name": "ainou 66 フレグランスミスト オードトワレ 45ml",
+      "productUrl": "https://asobisystem.shop/products/AN-00004"
+    },
+    "status": "needs_review",
+    "kind": "eau_de_toilette_45ml",
+    "label": "45ml 오드투알레 향수",
+    "reason": "45ml 향수이나 훗타운 향수 코드는 미국센터 전용이므로 일본 주문에 넣지 않습니다.",
+    "jimpass": {
+      "code": "117",
+      "label": "향수 - 1.7oz(60ml) 이하 또는 1병 이하",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=108"
+    },
+    "general": null,
+    "requiresReview": true,
+    "reviewReason": "훗타운 일본센터 향수 운송 가능 여부·대체 품목과 주문 수량은 직접 확인해야 합니다.",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/AN-00004",
+      "apiUrl": "https://shop.api.groobee.com/products/AN-00004",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:30Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "オードトワレ 45ml"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1733,
+          "slug": "ainou",
+          "name": "ainou"
+        }
+      ],
+      "descriptionSha256": "a8f96040f70eada2a14fabed8c8601d7c1acfac8f8035d9fba6b2e2d237161b5",
+      "responseSha256": "4a3340cb7666141db7ca36a1cdbcb4f7ce7c74cf59a9769637fdfd0b8e2f5c30"
+    }
+  },
+  {
+    "inventoryPosition": 385,
+    "identity": {
+      "code": "LIC-00001",
+      "id": 104534,
+      "name": "Licaxxx - Trilogies T (WHITE) SIZE:XL",
+      "productUrl": "https://asobisystem.shop/products/LIC-00001"
+    },
+    "status": "mapped",
+    "kind": "clothing",
+    "label": "그래픽 티셔츠",
+    "reason": "본문에서 디자인·행사 기념 티셔츠라고 명시되어 일반 의류로 분류했습니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/LIC-00001",
+      "checkedAt": "2026-10-30T14:57:31Z",
+      "material": "상세에 별도 재질 단락 미기재",
+      "facts": [
+        "본문에서 협업 디자인 또는 행사 기념 티셔츠라고 직접 설명함.",
+        "디자인 이름이나 행사 혜택과 별개로 판매 물품은 실물 티셔츠."
+      ],
+      "descriptionSha256": "d6fd99b3a02e5717b08dbd63619ada4703abf244b43d580a0834f5e0a6f4d571",
+      "responseSha256": "6b5876a0ff4148db6f6a08e189e027927a383e089e94f8315c01c14f308153f8"
+    }
+  },
+  {
+    "inventoryPosition": 385,
+    "identity": {
+      "code": "LIC-00002",
+      "id": 104533,
+      "name": "Licaxxx - Trilogies T (BLACK) SIZE:XL",
+      "productUrl": "https://asobisystem.shop/products/LIC-00002"
+    },
+    "status": "mapped",
+    "kind": "tshirt",
+    "label": "행사 기념 티셔츠",
+    "reason": "공식 설명에 행사 기념 티셔츠와 XL 사이즈가 명시되어 일반 의류로 분류합니다.",
+    "jimpass": {
+      "code": "4",
+      "label": "모든의류",
+      "source": "https://www.jimpass.com/tool/agencyCategory.php?category=3"
+    },
+    "general": {
+      "code": "053",
+      "label": "[목록통관] 일반 의류",
+      "source": {
+        "file": "General_Excel_Upload.xlsx",
+        "sheet": "카테고리 품목 코드",
+        "range": "A55:C55"
+      }
+    },
+    "requiresReview": false,
+    "reviewReason": "",
+    "evidence": {
+      "sourceUrl": "https://asobisystem.shop/products/LIC-00002",
+      "apiUrl": "https://shop.api.groobee.com/products/LIC-00002",
+      "checkedAt": "2026-10-31",
+      "fetchedAt": "2026-10-30T14:57:32Z",
+      "material": "상세 소재란 미기재",
+      "components": [],
+      "facts": [
+        "EXCLUSIVE Tシャツ",
+        "SIZE:XL"
+      ],
+      "sourceCategories": [
+        {
+          "id": 1731,
+          "slug": "storelicaxxx",
+          "name": "storelicaxxx"
+        }
+      ],
+      "descriptionSha256": "1c069677fabb9da8be9efdc6846b4c99789770e44edce9dd4db524abf62e950a",
+      "responseSha256": "0302632469671760c9a75990913970bc3a01cd7b0318a56ca0fb9f87f999684f"
+    }
+  }
+];

@@ -1,0 +1,2261 @@
+{
+  "schemaVersion": 1,
+  "provider": "postmall",
+  "sourceFile": "Postmall-v2.1-horizontal.xlsx",
+  "officialSite": "https://www.postmall.net/",
+  "officialHsFinderUrl": "https://www.postmall.net/hs-finder",
+  "sheet": "Sheet1",
+  "sheetPath": "xl/worksheets/sheet1.xml",
+  "columnsRange": "A:IG",
+  "columnCount": 241,
+  "machineHeaderRow": 1,
+  "groupHeaderRow": 2,
+  "labelHeaderRow": 3,
+  "headerRows": [
+    1,
+    2,
+    3
+  ],
+  "startRow": 4,
+  "maxItemsPerRow": 20,
+  "maxItemsPerRequest": 20,
+  "itemFieldCount": 11,
+  "commonFieldCount": 21,
+  "preformattedLastRow": 300,
+  "preformattedRequestRows": 297,
+  "preformattedRowLimitIsServerLimit": false,
+  "grouping": "One application per row; its products occupy up to 20 horizontal slots. Do not silently split a 21st product into a second application.",
+  "headers": [
+    {
+      "column": "A",
+      "code": "SHPR_NM",
+      "label": "주문자",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "B",
+      "code": "SHPR_TEL",
+      "label": "주문자 휴대폰",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "C",
+      "code": "ORDER_NO",
+      "label": "사업자주문번호",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "D",
+      "code": "SOCIAL_ID",
+      "label": "개인통관부호",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "E",
+      "code": "CNEE_NM",
+      "label": "받는사람",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "F",
+      "code": "CNEE_ZIP",
+      "label": "받는사람 우편번호",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "G",
+      "code": "CNEE_ZIP_ADDR",
+      "label": "받는사람 주소",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "H",
+      "code": "CNEE_MEMO",
+      "label": "배송 메시지",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "I",
+      "code": "CNEE_TEL",
+      "label": "받는사람 휴대폰",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "J",
+      "code": "CARGO_REPORT_TYPE",
+      "label": "F:일반통관, B:목록통관",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "K",
+      "code": "INSPECTION",
+      "label": "정밀검수",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "L",
+      "code": "BUBBLE_WRAP",
+      "label": "에어캡포장",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "M",
+      "code": "REINFORCEMENT",
+      "label": "보강제강화",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "N",
+      "code": "BUSINESS_CLEARANCE",
+      "label": "사업자통관",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "O",
+      "code": "FTA_CLEARANCE",
+      "label": "FTA통관",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "P",
+      "code": "BOX_REMOVAL",
+      "label": "박스제거",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "Q",
+      "code": "REMOVE_INVOICE",
+      "label": "인보이스제거",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "R",
+      "code": "REMOVE_HANGER",
+      "label": "의류행거제거",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "S",
+      "code": "AUTO_OUTPUT",
+      "label": "자동출고",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "T",
+      "code": "SPLIT_DELIVERY",
+      "label": "나눔배송(박스)",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "U",
+      "code": "SPLIT_DELIVERY_POLYBAG",
+      "label": "나눔배송(폴리백)",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "V",
+      "code": "ITEM_NM_1",
+      "label": "제품명1",
+      "style": "8",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "W",
+      "code": "ITEM_BRAND_1",
+      "label": "브랜드1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "X",
+      "code": "ITEM_COLOR_1",
+      "label": "색상1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "Y",
+      "code": "ITEM_SIZE_1",
+      "label": "사이즈1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "Z",
+      "code": "ITEM_QTY_1",
+      "label": "수량1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AA",
+      "code": "ITEM_PRICE_1",
+      "label": "제품가격1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AB",
+      "code": "ITEM_AMT_1",
+      "label": "제품총가격1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AC",
+      "code": "ITEM_HS_CD_1",
+      "label": "HS CODE1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AD",
+      "code": "ITEM_IMAGE_URL_1",
+      "label": "이미지URL1",
+      "style": "9",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AE",
+      "code": "ITEM_PRODUCT_URL_1",
+      "label": "상품URL1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AF",
+      "code": "ITEM_TRACKING_NO_1",
+      "label": "트래킹번호1",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AG",
+      "code": "ITEM_NM_2",
+      "label": "제품명2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AH",
+      "code": "ITEM_BRAND_2",
+      "label": "브랜드2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AI",
+      "code": "ITEM_COLOR_2",
+      "label": "색상2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AJ",
+      "code": "ITEM_SIZE_2",
+      "label": "사이즈2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AK",
+      "code": "ITEM_QTY_2",
+      "label": "수량2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AL",
+      "code": "ITEM_PRICE_2",
+      "label": "제품가격2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AM",
+      "code": "ITEM_AMT_2",
+      "label": "제품총가격2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AN",
+      "code": "ITEM_HS_CD_2",
+      "label": "HS CODE2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AO",
+      "code": "ITEM_IMAGE_URL_2",
+      "label": "이미지URL2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AP",
+      "code": "ITEM_PRODUCT_URL_2",
+      "label": "상품URL2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AQ",
+      "code": "ITEM_TRACKING_NO_2",
+      "label": "트래킹번호2",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AR",
+      "code": "ITEM_NM_3",
+      "label": "제품명3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AS",
+      "code": "ITEM_BRAND_3",
+      "label": "브랜드3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AT",
+      "code": "ITEM_COLOR_3",
+      "label": "색상3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AU",
+      "code": "ITEM_SIZE_3",
+      "label": "사이즈3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AV",
+      "code": "ITEM_QTY_3",
+      "label": "수량3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AW",
+      "code": "ITEM_PRICE_3",
+      "label": "제품가격3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AX",
+      "code": "ITEM_AMT_3",
+      "label": "제품총가격3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AY",
+      "code": "ITEM_HS_CD_3",
+      "label": "HS CODE3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "AZ",
+      "code": "ITEM_IMAGE_URL_3",
+      "label": "이미지URL3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BA",
+      "code": "ITEM_PRODUCT_URL_3",
+      "label": "상품URL3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BB",
+      "code": "ITEM_TRACKING_NO_3",
+      "label": "트래킹번호3",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BC",
+      "code": "ITEM_NM_4",
+      "label": "제품명4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BD",
+      "code": "ITEM_BRAND_4",
+      "label": "브랜드4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BE",
+      "code": "ITEM_COLOR_4",
+      "label": "색상4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BF",
+      "code": "ITEM_SIZE_4",
+      "label": "사이즈4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BG",
+      "code": "ITEM_QTY_4",
+      "label": "수량4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BH",
+      "code": "ITEM_PRICE_4",
+      "label": "제품가격4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BI",
+      "code": "ITEM_AMT_4",
+      "label": "제품총가격4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BJ",
+      "code": "ITEM_HS_CD_4",
+      "label": "HS CODE4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BK",
+      "code": "ITEM_IMAGE_URL_4",
+      "label": "이미지URL4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BL",
+      "code": "ITEM_PRODUCT_URL_4",
+      "label": "상품URL4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BM",
+      "code": "ITEM_TRACKING_NO_4",
+      "label": "트래킹번호4",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BN",
+      "code": "ITEM_NM_5",
+      "label": "제품명5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BO",
+      "code": "ITEM_BRAND_5",
+      "label": "브랜드5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BP",
+      "code": "ITEM_COLOR_5",
+      "label": "색상5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BQ",
+      "code": "ITEM_SIZE_5",
+      "label": "사이즈5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BR",
+      "code": "ITEM_QTY_5",
+      "label": "수량5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BS",
+      "code": "ITEM_PRICE_5",
+      "label": "제품가격5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BT",
+      "code": "ITEM_AMT_5",
+      "label": "제품총가격5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BU",
+      "code": "ITEM_HS_CD_5",
+      "label": "HS CODE5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BV",
+      "code": "ITEM_IMAGE_URL_5",
+      "label": "이미지URL5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BW",
+      "code": "ITEM_PRODUCT_URL_5",
+      "label": "상품URL5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BX",
+      "code": "ITEM_TRACKING_NO_5",
+      "label": "트래킹번호5",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BY",
+      "code": "ITEM_NM_6",
+      "label": "제품명6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "BZ",
+      "code": "ITEM_BRAND_6",
+      "label": "브랜드6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CA",
+      "code": "ITEM_COLOR_6",
+      "label": "색상6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CB",
+      "code": "ITEM_SIZE_6",
+      "label": "사이즈6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CC",
+      "code": "ITEM_QTY_6",
+      "label": "수량6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CD",
+      "code": "ITEM_PRICE_6",
+      "label": "제품가격6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CE",
+      "code": "ITEM_AMT_6",
+      "label": "제품총가격6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CF",
+      "code": "ITEM_HS_CD_6",
+      "label": "HS CODE6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CG",
+      "code": "ITEM_IMAGE_URL_6",
+      "label": "이미지URL6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CH",
+      "code": "ITEM_PRODUCT_URL_6",
+      "label": "상품URL6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CI",
+      "code": "ITEM_TRACKING_NO_6",
+      "label": "트래킹번호6",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CJ",
+      "code": "ITEM_NM_7",
+      "label": "제품명7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CK",
+      "code": "ITEM_BRAND_7",
+      "label": "브랜드7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CL",
+      "code": "ITEM_COLOR_7",
+      "label": "색상7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CM",
+      "code": "ITEM_SIZE_7",
+      "label": "사이즈7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CN",
+      "code": "ITEM_QTY_7",
+      "label": "수량7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CO",
+      "code": "ITEM_PRICE_7",
+      "label": "제품가격7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CP",
+      "code": "ITEM_AMT_7",
+      "label": "제품총가격7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CQ",
+      "code": "ITEM_HS_CD_7",
+      "label": "HS CODE7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CR",
+      "code": "ITEM_IMAGE_URL_7",
+      "label": "이미지URL7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CS",
+      "code": "ITEM_PRODUCT_URL_7",
+      "label": "상품URL7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CT",
+      "code": "ITEM_TRACKING_NO_7",
+      "label": "트래킹번호7",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CU",
+      "code": "ITEM_NM_8",
+      "label": "제품명8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CV",
+      "code": "ITEM_BRAND_8",
+      "label": "브랜드8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CW",
+      "code": "ITEM_COLOR_8",
+      "label": "색상8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CX",
+      "code": "ITEM_SIZE_8",
+      "label": "사이즈8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CY",
+      "code": "ITEM_QTY_8",
+      "label": "수량8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "CZ",
+      "code": "ITEM_PRICE_8",
+      "label": "제품가격8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DA",
+      "code": "ITEM_AMT_8",
+      "label": "제품총가격8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DB",
+      "code": "ITEM_HS_CD_8",
+      "label": "HS CODE8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DC",
+      "code": "ITEM_IMAGE_URL_8",
+      "label": "이미지URL8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DD",
+      "code": "ITEM_PRODUCT_URL_8",
+      "label": "상품URL8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DE",
+      "code": "ITEM_TRACKING_NO_8",
+      "label": "트래킹번호8",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DF",
+      "code": "ITEM_NM_9",
+      "label": "제품명9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DG",
+      "code": "ITEM_BRAND_9",
+      "label": "브랜드9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DH",
+      "code": "ITEM_COLOR_9",
+      "label": "색상9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DI",
+      "code": "ITEM_SIZE_9",
+      "label": "사이즈9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DJ",
+      "code": "ITEM_QTY_9",
+      "label": "수량9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DK",
+      "code": "ITEM_PRICE_9",
+      "label": "제품가격9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DL",
+      "code": "ITEM_AMT_9",
+      "label": "제품총가격9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DM",
+      "code": "ITEM_HS_CD_9",
+      "label": "HS CODE9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DN",
+      "code": "ITEM_IMAGE_URL_9",
+      "label": "이미지URL9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DO",
+      "code": "ITEM_PRODUCT_URL_9",
+      "label": "상품URL9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DP",
+      "code": "ITEM_TRACKING_NO_9",
+      "label": "트래킹번호9",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DQ",
+      "code": "ITEM_NM_10",
+      "label": "제품명10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DR",
+      "code": "ITEM_BRAND_10",
+      "label": "브랜드10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DS",
+      "code": "ITEM_COLOR_10",
+      "label": "색상10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DT",
+      "code": "ITEM_SIZE_10",
+      "label": "사이즈10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DU",
+      "code": "ITEM_QTY_10",
+      "label": "수량10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DV",
+      "code": "ITEM_PRICE_10",
+      "label": "제품가격10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DW",
+      "code": "ITEM_AMT_10",
+      "label": "제품총가격10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DX",
+      "code": "ITEM_HS_CD_10",
+      "label": "HS CODE10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DY",
+      "code": "ITEM_IMAGE_URL_10",
+      "label": "이미지URL10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "DZ",
+      "code": "ITEM_PRODUCT_URL_10",
+      "label": "상품URL10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EA",
+      "code": "ITEM_TRACKING_NO_10",
+      "label": "트래킹번호10",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EB",
+      "code": "ITEM_NM_11",
+      "label": "제품명11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EC",
+      "code": "ITEM_BRAND_11",
+      "label": "브랜드11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "ED",
+      "code": "ITEM_COLOR_11",
+      "label": "색상11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EE",
+      "code": "ITEM_SIZE_11",
+      "label": "사이즈11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EF",
+      "code": "ITEM_QTY_11",
+      "label": "수량11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EG",
+      "code": "ITEM_PRICE_11",
+      "label": "제품가격11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EH",
+      "code": "ITEM_AMT_11",
+      "label": "제품총가격11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EI",
+      "code": "ITEM_HS_CD_11",
+      "label": "HS CODE11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EJ",
+      "code": "ITEM_IMAGE_URL_11",
+      "label": "이미지URL11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EK",
+      "code": "ITEM_PRODUCT_URL_11",
+      "label": "상품URL11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EL",
+      "code": "ITEM_TRACKING_NO_11",
+      "label": "트래킹번호11",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EM",
+      "code": "ITEM_NM_12",
+      "label": "제품명12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EN",
+      "code": "ITEM_BRAND_12",
+      "label": "브랜드12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EO",
+      "code": "ITEM_COLOR_12",
+      "label": "색상12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EP",
+      "code": "ITEM_SIZE_12",
+      "label": "사이즈12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EQ",
+      "code": "ITEM_QTY_12",
+      "label": "수량12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "ER",
+      "code": "ITEM_PRICE_12",
+      "label": "제품가격12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "ES",
+      "code": "ITEM_AMT_12",
+      "label": "제품총가격12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "ET",
+      "code": "ITEM_HS_CD_12",
+      "label": "HS CODE12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EU",
+      "code": "ITEM_IMAGE_URL_12",
+      "label": "이미지URL12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EV",
+      "code": "ITEM_PRODUCT_URL_12",
+      "label": "상품URL12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EW",
+      "code": "ITEM_TRACKING_NO_12",
+      "label": "트래킹번호12",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EX",
+      "code": "ITEM_NM_13",
+      "label": "제품명13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EY",
+      "code": "ITEM_BRAND_13",
+      "label": "브랜드13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "EZ",
+      "code": "ITEM_COLOR_13",
+      "label": "색상13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FA",
+      "code": "ITEM_SIZE_13",
+      "label": "사이즈13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FB",
+      "code": "ITEM_QTY_13",
+      "label": "수량13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FC",
+      "code": "ITEM_PRICE_13",
+      "label": "제품가격13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FD",
+      "code": "ITEM_AMT_13",
+      "label": "제품총가격13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FE",
+      "code": "ITEM_HS_CD_13",
+      "label": "HS CODE13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FF",
+      "code": "ITEM_IMAGE_URL_13",
+      "label": "이미지URL13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FG",
+      "code": "ITEM_PRODUCT_URL_13",
+      "label": "상품URL13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FH",
+      "code": "ITEM_TRACKING_NO_13",
+      "label": "트래킹번호13",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FI",
+      "code": "ITEM_NM_14",
+      "label": "제품명14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FJ",
+      "code": "ITEM_BRAND_14",
+      "label": "브랜드14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FK",
+      "code": "ITEM_COLOR_14",
+      "label": "색상14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FL",
+      "code": "ITEM_SIZE_14",
+      "label": "사이즈14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FM",
+      "code": "ITEM_QTY_14",
+      "label": "수량14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FN",
+      "code": "ITEM_PRICE_14",
+      "label": "제품가격14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FO",
+      "code": "ITEM_AMT_14",
+      "label": "제품총가격14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FP",
+      "code": "ITEM_HS_CD_14",
+      "label": "HS CODE14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FQ",
+      "code": "ITEM_IMAGE_URL_14",
+      "label": "이미지URL14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FR",
+      "code": "ITEM_PRODUCT_URL_14",
+      "label": "상품URL14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FS",
+      "code": "ITEM_TRACKING_NO_14",
+      "label": "트래킹번호14",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FT",
+      "code": "ITEM_NM_15",
+      "label": "제품명15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FU",
+      "code": "ITEM_BRAND_15",
+      "label": "브랜드15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FV",
+      "code": "ITEM_COLOR_15",
+      "label": "색상15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FW",
+      "code": "ITEM_SIZE_15",
+      "label": "사이즈15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FX",
+      "code": "ITEM_QTY_15",
+      "label": "수량15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FY",
+      "code": "ITEM_PRICE_15",
+      "label": "제품가격15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "FZ",
+      "code": "ITEM_AMT_15",
+      "label": "제품총가격15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GA",
+      "code": "ITEM_HS_CD_15",
+      "label": "HS CODE15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GB",
+      "code": "ITEM_IMAGE_URL_15",
+      "label": "이미지URL15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GC",
+      "code": "ITEM_PRODUCT_URL_15",
+      "label": "상품URL15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GD",
+      "code": "ITEM_TRACKING_NO_15",
+      "label": "트래킹번호15",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GE",
+      "code": "ITEM_NM_16",
+      "label": "제품명16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GF",
+      "code": "ITEM_BRAND_16",
+      "label": "브랜드16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GG",
+      "code": "ITEM_COLOR_16",
+      "label": "색상16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GH",
+      "code": "ITEM_SIZE_16",
+      "label": "사이즈16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GI",
+      "code": "ITEM_QTY_16",
+      "label": "수량16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GJ",
+      "code": "ITEM_PRICE_16",
+      "label": "제품가격16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GK",
+      "code": "ITEM_AMT_16",
+      "label": "제품총가격16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GL",
+      "code": "ITEM_HS_CD_16",
+      "label": "HS CODE16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GM",
+      "code": "ITEM_IMAGE_URL_16",
+      "label": "이미지URL16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GN",
+      "code": "ITEM_PRODUCT_URL_16",
+      "label": "상품URL16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GO",
+      "code": "ITEM_TRACKING_NO_16",
+      "label": "트래킹번호16",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GP",
+      "code": "ITEM_NM_17",
+      "label": "제품명17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GQ",
+      "code": "ITEM_BRAND_17",
+      "label": "브랜드17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GR",
+      "code": "ITEM_COLOR_17",
+      "label": "색상17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GS",
+      "code": "ITEM_SIZE_17",
+      "label": "사이즈17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GT",
+      "code": "ITEM_QTY_17",
+      "label": "수량17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GU",
+      "code": "ITEM_PRICE_17",
+      "label": "제품가격17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GV",
+      "code": "ITEM_AMT_17",
+      "label": "제품총가격17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GW",
+      "code": "ITEM_HS_CD_17",
+      "label": "HS CODE17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GX",
+      "code": "ITEM_IMAGE_URL_17",
+      "label": "이미지URL17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GY",
+      "code": "ITEM_PRODUCT_URL_17",
+      "label": "상품URL17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "GZ",
+      "code": "ITEM_TRACKING_NO_17",
+      "label": "트래킹번호17",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HA",
+      "code": "ITEM_NM_18",
+      "label": "제품명18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HB",
+      "code": "ITEM_BRAND_18",
+      "label": "브랜드18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HC",
+      "code": "ITEM_COLOR_18",
+      "label": "색상18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HD",
+      "code": "ITEM_SIZE_18",
+      "label": "사이즈18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HE",
+      "code": "ITEM_QTY_18",
+      "label": "수량18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HF",
+      "code": "ITEM_PRICE_18",
+      "label": "제품가격18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HG",
+      "code": "ITEM_AMT_18",
+      "label": "제품총가격18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HH",
+      "code": "ITEM_HS_CD_18",
+      "label": "HS CODE18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HI",
+      "code": "ITEM_IMAGE_URL_18",
+      "label": "이미지URL18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HJ",
+      "code": "ITEM_PRODUCT_URL_18",
+      "label": "상품URL18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HK",
+      "code": "ITEM_TRACKING_NO_18",
+      "label": "트래킹번호18",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HL",
+      "code": "ITEM_NM_19",
+      "label": "제품명19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HM",
+      "code": "ITEM_BRAND_19",
+      "label": "브랜드19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HN",
+      "code": "ITEM_COLOR_19",
+      "label": "색상19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HO",
+      "code": "ITEM_SIZE_19",
+      "label": "사이즈19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HP",
+      "code": "ITEM_QTY_19",
+      "label": "수량19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HQ",
+      "code": "ITEM_PRICE_19",
+      "label": "제품가격19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HR",
+      "code": "ITEM_AMT_19",
+      "label": "제품총가격19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HS",
+      "code": "ITEM_HS_CD_19",
+      "label": "HS CODE19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HT",
+      "code": "ITEM_IMAGE_URL_19",
+      "label": "이미지URL19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HU",
+      "code": "ITEM_PRODUCT_URL_19",
+      "label": "상품URL19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HV",
+      "code": "ITEM_TRACKING_NO_19",
+      "label": "트래킹번호19",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HW",
+      "code": "ITEM_NM_20",
+      "label": "제품명20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HX",
+      "code": "ITEM_BRAND_20",
+      "label": "브랜드20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HY",
+      "code": "ITEM_COLOR_20",
+      "label": "색상20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "HZ",
+      "code": "ITEM_SIZE_20",
+      "label": "사이즈20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IA",
+      "code": "ITEM_QTY_20",
+      "label": "수량20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IB",
+      "code": "ITEM_PRICE_20",
+      "label": "제품가격20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IC",
+      "code": "ITEM_AMT_20",
+      "label": "제품총가격20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "ID",
+      "code": "ITEM_HS_CD_20",
+      "label": "HS CODE20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IE",
+      "code": "ITEM_IMAGE_URL_20",
+      "label": "이미지URL20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IF",
+      "code": "ITEM_PRODUCT_URL_20",
+      "label": "상품URL20",
+      "style": "6",
+      "requiredByTemplate": null
+    },
+    {
+      "column": "IG",
+      "code": "ITEM_TRACKING_NO_20",
+      "label": "트래킹번호20",
+      "style": "6",
+      "requiredByTemplate": null
+    }
+  ],
+  "commonColumns": {
+    "senderName": "A",
+    "senderPhone": "B",
+    "merchantOrderNo": "C",
+    "customs": "D",
+    "recipient": "E",
+    "postal": "F",
+    "address": "G",
+    "courierNote": "H",
+    "phone": "I",
+    "cargoReportType": "J",
+    "inspection": "K",
+    "bubbleWrap": "L",
+    "reinforcement": "M",
+    "businessClearance": "N",
+    "ftaClearance": "O",
+    "packagingMode": "P",
+    "removeInvoice": "Q",
+    "removeHanger": "R",
+    "autoOutput": "S",
+    "splitDeliveryBox": "T",
+    "splitDeliveryPolybag": "U"
+  },
+  "itemSlots": [
+    {
+      "slot": 1,
+      "startColumn": "V",
+      "endColumn": "AF",
+      "columns": {
+        "name": "V",
+        "brand": "W",
+        "color": "X",
+        "size": "Y",
+        "quantity": "Z",
+        "unitPrice": "AA",
+        "lineTotal": "AB",
+        "hsCode": "AC",
+        "imageUrl": "AD",
+        "productUrl": "AE",
+        "tracking": "AF"
+      }
+    },
+    {
+      "slot": 2,
+      "startColumn": "AG",
+      "endColumn": "AQ",
+      "columns": {
+        "name": "AG",
+        "brand": "AH",
+        "color": "AI",
+        "size": "AJ",
+        "quantity": "AK",
+        "unitPrice": "AL",
+        "lineTotal": "AM",
+        "hsCode": "AN",
+        "imageUrl": "AO",
+        "productUrl": "AP",
+        "tracking": "AQ"
+      }
+    },
+    {
+      "slot": 3,
+      "startColumn": "AR",
+      "endColumn": "BB",
+      "columns": {
+        "name": "AR",
+        "brand": "AS",
+        "color": "AT",
+        "size": "AU",
+        "quantity": "AV",
+        "unitPrice": "AW",
+        "lineTotal": "AX",
+        "hsCode": "AY",
+        "imageUrl": "AZ",
+        "productUrl": "BA",
+        "tracking": "BB"
+      }
+    },
+    {
+      "slot": 4,
+      "startColumn": "BC",
+      "endColumn": "BM",
+      "columns": {
+        "name": "BC",
+        "brand": "BD",
+        "color": "BE",
+        "size": "BF",
+        "quantity": "BG",
+        "unitPrice": "BH",
+        "lineTotal": "BI",
+        "hsCode": "BJ",
+        "imageUrl": "BK",
+        "productUrl": "BL",
+        "tracking": "BM"
+      }
+    },
+    {
+      "slot": 5,
+      "startColumn": "BN",
+      "endColumn": "BX",
+      "columns": {
+        "name": "BN",
+        "brand": "BO",
+        "color": "BP",
+        "size": "BQ",
+        "quantity": "BR",
+        "unitPrice": "BS",
+        "lineTotal": "BT",
+        "hsCode": "BU",
+        "imageUrl": "BV",
+        "productUrl": "BW",
+        "tracking": "BX"
+      }
+    },
+    {
+      "slot": 6,
+      "startColumn": "BY",
+      "endColumn": "CI",
+      "columns": {
+        "name": "BY",
+        "brand": "BZ",
+        "color": "CA",
+        "size": "CB",
+        "quantity": "CC",
+        "unitPrice": "CD",
+        "lineTotal": "CE",
+        "hsCode": "CF",
+        "imageUrl": "CG",
+        "productUrl": "CH",
+        "tracking": "CI"
+      }
+    },
+    {
+      "slot": 7,
+      "startColumn": "CJ",
+      "endColumn": "CT",
+      "columns": {
+        "name": "CJ",
+        "brand": "CK",
+        "color": "CL",
+        "size": "CM",
+        "quantity": "CN",
+        "unitPrice": "CO",
+        "lineTotal": "CP",
+        "hsCode": "CQ",
+        "imageUrl": "CR",
+        "productUrl": "CS",
+        "tracking": "CT"
+      }
+    },
+    {
+      "slot": 8,
+      "startColumn": "CU",
+      "endColumn": "DE",
+      "columns": {
+        "name": "CU",
+        "brand": "CV",
+        "color": "CW",
+        "size": "CX",
+        "quantity": "CY",
+        "unitPrice": "CZ",
+        "lineTotal": "DA",
+        "hsCode": "DB",
+        "imageUrl": "DC",
+        "productUrl": "DD",
+        "tracking": "DE"
+      }
+    },
+    {
+      "slot": 9,
+      "startColumn": "DF",
+      "endColumn": "DP",
+      "columns": {
+        "name": "DF",
+        "brand": "DG",
+        "color": "DH",
+        "size": "DI",
+        "quantity": "DJ",
+        "unitPrice": "DK",
+        "lineTotal": "DL",
+        "hsCode": "DM",
+        "imageUrl": "DN",
+        "productUrl": "DO",
+        "tracking": "DP"
+      }
+    },
+    {
+      "slot": 10,
+      "startColumn": "DQ",
+      "endColumn": "EA",
+      "columns": {
+        "name": "DQ",
+        "brand": "DR",
+        "color": "DS",
+        "size": "DT",
+        "quantity": "DU",
+        "unitPrice": "DV",
+        "lineTotal": "DW",
+        "hsCode": "DX",
+        "imageUrl": "DY",
+        "productUrl": "DZ",
+        "tracking": "EA"
+      }
+    },
+    {
+      "slot": 11,
+      "startColumn": "EB",
+      "endColumn": "EL",
+      "columns": {
+        "name": "EB",
+        "brand": "EC",
+        "color": "ED",
+        "size": "EE",
+        "quantity": "EF",
+        "unitPrice": "EG",
+        "lineTotal": "EH",
+        "hsCode": "EI",
+        "imageUrl": "EJ",
+        "productUrl": "EK",
+        "tracking": "EL"
+      }
+    },
+    {
+      "slot": 12,
+      "startColumn": "EM",
+      "endColumn": "EW",
+      "columns": {
+        "name": "EM",
+        "brand": "EN",
+        "color": "EO",
+        "size": "EP",
+        "quantity": "EQ",
+        "unitPrice": "ER",
+        "lineTotal": "ES",
+        "hsCode": "ET",
+        "imageUrl": "EU",
+        "productUrl": "EV",
+        "tracking": "EW"
+      }
+    },
+    {
+      "slot": 13,
+      "startColumn": "EX",
+      "endColumn": "FH",
+      "columns": {
+        "name": "EX",
+        "brand": "EY",
+        "color": "EZ",
+        "size": "FA",
+        "quantity": "FB",
+        "unitPrice": "FC",
+        "lineTotal": "FD",
+        "hsCode": "FE",
+        "imageUrl": "FF",
+        "productUrl": "FG",
+        "tracking": "FH"
+      }
+    },
+    {
+      "slot": 14,
+      "startColumn": "FI",
+      "endColumn": "FS",
+      "columns": {
+        "name": "FI",
+        "brand": "FJ",
+        "color": "FK",
+        "size": "FL",
+        "quantity": "FM",
+        "unitPrice": "FN",
+        "lineTotal": "FO",
+        "hsCode": "FP",
+        "imageUrl": "FQ",
+        "productUrl": "FR",
+        "tracking": "FS"
+      }
+    },
+    {
+      "slot": 15,
+      "startColumn": "FT",
+      "endColumn": "GD",
+      "columns": {
+        "name": "FT",
+        "brand": "FU",
+        "color": "FV",
+        "size": "FW",
+        "quantity": "FX",
+        "unitPrice": "FY",
+        "lineTotal": "FZ",
+        "hsCode": "GA",
+        "imageUrl": "GB",
+        "productUrl": "GC",
+        "tracking": "GD"
+      }
+    },
+    {
+      "slot": 16,
+      "startColumn": "GE",
+      "endColumn": "GO",
+      "columns": {
+        "name": "GE",
+        "brand": "GF",
+        "color": "GG",
+        "size": "GH",
+        "quantity": "GI",
+        "unitPrice": "GJ",
+        "lineTotal": "GK",
+        "hsCode": "GL",
+        "imageUrl": "GM",
+        "productUrl": "GN",
+        "tracking": "GO"
+      }
+    },
+    {
+      "slot": 17,
+      "startColumn": "GP",
+      "endColumn": "GZ",
+      "columns": {
+        "name": "GP",
+        "brand": "GQ",
+        "color": "GR",
+        "size": "GS",
+        "quantity": "GT",
+        "unitPrice": "GU",
+        "lineTotal": "GV",
+        "hsCode": "GW",
+        "imageUrl": "GX",
+        "productUrl": "GY",
+        "tracking": "GZ"
+      }
+    },
+    {
+      "slot": 18,
+      "startColumn": "HA",
+      "endColumn": "HK",
+      "columns": {
+        "name": "HA",
+        "brand": "HB",
+        "color": "HC",
+        "size": "HD",
+        "quantity": "HE",
+        "unitPrice": "HF",
+        "lineTotal": "HG",
+        "hsCode": "HH",
+        "imageUrl": "HI",
+        "productUrl": "HJ",
+        "tracking": "HK"
+      }
+    },
+    {
+      "slot": 19,
+      "startColumn": "HL",
+      "endColumn": "HV",
+      "columns": {
+        "name": "HL",
+        "brand": "HM",
+        "color": "HN",
+        "size": "HO",
+        "quantity": "HP",
+        "unitPrice": "HQ",
+        "lineTotal": "HR",
+        "hsCode": "HS",
+        "imageUrl": "HT",
+        "productUrl": "HU",
+        "tracking": "HV"
+      }
+    },
+    {
+      "slot": 20,
+      "startColumn": "HW",
+      "endColumn": "IG",
+      "columns": {
+        "name": "HW",
+        "brand": "HX",
+        "color": "HY",
+        "size": "HZ",
+        "quantity": "IA",
+        "unitPrice": "IB",
+        "lineTotal": "IC",
+        "hsCode": "ID",
+        "imageUrl": "IE",
+        "productUrl": "IF",
+        "tracking": "IG"
+      }
+    }
+  ],
+  "comments": {
+    "C3": "구매대행사업자측의 주문번호입니다.",
+    "D3": "개인통관부호 또는 사업자번호를 입력해주시기 바랍니다.",
+    "J3": "목록통관 여부를 잘 모르실 경우,\n이 칸은 비워두셔도 됩니다.",
+    "K3": "옵션 추가시에는 T 또는 TRUE 라고 써주시기 바랍니다.\n",
+    "O3": "FTA통관은 캐나다만 가능합니다. FTA통관시 true로 기입해주시기 바라며, 캐나다산 제품만 가능합니다.",
+    "P3": "기본 포장 방식은 아래 세 가지 중 선택합니다:\nA = 그대로 발송\nB = 폴리백 포장\nC = 박스 재포장\n\n나눔배송 + 박스제거 시\n박스제거= A 입력\n나눔배송(박스/폴리백) = true 입력\n",
+    "T3": "나눔배송시 나눔배송할 모든 상품을 true로 기입하면 됩니다.\n나눔배송(박스) 포장으로 진행합니다.",
+    "U3": "나눔배송시 나눔배송할 모든 상품을 true로 기입하면 됩니다.\n나눔배송(폴리백) 포장으로 진행합니다.\n 의류의 경우 권장드립니다.\n",
+    "AF3": "트래킹번호가 아직 발급되지 않았다면 비워두셔도 됩니다.\n주문번호(Order number)가 아니라\n운송장 번호(Tracking number) 를 입력해야 합니다."
+  },
+  "formulas": {},
+  "lists": {},
+  "hasEmbeddedCodebook": false,
+  "hasDropdowns": false,
+  "classification": {
+    "field": "ITEM_HS_CD_n",
+    "label": "HS CODE",
+    "requiredByTemplate": null,
+    "embeddedCodes": [],
+    "sampleCodeFormat": "six decimal digits",
+    "sampleCode": "640299",
+    "allowedPatternByTemplate": null,
+    "sourceUrl": "https://www.postmall.net/hs-finder",
+    "publicFinderBundleUrl": "https://www.postmall.net/_next/static/chunks/pages/hs-finder-8a9db0e617358f2c0c8a.js",
+    "observedSearchRoute": "/api/hscodes",
+    "observedSearchParams": {
+      "tag": true,
+      "q": "user-entered public finder query"
+    },
+    "observedMinimumQueryLength": 2,
+    "wholeCodebookEmbeddedInFinderBundle": false,
+    "runtimeAutoSearchConfigured": false,
+    "guidance": "No Postmall item codebook is embedded. Do not reuse Jimpass or Hoottown list IDs. Missing codes are draft values; the template does not explicitly state that HS may be omitted."
+  },
+  "requiredFields": {
+    "explicitlyMarkedRequired": [],
+    "requirednessSpecified": false,
+    "explicitBlankAllowed": [
+      "cargoReportType",
+      "items[].tracking"
+    ],
+    "note": "Headers have no required-star markers. Only the report-type and tracking comments explicitly allow blanks; absence of a marker does not prove that other inputs are optional."
+  },
+  "cargoReportType": {
+    "values": [
+      {
+        "code": "F",
+        "label": "일반통관"
+      },
+      {
+        "code": "B",
+        "label": "목록통관"
+      }
+    ],
+    "default": "",
+    "blankAllowed": true,
+    "sourceCell": "J3"
+  },
+  "optionTrueTokens": [
+    "T",
+    "TRUE"
+  ],
+  "optionDefault": "",
+  "booleanOptions": [
+    "inspection",
+    "bubbleWrap",
+    "reinforcement",
+    "businessClearance",
+    "removeInvoice",
+    "removeHanger",
+    "autoOutput",
+    "splitDeliveryBox",
+    "splitDeliveryPolybag"
+  ],
+  "packagingMode": {
+    "column": "P",
+    "default": "",
+    "values": [
+      {
+        "code": "A",
+        "label": "그대로 발송"
+      },
+      {
+        "code": "B",
+        "label": "폴리백 포장"
+      },
+      {
+        "code": "C",
+        "label": "박스 재포장"
+      }
+    ],
+    "sourceCell": "P3",
+    "isBoolean": false
+  },
+  "ftaClearance": {
+    "column": "O",
+    "default": "",
+    "trueToken": "TRUE",
+    "onlyCountryByTemplate": "Canada",
+    "onlyOriginCountryByTemplate": "Canada",
+    "sourceCell": "O3",
+    "japanDefault": ""
+  },
+  "defaults": {
+    "cargoReportType": "",
+    "inspection": "",
+    "bubbleWrap": "",
+    "reinforcement": "",
+    "businessClearance": "",
+    "ftaClearance": "",
+    "packagingMode": "",
+    "removeInvoice": "",
+    "removeHanger": "",
+    "autoOutput": "",
+    "splitDeliveryBox": "",
+    "splitDeliveryPolybag": ""
+  },
+  "phone": {
+    "templateSampleHasHyphens": true,
+    "requiredPattern": null,
+    "maxLength": null,
+    "formatRestrictionSpecified": false
+  },
+  "productName": {
+    "languageRequirementSpecifiedByTemplate": false,
+    "allowedPattern": null,
+    "maxLength": null,
+    "sampleContainsApostropheAndHyphen": true
+  },
+  "senderRecipientName": {
+    "maxLength": null,
+    "allowedPattern": null,
+    "restrictionSpecified": false
+  },
+  "upstreamSelections": {
+    "countryColumn": null,
+    "centerColumn": null,
+    "currencyColumn": null,
+    "carrierColumn": null,
+    "note": "Country, center, currency and carrier are not columns in this workbook. Confirm them in the Postmall application interface."
+  },
+  "amounts": {
+    "quantityKey": "ITEM_QTY_n",
+    "unitPriceKey": "ITEM_PRICE_n",
+    "lineTotalKey": "ITEM_AMT_n",
+    "lineTotalCalculation": "quantity * unitPrice",
+    "originalFormula": false
+  },
+  "notes": [
+    "ORDER_NO is described as the purchasing-agent business order reference, not the carrier tracking number.",
+    "G contains the complete recipient address; F is a separate postal code.",
+    "P is an A/B/C packing mode despite the technical key BOX_REMOVAL; do not write Y/N.",
+    "Do not import institution-specific Jimpass or Hoottown category IDs into ITEM_HS_CD.",
+    "The sanitized copy has all input/example values removed from row4 onward. Header styles and comments are preserved."
+  ],
+  "sourceSha256": "3c56d22e7d911aa2a678d8a7fe032dea9e36652e0f751086e79c92293c81adf8",
+  "sanitizedTemplateSha256": "7713ce0fba3096738123220b4ac230be8b483dd6da35fb3f81dd0f05bec45066",
+  "sanitizedTemplateFile": "templates/postmall.xlsx"
+}

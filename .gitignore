@@ -1,0 +1,9 @@
+references/
+site-preview*.jpg
+.verification/
+__pycache__/
+node_modules/
+/주문한장-실행.url
+*.pyc
+*.tar
+*.tar.gz

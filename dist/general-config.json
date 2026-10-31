@@ -1,0 +1,4872 @@
+{
+  "sourceFile": "General_Excel_Upload.xlsx",
+  "sheet": "신청서",
+  "sheetPath": "xl/worksheets/sheet1.xml",
+  "headerRow": 10,
+  "startRow": 11,
+  "lastTemplateInputRow": 1000,
+  "maxTemplateProducts": 990,
+  "columnsRange": "B:BF",
+  "headers": [
+    {
+      "column": "B",
+      "label": "*No",
+      "required": true,
+      "row11Style": "8"
+    },
+    {
+      "column": "C",
+      "label": "[미국] USPS Drop-Off 또는 \n[한국] 한진택배 픽업신청",
+      "required": false,
+      "row11Style": "9"
+    },
+    {
+      "column": "D",
+      "label": "픽업신청 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "E",
+      "label": "트래킹번호",
+      "required": false,
+      "row11Style": "9"
+    },
+    {
+      "column": "F",
+      "label": "*현지운송사 \n(물류센터 국가와 일치시켜주세요)",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "G",
+      "label": "현지운송사 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "12"
+    },
+    {
+      "column": "H",
+      "label": "*받는분 배송지 도착국가",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "I",
+      "label": "도착국가 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "13"
+    },
+    {
+      "column": "J",
+      "label": "*받는분 이름",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "K",
+      "label": "*통관종류\n(한국센터 신청서이면 공란)",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "L",
+      "label": "통관 구분 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "13"
+    },
+    {
+      "column": "M",
+      "label": "상용견품 신청 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "13"
+    },
+    {
+      "column": "N",
+      "label": "*통관부호(개인통관고유부호/사업자번호)\n(한국센터 신청서이면 공란)",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "O",
+      "label": "*받는분 \n연락처 국가번호",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "P",
+      "label": "받는분 연락처 \n국가번호 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "Q",
+      "label": "*받는분 \n연락처(휴대폰)",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "R",
+      "label": "*관부가세 알림전송 \n연락처 국가번호",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "S",
+      "label": "관부가세 알림전송 \n연락처 국가번호 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "T",
+      "label": "*관부가세 알림 전송\n휴대폰번호 \n(한국센터 신청서이면 공란)",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "U",
+      "label": "*우편번호",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "V",
+      "label": "*주소(상세주소까지)",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "W",
+      "label": "배송요청사항",
+      "required": false,
+      "row11Style": "14"
+    },
+    {
+      "column": "X",
+      "label": "*쇼핑몰 url",
+      "required": true,
+      "row11Style": "15"
+    },
+    {
+      "column": "Y",
+      "label": "*카테고리/품목 입력코드 \n※ 카테고리 품목 코드 Sheet 를 \n참고하여 입력해 주세요!",
+      "required": true,
+      "row11Style": "16"
+    },
+    {
+      "column": "Z",
+      "label": "카테고리명 (점검용)\n※ 직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "17"
+    },
+    {
+      "column": "AA",
+      "label": "품목명 (점검용)\n※ 직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "17"
+    },
+    {
+      "column": "AB",
+      "label": "카테고리 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "AC",
+      "label": "품목 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "AD",
+      "label": "*브랜드명 \n(최대 20자)",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "AE",
+      "label": "*상품명(고유명사+모델명+용량) \n(최대 80자)",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "AF",
+      "label": "*상품 단가",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "AG",
+      "label": "*통화 \n(currency) \n※ 모든 행의 통화는 \n1개로 통일해주세요.",
+      "required": true,
+      "row11Style": "8"
+    },
+    {
+      "column": "AH",
+      "label": "단위(병당) 용량\n※ 카테고리 주류일 경우 필수 입력",
+      "required": false,
+      "row11Style": "11"
+    },
+    {
+      "column": "AI",
+      "label": "용량 단위\n※ 카테고리 주류일 경우 필수 입력\n(ML, L, CL)",
+      "required": false,
+      "row11Style": "11"
+    },
+    {
+      "column": "AJ",
+      "label": "*수량",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "AK",
+      "label": "FTA 적용신청\n(미국,독일 센터만 Y 선택 가능)\n신청 : Y, 미신청 : N",
+      "required": false,
+      "row11Style": "16"
+    },
+    {
+      "column": "AL",
+      "label": "*배송비 포인트 자동결제 신청여부 \n신청 : Y, 미신청 : N",
+      "required": true,
+      "row11Style": "16"
+    },
+    {
+      "column": "AM",
+      "label": "주문번호 ",
+      "required": false,
+      "row11Style": "9"
+    },
+    {
+      "column": "AN",
+      "label": "색상",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "AO",
+      "label": "사이즈/용량",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "AP",
+      "label": "상품 구매 URL",
+      "required": false,
+      "row11Style": "15"
+    },
+    {
+      "column": "AQ",
+      "label": "상품 사진 URL",
+      "required": false,
+      "row11Style": "15"
+    },
+    {
+      "column": "AR",
+      "label": "*브랜드 박스 제거 신청여부\n신청 : Y, 미신청 : N",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "AS",
+      "label": "*Invoice 제거 신청여부 \n신청 : Y, 미신청 : N",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "AT",
+      "label": "*보험 서비스 신청여부 \n신청 : Y, 미신청 : N",
+      "required": true,
+      "row11Style": "11"
+    },
+    {
+      "column": "AU",
+      "label": "보험신청 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "AV",
+      "label": "*트루패킹 서비스 신청여부\n(유료 서비스 $3) \n신청 : Y, 미신청 : N",
+      "required": true,
+      "row11Style": "9"
+    },
+    {
+      "column": "AW",
+      "label": "고정배송비 신청 코드 \n※ 고정배송비 신청 코드 Sheet 를 \n참고하여 입력해 주세요! \n단, 상품 단건 및 수량 1개인 경우에만 엑셀 고정배송비 신청 가능합니다.",
+      "required": false,
+      "row11Style": "19"
+    },
+    {
+      "column": "AX",
+      "label": "고정배송비 명칭 (점검용)\n※ 직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "17"
+    },
+    {
+      "column": "AY",
+      "label": "(선물하기) 받는분정보 \n받는분이 직접 입력하기 신청\n신청 : Y, 미신청 : N \n(선물하기 신청시 J~N, U~V 열 공란)",
+      "required": false,
+      "row11Style": "9"
+    },
+    {
+      "column": "AZ",
+      "label": "선물하기 보내는분 성명",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "BA",
+      "label": "선물하기 받는분 성명",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "BB",
+      "label": "선물하기 받는분 \n연락처 국가번호",
+      "required": false,
+      "row11Style": "9"
+    },
+    {
+      "column": "BC",
+      "label": "선물하기 받는분 연락처 \n국가번호 코드 \n※ 코드가 자동생성됩니다. \n직접 수정하지 마세요.",
+      "required": false,
+      "row11Style": "10"
+    },
+    {
+      "column": "BD",
+      "label": "선물하기 받는분 연락처",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "BE",
+      "label": "선물하기 전송 메시지 \n(50자 미만으로 입력해주세요)",
+      "required": false,
+      "row11Style": "18"
+    },
+    {
+      "column": "BF",
+      "label": "관부가세 대납 서비스 신청 \n신청 : Y, 미신청 : N \n(공란 시 미신청이 기본값)",
+      "required": false,
+      "row11Style": "9"
+    }
+  ],
+  "sheetNames": [
+    "신청서",
+    "카테고리 품목 코드",
+    "고정배송비 신청 코드",
+    "데이터 목록"
+  ],
+  "lists": {
+    "pickups": [
+      {
+        "label": "미신청",
+        "code": 0,
+        "row": 2
+      },
+      {
+        "label": "[미국] USPS Drop-Off 신청",
+        "code": "DROPOFF",
+        "row": 3
+      },
+      {
+        "label": "[한국] 한진택배 픽업 신청",
+        "code": "HANJIN",
+        "row": 4
+      }
+    ],
+    "carriers": [
+      {
+        "label": "[미국]USPS",
+        "code": 1,
+        "row": 2,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]FedEx",
+        "code": 2,
+        "row": 3,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]DHL",
+        "code": 3,
+        "row": 4,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]DHL eCommerce",
+        "code": 4,
+        "row": 5,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]UPS",
+        "code": 5,
+        "row": 6,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]ONTRAC",
+        "code": 6,
+        "row": 7,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]AMAZON",
+        "code": 7,
+        "row": 8,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]LaserShip",
+        "code": 8,
+        "row": 9,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]VEHO",
+        "code": 9,
+        "row": 10,
+        "center": "미국"
+      },
+      {
+        "label": "[미국]기타 운송사(ETC)",
+        "code": 10,
+        "row": 11,
+        "center": "미국"
+      },
+      {
+        "label": "[독일]DHL",
+        "code": 11,
+        "row": 12,
+        "center": "독일"
+      },
+      {
+        "label": "[독일]Hermes",
+        "code": 12,
+        "row": 13,
+        "center": "독일"
+      },
+      {
+        "label": "[독일]UPS",
+        "code": 13,
+        "row": 14,
+        "center": "독일"
+      },
+      {
+        "label": "[독일]DPD",
+        "code": 14,
+        "row": 15,
+        "center": "독일"
+      },
+      {
+        "label": "[독일]AMAZON",
+        "code": 15,
+        "row": 16,
+        "center": "독일"
+      },
+      {
+        "label": "[독일]기타 운송사(ETC)",
+        "code": 16,
+        "row": 17,
+        "center": "독일"
+      },
+      {
+        "label": "[일본]DHL",
+        "code": 17,
+        "row": 18,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]FEDEX",
+        "code": 18,
+        "row": 19,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]UPS",
+        "code": 19,
+        "row": 20,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]AMAZON",
+        "code": 20,
+        "row": 21,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]YAMATO(ヤマト運輸)",
+        "code": 21,
+        "row": 22,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]SEIBU(西武運輸)",
+        "code": 22,
+        "row": 23,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]SEINO(西濃運輸)",
+        "code": 23,
+        "row": 24,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]HUKUYAMA(福山通運)",
+        "code": 24,
+        "row": 25,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]TONAMI(トナミ運輸)",
+        "code": 25,
+        "row": 26,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]CHUETU(中越運送)",
+        "code": 26,
+        "row": 27,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]DAIICHI(第一貨物)",
+        "code": 27,
+        "row": 28,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]OKAKENN(オカケン)",
+        "code": 28,
+        "row": 29,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]HAKOBOON(はこBOON)",
+        "code": 29,
+        "row": 30,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]SAGAWA(佐川急便)",
+        "code": 30,
+        "row": 31,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]JAPAN POST(日本郵便)",
+        "code": 31,
+        "row": 32,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]ECOHAI(エコ配)",
+        "code": 32,
+        "row": 33,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]LOGINET JAPAN(ロジネット ジャパン)",
+        "code": 33,
+        "row": 34,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]WILLPORT",
+        "code": 34,
+        "row": 35,
+        "center": "일본"
+      },
+      {
+        "label": "[일본]기타 운송사(ETC)",
+        "code": 35,
+        "row": 36,
+        "center": "일본"
+      },
+      {
+        "label": "[홍콩]DHL",
+        "code": 36,
+        "row": 37,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]FedEx",
+        "code": 37,
+        "row": 38,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]SF",
+        "code": 38,
+        "row": 39,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]EMS",
+        "code": 39,
+        "row": 40,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]STO",
+        "code": 40,
+        "row": 41,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]ZTO",
+        "code": 41,
+        "row": 42,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]YTO",
+        "code": 42,
+        "row": 43,
+        "center": "홍콩"
+      },
+      {
+        "label": "[홍콩]기타 운송사(ETC)",
+        "code": 43,
+        "row": 44,
+        "center": "홍콩"
+      },
+      {
+        "label": "[중국]SF",
+        "code": 44,
+        "row": 45,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]STO",
+        "code": 45,
+        "row": 46,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]ZTO",
+        "code": 46,
+        "row": 47,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]YTO",
+        "code": 47,
+        "row": 48,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]Yunda",
+        "code": 48,
+        "row": 49,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]DHL",
+        "code": 49,
+        "row": 50,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]FedEx",
+        "code": 50,
+        "row": 51,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]EMS",
+        "code": 51,
+        "row": 52,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]China Post",
+        "code": 52,
+        "row": 53,
+        "center": "중국"
+      },
+      {
+        "label": "[중국]기타 운송사(ETC)",
+        "code": 53,
+        "row": 54,
+        "center": "중국"
+      },
+      {
+        "label": "[한국]한진(HANJIN)",
+        "code": 54,
+        "row": 55,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]우체국(POST OFFICE)",
+        "code": 55,
+        "row": 56,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]CJ대한통운(CJ LOGISTICS)",
+        "code": 56,
+        "row": 57,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]롯데(LOTTE)",
+        "code": 57,
+        "row": 58,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]경동(KYOUNG DONG)",
+        "code": 58,
+        "row": 59,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]로젠(LOGEN)",
+        "code": 59,
+        "row": 60,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]홈픽(HOME PICK)",
+        "code": 60,
+        "row": 61,
+        "center": "한국"
+      },
+      {
+        "label": "[한국]기타 운송사(ETC)",
+        "code": 61,
+        "row": 62,
+        "center": "한국"
+      },
+      {
+        "label": "[일본]PickGO",
+        "code": 117,
+        "row": 63,
+        "center": "일본"
+      },
+      {
+        "label": "[프랑스]기타 운송사(ETC)",
+        "code": 118,
+        "row": 64,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]LA POSTE",
+        "code": 119,
+        "row": 65,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]Colis prive",
+        "code": 120,
+        "row": 66,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]DPD",
+        "code": 121,
+        "row": 67,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]DHL",
+        "code": 122,
+        "row": 68,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]UPS",
+        "code": 123,
+        "row": 69,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]Chronopost",
+        "code": 124,
+        "row": 70,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]Colissimo",
+        "code": 125,
+        "row": 71,
+        "center": "프랑스"
+      },
+      {
+        "label": "[프랑스]GLS",
+        "code": 126,
+        "row": 72,
+        "center": "프랑스"
+      },
+      {
+        "label": "[대만]Black cat",
+        "code": 127,
+        "row": 73,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]Hsinchu",
+        "code": 128,
+        "row": 74,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]Seven eleven",
+        "code": 129,
+        "row": 75,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]SF(shun feng)",
+        "code": 130,
+        "row": 76,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]Kerry",
+        "code": 131,
+        "row": 77,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]DHL",
+        "code": 132,
+        "row": 78,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]FedEx",
+        "code": 133,
+        "row": 79,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]UPS",
+        "code": 134,
+        "row": 80,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]EMS",
+        "code": 135,
+        "row": 81,
+        "center": "대만"
+      },
+      {
+        "label": "[대만]기타 운송사(ETC)",
+        "code": 136,
+        "row": 82,
+        "center": "대만"
+      }
+    ],
+    "countries": [
+      {
+        "label": "KOREA (한국)",
+        "code": "KR",
+        "row": 2
+      },
+      {
+        "label": "U.S.A (미국)",
+        "code": "US",
+        "row": 3
+      },
+      {
+        "label": "GERMANY (독일)",
+        "code": "DE",
+        "row": 4
+      },
+      {
+        "label": "JAPAN (일본)",
+        "code": "JP",
+        "row": 5
+      },
+      {
+        "label": "HONG KONG (홍콩)",
+        "code": "HK",
+        "row": 6
+      },
+      {
+        "label": "CHINA (중국)",
+        "code": "CN",
+        "row": 7
+      },
+      {
+        "label": "ALBANIA (알바니아)",
+        "code": "AL",
+        "row": 8
+      },
+      {
+        "label": "ALGERIA (알제리)",
+        "code": "DZ",
+        "row": 9
+      },
+      {
+        "label": "AMERICAN SAMOA (아메리칸사모아)",
+        "code": "AS",
+        "row": 10
+      },
+      {
+        "label": "ARGENTINA (아르헨티나)",
+        "code": "AR",
+        "row": 11
+      },
+      {
+        "label": "ARMENIA (아르메니아)",
+        "code": "AM",
+        "row": 12
+      },
+      {
+        "label": "AUSTRALIA (오스트레일리아(호주))",
+        "code": "AU",
+        "row": 13
+      },
+      {
+        "label": "AUSTRIA (오스트리아)",
+        "code": "AT",
+        "row": 14
+      },
+      {
+        "label": "AZERBAIJAN (아제르바이잔)",
+        "code": "AZ",
+        "row": 15
+      },
+      {
+        "label": "BAHRAIN (바레인)",
+        "code": "BH",
+        "row": 16
+      },
+      {
+        "label": "BANGLADESH (방글라데시)",
+        "code": "BD",
+        "row": 17
+      },
+      {
+        "label": "BELARUS (벨라루시(백러시아))",
+        "code": "BY",
+        "row": 18
+      },
+      {
+        "label": "BELGIUM (벨기에)",
+        "code": "BE",
+        "row": 19
+      },
+      {
+        "label": "BHUTAN (부탄)",
+        "code": "BT",
+        "row": 20
+      },
+      {
+        "label": "BOSNIA HERZEGOVINA (보스니아헤르체고비나)",
+        "code": "BA",
+        "row": 21
+      },
+      {
+        "label": "BOTSWANA (보츠와나)",
+        "code": "BW",
+        "row": 22
+      },
+      {
+        "label": "BRAZIL (브라질)",
+        "code": "BR",
+        "row": 23
+      },
+      {
+        "label": "BRUNEI DARUSSALAM (브루나이)",
+        "code": "BN",
+        "row": 24
+      },
+      {
+        "label": "BULGARIA (불가리아)",
+        "code": "BG",
+        "row": 25
+      },
+      {
+        "label": "CAMBODIA (캄보디아)",
+        "code": "KH",
+        "row": 26
+      },
+      {
+        "label": "CANADA (캐나다)",
+        "code": "CA",
+        "row": 27
+      },
+      {
+        "label": "CAPE VERDE (카보베르데)",
+        "code": "CV",
+        "row": 28
+      },
+      {
+        "label": "CHILE (칠레)",
+        "code": "CL",
+        "row": 29
+      },
+      {
+        "label": "COSTARICA (코스타리카)",
+        "code": "CR",
+        "row": 30
+      },
+      {
+        "label": "CROATIA (크로아티아)",
+        "code": "HR",
+        "row": 31
+      },
+      {
+        "label": "CUBA (쿠바)",
+        "code": "CU",
+        "row": 32
+      },
+      {
+        "label": "CYPRUS (사이프러스)",
+        "code": "CY",
+        "row": 33
+      },
+      {
+        "label": "CZECH REPUBLIC (체코)",
+        "code": "CZ",
+        "row": 34
+      },
+      {
+        "label": "DENMARK (덴마크)",
+        "code": "DK",
+        "row": 35
+      },
+      {
+        "label": "DJIBOUTI (지부티)",
+        "code": "DJ",
+        "row": 36
+      },
+      {
+        "label": "DOMINICAN REP. (도미니카공화국)",
+        "code": "DM",
+        "row": 37
+      },
+      {
+        "label": "ECUADOR (에콰도르)",
+        "code": "EC",
+        "row": 38
+      },
+      {
+        "label": "EGYPT (이집트)",
+        "code": "EG",
+        "row": 39
+      },
+      {
+        "label": "ESTONIA (에스토니아)",
+        "code": "EE",
+        "row": 40
+      },
+      {
+        "label": "ETHIOPIA (에티오피아)",
+        "code": "ET",
+        "row": 41
+      },
+      {
+        "label": "FIJI ISLANDS (피지)",
+        "code": "FJ",
+        "row": 42
+      },
+      {
+        "label": "FINLAND (핀란드)",
+        "code": "FI",
+        "row": 43
+      },
+      {
+        "label": "FRANCE (프랑스)",
+        "code": "FR",
+        "row": 44
+      },
+      {
+        "label": "GEORGIA (그루지아)",
+        "code": "GE",
+        "row": 45
+      },
+      {
+        "label": "GREECE (그리스)",
+        "code": "GR",
+        "row": 46
+      },
+      {
+        "label": "GUAM (괌)",
+        "code": "GU",
+        "row": 47
+      },
+      {
+        "label": "HAITI (아이티)",
+        "code": "HT",
+        "row": 48
+      },
+      {
+        "label": "HUNGARY (헝가리)",
+        "code": "HU",
+        "row": 49
+      },
+      {
+        "label": "INDIA (인도)",
+        "code": "IN",
+        "row": 50
+      },
+      {
+        "label": "INDONESIA (인도네시아)",
+        "code": "ID",
+        "row": 51
+      },
+      {
+        "label": "IRAN (이란)",
+        "code": "IR",
+        "row": 52
+      },
+      {
+        "label": "Iraq (이라크)",
+        "code": "IQ",
+        "row": 53
+      },
+      {
+        "label": "IRELAND (아일랜드)",
+        "code": "IE",
+        "row": 54
+      },
+      {
+        "label": "ISRAEL (이스라엘)",
+        "code": "IL",
+        "row": 55
+      },
+      {
+        "label": "ITALY (이탈리아)",
+        "code": "ITA",
+        "row": 56
+      },
+      {
+        "label": "JORDAN (요르단)",
+        "code": "JO",
+        "row": 57
+      },
+      {
+        "label": "KAZAKHSTAN (카자흐스탄)",
+        "code": "KZ",
+        "row": 58
+      },
+      {
+        "label": "KENYA (케냐)",
+        "code": "KE",
+        "row": 59
+      },
+      {
+        "label": "KIRIBATI (키리바시)",
+        "code": "KI",
+        "row": 60
+      },
+      {
+        "label": "KUWAIT (쿠웨이트)",
+        "code": "KW",
+        "row": 61
+      },
+      {
+        "label": "KYRGYZSTAN (키르기스스탄)",
+        "code": "KG",
+        "row": 62
+      },
+      {
+        "label": "LAOS (라오스)",
+        "code": "LA",
+        "row": 63
+      },
+      {
+        "label": "LATVIA (라트비아)",
+        "code": "LV",
+        "row": 64
+      },
+      {
+        "label": "LESOTHO (레소토)",
+        "code": "LS",
+        "row": 65
+      },
+      {
+        "label": "LIBYA (리비아)",
+        "code": "LY",
+        "row": 66
+      },
+      {
+        "label": "LITHUANIA (리투아니아)",
+        "code": "LT",
+        "row": 67
+      },
+      {
+        "label": "LUXEMBOURG (룩셈부르크)",
+        "code": "LU",
+        "row": 68
+      },
+      {
+        "label": "MACAU (마카오)",
+        "code": "MO",
+        "row": 69
+      },
+      {
+        "label": "MACEDONIA (마케도니아)",
+        "code": "MK",
+        "row": 70
+      },
+      {
+        "label": "MALAYSIA (말레이시아)",
+        "code": "MY",
+        "row": 71
+      },
+      {
+        "label": "MALDIVES (몰디브)",
+        "code": "MV",
+        "row": 72
+      },
+      {
+        "label": "MEXICO (멕시코)",
+        "code": "MX",
+        "row": 73
+      },
+      {
+        "label": "MONGOLIA (몽골)",
+        "code": "MN",
+        "row": 74
+      },
+      {
+        "label": "MOROCCO (모로코)",
+        "code": "MA",
+        "row": 75
+      },
+      {
+        "label": "MOZAMBIQUE (모잠비크)",
+        "code": "MZ",
+        "row": 76
+      },
+      {
+        "label": "MYANMAR (미얀마)",
+        "code": "MM",
+        "row": 77
+      },
+      {
+        "label": "NEPAL (네팔)",
+        "code": "NP",
+        "row": 78
+      },
+      {
+        "label": "NETHERLANDS (네덜란드)",
+        "code": "NL",
+        "row": 79
+      },
+      {
+        "label": "NETHERLANDS ANTILES (네덜란드 앤틸)",
+        "code": "AN",
+        "row": 80
+      },
+      {
+        "label": "NEW ZEALAND (뉴질랜드)",
+        "code": "NZ",
+        "row": 81
+      },
+      {
+        "label": "NIGERIA (나이지리아)",
+        "code": "NG",
+        "row": 82
+      },
+      {
+        "label": "NORWAY (노르웨이)",
+        "code": "NO",
+        "row": 83
+      },
+      {
+        "label": "OMAN (오만)",
+        "code": "OM",
+        "row": 84
+      },
+      {
+        "label": "PAKISTAN (파키스탄)",
+        "code": "PK",
+        "row": 85
+      },
+      {
+        "label": "PANAMA (파나마)",
+        "code": "PA",
+        "row": 86
+      },
+      {
+        "label": "PAPUA NEW GUINEA (파프아뉴기니)",
+        "code": "PG",
+        "row": 87
+      },
+      {
+        "label": "PERU (페루)",
+        "code": "PE",
+        "row": 88
+      },
+      {
+        "label": "PHILIPPINES (필리핀)",
+        "code": "PH",
+        "row": 89
+      },
+      {
+        "label": "POLAND (폴란드)",
+        "code": "PL",
+        "row": 90
+      },
+      {
+        "label": "PORTUGAL (포르투갈)",
+        "code": "PT",
+        "row": 91
+      },
+      {
+        "label": "QATAR (카타르)",
+        "code": "QA",
+        "row": 92
+      },
+      {
+        "label": "ROMANIA (루마니아)",
+        "code": "RO",
+        "row": 93
+      },
+      {
+        "label": "RUSSIAN FEB (러시아)",
+        "code": "RU",
+        "row": 94
+      },
+      {
+        "label": "RWANDA (르완다)",
+        "code": "RW",
+        "row": 95
+      },
+      {
+        "label": "SAIPAN / NORTH MARIANA ISLAND (사이판)",
+        "code": "MP",
+        "row": 96
+      },
+      {
+        "label": "SAUDI ARABIA (사우디아라비아)",
+        "code": "SA",
+        "row": 97
+      },
+      {
+        "label": "SEYCHELLES (세이셸)",
+        "code": "SC",
+        "row": 98
+      },
+      {
+        "label": "SINGAPORE (싱가포르)",
+        "code": "SG",
+        "row": 99
+      },
+      {
+        "label": "SLOVAKIA (슬로바키아)",
+        "code": "SK",
+        "row": 100
+      },
+      {
+        "label": "SLOVENIA (슬로베니아)",
+        "code": "SI",
+        "row": 101
+      },
+      {
+        "label": "SOLOMON ISLANDS (솔로몬)",
+        "code": "SB",
+        "row": 102
+      },
+      {
+        "label": "SPAIN (스페인)",
+        "code": "ES",
+        "row": 103
+      },
+      {
+        "label": "SRILANKA (스리랑카)",
+        "code": "LK",
+        "row": 104
+      },
+      {
+        "label": "SWEDEN (스웨덴)",
+        "code": "SE",
+        "row": 105
+      },
+      {
+        "label": "SWITZERLAND (스위스)",
+        "code": "CH",
+        "row": 106
+      },
+      {
+        "label": "SYRIA ARAB REP. (시리아)",
+        "code": "SY",
+        "row": 107
+      },
+      {
+        "label": "TAIWAN (대만)",
+        "code": "TW",
+        "row": 108
+      },
+      {
+        "label": "TAJIKISTAN (타지크스탄)",
+        "code": "TJ",
+        "row": 109
+      },
+      {
+        "label": "TANZANIA (탄자니아)",
+        "code": "TZ",
+        "row": 110
+      },
+      {
+        "label": "THAILAND (태국)",
+        "code": "TH",
+        "row": 111
+      },
+      {
+        "label": "TRINIDAD AND TOBAGO (트리니다드토바고)",
+        "code": "TT",
+        "row": 112
+      },
+      {
+        "label": "TUNISIA (튀니지)",
+        "code": "TN",
+        "row": 113
+      },
+      {
+        "label": "TURKEY (터키)",
+        "code": "TR",
+        "row": 114
+      },
+      {
+        "label": "TURKMENISTAN (투르크메니스탄)",
+        "code": "TM",
+        "row": 115
+      },
+      {
+        "label": "UKRAINE (우크라이나)",
+        "code": "UA",
+        "row": 116
+      },
+      {
+        "label": "UNITED KINGDOM (영국)",
+        "code": "GB",
+        "row": 117
+      },
+      {
+        "label": "URUGUAY (우루과이)",
+        "code": "UY",
+        "row": 118
+      },
+      {
+        "label": "UZBEKISTAN (우즈베키스탄)",
+        "code": "UZ",
+        "row": 119
+      },
+      {
+        "label": "VIETNAM (베트남)",
+        "code": "VN",
+        "row": 120
+      },
+      {
+        "label": "WESTERN SAMOA (서사모아)",
+        "code": "WS",
+        "row": 121
+      },
+      {
+        "label": "ZAMBIA (잠비아)",
+        "code": "ZM",
+        "row": 122
+      }
+    ],
+    "customsTypes": [
+      {
+        "label": "(개인_한국인)개인통관고유부호",
+        "code": "P_CUST_NO",
+        "row": 2
+      },
+      {
+        "label": "(사업자_일반)사업자번호",
+        "code": "BIZ_NO",
+        "row": 3
+      },
+      {
+        "label": "(사업자_상용견품/샘플)사업자번호",
+        "code": "BIZ_NO",
+        "row": 4
+      }
+    ],
+    "phoneCountries": [
+      {
+        "label": "한국 (+82)",
+        "code": 82,
+        "row": 2
+      },
+      {
+        "label": "미국 (+1)",
+        "code": 1,
+        "row": 3
+      },
+      {
+        "label": "러시아 (+7)",
+        "code": 7,
+        "row": 4
+      },
+      {
+        "label": "프랑스 (+33)",
+        "code": 33,
+        "row": 5
+      },
+      {
+        "label": "스페인 (+34)",
+        "code": 34,
+        "row": 6
+      },
+      {
+        "label": "영국 (+44)",
+        "code": 44,
+        "row": 7
+      },
+      {
+        "label": "독일 (+49)",
+        "code": 49,
+        "row": 8
+      },
+      {
+        "label": "호주 (+61)",
+        "code": 61,
+        "row": 9
+      },
+      {
+        "label": "필리핀 (+63)",
+        "code": 63,
+        "row": 10
+      },
+      {
+        "label": "뉴질랜드 (+64)",
+        "code": 64,
+        "row": 11
+      },
+      {
+        "label": "싱가포르 (+65)",
+        "code": 65,
+        "row": 12
+      },
+      {
+        "label": "태국 (+66)",
+        "code": 66,
+        "row": 13
+      },
+      {
+        "label": "일본 (+81)",
+        "code": 81,
+        "row": 14
+      },
+      {
+        "label": "베트남 (+84)",
+        "code": 84,
+        "row": 15
+      },
+      {
+        "label": "중국 (+86)",
+        "code": 86,
+        "row": 16
+      },
+      {
+        "label": "홍콩 (+852)",
+        "code": 852,
+        "row": 17
+      },
+      {
+        "label": "대만 (+886)",
+        "code": 886,
+        "row": 18
+      },
+      {
+        "label": "인도 (+91)",
+        "code": 91,
+        "row": 19
+      },
+      {
+        "label": "아랍에미리트 (+971)",
+        "code": 971,
+        "row": 20
+      }
+    ],
+    "currencies": [
+      "USD",
+      "EUR",
+      "JPY",
+      "HKD",
+      "CNY",
+      "KRW",
+      "TWD"
+    ],
+    "yesNo": [
+      "Y",
+      "N"
+    ],
+    "insurance": [
+      {
+        "label": "NO (미신청, 50만원까지 보상)",
+        "code": "10",
+        "row": 2
+      },
+      {
+        "label": "YES (신청 25USD, 500만원까지 보상)",
+        "code": "20",
+        "row": 3
+      },
+      {
+        "label": "YES (신청 50USD, 1000만원까지 보상)",
+        "code": "30",
+        "row": 4
+      }
+    ],
+    "volumeUnits": [
+      "ML",
+      "L",
+      "CL"
+    ]
+  },
+  "centers": [
+    {
+      "label": "미국",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "독일",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "일본",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "홍콩",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "중국",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "한국",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "프랑스",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    },
+    {
+      "label": "대만",
+      "source": "inferred from carrier label prefix; no explicit center column in workbook"
+    }
+  ],
+  "categories": [
+    {
+      "code": "001",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 휴대폰/스마트폰/전화기 (1개까지)",
+      "row": 3,
+      "categoryCode": 10001,
+      "itemCode": 2000001
+    },
+    {
+      "code": "002",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 인덕션/전기렌지 (1개까지)",
+      "row": 4,
+      "categoryCode": 10001,
+      "itemCode": 2000002
+    },
+    {
+      "code": "003",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 스마트워치 (1개까지)",
+      "row": 5,
+      "categoryCode": 10001,
+      "itemCode": 2000003
+    },
+    {
+      "code": "004",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 무선헤드셋/무선이어폰 (1개까지)",
+      "row": 6,
+      "categoryCode": 10001,
+      "itemCode": 2000004
+    },
+    {
+      "code": "005",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 유선이어폰/유선헤드폰 (제한없음)",
+      "row": 7,
+      "categoryCode": 10001,
+      "itemCode": 2000005
+    },
+    {
+      "code": "006",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] TV (1개까지)",
+      "row": 8,
+      "categoryCode": 10001,
+      "itemCode": 2000006
+    },
+    {
+      "code": "007",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 모니터 (1개까지)",
+      "row": 9,
+      "categoryCode": 10001,
+      "itemCode": 2000007
+    },
+    {
+      "code": "008",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 진공청소기(전동기·모터를 갖춘것) (1개까지)",
+      "row": 10,
+      "categoryCode": 10001,
+      "itemCode": 2000008
+    },
+    {
+      "code": "009",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 진공청소기(전동기·모터를 갖추지 않은것) (제한없음)",
+      "row": 11,
+      "categoryCode": 10001,
+      "itemCode": 2000009
+    },
+    {
+      "code": "010",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 전자계산기 (제한없음)",
+      "row": 12,
+      "categoryCode": 10001,
+      "itemCode": 2000010
+    },
+    {
+      "code": "011",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 가습기/제습기/공기청정기 (1개까지)",
+      "row": 13,
+      "categoryCode": 10001,
+      "itemCode": 2000011
+    },
+    {
+      "code": "012",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 휴대용손전등 (제한없음)",
+      "row": 14,
+      "categoryCode": 10001,
+      "itemCode": 2000012
+    },
+    {
+      "code": "013",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 재봉기/재봉틀 (1개까지)",
+      "row": 15,
+      "categoryCode": 10001,
+      "itemCode": 2000013
+    },
+    {
+      "code": "014",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 전기다리미/스팀다리미 (1개까지)",
+      "row": 16,
+      "categoryCode": 10001,
+      "itemCode": 2000014
+    },
+    {
+      "code": "015",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 전동칫솔 (1개까지)",
+      "row": 17,
+      "categoryCode": 10001,
+      "itemCode": 2000015
+    },
+    {
+      "code": "016",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 전동면도기 (1개까지)",
+      "row": 18,
+      "categoryCode": 10001,
+      "itemCode": 2000016
+    },
+    {
+      "code": "017",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 제모기 (1개까지)",
+      "row": 19,
+      "categoryCode": 10001,
+      "itemCode": 2000017
+    },
+    {
+      "code": "018",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 피부관리기 (1개까지)",
+      "row": 20,
+      "categoryCode": 10001,
+      "itemCode": 2000018
+    },
+    {
+      "code": "019",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 가정용 미용기기 (1개까지)",
+      "row": 21,
+      "categoryCode": 10001,
+      "itemCode": 2000019
+    },
+    {
+      "code": "020",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 헤어드라이기/세팅기 (1개까지)",
+      "row": 22,
+      "categoryCode": 10001,
+      "itemCode": 2000020
+    },
+    {
+      "code": "021",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 건전지 충전기(충전지)",
+      "row": 23,
+      "categoryCode": 10001,
+      "itemCode": 2000021
+    },
+    {
+      "code": "022",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 토스터 (1개까지)",
+      "row": 24,
+      "categoryCode": 10001,
+      "itemCode": 2000022
+    },
+    {
+      "code": "023",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 오븐/그릴 (1개까지)",
+      "row": 25,
+      "categoryCode": 10001,
+      "itemCode": 2000023
+    },
+    {
+      "code": "024",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 커피머신/커피메이커 (1개까지)",
+      "row": 26,
+      "categoryCode": 10001,
+      "itemCode": 2000024
+    },
+    {
+      "code": "025",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 커피분쇄기 (1개까지)",
+      "row": 27,
+      "categoryCode": 10001,
+      "itemCode": 2000025
+    },
+    {
+      "code": "026",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 식품용 그라인더/믹서/착즙기 (1개까지)",
+      "row": 28,
+      "categoryCode": 10001,
+      "itemCode": 2000026
+    },
+    {
+      "code": "027",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 기타 가전기기 (대부분 1개까지)",
+      "row": 29,
+      "categoryCode": 10001,
+      "itemCode": 2000027
+    },
+    {
+      "code": "028",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 노트북/태블릿 (1개까지)",
+      "row": 30,
+      "categoryCode": 10001,
+      "itemCode": 2000028
+    },
+    {
+      "code": "029",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 데스크탑 (1개까지)",
+      "row": 31,
+      "categoryCode": 10001,
+      "itemCode": 2000029
+    },
+    {
+      "code": "030",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 컴퓨터 주변기기(키보드/마우스/스캐너) (1개까지)",
+      "row": 32,
+      "categoryCode": 10001,
+      "itemCode": 2000030
+    },
+    {
+      "code": "031",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 외장하드 (1개까지)",
+      "row": 33,
+      "categoryCode": 10001,
+      "itemCode": 2000031
+    },
+    {
+      "code": "032",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] SSD(solid states drive) (제한없음)",
+      "row": 34,
+      "categoryCode": 10001,
+      "itemCode": 2000032
+    },
+    {
+      "code": "033",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 포트 및 관련 액세사리",
+      "row": 35,
+      "categoryCode": 10001,
+      "itemCode": 2000033
+    },
+    {
+      "code": "034",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 프린터/복사기 (1개까지)",
+      "row": 36,
+      "categoryCode": 10001,
+      "itemCode": 2000034
+    },
+    {
+      "code": "035",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 필름 카메라/폴라로이드 (1개까지)",
+      "row": 37,
+      "categoryCode": 10001,
+      "itemCode": 2000035
+    },
+    {
+      "code": "036",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 디지털 카메라 (1개까지)",
+      "row": 38,
+      "categoryCode": 10001,
+      "itemCode": 2000036
+    },
+    {
+      "code": "037",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 카메라렌즈 (제한없음)",
+      "row": 39,
+      "categoryCode": 10001,
+      "itemCode": 2000037
+    },
+    {
+      "code": "038",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 캠코더 (1개까지)",
+      "row": 40,
+      "categoryCode": 10001,
+      "itemCode": 2000038
+    },
+    {
+      "code": "039",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] DVD 플레이어 (1개까지)",
+      "row": 41,
+      "categoryCode": 10001,
+      "itemCode": 2000039
+    },
+    {
+      "code": "040",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 빔프로젝터 (1개까지)",
+      "row": 42,
+      "categoryCode": 10001,
+      "itemCode": 2000040
+    },
+    {
+      "code": "041",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 비디오 게임기 (1개까지)",
+      "row": 43,
+      "categoryCode": 10001,
+      "itemCode": 2000041
+    },
+    {
+      "code": "042",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 녹음기",
+      "row": 44,
+      "categoryCode": 10001,
+      "itemCode": 2000042
+    },
+    {
+      "code": "043",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 마이크",
+      "row": 45,
+      "categoryCode": 10001,
+      "itemCode": 2000043
+    },
+    {
+      "code": "044",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 스피커/앰프 (1개까지)",
+      "row": 46,
+      "categoryCode": 10001,
+      "itemCode": 2000044
+    },
+    {
+      "code": "045",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 오디오/음향가전 (1개까지)",
+      "row": 47,
+      "categoryCode": 10001,
+      "itemCode": 2000045
+    },
+    {
+      "code": "046",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 전자악기",
+      "row": 48,
+      "categoryCode": 10001,
+      "itemCode": 2000046
+    },
+    {
+      "code": "047",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 전동공구",
+      "row": 49,
+      "categoryCode": 10001,
+      "itemCode": 2000047
+    },
+    {
+      "code": "048",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 전기난방기",
+      "row": 50,
+      "categoryCode": 10001,
+      "itemCode": 2000048
+    },
+    {
+      "code": "049",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] PC부분품",
+      "row": 51,
+      "categoryCode": 10001,
+      "itemCode": 2000049
+    },
+    {
+      "code": "050",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 모발/코털 제거기 (제한없음)",
+      "row": 52,
+      "categoryCode": 10001,
+      "itemCode": 2000050
+    },
+    {
+      "code": "051",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[목록통관] 충전 케이블 (제한없음)",
+      "row": 53,
+      "categoryCode": 10001,
+      "itemCode": 2000051
+    },
+    {
+      "code": "052",
+      "category": "전자제품(품목옵션에서 신청가능수량 확인필수)",
+      "item": "[일반통관] 기타 전자제품",
+      "row": 54,
+      "categoryCode": 10001,
+      "itemCode": 2000052
+    },
+    {
+      "code": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 일반 의류",
+      "row": 55,
+      "categoryCode": 10002,
+      "itemCode": 2000053
+    },
+    {
+      "code": "054",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 유아용 의류",
+      "row": 56,
+      "categoryCode": 10002,
+      "itemCode": 2000054
+    },
+    {
+      "code": "055",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 인조모피 의류",
+      "row": 57,
+      "categoryCode": 10002,
+      "itemCode": 2000055
+    },
+    {
+      "code": "056",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 언더웨어",
+      "row": 58,
+      "categoryCode": 10002,
+      "itemCode": 2000056
+    },
+    {
+      "code": "057",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 신발",
+      "row": 59,
+      "categoryCode": 10002,
+      "itemCode": 2000057
+    },
+    {
+      "code": "058",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 시계",
+      "row": 60,
+      "categoryCode": 10002,
+      "itemCode": 2000058
+    },
+    {
+      "code": "059",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 가방",
+      "row": 61,
+      "categoryCode": 10002,
+      "itemCode": 2000059
+    },
+    {
+      "code": "060",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 배낭",
+      "row": 62,
+      "categoryCode": 10002,
+      "itemCode": 2000060
+    },
+    {
+      "code": "061",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 지갑",
+      "row": 63,
+      "categoryCode": 10002,
+      "itemCode": 2000061
+    },
+    {
+      "code": "062",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 모자(밀짚모자 제외)",
+      "row": 64,
+      "categoryCode": 10002,
+      "itemCode": 2000062
+    },
+    {
+      "code": "063",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 양말",
+      "row": 65,
+      "categoryCode": 10002,
+      "itemCode": 2000063
+    },
+    {
+      "code": "064",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 스타킹",
+      "row": 66,
+      "categoryCode": 10002,
+      "itemCode": 2000064
+    },
+    {
+      "code": "065",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 넥타이",
+      "row": 67,
+      "categoryCode": 10002,
+      "itemCode": 2000065
+    },
+    {
+      "code": "066",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 숄/스카프",
+      "row": 68,
+      "categoryCode": 10002,
+      "itemCode": 2000066
+    },
+    {
+      "code": "067",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 장갑",
+      "row": 69,
+      "categoryCode": 10002,
+      "itemCode": 2000067
+    },
+    {
+      "code": "068",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 손수건",
+      "row": 70,
+      "categoryCode": 10002,
+      "itemCode": 2000068
+    },
+    {
+      "code": "069",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 타월/원단",
+      "row": 71,
+      "categoryCode": 10002,
+      "itemCode": 2000069
+    },
+    {
+      "code": "070",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 마스크(방한용)",
+      "row": 72,
+      "categoryCode": 10002,
+      "itemCode": 2000070
+    },
+    {
+      "code": "071",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 벨트",
+      "row": 73,
+      "categoryCode": 10002,
+      "itemCode": 2000071
+    },
+    {
+      "code": "072",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 보석",
+      "row": 74,
+      "categoryCode": 10002,
+      "itemCode": 2000072
+    },
+    {
+      "code": "073",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 안경",
+      "row": 75,
+      "categoryCode": 10002,
+      "itemCode": 2000073
+    },
+    {
+      "code": "074",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 선글라스",
+      "row": 76,
+      "categoryCode": 10002,
+      "itemCode": 2000074
+    },
+    {
+      "code": "075",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 우산/양산",
+      "row": 77,
+      "categoryCode": 10002,
+      "itemCode": 2000075
+    },
+    {
+      "code": "076",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 기타 악세서리",
+      "row": 78,
+      "categoryCode": 10002,
+      "itemCode": 2000076
+    },
+    {
+      "code": "077",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "[목록통관] 기타 의류/패션잡화",
+      "row": 79,
+      "categoryCode": 10002,
+      "itemCode": 2000077
+    },
+    {
+      "code": "078",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 만년필",
+      "row": 80,
+      "categoryCode": 10003,
+      "itemCode": 2000078
+    },
+    {
+      "code": "079",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 볼펜",
+      "row": 81,
+      "categoryCode": 10003,
+      "itemCode": 2000079
+    },
+    {
+      "code": "080",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 샤프펜슬",
+      "row": 82,
+      "categoryCode": 10003,
+      "itemCode": 2000080
+    },
+    {
+      "code": "081",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 캐리어",
+      "row": 83,
+      "categoryCode": 10003,
+      "itemCode": 2000081
+    },
+    {
+      "code": "082",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 세탁세제/주방세제",
+      "row": 84,
+      "categoryCode": 10003,
+      "itemCode": 2000082
+    },
+    {
+      "code": "083",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 섬유유연제",
+      "row": 85,
+      "categoryCode": 10003,
+      "itemCode": 2000083
+    },
+    {
+      "code": "084",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 면도기",
+      "row": 86,
+      "categoryCode": 10003,
+      "itemCode": 2000084
+    },
+    {
+      "code": "085",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 비데",
+      "row": 87,
+      "categoryCode": 10003,
+      "itemCode": 2000085
+    },
+    {
+      "code": "086",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 치실",
+      "row": 88,
+      "categoryCode": 10003,
+      "itemCode": 2000086
+    },
+    {
+      "code": "087",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 칫솔/전동칫솔",
+      "row": 89,
+      "categoryCode": 10003,
+      "itemCode": 2000087
+    },
+    {
+      "code": "088",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 화장지",
+      "row": 90,
+      "categoryCode": 10003,
+      "itemCode": 2000088
+    },
+    {
+      "code": "089",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 캔들",
+      "row": 91,
+      "categoryCode": 10003,
+      "itemCode": 2000089
+    },
+    {
+      "code": "090",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 체중계/가정용저울",
+      "row": 92,
+      "categoryCode": 10003,
+      "itemCode": 2000090
+    },
+    {
+      "code": "091",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 보행기",
+      "row": 93,
+      "categoryCode": 10003,
+      "itemCode": 2000091
+    },
+    {
+      "code": "092",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 유모차",
+      "row": 94,
+      "categoryCode": 10003,
+      "itemCode": 2000092
+    },
+    {
+      "code": "093",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 카시트",
+      "row": 95,
+      "categoryCode": 10003,
+      "itemCode": 2000093
+    },
+    {
+      "code": "094",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 유모차 부품",
+      "row": 96,
+      "categoryCode": 10003,
+      "itemCode": 2000094
+    },
+    {
+      "code": "095",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 젖병류(플라스틱)",
+      "row": 97,
+      "categoryCode": 10003,
+      "itemCode": 2000095
+    },
+    {
+      "code": "096",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 젖병류(스테인리스)",
+      "row": 98,
+      "categoryCode": 10003,
+      "itemCode": 2000096
+    },
+    {
+      "code": "097",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 젖병류(유리)",
+      "row": 99,
+      "categoryCode": 10003,
+      "itemCode": 2000097
+    },
+    {
+      "code": "098",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 젖병 젖꼭지",
+      "row": 100,
+      "categoryCode": 10003,
+      "itemCode": 2000098
+    },
+    {
+      "code": "099",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 기저귀",
+      "row": 101,
+      "categoryCode": 10003,
+      "itemCode": 2000099
+    },
+    {
+      "code": "100",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 물티슈",
+      "row": 102,
+      "categoryCode": 10003,
+      "itemCode": 2000100
+    },
+    {
+      "code": "101",
+      "category": "문구/생활용품",
+      "item": "[일반통관] 체온계(1개까지)",
+      "row": 103,
+      "categoryCode": 10003,
+      "itemCode": 2000101
+    },
+    {
+      "code": "102",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 가정용 공구",
+      "row": 104,
+      "categoryCode": 10003,
+      "itemCode": 2000102
+    },
+    {
+      "code": "103",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 악기",
+      "row": 105,
+      "categoryCode": 10003,
+      "itemCode": 2000103
+    },
+    {
+      "code": "104",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 악기부품",
+      "row": 106,
+      "categoryCode": 10003,
+      "itemCode": 2000104
+    },
+    {
+      "code": "105",
+      "category": "문구/생활용품",
+      "item": "[목록통관] 기타 문구/생활용품",
+      "row": 107,
+      "categoryCode": 10003,
+      "itemCode": 2000105
+    },
+    {
+      "code": "106",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 가구(금속)",
+      "row": 108,
+      "categoryCode": 10004,
+      "itemCode": 2000106
+    },
+    {
+      "code": "107",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 가구(나무)",
+      "row": 109,
+      "categoryCode": 10004,
+      "itemCode": 2000107
+    },
+    {
+      "code": "108",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 가구(플라스틱)",
+      "row": 110,
+      "categoryCode": 10004,
+      "itemCode": 2000108
+    },
+    {
+      "code": "109",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 식탁(플라스틱)",
+      "row": 111,
+      "categoryCode": 10004,
+      "itemCode": 2000109
+    },
+    {
+      "code": "110",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 식탁(나무)",
+      "row": 112,
+      "categoryCode": 10004,
+      "itemCode": 2000110
+    },
+    {
+      "code": "111",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 의자",
+      "row": 113,
+      "categoryCode": 10004,
+      "itemCode": 2000111
+    },
+    {
+      "code": "112",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 조명",
+      "row": 114,
+      "categoryCode": 10004,
+      "itemCode": 2000112
+    },
+    {
+      "code": "113",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 토퍼/매트리스(라텍스, 매트리스폼)",
+      "row": 115,
+      "categoryCode": 10004,
+      "itemCode": 2000113
+    },
+    {
+      "code": "114",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 쿠션/베개/방석",
+      "row": 116,
+      "categoryCode": 10004,
+      "itemCode": 2000114
+    },
+    {
+      "code": "115",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 양탄자/러그",
+      "row": 117,
+      "categoryCode": 10004,
+      "itemCode": 2000115
+    },
+    {
+      "code": "116",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 이불",
+      "row": 118,
+      "categoryCode": 10004,
+      "itemCode": 2000116
+    },
+    {
+      "code": "117",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 침대덮개",
+      "row": 119,
+      "categoryCode": 10004,
+      "itemCode": 2000117
+    },
+    {
+      "code": "118",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 커버",
+      "row": 120,
+      "categoryCode": 10004,
+      "itemCode": 2000118
+    },
+    {
+      "code": "119",
+      "category": "가구/조명/침구/커튼",
+      "item": "[목록통관] 커튼",
+      "row": 121,
+      "categoryCode": 10004,
+      "itemCode": 2000119
+    },
+    {
+      "code": "120",
+      "category": "완구/피규어",
+      "item": "[목록통관] 바퀴가 있는 완구(세발자전거 포함)",
+      "row": 122,
+      "categoryCode": 10005,
+      "itemCode": 2000120
+    },
+    {
+      "code": "121",
+      "category": "완구/피규어",
+      "item": "[목록통관] 장난감/피규어",
+      "row": 123,
+      "categoryCode": 10005,
+      "itemCode": 2000121
+    },
+    {
+      "code": "122",
+      "category": "완구/피규어",
+      "item": "[목록통관] 비디오 게임용구",
+      "row": 124,
+      "categoryCode": 10005,
+      "itemCode": 2000122
+    },
+    {
+      "code": "123",
+      "category": "완구/피규어",
+      "item": "[목록통관] 오락용품",
+      "row": 125,
+      "categoryCode": 10005,
+      "itemCode": 2000123
+    },
+    {
+      "code": "124",
+      "category": "완구/피규어",
+      "item": "[목록통관] 인형",
+      "row": 126,
+      "categoryCode": 10005,
+      "itemCode": 2000124
+    },
+    {
+      "code": "125",
+      "category": "완구/피규어",
+      "item": "[목록통관] 조립식 완구 (레고 등)",
+      "row": 127,
+      "categoryCode": 10005,
+      "itemCode": 2000125
+    },
+    {
+      "code": "126",
+      "category": "완구/피규어",
+      "item": "[목록통관] 사행성 오락 (화투)",
+      "row": 128,
+      "categoryCode": 10005,
+      "itemCode": 2000126
+    },
+    {
+      "code": "127",
+      "category": "완구/피규어",
+      "item": "[목록통관] 기타 완구",
+      "row": 129,
+      "categoryCode": 10005,
+      "itemCode": 2000127
+    },
+    {
+      "code": "128",
+      "category": "주방용품",
+      "item": "[목록통관] 식기/주방용품 (나무)",
+      "row": 130,
+      "categoryCode": 10006,
+      "itemCode": 2000128
+    },
+    {
+      "code": "129",
+      "category": "주방용품",
+      "item": "[목록통관] 식기/주방용품 (금속)",
+      "row": 131,
+      "categoryCode": 10006,
+      "itemCode": 2000129
+    },
+    {
+      "code": "130",
+      "category": "주방용품",
+      "item": "[목록통관] 식기/주방용품 (유리)",
+      "row": 132,
+      "categoryCode": 10006,
+      "itemCode": 2000130
+    },
+    {
+      "code": "131",
+      "category": "주방용품",
+      "item": "[목록통관] 식기/주방용품 (자기)",
+      "row": 133,
+      "categoryCode": 10006,
+      "itemCode": 2000131
+    },
+    {
+      "code": "132",
+      "category": "주방용품",
+      "item": "[목록통관] 식기/주방용품 (플라스틱)",
+      "row": 134,
+      "categoryCode": 10006,
+      "itemCode": 2000132
+    },
+    {
+      "code": "133",
+      "category": "주방용품",
+      "item": "[목록통관] 스푼/포크/칼/국자 등",
+      "row": 135,
+      "categoryCode": 10006,
+      "itemCode": 2000133
+    },
+    {
+      "code": "134",
+      "category": "주방용품",
+      "item": "[목록통관] 식품용 그라인더/믹서/착즙기",
+      "row": 136,
+      "categoryCode": 10006,
+      "itemCode": 2000134
+    },
+    {
+      "code": "135",
+      "category": "주방용품",
+      "item": "[목록통관] 전기 커피메이커",
+      "row": 137,
+      "categoryCode": 10006,
+      "itemCode": 2000135
+    },
+    {
+      "code": "136",
+      "category": "주방용품",
+      "item": "[목록통관] 수유관련 용품(플라스틱)",
+      "row": 138,
+      "categoryCode": 10006,
+      "itemCode": 2000136
+    },
+    {
+      "code": "137",
+      "category": "주방용품",
+      "item": "[목록통관] 수유관련 용품(플라스틱 외)",
+      "row": 139,
+      "categoryCode": 10006,
+      "itemCode": 2000137
+    },
+    {
+      "code": "138",
+      "category": "주방용품",
+      "item": "[목록통관] 기타 주방용품",
+      "row": 140,
+      "categoryCode": 10006,
+      "itemCode": 2000138
+    },
+    {
+      "code": "139",
+      "category": "서적/엽서/티켓",
+      "item": "[목록통관] 책/잡지류",
+      "row": 141,
+      "categoryCode": 10007,
+      "itemCode": 2000139
+    },
+    {
+      "code": "140",
+      "category": "서적/엽서/티켓",
+      "item": "[목록통관] 엽서",
+      "row": 142,
+      "categoryCode": 10007,
+      "itemCode": 2000140
+    },
+    {
+      "code": "141",
+      "category": "서적/엽서/티켓",
+      "item": "[목록통관] 티켓",
+      "row": 143,
+      "categoryCode": 10007,
+      "itemCode": 2000141
+    },
+    {
+      "code": "142",
+      "category": "서적/엽서/티켓",
+      "item": "[목록통관] 기타 서적",
+      "row": 144,
+      "categoryCode": 10007,
+      "itemCode": 2000142
+    },
+    {
+      "code": "143",
+      "category": "음반/게임CD",
+      "item": "[목록통관] 음반(CD, LP, LD)",
+      "row": 145,
+      "categoryCode": 10008,
+      "itemCode": 2000143
+    },
+    {
+      "code": "144",
+      "category": "음반/게임CD",
+      "item": "[목록통관] 영화 CD/DVD",
+      "row": 146,
+      "categoryCode": 10008,
+      "itemCode": 2000144
+    },
+    {
+      "code": "145",
+      "category": "음반/게임CD",
+      "item": "[목록통관] 공 CD/DVD",
+      "row": 147,
+      "categoryCode": 10008,
+      "itemCode": 2000145
+    },
+    {
+      "code": "146",
+      "category": "음반/게임CD",
+      "item": "[목록통관] DVD Title/Video Tape",
+      "row": 148,
+      "categoryCode": 10008,
+      "itemCode": 2000146
+    },
+    {
+      "code": "147",
+      "category": "음반/게임CD",
+      "item": "[목록통관] 게임CD",
+      "row": 149,
+      "categoryCode": 10008,
+      "itemCode": 2000147
+    },
+    {
+      "code": "148",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 그림",
+      "row": 150,
+      "categoryCode": 10009,
+      "itemCode": 2000148
+    },
+    {
+      "code": "149",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 그림 (손으로 그린 제품)",
+      "row": 151,
+      "categoryCode": 10009,
+      "itemCode": 2000149
+    },
+    {
+      "code": "150",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 일반도자제품",
+      "row": 152,
+      "categoryCode": 10009,
+      "itemCode": 2000150
+    },
+    {
+      "code": "151",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 장식품",
+      "row": 153,
+      "categoryCode": 10009,
+      "itemCode": 2000151
+    },
+    {
+      "code": "152",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 우표",
+      "row": 154,
+      "categoryCode": 10009,
+      "itemCode": 2000152
+    },
+    {
+      "code": "153",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 조각/조상",
+      "row": 155,
+      "categoryCode": 10009,
+      "itemCode": 2000153
+    },
+    {
+      "code": "154",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 판화/인쇄화/석판화",
+      "row": 156,
+      "categoryCode": 10009,
+      "itemCode": 2000154
+    },
+    {
+      "code": "155",
+      "category": "예술품/수집품",
+      "item": "[목록통관] 골동품",
+      "row": 157,
+      "categoryCode": 10009,
+      "itemCode": 2000155
+    },
+    {
+      "code": "156",
+      "category": "자동차용품",
+      "item": "[목록통관] 요소수",
+      "row": 158,
+      "categoryCode": 10010,
+      "itemCode": 2000156
+    },
+    {
+      "code": "157",
+      "category": "자동차용품",
+      "item": "[목록통관] 자동차 오일 / 엔진오일",
+      "row": 159,
+      "categoryCode": 10010,
+      "itemCode": 2000157
+    },
+    {
+      "code": "158",
+      "category": "자동차용품",
+      "item": "[목록통관] 고무제 타이어 (신품)",
+      "row": 160,
+      "categoryCode": 10010,
+      "itemCode": 2000158
+    },
+    {
+      "code": "159",
+      "category": "자동차용품",
+      "item": "[목록통관] 고무제 타이어 (재생품)",
+      "row": 161,
+      "categoryCode": 10010,
+      "itemCode": 2000159
+    },
+    {
+      "code": "160",
+      "category": "자동차용품",
+      "item": "[목록통관] 자동차부품",
+      "row": 162,
+      "categoryCode": 10010,
+      "itemCode": 2000160
+    },
+    {
+      "code": "161",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 낚시용품",
+      "row": 163,
+      "categoryCode": 10011,
+      "itemCode": 2000161
+    },
+    {
+      "code": "162",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 수영용품",
+      "row": 164,
+      "categoryCode": 10011,
+      "itemCode": 2000162
+    },
+    {
+      "code": "163",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 야구용품",
+      "row": 165,
+      "categoryCode": 10011,
+      "itemCode": 2000163
+    },
+    {
+      "code": "164",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 등산용품",
+      "row": 166,
+      "categoryCode": 10011,
+      "itemCode": 2000164
+    },
+    {
+      "code": "165",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 골프용품",
+      "row": 167,
+      "categoryCode": 10011,
+      "itemCode": 2000165
+    },
+    {
+      "code": "166",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 스키/보드용품",
+      "row": 168,
+      "categoryCode": 10011,
+      "itemCode": 2000166
+    },
+    {
+      "code": "167",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 자전거",
+      "row": 169,
+      "categoryCode": 10011,
+      "itemCode": 2000167
+    },
+    {
+      "code": "168",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 자전거 부분품",
+      "row": 170,
+      "categoryCode": 10011,
+      "itemCode": 2000168
+    },
+    {
+      "code": "169",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 스포츠 의류/신발",
+      "row": 171,
+      "categoryCode": 10011,
+      "itemCode": 2000169
+    },
+    {
+      "code": "170",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 수영복",
+      "row": 172,
+      "categoryCode": 10011,
+      "itemCode": 2000170
+    },
+    {
+      "code": "171",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 수상스키/윈드서핑용품",
+      "row": 173,
+      "categoryCode": 10011,
+      "itemCode": 2000171
+    },
+    {
+      "code": "172",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 스케이트",
+      "row": 174,
+      "categoryCode": 10011,
+      "itemCode": 2000172
+    },
+    {
+      "code": "173",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 스포츠용 헬멧",
+      "row": 175,
+      "categoryCode": 10011,
+      "itemCode": 2000173
+    },
+    {
+      "code": "174",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 스포츠용 글러브",
+      "row": 176,
+      "categoryCode": 10011,
+      "itemCode": 2000174
+    },
+    {
+      "code": "175",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 라켓",
+      "row": 177,
+      "categoryCode": 10011,
+      "itemCode": 2000175
+    },
+    {
+      "code": "176",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 공",
+      "row": 178,
+      "categoryCode": 10011,
+      "itemCode": 2000176
+    },
+    {
+      "code": "177",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 텐트",
+      "row": 179,
+      "categoryCode": 10011,
+      "itemCode": 2000177
+    },
+    {
+      "code": "178",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 런닝머신",
+      "row": 180,
+      "categoryCode": 10011,
+      "itemCode": 2000178
+    },
+    {
+      "code": "179",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 카약",
+      "row": 181,
+      "categoryCode": 10011,
+      "itemCode": 2000179
+    },
+    {
+      "code": "180",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 망원경 및 부품",
+      "row": 182,
+      "categoryCode": 10011,
+      "itemCode": 2000180
+    },
+    {
+      "code": "181",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 운동용구",
+      "row": 183,
+      "categoryCode": 10011,
+      "itemCode": 2000181
+    },
+    {
+      "code": "182",
+      "category": "스포츠/레져/캠핑 용품",
+      "item": "[목록통관] 기타 레져용품",
+      "row": 184,
+      "categoryCode": 10011,
+      "itemCode": 2000182
+    },
+    {
+      "code": "183",
+      "category": "향수(미국센터만 신청가능)",
+      "item": "[목록통관] 향수60ml이하",
+      "row": 185,
+      "categoryCode": 10012,
+      "itemCode": 2000183
+    },
+    {
+      "code": "184",
+      "category": "향수(미국센터만 신청가능)",
+      "item": "[일반통관] 향수60ml초과",
+      "row": 186,
+      "categoryCode": 10012,
+      "itemCode": 2000184
+    },
+    {
+      "code": "185",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 기초 화장품 (스프레이 발송불가)",
+      "row": 187,
+      "categoryCode": 10013,
+      "itemCode": 2000185
+    },
+    {
+      "code": "186",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 색조 화장품",
+      "row": 188,
+      "categoryCode": 10013,
+      "itemCode": 2000186
+    },
+    {
+      "code": "187",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 입술 화장용품",
+      "row": 189,
+      "categoryCode": 10013,
+      "itemCode": 2000187
+    },
+    {
+      "code": "188",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 눈 화장용품",
+      "row": 190,
+      "categoryCode": 10013,
+      "itemCode": 2000188
+    },
+    {
+      "code": "189",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 매니큐어",
+      "row": 191,
+      "categoryCode": 10013,
+      "itemCode": 2000189
+    },
+    {
+      "code": "190",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 화장용 도구",
+      "row": 192,
+      "categoryCode": 10013,
+      "itemCode": 2000190
+    },
+    {
+      "code": "191",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 화장용 티슈",
+      "row": 193,
+      "categoryCode": 10013,
+      "itemCode": 2000191
+    },
+    {
+      "code": "192",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 타투스티커",
+      "row": 194,
+      "categoryCode": 10013,
+      "itemCode": 2000192
+    },
+    {
+      "code": "193",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 비누",
+      "row": 195,
+      "categoryCode": 10013,
+      "itemCode": 2000193
+    },
+    {
+      "code": "194",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 클렌저/바디워시",
+      "row": 196,
+      "categoryCode": 10013,
+      "itemCode": 2000194
+    },
+    {
+      "code": "195",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 샴푸",
+      "row": 197,
+      "categoryCode": 10013,
+      "itemCode": 2000195
+    },
+    {
+      "code": "196",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 린스 등 기타 헤어 제품",
+      "row": 198,
+      "categoryCode": 10013,
+      "itemCode": 2000196
+    },
+    {
+      "code": "197",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 탈모방지 비누",
+      "row": 199,
+      "categoryCode": 10013,
+      "itemCode": 2000197
+    },
+    {
+      "code": "198",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 탈모방지 샴푸",
+      "row": 200,
+      "categoryCode": 10013,
+      "itemCode": 2000198
+    },
+    {
+      "code": "199",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 데오드란트",
+      "row": 201,
+      "categoryCode": 10013,
+      "itemCode": 2000199
+    },
+    {
+      "code": "200",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 제모제",
+      "row": 202,
+      "categoryCode": 10013,
+      "itemCode": 2000200
+    },
+    {
+      "code": "201",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] SPF 선크림/자외선차단제품",
+      "row": 203,
+      "categoryCode": 10013,
+      "itemCode": 2000201
+    },
+    {
+      "code": "202",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 기능성 화장품 (스프레이 발송불가)",
+      "row": 204,
+      "categoryCode": 10013,
+      "itemCode": 2000202
+    },
+    {
+      "code": "203",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 태반함유 화장품",
+      "row": 205,
+      "categoryCode": 10013,
+      "itemCode": 2000203
+    },
+    {
+      "code": "204",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 스테로이드제함유 화장품",
+      "row": 206,
+      "categoryCode": 10013,
+      "itemCode": 2000204
+    },
+    {
+      "code": "205",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 성분미상 화장품",
+      "row": 207,
+      "categoryCode": 10013,
+      "itemCode": 2000205
+    },
+    {
+      "code": "206",
+      "category": "화장품/바디·헤어용품",
+      "item": "[일반통관] 유해 화장품",
+      "row": 208,
+      "categoryCode": 10013,
+      "itemCode": 2000206
+    },
+    {
+      "code": "207",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 면도용 제품(쉐이빙 크림/폼)",
+      "row": 209,
+      "categoryCode": 10013,
+      "itemCode": 2000207
+    },
+    {
+      "code": "208",
+      "category": "화장품/바디·헤어용품",
+      "item": "[목록통관] 기타 화장품 (스프레이,왁스 발송불가)",
+      "row": 210,
+      "categoryCode": 10013,
+      "itemCode": 2000208
+    },
+    {
+      "code": "209",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 조제분유(5kg까지)",
+      "row": 211,
+      "categoryCode": 10014,
+      "itemCode": 2000209
+    },
+    {
+      "code": "210",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 이유식(채소류)",
+      "row": 212,
+      "categoryCode": 10014,
+      "itemCode": 2000210
+    },
+    {
+      "code": "211",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 이유식(육류/과실/견과류)",
+      "row": 213,
+      "categoryCode": 10014,
+      "itemCode": 2000211
+    },
+    {
+      "code": "212",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 초콜릿",
+      "row": 214,
+      "categoryCode": 10014,
+      "itemCode": 2000212
+    },
+    {
+      "code": "213",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 캔디",
+      "row": 215,
+      "categoryCode": 10014,
+      "itemCode": 2000213
+    },
+    {
+      "code": "214",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 츄잉검",
+      "row": 216,
+      "categoryCode": 10014,
+      "itemCode": 2000214
+    },
+    {
+      "code": "215",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 로열젤리",
+      "row": 217,
+      "categoryCode": 10014,
+      "itemCode": 2000215
+    },
+    {
+      "code": "216",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 볶은 땅콩",
+      "row": 218,
+      "categoryCode": 10014,
+      "itemCode": 2000216
+    },
+    {
+      "code": "217",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 볶은 아몬드/볶은 견과류(혼합물)",
+      "row": 219,
+      "categoryCode": 10014,
+      "itemCode": 2000217
+    },
+    {
+      "code": "218",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 소스",
+      "row": 220,
+      "categoryCode": 10014,
+      "itemCode": 2000218
+    },
+    {
+      "code": "219",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 올리브유",
+      "row": 221,
+      "categoryCode": 10014,
+      "itemCode": 2000219
+    },
+    {
+      "code": "220",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 후추",
+      "row": 222,
+      "categoryCode": 10014,
+      "itemCode": 2000220
+    },
+    {
+      "code": "221",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 향신료(바닐라)",
+      "row": 223,
+      "categoryCode": 10014,
+      "itemCode": 2000221
+    },
+    {
+      "code": "222",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 케첩",
+      "row": 224,
+      "categoryCode": 10014,
+      "itemCode": 2000222
+    },
+    {
+      "code": "223",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 마요네즈",
+      "row": 225,
+      "categoryCode": 10014,
+      "itemCode": 2000223
+    },
+    {
+      "code": "224",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 향신료(고추)",
+      "row": 226,
+      "categoryCode": 10014,
+      "itemCode": 2000224
+    },
+    {
+      "code": "225",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 향신료(토마토소스, 고추장)",
+      "row": 227,
+      "categoryCode": 10014,
+      "itemCode": 2000225
+    },
+    {
+      "code": "226",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 쨈",
+      "row": 228,
+      "categoryCode": 10014,
+      "itemCode": 2000226
+    },
+    {
+      "code": "227",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 인조꿀(6병까지)",
+      "row": 229,
+      "categoryCode": 10014,
+      "itemCode": 2000227
+    },
+    {
+      "code": "228",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 천연꿀(5kg까지)",
+      "row": 230,
+      "categoryCode": 10014,
+      "itemCode": 2000228
+    },
+    {
+      "code": "229",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 비스킷/쿠키/크래커",
+      "row": 231,
+      "categoryCode": 10014,
+      "itemCode": 2000229
+    },
+    {
+      "code": "230",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 녹차(3kg이하)",
+      "row": 232,
+      "categoryCode": 10014,
+      "itemCode": 2000230
+    },
+    {
+      "code": "231",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 홍차/우롱차/보이차(크리스탈라이트 포함)",
+      "row": 233,
+      "categoryCode": 10014,
+      "itemCode": 2000231
+    },
+    {
+      "code": "232",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 캐모마일/둥굴레/루이보스/기타 혼합 차",
+      "row": 234,
+      "categoryCode": 10014,
+      "itemCode": 2000232
+    },
+    {
+      "code": "233",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 가루믹스(코코아)",
+      "row": 235,
+      "categoryCode": 10014,
+      "itemCode": 2000233
+    },
+    {
+      "code": "234",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 가루믹스(율무차)",
+      "row": 236,
+      "categoryCode": 10014,
+      "itemCode": 2000234
+    },
+    {
+      "code": "235",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 퀴노아(5kg까지)",
+      "row": 237,
+      "categoryCode": 10014,
+      "itemCode": 2000235
+    },
+    {
+      "code": "236",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 과실주스",
+      "row": 238,
+      "categoryCode": 10014,
+      "itemCode": 2000236
+    },
+    {
+      "code": "237",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 채소주스",
+      "row": 239,
+      "categoryCode": 10014,
+      "itemCode": 2000237
+    },
+    {
+      "code": "238",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 인스턴트 커피",
+      "row": 240,
+      "categoryCode": 10014,
+      "itemCode": 2000238
+    },
+    {
+      "code": "239",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 캡슐 커피",
+      "row": 241,
+      "categoryCode": 10014,
+      "itemCode": 2000239
+    },
+    {
+      "code": "240",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 볶은 커피(원두 또는 가루)",
+      "row": 242,
+      "categoryCode": 10014,
+      "itemCode": 2000240
+    },
+    {
+      "code": "241",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 볶지 않은 커피",
+      "row": 243,
+      "categoryCode": 10014,
+      "itemCode": 2000241
+    },
+    {
+      "code": "242",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 녹용",
+      "row": 244,
+      "categoryCode": 10014,
+      "itemCode": 2000242
+    },
+    {
+      "code": "243",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 인삼",
+      "row": 245,
+      "categoryCode": 10014,
+      "itemCode": 2000243
+    },
+    {
+      "code": "244",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 인삼 추출물",
+      "row": 246,
+      "categoryCode": 10014,
+      "itemCode": 2000244
+    },
+    {
+      "code": "245",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 인삼차",
+      "row": 247,
+      "categoryCode": 10014,
+      "itemCode": 2000245
+    },
+    {
+      "code": "246",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 홍삼 추출액",
+      "row": 248,
+      "categoryCode": 10014,
+      "itemCode": 2000246
+    },
+    {
+      "code": "247",
+      "category": "식품/커피류(*중국항공 발송불가)",
+      "item": "[일반통관] 기타 식품",
+      "row": 249,
+      "categoryCode": 10014,
+      "itemCode": 2000247
+    },
+    {
+      "code": "248",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 와인/발효주",
+      "row": 250,
+      "categoryCode": 10015,
+      "itemCode": 2000248
+    },
+    {
+      "code": "249",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 위스키",
+      "row": 251,
+      "categoryCode": 10015,
+      "itemCode": 2000249
+    },
+    {
+      "code": "250",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 보드카",
+      "row": 252,
+      "categoryCode": 10015,
+      "itemCode": 2000250
+    },
+    {
+      "code": "251",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 데킬라",
+      "row": 253,
+      "categoryCode": 10015,
+      "itemCode": 2000251
+    },
+    {
+      "code": "252",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 소주/맥주",
+      "row": 254,
+      "categoryCode": 10015,
+      "itemCode": 2000252
+    },
+    {
+      "code": "253",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 청주",
+      "row": 255,
+      "categoryCode": 10015,
+      "itemCode": 2000253
+    },
+    {
+      "code": "254",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 꼬냑",
+      "row": 256,
+      "categoryCode": 10015,
+      "itemCode": 2000254
+    },
+    {
+      "code": "255",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "[일반통관] 기타 주류",
+      "row": 257,
+      "categoryCode": 10015,
+      "itemCode": 2000255
+    },
+    {
+      "code": "256",
+      "category": "비타민/건강기능식품(6병까지)",
+      "item": "[일반통관] 비타민/영양제(6병까지)",
+      "row": 258,
+      "categoryCode": 10016,
+      "itemCode": 2000256
+    },
+    {
+      "code": "257",
+      "category": "비타민/건강기능식품(6병까지)",
+      "item": "[일반통관] 다이어트 제품(6병까지)",
+      "row": 259,
+      "categoryCode": 10016,
+      "itemCode": 2000257
+    },
+    {
+      "code": "258",
+      "category": "비타민/건강기능식품(6병까지)",
+      "item": "[일반통관] 기타 건강기능식품",
+      "row": 260,
+      "categoryCode": 10016,
+      "itemCode": 2000258
+    },
+    {
+      "code": "259",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 의약품",
+      "row": 261,
+      "categoryCode": 10017,
+      "itemCode": 2000259
+    },
+    {
+      "code": "260",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 방역마스크(보건용)",
+      "row": 262,
+      "categoryCode": 10017,
+      "itemCode": 2000260
+    },
+    {
+      "code": "261",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 손소독제",
+      "row": 263,
+      "categoryCode": 10017,
+      "itemCode": 2000261
+    },
+    {
+      "code": "262",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 바르는 연고",
+      "row": 264,
+      "categoryCode": 10017,
+      "itemCode": 2000262
+    },
+    {
+      "code": "263",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 바세린",
+      "row": 265,
+      "categoryCode": 10017,
+      "itemCode": 2000263
+    },
+    {
+      "code": "264",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 임신/배란 테스트기구",
+      "row": 266,
+      "categoryCode": 10017,
+      "itemCode": 2000264
+    },
+    {
+      "code": "265",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 치약",
+      "row": 267,
+      "categoryCode": 10017,
+      "itemCode": 2000265
+    },
+    {
+      "code": "266",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 구강세척제",
+      "row": 268,
+      "categoryCode": 10017,
+      "itemCode": 2000266
+    },
+    {
+      "code": "267",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 렌즈 세정액",
+      "row": 269,
+      "categoryCode": 10017,
+      "itemCode": 2000267
+    },
+    {
+      "code": "268",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 손세정용품",
+      "row": 270,
+      "categoryCode": 10017,
+      "itemCode": 2000268
+    },
+    {
+      "code": "269",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 의료기구(맥박책정기구, 혈당측정기 등)",
+      "row": 271,
+      "categoryCode": 10017,
+      "itemCode": 2000269
+    },
+    {
+      "code": "270",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 생리대/생리컵",
+      "row": 272,
+      "categoryCode": 10017,
+      "itemCode": 2000270
+    },
+    {
+      "code": "271",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 일회용 기저귀",
+      "row": 273,
+      "categoryCode": 10017,
+      "itemCode": 2000271
+    },
+    {
+      "code": "272",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 붕대/안대/반창고/거즈",
+      "row": 274,
+      "categoryCode": 10017,
+      "itemCode": 2000272
+    },
+    {
+      "code": "273",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 보청기",
+      "row": 275,
+      "categoryCode": 10017,
+      "itemCode": 2000273
+    },
+    {
+      "code": "274",
+      "category": "의약품(6병까지)/의약외품",
+      "item": "[일반통관] 기타 의약품/의약외품",
+      "row": 276,
+      "categoryCode": 10017,
+      "itemCode": 2000274
+    },
+    {
+      "code": "275",
+      "category": "담배/전자담배",
+      "item": "[일반통관] 끽연용 파이프",
+      "row": 277,
+      "categoryCode": 10018,
+      "itemCode": 2000275
+    },
+    {
+      "code": "276",
+      "category": "담배/전자담배",
+      "item": "[일반통관] 담배",
+      "row": 278,
+      "categoryCode": 10018,
+      "itemCode": 2000276
+    },
+    {
+      "code": "277",
+      "category": "담배/전자담배",
+      "item": "[일반통관] 궐련(200개비까지)/엽궐련(50개비까지)",
+      "row": 279,
+      "categoryCode": 10018,
+      "itemCode": 2000277
+    },
+    {
+      "code": "278",
+      "category": "담배/전자담배",
+      "item": "[일반통관] 전자담배 기기",
+      "row": 280,
+      "categoryCode": 10018,
+      "itemCode": 2000278
+    },
+    {
+      "code": "279",
+      "category": "담배/전자담배",
+      "item": "[일반통관] 전자담배 용액",
+      "row": 281,
+      "categoryCode": 10018,
+      "itemCode": 2000279
+    },
+    {
+      "code": "280",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 가죽/상아/뱀피 제품",
+      "row": 282,
+      "categoryCode": 10019,
+      "itemCode": 2000280
+    },
+    {
+      "code": "281",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 모피 제품",
+      "row": 283,
+      "categoryCode": 10019,
+      "itemCode": 2000281
+    },
+    {
+      "code": "282",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 애완용 사료/간식",
+      "row": 284,
+      "categoryCode": 10019,
+      "itemCode": 2000282
+    },
+    {
+      "code": "283",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 애완용 구충제(6개까지)",
+      "row": 285,
+      "categoryCode": 10019,
+      "itemCode": 2000283
+    },
+    {
+      "code": "284",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 말린콩",
+      "row": 286,
+      "categoryCode": 10019,
+      "itemCode": 2000284
+    },
+    {
+      "code": "285",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 보리",
+      "row": 287,
+      "categoryCode": 10019,
+      "itemCode": 2000285
+    },
+    {
+      "code": "286",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 쌀",
+      "row": 288,
+      "categoryCode": 10019,
+      "itemCode": 2000286
+    },
+    {
+      "code": "287",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 밀짚모자",
+      "row": 289,
+      "categoryCode": 10019,
+      "itemCode": 2000287
+    },
+    {
+      "code": "288",
+      "category": "검역대상 동식물류/애완용 사료",
+      "item": "[일반통관] 씨앗",
+      "row": 290,
+      "categoryCode": 10019,
+      "itemCode": 2000288
+    },
+    {
+      "code": "289",
+      "category": "기타",
+      "item": "[일반통관] 성인용품",
+      "row": 291,
+      "categoryCode": 10020,
+      "itemCode": 2000289
+    },
+    {
+      "code": "290",
+      "category": "기타",
+      "item": "[일반통관] 기타(ETC) 품목",
+      "row": 292,
+      "categoryCode": 10020,
+      "itemCode": 2000290
+    },
+    {
+      "code": "291",
+      "category": "기타",
+      "item": "[목록통관] 기타(ETC) 품목",
+      "row": 293,
+      "categoryCode": 10020,
+      "itemCode": 2000291
+    }
+  ],
+  "fixedShipping": [
+    {
+      "code": 9,
+      "label": "[고정배송비 $7.7] 우편물 (최대 A4 사이즈, 두께 2cm 까지)",
+      "center": "일본",
+      "priceUsd": 7.7,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "142",
+      "category": "서적/엽서/티켓",
+      "item": "(목록통관) 기타 서적",
+      "row": 4
+    },
+    {
+      "code": 10,
+      "label": "[고정배송비 $9.9] 음반, 게임 CD/팩",
+      "center": "일본",
+      "priceUsd": 9.9,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "143",
+      "category": "음반/게임CD",
+      "item": "(목록통관) 음반(CD, LP, LD)",
+      "row": 5
+    },
+    {
+      "code": 11,
+      "label": "[고정배송비 $16.9] 와인 1병",
+      "center": "미국OR",
+      "priceUsd": 16.9,
+      "generalService": "Y",
+      "fastService": null,
+      "categoryInputCode": "248",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "(일반통관) 와인/발효주",
+      "row": 6
+    },
+    {
+      "code": 12,
+      "label": "[고정배송비 $18] 와인 1병",
+      "center": "홍콩",
+      "priceUsd": 18,
+      "generalService": "Y",
+      "fastService": null,
+      "categoryInputCode": "248",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "(일반통관) 와인/발효주",
+      "row": 7
+    },
+    {
+      "code": 13,
+      "label": "[고정배송비 $12.9] 의류 (3kg까지)",
+      "center": "중국항공",
+      "priceUsd": 12.9,
+      "generalService": "Y",
+      "fastService": null,
+      "categoryInputCode": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 일반 의류",
+      "row": 8
+    },
+    {
+      "code": 14,
+      "label": "[고정배송비 $9.9] 의류 (3kg까지)",
+      "center": "중국항공",
+      "priceUsd": 9.9,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 일반 의류",
+      "row": 9
+    },
+    {
+      "code": 19,
+      "label": "[더빠른 고정배송비 $10.99] 신발",
+      "center": "미국전체",
+      "priceUsd": 10.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "057",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 신발",
+      "row": 10
+    },
+    {
+      "code": 21,
+      "label": "[더빠른 고정배송비 $7.99p] PC 부품",
+      "center": "미국전체",
+      "priceUsd": 7.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "049",
+      "category": "전자제품",
+      "item": "(목록통관) PC부분품",
+      "row": 11
+    },
+    {
+      "code": 22,
+      "label": "[더빠른 고정배송비 $7.99] SSD ",
+      "center": "미국전체",
+      "priceUsd": 7.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "032",
+      "category": "전자제품",
+      "item": "(목록통관) SSD(Solid states drive)",
+      "row": 12
+    },
+    {
+      "code": 23,
+      "label": "[더빠른 고정배송비 $7.99p] 외장하드 (1개까지)",
+      "center": "미국전체",
+      "priceUsd": 7.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "031",
+      "category": "전자제품",
+      "item": "(일반통관) 외장하드 (1개까지)",
+      "row": 13
+    },
+    {
+      "code": 28,
+      "label": "[The빠른 고정배송비 $11.99] 인형",
+      "center": "일본",
+      "priceUsd": 11.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "124",
+      "category": "완구/피규어",
+      "item": "(목록통관) 인형",
+      "row": 14
+    },
+    {
+      "code": 31,
+      "label": "[The빠른 고정배송비 $15.99] Plastic model",
+      "center": "일본",
+      "priceUsd": 15.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "121",
+      "category": "완구/피규어",
+      "item": "(목록통관) 장난감/피규어",
+      "row": 15
+    },
+    {
+      "code": 34,
+      "label": "[The빠른 고정배송비 $7.99] 안경",
+      "center": "미국전체",
+      "priceUsd": 7.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "073",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 안경",
+      "row": 16
+    },
+    {
+      "code": 35,
+      "label": "[The빠른 고정배송비 $7.99] 선글라스",
+      "center": "미국전체",
+      "priceUsd": 7.99,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "074",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 선글라스",
+      "row": 17
+    },
+    {
+      "code": 42,
+      "label": "[고정배송비 $4.9] 의류 1장 (0.5kg까지)",
+      "center": "프랑스",
+      "priceUsd": 4.9,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 일반 의류",
+      "row": 18
+    },
+    {
+      "code": 43,
+      "label": "[고정배송비 $8.9] 의류 2~4장 (1kg 까지)",
+      "center": "프랑스",
+      "priceUsd": 8.9,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 일반 의류",
+      "row": 19
+    },
+    {
+      "code": 44,
+      "label": "[고정배송비 $13.5] 가방 1개 (2kg까지)",
+      "center": "프랑스",
+      "priceUsd": 13.5,
+      "generalService": null,
+      "fastService": "Y",
+      "categoryInputCode": "053",
+      "category": "의류/패션잡화(가품신청 절대금지)",
+      "item": "(목록통관) 가방",
+      "row": 20
+    },
+    {
+      "code": 45,
+      "label": "[고정배송비 $16.9] 위스키 1병 (2.5kg까지)",
+      "center": "프랑스",
+      "priceUsd": 16.9,
+      "generalService": "Y",
+      "fastService": null,
+      "categoryInputCode": "248",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "(일반통관) 위스키",
+      "row": 21
+    },
+    {
+      "code": 46,
+      "label": "[고정배송비 $19.9] 와인 1병 - 복수수량 분리 포장",
+      "center": "미국OR",
+      "priceUsd": 19.9,
+      "generalService": "Y",
+      "fastService": null,
+      "categoryInputCode": "248",
+      "category": "주류(유리6병까지/파손방지)",
+      "item": "(일반통관) 와인/발효주",
+      "row": 22
+    }
+  ],
+  "formulas": {
+    "D": {
+      "formula": "IFERROR(VLOOKUP(C11,'데이터 목록'!A:B,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "D",
+      "whenInputNotFound": "",
+      "inputColumn": "C",
+      "lookupList": "pickups",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "G": {
+      "formula": "IFERROR(VLOOKUP(F11,'데이터 목록'!C:D,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "G",
+      "whenInputNotFound": "",
+      "inputColumn": "F",
+      "lookupList": "carriers",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "I": {
+      "formula": "IFERROR(VLOOKUP(H11,'데이터 목록'!E:F,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "I",
+      "whenInputNotFound": "",
+      "inputColumn": "H",
+      "lookupList": "countries",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "L": {
+      "formula": "IFERROR(VLOOKUP(K11,'데이터 목록'!G:H,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "L",
+      "whenInputNotFound": "",
+      "inputColumn": "K",
+      "lookupList": "customsTypes",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "M": {
+      "formula": "IF(K11=\"(사업자_상용견품/샘플)사업자번호\",\"Y\",IF(K11=\"\",\"\",\"N\"))",
+      "attributes": {
+        "t": "shared",
+        "ref": "M11:M1000",
+        "si": "1"
+      },
+      "outputColumn": "M",
+      "whenInputNotFound": "",
+      "inputColumn": "K",
+      "rule": {
+        "sampleCustomsType": "(사업자_상용견품/샘플)사업자번호",
+        "sampleValue": "Y",
+        "blankInputValue": "",
+        "otherValue": "N"
+      }
+    },
+    "P": {
+      "formula": "IFERROR(VLOOKUP(O11,'데이터 목록'!I:J,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "P",
+      "whenInputNotFound": "",
+      "inputColumn": "O",
+      "lookupList": "phoneCountries",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "S": {
+      "formula": "IFERROR(VLOOKUP(R11,'데이터 목록'!I:J,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "S",
+      "whenInputNotFound": "",
+      "inputColumn": "R",
+      "lookupList": "phoneCountries",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "Z": {
+      "formula": "IFERROR(VLOOKUP(Y11,'카테고리 품목 코드'!A:C,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "Z",
+      "whenInputNotFound": "",
+      "inputColumn": "Y",
+      "lookupList": "categories",
+      "outputKey": "category",
+      "lookupKey": "code"
+    },
+    "AA": {
+      "formula": "IFERROR(VLOOKUP(Y11,'카테고리 품목 코드'!A:C,3,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "AA",
+      "whenInputNotFound": "",
+      "inputColumn": "Y",
+      "lookupList": "categories",
+      "outputKey": "item",
+      "lookupKey": "code"
+    },
+    "AB": {
+      "formula": "IFERROR(VLOOKUP(Y11,'데이터 목록'!O:Q,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "AB",
+      "whenInputNotFound": "",
+      "inputColumn": "Y",
+      "lookupList": "categories",
+      "outputKey": "categoryCode",
+      "lookupKey": "code"
+    },
+    "AC": {
+      "formula": "IFERROR(VLOOKUP(Y11,'데이터 목록'!O:Q,3,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "AC",
+      "whenInputNotFound": "",
+      "inputColumn": "Y",
+      "lookupList": "categories",
+      "outputKey": "itemCode",
+      "lookupKey": "code"
+    },
+    "AU": {
+      "formula": "IFERROR(VLOOKUP(AT11,'데이터 목록'!M:N,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "AU",
+      "whenInputNotFound": "",
+      "inputColumn": "AT",
+      "lookupList": "insurance",
+      "outputKey": "code",
+      "lookupKey": "label"
+    },
+    "AX": {
+      "formula": "IFERROR(VLOOKUP(AW11,'고정배송비 신청 코드'!A:I,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "AX",
+      "whenInputNotFound": "",
+      "inputColumn": "AW",
+      "lookupList": "fixedShipping",
+      "outputKey": "label",
+      "lookupKey": "code"
+    },
+    "BC": {
+      "formula": "IFERROR(VLOOKUP(BB11,'데이터 목록'!I:J,2,FALSE),\"\")",
+      "attributes": {},
+      "outputColumn": "BC",
+      "whenInputNotFound": "",
+      "inputColumn": "BB",
+      "lookupList": "phoneCountries",
+      "outputKey": "code",
+      "lookupKey": "label"
+    }
+  },
+  "validations": [
+    {
+      "type": "list",
+      "sqref": "AI2:AI8 AI11:AI1000",
+      "formula": "$AI$2:$AI$4"
+    },
+    {
+      "type": "list",
+      "sqref": "H2:H8 H11:H1000",
+      "formula": "'데이터 목록'!$E$2:$E$122"
+    },
+    {
+      "type": "list",
+      "sqref": "K2:K8 K11:K1000",
+      "formula": "'데이터 목록'!$G$2:$G$4"
+    },
+    {
+      "type": "list",
+      "sqref": "C2:C8 C11:C1000",
+      "formula": "'데이터 목록'!$A$2:$A$4"
+    },
+    {
+      "type": "list",
+      "sqref": "AK2:AL8 AR2:AS8 AV2:AV8 AY2:AY8 BF2:BF8 AK11:AL1000 AR11:AS1000 AV11:AV1000 AY11:AY1000 BF11:BF1000",
+      "formula": "'데이터 목록'!$L$2:$L$3"
+    },
+    {
+      "type": "list",
+      "sqref": "O2:O8 R2:R8 BB2:BB8 O11:O1000 R11:R1000 BB11:BB1000",
+      "formula": "'데이터 목록'!$I$2:$I$20"
+    },
+    {
+      "type": "list",
+      "sqref": "AG2:AG8 AG11:AG1000",
+      "formula": "'데이터 목록'!$K$2:$K$8"
+    },
+    {
+      "type": "list",
+      "sqref": "AW2:AW8 AW11:AW1000",
+      "formula": "'고정배송비 신청 코드'!$A$4:$A$22"
+    },
+    {
+      "type": "list",
+      "sqref": "F11:F1000",
+      "formula": "'데이터 목록'!$C$2:$C$81"
+    },
+    {
+      "type": "list",
+      "sqref": "F2:F8",
+      "formula": "'데이터 목록'!$C$2:$C$79"
+    },
+    {
+      "type": "list",
+      "sqref": "Y2:Y8 Y11:Y1000",
+      "formula": "'카테고리 품목 코드'!$A$3:$A$293"
+    },
+    {
+      "type": "list",
+      "sqref": "AT2:AT8 AT11:AT1000",
+      "formula": "'데이터 목록'!$M$2:$M$4"
+    }
+  ],
+  "comments": {
+    "E10": "트래킹번호는 신청서의 메인 데이터이므로 정확히 입력해 주세요.",
+    "F10": "직접 입력하지 마시고 마우스 클릭 후 \n선택 버튼 (▼)을 클릭하여 선택해 주세요. ",
+    "K10": "직접 입력하지 마시고 마우스 클릭 후 \n선택 버튼 (▼)을 클릭하여 선택해 주세요. ",
+    "N10": "좌측 통관종류 \"개인통관\" 선택한 경우 : \n받는분의 개인통관고유부호 P+숫자12자리를 정확히 입력해주세요. \n목록통관 대상 신청서인 경우 생년월일 8자리 대체 입력 가능합니다.\n\n좌측 통관종류 \"사업자통관\" 선택한 경우 :\n사업자번호 10자리를 입력해주세요.",
+    "X10": "구매하신 상품의 쇼핑몰 주소를 입력해 주세요.",
+    "AD10": "정확하고 신속한 통관을 위하여 상품명 기재 시 \n구매하시는 상품의 브랜드명과 상품명을 \n나누어 기재 부탁 드립니다.",
+    "AE10": "상품명은 상세 이미지나 설명을 보지 않아도 \n물류센터 검수원 및 세관원이 어떤 물건인지 \n파악이 가능하여야 합니다. ",
+    "AF10": "쇼핑몰(셀러)에서 판매되고 있는 상품 개별 단가 입니다. \n할인 및 세금 금액을 포함(합산)하여 기입해 주세요.\n(숫자와 .만 입력 허용)",
+    "AG10": "모든 행의 통화는 1개로 통일해 주세요.",
+    "AJ10": "입력하신 상품의 개수를 입력해 주세요.\n(숫자만 입력 허용)",
+    "AM10": "쇼핑몰 구매 시 부여된 \nOrder number 를 입력해 주세요.",
+    "AQ10": "상품 이미지 주소를 입력해 주세요. \n※ URL 확장자 예시 : jpg, jpeg, gif, png, bmp\n\n만약 이미지 주소가 없는 경우에는 공란으로 두신 후\n파일 등록 후 개별 적으로 이미지 파일을 첨부해주세요. "
+  },
+  "instructions": {
+    "sourceCells": [
+      "신청서!A1",
+      "신청서!A9",
+      "신청서!A11"
+    ],
+    "text": [
+      "참고용 데이터 입니다. \n아래 11번 행부터 \n실제 신청하실 정보를 \n입력해주세요.",
+      "[신청정보 입력 시 유의사항]\n※ 하나의 Excel 파일로 동일한 물류센터만 신청 가능합니다.\n※ * 표시된 항목은 필수 입력값입니다.\n※ B열(*No)을 연속된 동일한 번호로 복수 상품정보 입력시 하나의 신청서로 묶입니다. (동일한 번호더라도 연속되지 않고 떨어져 있다면 다른 신청서로 분리 생성됨) \n※ 동일한 숫자의 No이면, 받는분정보와 추가신청항목을(AB~AF) 다르게 입력하더라도 상위 한개 행의 정보로 신청서가 생성됩니다.\n※ 하나의 신청번호 (동일한 No 숫자) 내에서는 동일한 상품통화로 단가를 입력해주세요.",
+      "여기부터 입력 →"
+    ],
+    "groupRule": "Consecutive rows with the same B No form one application; non-consecutive repeats form separate applications.",
+    "oneCenterPerFile": true,
+    "centerSelection": "No center column exists in 신청서. Select center in receiving upload service; ensure carrier center prefix matches. Center list here is inferred from carrier labels.",
+    "numericInputColumns": [
+      "B",
+      "AF",
+      "AH",
+      "AJ"
+    ],
+    "stringIdentifierColumns": [
+      "E",
+      "N",
+      "Q",
+      "T",
+      "U",
+      "Y",
+      "AM",
+      "BD"
+    ],
+    "limits": {
+      "brandCharacters": 20,
+      "productCharacters": 80,
+      "giftMessageCharactersExclusive": 50
+    },
+    "currencyRule": "Header requests one currency for all rows; row9 also requires one currency per application. Enforce one currency per export.",
+    "fixedShippingRule": "AW10 allows fixed shipping only for a single product with quantity 1.",
+    "koreaCenterBlankColumns": [
+      "K",
+      "N",
+      "T"
+    ],
+    "giftDirectInputBlankColumns": [
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "U",
+      "V"
+    ],
+    "ftaAllowedCenters": [
+      "미국",
+      "독일"
+    ],
+    "alcoholRequiredColumns": [
+      "AH",
+      "AI"
+    ]
+  },
+  "defaults": {
+    "pickup": "미신청",
+    "destinationCountry": "KOREA (한국)",
+    "customsType": "(개인_한국인)개인통관고유부호",
+    "phoneCountry": "한국 (+82)",
+    "quantity": 1,
+    "fta": "N",
+    "automaticPointPayment": "N",
+    "removeBrandBox": "N",
+    "removeInvoice": "N",
+    "insurance": "NO (미신청, 50만원까지 보상)",
+    "truePacking": "N",
+    "giftRecipientDirectInput": "N",
+    "taxAdvance": "N"
+  },
+  "defaultMeaning": {
+    "note": "Convenience choices proposed for UI; not evidence of user intent. No recipient, address, customs identifier, order, product or tracking sample values were copied.",
+    "currency": "No default: require source currency or explicit user selection.",
+    "center": "No default: require user selection.",
+    "carrier": "No default: require user selection or exact mapped source value.",
+    "category": "No default: require explicit product classification.",
+    "unitPrice": "Use provided numeric source value; user must confirm whether price includes discounts and tax."
+  },
+  "firstThreeInputRows": [
+    {
+      "row": 11,
+      "nonemptyInputs": {
+        "A11": "여기부터 입력 →"
+      },
+      "formulaCells": {
+        "D11": {
+          "formula": "IFERROR(VLOOKUP(C11,'데이터 목록'!A:B,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "G11": {
+          "formula": "IFERROR(VLOOKUP(F11,'데이터 목록'!C:D,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "I11": {
+          "formula": "IFERROR(VLOOKUP(H11,'데이터 목록'!E:F,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "L11": {
+          "formula": "IFERROR(VLOOKUP(K11,'데이터 목록'!G:H,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "M11": {
+          "formula": "IF(K11=\"(사업자_상용견품/샘플)사업자번호\",\"Y\",IF(K11=\"\",\"\",\"N\"))",
+          "attributes": {
+            "t": "shared",
+            "ref": "M11:M1000",
+            "si": "1"
+          }
+        },
+        "P11": {
+          "formula": "IFERROR(VLOOKUP(O11,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "S11": {
+          "formula": "IFERROR(VLOOKUP(R11,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "Z11": {
+          "formula": "IFERROR(VLOOKUP(Y11,'카테고리 품목 코드'!A:C,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AA11": {
+          "formula": "IFERROR(VLOOKUP(Y11,'카테고리 품목 코드'!A:C,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AB11": {
+          "formula": "IFERROR(VLOOKUP(Y11,'데이터 목록'!O:Q,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AC11": {
+          "formula": "IFERROR(VLOOKUP(Y11,'데이터 목록'!O:Q,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AU11": {
+          "formula": "IFERROR(VLOOKUP(AT11,'데이터 목록'!M:N,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AX11": {
+          "formula": "IFERROR(VLOOKUP(AW11,'고정배송비 신청 코드'!A:I,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "BC11": {
+          "formula": "IFERROR(VLOOKUP(BB11,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        }
+      }
+    },
+    {
+      "row": 12,
+      "nonemptyInputs": {},
+      "formulaCells": {
+        "D12": {
+          "formula": "IFERROR(VLOOKUP(C12,'데이터 목록'!A:B,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "G12": {
+          "formula": "IFERROR(VLOOKUP(F12,'데이터 목록'!C:D,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "I12": {
+          "formula": "IFERROR(VLOOKUP(H12,'데이터 목록'!E:F,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "L12": {
+          "formula": "IFERROR(VLOOKUP(K12,'데이터 목록'!G:H,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "M12": {
+          "formula": null,
+          "attributes": {
+            "t": "shared",
+            "si": "1"
+          }
+        },
+        "P12": {
+          "formula": "IFERROR(VLOOKUP(O12,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "S12": {
+          "formula": "IFERROR(VLOOKUP(R12,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "Z12": {
+          "formula": "IFERROR(VLOOKUP(Y12,'카테고리 품목 코드'!A:C,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AA12": {
+          "formula": "IFERROR(VLOOKUP(Y12,'카테고리 품목 코드'!A:C,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AB12": {
+          "formula": "IFERROR(VLOOKUP(Y12,'데이터 목록'!O:Q,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AC12": {
+          "formula": "IFERROR(VLOOKUP(Y12,'데이터 목록'!O:Q,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AU12": {
+          "formula": "IFERROR(VLOOKUP(AT12,'데이터 목록'!M:N,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AX12": {
+          "formula": "IFERROR(VLOOKUP(AW12,'고정배송비 신청 코드'!A:I,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "BC12": {
+          "formula": "IFERROR(VLOOKUP(BB12,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        }
+      }
+    },
+    {
+      "row": 13,
+      "nonemptyInputs": {},
+      "formulaCells": {
+        "D13": {
+          "formula": "IFERROR(VLOOKUP(C13,'데이터 목록'!A:B,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "G13": {
+          "formula": "IFERROR(VLOOKUP(F13,'데이터 목록'!C:D,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "I13": {
+          "formula": "IFERROR(VLOOKUP(H13,'데이터 목록'!E:F,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "L13": {
+          "formula": "IFERROR(VLOOKUP(K13,'데이터 목록'!G:H,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "M13": {
+          "formula": null,
+          "attributes": {
+            "t": "shared",
+            "si": "1"
+          }
+        },
+        "P13": {
+          "formula": "IFERROR(VLOOKUP(O13,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "S13": {
+          "formula": "IFERROR(VLOOKUP(R13,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "Z13": {
+          "formula": "IFERROR(VLOOKUP(Y13,'카테고리 품목 코드'!A:C,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AA13": {
+          "formula": "IFERROR(VLOOKUP(Y13,'카테고리 품목 코드'!A:C,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AB13": {
+          "formula": "IFERROR(VLOOKUP(Y13,'데이터 목록'!O:Q,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AC13": {
+          "formula": "IFERROR(VLOOKUP(Y13,'데이터 목록'!O:Q,3,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AU13": {
+          "formula": "IFERROR(VLOOKUP(AT13,'데이터 목록'!M:N,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "AX13": {
+          "formula": "IFERROR(VLOOKUP(AW13,'고정배송비 신청 코드'!A:I,2,FALSE),\"\")",
+          "attributes": {}
+        },
+        "BC13": {
+          "formula": "IFERROR(VLOOKUP(BB13,'데이터 목록'!I:J,2,FALSE),\"\")",
+          "attributes": {}
+        }
+      }
+    }
+  ],
+  "firstThreeLookupDataRows": [
+    {
+      "row": 2,
+      "cells": {
+        "A2": "미신청",
+        "C2": "[미국]USPS",
+        "D2": 1,
+        "E2": "KOREA (한국)",
+        "F2": "KR",
+        "G2": "(개인_한국인)개인통관고유부호",
+        "H2": "P_CUST_NO",
+        "I2": "한국 (+82)",
+        "J2": 82,
+        "K2": "USD",
+        "L2": "Y",
+        "M2": "NO (미신청, 50만원까지 보상)",
+        "N2": "10",
+        "O2": "001",
+        "P2": 10001,
+        "Q2": 2000001
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "A3": "[미국] USPS Drop-Off 신청",
+        "B3": "DROPOFF",
+        "C3": "[미국]FedEx",
+        "D3": 2,
+        "E3": "U.S.A (미국)",
+        "F3": "US",
+        "G3": "(사업자_일반)사업자번호",
+        "H3": "BIZ_NO",
+        "I3": "미국 (+1)",
+        "J3": 1,
+        "K3": "EUR",
+        "L3": "N",
+        "M3": "YES (신청 25USD, 500만원까지 보상)",
+        "N3": "20",
+        "O3": "002",
+        "P3": 10001,
+        "Q3": 2000002
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "[한국] 한진택배 픽업 신청",
+        "B4": "HANJIN",
+        "C4": "[미국]DHL",
+        "D4": 3,
+        "E4": "GERMANY (독일)",
+        "F4": "DE",
+        "G4": "(사업자_상용견품/샘플)사업자번호",
+        "H4": "BIZ_NO",
+        "I4": "러시아 (+7)",
+        "J4": 7,
+        "K4": "JPY",
+        "M4": "YES (신청 50USD, 1000만원까지 보상)",
+        "N4": "30",
+        "O4": "003",
+        "P4": 10001,
+        "Q4": 2000003
+      }
+    }
+  ],
+  "exportNotes": [
+    "Preserve original workbook sheets, lookup tables, row10 headers and formatting.",
+    "Rows 2:8 are template examples and not user order data.",
+    "Row1001 contains bottom border cells, not an intended input row.",
+    "When replacing formula cells with computed values, remove stale calcChain.xml and its relationship and content type entry.",
+    "M11:M1000 is a shared-formula range. Do not leave orphan shared formula followers after replacing master. Clear formula cells in all unused input rows or preserve shared master correctly.",
+    "For pickup label 미신청, blank lookup code B2 returns numeric 0 in Excel (verified D6 cached value).",
+    "Keep category input codes as text, including leading zeros.",
+    "Carrier row C82 exists but the current F11:F1000 validation range ends at C81; config includes actual C82 carrier too."
+  ],
+  "knownTemplateIssues": [
+    {
+      "location": "workbook definedName 상품카테고리",
+      "issue": "Existing named range points to #REF!. Preserve unless intentionally repairing."
+    },
+    {
+      "location": "신청서!AF1 comment vs AF10 comment",
+      "issue": "Example comment says discount and tax entered after upload; actual input comment says unit price includes discount and tax. User must choose intended pricing rule."
+    }
+  ],
+  "requiredWithoutSafeDefault": [
+    "recipientName",
+    "recipientPhone",
+    "taxNotificationPhone",
+    "postalCode",
+    "address",
+    "customsIdentifier (unless Korea center or applicable gift mode)",
+    "logisticsCenter",
+    "localCarrier",
+    "shopUrl",
+    "categoryInputCode",
+    "brand",
+    "productName",
+    "unitPrice",
+    "currency"
+  ],
+  "fieldColumns": {
+    "groupNumber": "B",
+    "pickup": "C",
+    "trackingNumber": "E",
+    "carrier": "F",
+    "destinationCountry": "H",
+    "recipientName": "J",
+    "customsType": "K",
+    "customsIdentifier": "N",
+    "phoneCountry": "O",
+    "recipientPhone": "Q",
+    "taxPhoneCountry": "R",
+    "taxPhone": "T",
+    "postalCode": "U",
+    "address": "V",
+    "deliveryRequest": "W",
+    "shopUrl": "X",
+    "categoryInputCode": "Y",
+    "brand": "AD",
+    "productName": "AE",
+    "unitPrice": "AF",
+    "currency": "AG",
+    "bottleVolume": "AH",
+    "volumeUnit": "AI",
+    "quantity": "AJ",
+    "fta": "AK",
+    "automaticPointPayment": "AL",
+    "orderNumber": "AM",
+    "color": "AN",
+    "size": "AO",
+    "productUrl": "AP",
+    "imageUrl": "AQ",
+    "removeBrandBox": "AR",
+    "removeInvoice": "AS",
+    "insurance": "AT",
+    "truePacking": "AV",
+    "fixedShippingCode": "AW",
+    "giftRecipientDirectInput": "AY",
+    "giftSenderName": "AZ",
+    "giftRecipientName": "BA",
+    "giftPhoneCountry": "BB",
+    "giftPhone": "BD",
+    "giftMessage": "BE",
+    "taxAdvance": "BF"
+  }
+}

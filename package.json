@@ -1,0 +1,13 @@
+{
+  "name": "order-to-excel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:offline": "node scripts/build-offline.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

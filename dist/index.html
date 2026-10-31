@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173e34">
+  <meta name="description" content="아소비몰 주문 상세 내역을 붙여넣고 배송대행 엑셀 양식으로 다운로드하세요.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>주문 한 장 — 주문 내역 엑셀 변환</title>
+  <script src="./local-file-entry.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./product-picker.css">
+  <link rel="stylesheet" href="./order-sections.css">
+  <link rel="stylesheet" href="./download-review.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./" aria-label="주문 한 장 처음으로">
+      <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 3h8l4 4v14H5V3h2Z" stroke="currentColor" stroke-width="1.7"/><path d="M14 3v5h5M8 12h8M8 16h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+      <span>주문 한 장<span class="brand-sub">ORDER TO EXCEL</span></span>
+    </a>
+    <div class="sidebar-label">주문 변환 작업실</div>
+    <nav class="steps" aria-label="변환 순서">
+      <a class="step-link active" href="#paste-section"><span class="step-number">01</span><span>주문 붙여넣기<small>쇼핑몰에서 복사한 내용</small></span></a>
+      <a class="step-link" href="#preview-section"><span class="step-number">02</span><span>내용 확인하기<small>상품과 금액을 한 번 더</small></span></a>
+      <a class="step-link" href="#export-section"><span class="step-number">03</span><span>엑셀 다운로드<small>원하는 배송대행 양식으로</small></span></a>
+    </nav>
+    <div class="sidebar-bottom"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6l8-3Z" stroke="currentColor" stroke-width="1.5"/><path d="m8 12 3 3 5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><p>이곳에 입력된 정보는 현재 페이지에서만 사용되며 서버나 브라우저 저장소에 저장하지 않습니다.</p></div>
+  </aside>
+  <main>
+    <aside class="site-notice" role="note">
+      <p>이 사이트는 배송대행 신청을 편리하게 돕기 위해 만들어졌습니다. 배대지에 신청하기 전 상품·금액·수취인 정보가 정확한지 본인이 꼭 한 번 더 확인해 주세요.</p>
+    </aside>
+    <div class="usage-options">
+      <nav class="usage-links" aria-label="사용 방식 선택">
+        <a class="usage-link usage-link-primary" href="#template-section">온라인으로 사용</a>
+        <a class="usage-link" href="https://github.com/masudaayano156/asobimall-order-excel" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">GitHub에서 코드 검토</a>
+        <a class="usage-link" href="https://github.com/masudaayano156/asobimall-order-excel/raw/refs/heads/main/downloads/offline.zip" download target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">오프라인 버전 다운로드</a>
+      </nav>
+    </div>
+    <header class="page-header">
+      <h1>주문 내역을<br class="mobile-break"> 엑셀 한 장으로.</h1>
+    </header>
+
+    <section class="panel template-panel" id="template-section" aria-labelledby="template-title">
+      <div class="section-heading"><div class="heading-copy"><div><h2 id="template-title">배대지 선택</h2></div></div></div>
+      <fieldset class="template-fieldset"><legend class="field-label">엑셀 양식</legend><div class="template-grid">
+        <label class="template-card"><input type="radio" name="template" value="general" checked><span class="template-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 3h10l4 4v14H5V3Z" stroke="currentColor" stroke-width="1.5"/><path d="M9 11h6M9 15h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><span class="template-copy"><strong>훗타운</strong><small>훗타운.xlsx</small></span><span class="radio-indicator"></span></label>
+        <label class="template-card"><input type="radio" name="template" value="jimpass"><span class="template-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 3h10l4 4v14H5V3Z" stroke="currentColor" stroke-width="1.5"/><path d="M9 11h6M9 15h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><span class="template-copy"><strong>짐패스</strong><small>짐패스.xlsx</small></span><span class="radio-indicator"></span></label>
+        <label class="template-card"><input type="radio" name="template" value="postmall" disabled><span class="template-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 3h10l4 4v14H5V3Z" stroke="currentColor" stroke-width="1.5"/><path d="M9 11h6M9 15h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><span class="template-copy"><strong>포스트몰</strong><small>Postmall.xlsx</small></span><span class="radio-indicator"></span></label>
+      </div></fieldset>
+      <p id="provider-status" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="panel paste-panel" id="paste-section" aria-labelledby="paste-title">
+      <div class="section-heading"><div class="heading-copy"><span class="section-index">01</span><div><h2 id="paste-title">주문 내역 붙여넣기</h2><p>아소비몰 English 주문 상세 내용을 준비해 주세요.</p></div></div><button class="button button-quiet" id="sample-btn" type="button" disabled><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m8 5 7 5-7 5V5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>예시 주문 불러오기</button></div>
+      <div class="copy-guide" role="note" aria-labelledby="copy-guide-title">
+        <h3 id="copy-guide-title"><span lang="en">English</span> 화면에서 복사해 주세요</h3>
+        <p>아소비몰의 표시 언어를 먼저 바꾸면 영문 상품명을 그대로 가져올 수 있습니다.</p>
+        <ol id="copy-guide-steps">
+          <li>아소비몰 상단 언어에서 <strong lang="en">English</strong> 선택</li>
+          <li>주문 상세를 펼쳐 상품 목록까지 복사</li>
+          <li>아래 입력란에 붙여넣기</li>
+        </ol>
+      </div>
+      <div class="textarea-wrap"><label class="sr-only" for="order-input">아소비몰 English 주문 상세 내역</label><textarea id="order-input" aria-describedby="copy-guide-steps" spellcheck="false" disabled placeholder="아소비몰 English 화면에서 복사한 주문 내역을 붙여넣으세요.&#10;&#10;Order No. ...&#10;Ordered items&#10;PRODUCT NAME&#10;Product amount: ¥6,500&#10;quantity: 1"></textarea><span class="textarea-hint">여러 주문도 함께 붙여넣을 수 있어요.</span></div>
+      <div class="paste-actions"><button id="clear-btn" class="button button-text" type="button" disabled>모두 지우기</button><button id="analyze-btn" class="button button-primary" type="button" disabled>주문 내용 읽어오기<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <div id="parse-status" class="status" aria-live="polite" role="status"></div>
+    </section>
+
+    <section class="panel" id="preview-section" hidden aria-labelledby="preview-title">
+      <div class="section-heading"><div class="heading-copy"><span class="section-index">02</span><div><h2 id="preview-title">읽어온 내용 확인</h2><p>상품명, 옵션, 금액과 수량을 확인하고 수정할 수 있습니다.</p></div></div><span class="badge">배송비 별도</span></div>
+      <div id="order-summary" class="summary-strip"></div>
+      <p class="catalog-note">공개 상품 목록에서 상품명으로 링크와 이미지를 찾습니다. 비슷한 이름이나 변경된 상품이 있으면 일치하는 상품을 직접 확인해 주세요.</p>
+      <div id="items-container" class="items-container"></div>
+    </section>
+
+    <section class="panel" id="export-section" aria-labelledby="export-title">
+      <div class="section-heading"><div class="heading-copy"><span class="section-index">03</span><div><h2 id="export-title">수취인·다운로드 설정</h2><p>한국에서 실제로 받을 분의 정보를 입력하고 엑셀을 내려받으세요.</p></div></div></div>
+      <form id="profile-form" novalidate>
+        <div class="form-section-heading"><h3>한국 수취인 정보</h3><span>필수 항목 <i>*</i></span></div>
+        <div class="info-note"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.4"/><path d="M10 9v5M10 6v.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><p>주문에 적힌 일본 배송대행지와 다릅니다. <strong>한국에서 실제로 받을 분</strong>의 정보를 입력해 주세요.</p></div>
+        <div class="field-grid">
+          <div class="field"><label for="recipient">수취인명 <i>*</i></label><input id="recipient" name="recipient" autocomplete="off" placeholder="홍길동" required></div>
+          <div class="field"><label for="phone">연락처 <i>*</i></label><input id="phone" name="phone" type="tel" autocomplete="off" placeholder="01000000000" required></div>
+          <div class="field postal-field"><label for="postal">우편번호 <i>*</i></label><div class="postal-input-row"><input id="postal" name="postal" inputmode="numeric" autocomplete="off" placeholder="5자리 우편번호" required><button id="postcode-search-btn" class="button postcode-search-button" type="button" disabled aria-describedby="postcode-search-hint">우편번호 찾기</button></div><p id="postcode-search-hint" class="field-hint">인터넷 연결 필요 · 검색어는 카카오로 전송됩니다.</p><p id="postcode-search-status" class="status postcode-status" role="status" aria-live="polite"></p><a id="postcode-open-link" class="field-hint" hidden target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">주소 검색창 다시 열기</a></div>
+          <div class="field"><label for="customs">개인통관고유부호 <i>*</i></label><input id="customs" name="customs" autocomplete="off" placeholder="P + 숫자 12자리" maxlength="13" required></div>
+          <div class="field field-full"><label for="address">기본주소 <i>*</i></label><input id="address" name="address" autocomplete="off" placeholder="도로명 주소" required></div>
+          <div class="field field-full"><label for="address2">상세주소 <span class="optional">선택</span></label><input id="address2" name="address2" autocomplete="off" placeholder="동·호수 등 상세주소"></div>
+        </div>
+        <div class="form-section-heading second-heading"><h3>상품·배송 정보</h3></div>
+        <div class="field-grid">
+          <div class="field"><label for="shop-url">쇼핑몰 주소 <i>*</i></label><input id="shop-url" name="shopUrl" type="url" value="https://asobisystem.shop" required></div>
+          <div class="field"><label for="brand">브랜드 / 셀러 <i>*</i></label><input id="brand" name="brand" value="ASOBISYSTEM" required></div>
+          <div class="field field-full"><label for="tracking">현지 운송장번호 <span class="optional">선택</span></label><input id="tracking" name="tracking" autocomplete="off" placeholder="아직 발송 전이라면 비워 두세요"></div>
+        </div>
+        <div id="jimpass-fields" class="field-grid extra-fields" hidden><div class="field field-full"><label for="jimpass-category">짐패스 품목분류코드 <i>*</i></label><input id="jimpass-category" name="jimpassCategory" placeholder="짐패스에서 확인한 품목분류코드"><p class="field-hint">상품 종류에 맞는 코드를 입력하세요. 상품별 코드는 확인 화면에서 수정할 수 있습니다.</p></div></div>
+        <div id="general-fields">
+          <div class="field-grid extra-fields">
+            <div class="field field-full"><label for="general-category">상품 카테고리 <i>*</i></label><select id="general-category" name="generalCategory"><option value="">카테고리 선택</option></select></div>
+            <div class="field"><label for="center">이용 물류센터 <i>*</i></label><select id="center" name="center"><option value="">물류센터 선택</option></select></div>
+            <div class="field"><label for="carrier">운송사 <i>*</i></label><select id="carrier" name="carrier"><option value="">운송사 선택</option></select></div>
+            <div class="field"><label for="shipping-type">배송 구분 <i>*</i></label><select id="shipping-type" name="shippingType"><option value="">배송 구분 선택</option></select></div>
+          </div>
+          <div id="general-options" class="field-grid extra-fields"></div>
+        </div>
+        <section id="postmall-fields" class="postmall-fields" hidden aria-labelledby="postmall-settings-title"></section>
+      </form>
+      <div class="download-area"><div class="download-copy"><strong>확인하고, 엑셀로 내려받기</strong><p>누락된 필수정보는 다운로드 전에 알려드립니다.</p></div><button id="download-btn" class="button button-primary button-download" type="button" disabled><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v9m-4-4 4 4 4-4M4 13v4h12v-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>엑셀 다운로드</button></div>
+      <div id="export-status" class="status" aria-live="polite" role="status"></div>
+    </section>
+    <details class="privacy-proof" id="privacy-proof">
+      <summary>입력 정보 처리 방식 확인</summary>
+      <div class="privacy-proof-body">
+        <p><strong>오프라인 ZIP 파일을 내려받아 압축을 풀고, HTML 파일을 열면 인터넷 연결을 끊고 사용할 수 있습니다.</strong></p>
+        <ul>
+          <li>주문 변환과 엑셀 생성은 현재 페이지에서 처리하며 입력값을 저장하지 않습니다. 우편번호 찾기를 누른 경우에만 별도 카카오 검색창에 연결되며, 그 창에 입력한 검색어는 카카오로 전송됩니다. 주문·수취인명·연락처·통관부호·상세주소는 검색창에 전달하지 않습니다.</li>
+          <li>온라인 화면은 공개 상품 목록과 엑셀 양식·설정 파일을 불러옵니다.</li>
+          <li>영문 상품명은 사이트를 준비할 때 공개 상품명만 번역한 자료입니다. 방문자의 주문·수취인 정보는 번역에 사용하지 않습니다.</li>
+        </ul>
+        <div class="privacy-downloads" aria-label="직접 검토할 자료 다운로드">
+          <a href="https://github.com/masudaayano156/asobimall-order-excel" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">GitHub 공개 소스 검토</a>
+          <a href="https://github.com/masudaayano156/asobimall-order-excel/raw/refs/heads/main/downloads/offline.zip" download target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">GitHub 오프라인 버전 다운로드</a>
+          <a href="https://github.com/masudaayano156/asobimall-order-excel/raw/refs/heads/main/downloads/checksums.txt" download target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">GitHub 파일 SHA-256 확인</a>
+          <span class="privacy-backups">사이트에서 직접 받기: <a href="./offline.zip" download>오프라인 ZIP</a> · <a href="./source.zip" download>소스 ZIP</a> · <a href="./checksums.txt" download>SHA-256</a></span>
+        </div>
+      </div>
+    </details>
+    <footer class="page-footer"><span>주문 한 장</span><p>다운로드한 파일을 확인한 뒤 배송대행 사이트에 업로드해 주세요.</p><span class="footer-dot"></span></footer>
+  </main>
+  <dialog id="download-review-dialog" class="download-review-dialog" aria-labelledby="download-review-title" aria-describedby="download-review-message">
+    <h2 id="download-review-title">신청 전 한 번 더 확인해 주세요</h2>
+    <p id="download-review-message">이 사이트는 배송대행 신청을 편리하게 돕기 위해 만들어졌습니다. 배대지에 신청하기 전 상품·금액·수취인 정보가 정확한지 본인이 꼭 한 번 더 확인해 주세요.</p>
+    <div class="download-review-actions"><button id="download-review-cancel" class="button button-quiet" type="button">돌아가기</button><button id="download-review-confirm" class="button button-primary" type="button">확인 · 다운로드</button></div>
+  </dialog>
+  <script type="module" src="./app.mjs?v=14"></script>
+</body>
+</html>

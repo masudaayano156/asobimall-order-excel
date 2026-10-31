@@ -1,0 +1,8 @@
+.site-notice{padding:17px 20px;margin:0 0 20px;border:1px solid #d9e4d5;border-radius:10px;background:#f0f5ed;color:#36573f;font-size:calc(12px + 2pt);line-height:1.85;overflow-wrap:anywhere}
+.download-review-dialog{width:min(510px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:26px;border:1px solid var(--line);border-radius:15px;background:#fff;color:var(--text);box-shadow:0 15px 70px #122e2633;overflow:auto}
+.download-review-dialog::backdrop{background:rgba(16,39,31,.44)}
+.download-review-dialog h2{margin-bottom:16px;font-size:calc(18px + 2pt);line-height:1.5}
+.download-review-dialog p{font-size:calc(13px + 2pt);line-height:1.95;color:#4b6050;overflow-wrap:anywhere}
+.download-review-actions{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin-top:24px}
+.download-review-actions .button{min-height:42px;font-size:calc(12px + 2pt)}
+@media(max-width:520px){.site-notice{padding:14px 15px;font-size:calc(11px + 2pt);margin-bottom:17px}.download-review-dialog{padding:21px 18px}.download-review-dialog h2{font-size:calc(16px + 2pt)}.download-review-dialog p{font-size:calc(12px + 2pt)}.download-review-actions{gap:8px}.download-review-actions .button{font-size:calc(11px + 2pt);padding:9px 12px}}

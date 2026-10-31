@@ -1,0 +1,22 @@
+/*
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+  Cache-Control: no-store
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'self'
+
+/offline.zip
+  Content-Disposition: attachment; filename="order-excel-offline.zip"
+
+/source.zip
+  Content-Disposition: attachment; filename="order-excel-source.zip"
+
+# Only the separate, opener-less postcode search document uses the Kakao SDK.
+# Its own restrictive meta CSP allows the exact official SDK/frame hosts.
+# Keep the original site-wide CSP unchanged for the order/recipient page.
+/postcode-search.html
+  ! Content-Security-Policy
+  X-Frame-Options: DENY
+
+/postcode-search
+  ! Content-Security-Policy
+  X-Frame-Options: DENY

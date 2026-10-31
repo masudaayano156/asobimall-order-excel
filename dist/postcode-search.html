@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://t1.kakaocdn.net; style-src 'unsafe-inline'; frame-src https://postcode.map.kakao.com https://postcode.map.daum.net; connect-src 'none'; img-src data: https://t1.kakaocdn.net; object-src 'none'; base-uri 'none'; form-action https://postcode.map.kakao.com https://postcode.map.daum.net; upgrade-insecure-requests">
+  <title>우편번호 찾기</title>
+  <style>html,body{margin:0;width:100%;height:100%;font-family:Arial,sans-serif}body{display:flex;flex-direction:column}header{padding:12px 16px;font-size:14px;line-height:1.5;background:#f4f7f5}header strong{display:block;font-size:17px}#search{flex:1;min-height:400px}#error{padding:12px 16px;color:#a33;font-size:15px}iframe{border:0}</style>
+</head>
+<body>
+  <header><strong>우편번호 찾기</strong>검색어는 카카오에 전달됩니다. 주소를 선택하면 원래 창에 입력됩니다.</header>
+  <div id="search"></div><p id="error" role="status" hidden>주소 검색을 불러오지 못했습니다. 원래 창에서 주소를 직접 입력해 주세요.</p>
+  <script>
+    (function () {
+      'use strict';
+      const error = document.getElementById('error');
+      let channel, ackTimeout;
+      function failed() { error.hidden = false; channel?.postMessage({type: 'postcode:error', token}); }
+      // The SDK gets no reference to the order form's window, even if this
+      // document was opened without the caller's noopener feature by mistake.
+      try { window.opener = null; } catch { error.hidden = false; return; }
+      if (window.opener !== null) { error.hidden = false; return; }
+      const token = location.hash.slice(1);
+      if (!['http:', 'https:'].includes(location.protocol) || !/^[a-f0-9]{32}$/.test(token) || typeof BroadcastChannel !== 'function') {
+        error.hidden = false; return;
+      }
+      try { channel = new BroadcastChannel('order-excel-postcode-' + token); }
+      catch { error.hidden = false; return; }
+      channel.onmessage = event => {
+        const data = event.data;
+        if (!data || typeof data !== 'object' || data.token !== token || data.type !== 'postcode:ack') return;
+        clearTimeout(ackTimeout); channel.close(); window.close();
+      };
+      window.addEventListener('pagehide', () => { clearTimeout(ackTimeout); channel.close(); });
+      function start() {
+        try {
+          new kakao.Postcode({
+            oncomplete(data) {
+              let address = data.userSelectedType === 'R' ? data.roadAddress : data.jibunAddress;
+              address = address || data.address;
+              if (typeof address !== 'string') { failed(); return; }
+              if (data.userSelectedType === 'R') {
+                const extra = [];
+                if (typeof data.bname === 'string' && /[동로가]$/.test(data.bname)) extra.push(data.bname);
+                if (typeof data.buildingName === 'string' && data.buildingName && data.apartment === 'Y') extra.push(data.buildingName);
+                if (extra.length) address += ' (' + extra.join(', ') + ')';
+              }
+              if (typeof data.zonecode !== 'string' || !/^\d{5}$/.test(data.zonecode) || !address.trim() || address.length > 250 || /[\x00-\x1f\x7f-\x9f]/.test(address)) { failed(); return; }
+              channel.postMessage({type: 'postcode:selected', token, postcode: data.zonecode, address: address.trim()});
+              clearTimeout(ackTimeout);
+              ackTimeout = setTimeout(() => { error.textContent = '원래 창과 연결하지 못했습니다. 원래 창에서 주소를 직접 입력해 주세요.'; error.hidden = false; }, 10000);
+            },
+            width: '100%', height: '100%', autoClose: false
+          }).embed(document.getElementById('search'));
+          channel.postMessage({type: 'postcode:ready', token});
+        } catch { failed(); }
+      }
+      const sdk = document.createElement('script');
+      sdk.src = 'https://t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+      sdk.onload = start; sdk.onerror = failed; document.head.append(sdk);
+    })();
+  </script>
+</body>
+</html>
