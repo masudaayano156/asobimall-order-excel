@@ -6,7 +6,7 @@
 
 | 방식 | 링크와 설명 |
 | --- | --- |
-| 온라인에서 사용 | [주문 한 장 열기](https://order-sheet-oct30-7k4m.yellow-cocoa-5065.chatgpt.site) |
+| 온라인에서 사용 | [주문 한 장 열기](https://ayanoblue.yellow-cocoa-5065.chatgpt.site/) |
 | 코드를 직접 확인하거나 AI에 검토 요청 | [공개 GitHub 저장소](https://github.com/masudaayano156/asobimall-order-excel) · [개인정보 처리와 검토 안내](SECURITY.md) |
 | 인터넷 연결을 끊고 사용 | [최신 오프라인 ZIP 다운로드](https://github.com/masudaayano156/asobimall-order-excel/raw/refs/heads/main/downloads/offline.zip) · [파일 SHA-256 목록](https://github.com/masudaayano156/asobimall-order-excel/raw/refs/heads/main/downloads/checksums.txt) |
 
