@@ -65,3 +65,13 @@ export function shortenHoottownName(name, maxLength = 80) {
   const shortened = tail ? `${head} ... ${tail}`.trim() : wordsWithin(text, limit);
   return shortened || codePointClip(text, limit) || '.'.repeat(Math.min(limit, 3));
 }
+
+/** Postmall's later edit form permits at most 100 UTF-16 code units. */
+export function shortenPostmallName(name) {
+  let text = String(name ?? '').trim();
+  if (text.length <= 100) return text;
+  // Preserve mixed birthday-set contents before the general long-name fallback.
+  text = text.replace(/\bBirthday\s+Package\b/gi, 'Birthday Set')
+    .replace(/\b(\d+)\s+types?\s+of\s+acrylic\s+stands?\b/gi, '$1 Acrylic Stands');
+  return shortenHoottownName(text, 100);
+}

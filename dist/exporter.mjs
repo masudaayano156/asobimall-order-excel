@@ -1,5 +1,5 @@
 import { unzipSync, zipSync, strFromU8, strToU8 } from './fflate.mjs';
-import { shortenHoottownName } from './item-name.mjs';
+import { shortenHoottownName, shortenPostmallName } from './item-name.mjs';
 import { formatPhone } from './phone.mjs';
 import { formatJimpassName } from './jimpass-name.mjs';
 import { getFixedShippingErrors } from './fixed-shipping.mjs';
@@ -278,7 +278,7 @@ function postmallSheet(xml, items, profile, config) {
       if (hs && !/^(?:\d{6}|\d{8}|\d{10})$/.test(hs)) throw new Error(`${index + 1}번째 포스트몰 신청서의 ${slotIndex + 1}번 HS CODE는 숫자 6·8·10자리로 입력해 주세요. 배대지별 품목코드는 사용할 수 없습니다.`);
       const totalCents = Math.round(item.unitPrice * 100) * item.quantity;
       if (!Number.isSafeInteger(totalCents)) throw new Error('포스트몰 상품 합계가 정확하게 계산할 수 있는 숫자 범위를 넘었습니다.');
-      const product = {name: item.postmallName ?? item.name ?? '', brand: item.brand ?? profile.brand ?? '', color: item.color ?? item.option ?? '', size: item.size ?? '',
+      const product = {name: shortenPostmallName(item.postmallName ?? item.name ?? ''), brand: item.brand ?? profile.brand ?? '', color: item.color ?? item.option ?? '', size: item.size ?? '',
         quantity: item.quantity, unitPrice: item.unitPrice, lineTotal: totalCents / 100, hsCode: hs,
         imageUrl: item.imageUrl ?? '', productUrl: item.productUrl ?? '', tracking: String(item.tracking ?? profile.tracking ?? '')};
       for (const [field, column] of Object.entries(config.itemSlots[slotIndex].columns)) values[column] = product[field] ?? '';

@@ -128,11 +128,16 @@
     </details>
     <footer class="page-footer"><span>주문 한 장</span><p>다운로드한 파일을 확인한 뒤 배송대행 사이트에 업로드해 주세요.</p><span class="footer-dot"></span></footer>
   </main>
-  <dialog id="download-review-dialog" class="download-review-dialog" aria-labelledby="download-review-title" aria-describedby="download-review-message">
+  <dialog id="download-review-dialog" class="download-review-dialog" aria-labelledby="download-review-title" aria-describedby="download-review-message download-review-postage">
     <h2 id="download-review-title">신청 전 한 번 더 확인해 주세요</h2>
     <p id="download-review-message">이 사이트는 배송대행 신청을 편리하게 돕기 위해 만들어졌습니다. 배대지에 신청하기 전 상품·금액·수취인 정보가 정확한지 본인이 꼭 한 번 더 확인해 주세요.</p>
+    <div id="download-review-postage">
+      <p><strong>일본 내 배송비는 별도로 입력해 주세요.</strong></p>
+      <p>엑셀 업로드 후, 이용하는 배대지의 <strong>신청내역 수정</strong>에서 일본 내 배송비를 입력해 주세요.</p>
+      <p>아소비몰은 보통 <strong>880엔</strong>이지만, 실제 주문 내역의 <strong>postage(배송비)</strong> 금액을 확인해 입력해 주세요.</p>
+    </div>
     <div class="download-review-actions"><button id="download-review-cancel" class="button button-quiet" type="button">돌아가기</button><button id="download-review-confirm" class="button button-primary" type="button">확인 · 다운로드</button></div>
   </dialog>
-  <script type="module" src="./app.mjs?v=16"></script>
+  <script type="module" src="./app.mjs?v=17"></script>
 </body>
 </html>

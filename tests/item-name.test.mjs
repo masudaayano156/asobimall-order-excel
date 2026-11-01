@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {shortenHoottownName} from '../dist/item-name.mjs';
+import {shortenHoottownName, shortenPostmallName} from '../dist/item-name.mjs';
 
 test('names already within 80 UTF-16 units keep their content and spacing', () => {
   const exact = 'A'.repeat(80);
@@ -103,4 +103,61 @@ test('shortening is idempotent for clipboard names and difficult fallbacks', () 
     const once = shortenHoottownName(source);
     assert.equal(shortenHoottownName(once), once);
   }
+});
+
+test('Postmall preserves names through 100 units instead of applying the Hoottown 80-unit limit', () => {
+  const exact = 'A'.repeat(100), betweenLimits = longClipboardNames[0];
+  assert.ok(betweenLimits.length > 80 && betweenLimits.length <= 100);
+  for (const name of [exact, betweenLimits, '😀'.repeat(50), 'Member-Specific  Acrylic Stands (8 types in total)']) {
+    assert.equal(shortenPostmallName(name), name);
+  }
+  assert.equal(shortenPostmallName('  CUTIE\u00a0STREET  Photo Set  '), 'CUTIE\u00a0STREET  Photo Set');
+  assert.ok(shortenHoottownName(betweenLimits).length <= 80);
+  assert.notEqual(shortenHoottownName(betweenLimits), betweenLimits);
+  for (const value of ['', null, undefined]) assert.equal(shortenPostmallName(value), '');
+});
+
+test('long Postmall catalog and member-photo names retain their physical kind, edition, year and pack size', () => {
+  const publicNames = [
+    'SWEET STEADY Member-Specific Acrylic Stands - STEADY→ REVOLUTION Costume Edition - (7 types in total)',
+    '[Online Exclusive] FRUITS ZIPPER Member-Specific Acrylic Stand - Sensation Styling Costume Edition - (7 types in total)',
+    'CUTIE STREET Member-Specific Acrylic Stands -KAWAII LAB. BEST ALBUM White Coat Outfit Edition- (8 types in total)',
+  ];
+  const results = publicNames.map(shortenPostmallName);
+  publicNames.forEach(name => assert.ok(name.length > 100));
+  for (const name of results) { assert.ok(name.length <= 100); assert.match(name, /Acrylic Stand/); }
+  assert.match(results[0], /^SWEET STEADY .*STEADY→ REVOLUTION Costume Ed\./);
+  assert.match(results[1], /FRUITS ZIPPER .*Sensation Styling Costume Ed\./);
+  assert.match(results[2], /CUTIE STREET .*White Coat Outfit Ed\./);
+  const photo = (member, count) => `CUTIE STREET ${member} Photo Set (${count} L-size photos) -KL Summer Festival 2026 Costume Edition- (8 types in total)`;
+  const aika = shortenPostmallName(photo('Aika Sano', 2)), ayano = shortenPostmallName(photo('Ayano Masuda', 2)), four = shortenPostmallName(photo('Ayano Masuda', 4));
+  assert.notEqual(aika, ayano); assert.notEqual(ayano, four);
+  assert.match(aika, /Aika Sano .*Photo Set \(2 L-size photos\).*2026/);
+  assert.match(ayano, /Ayano Masuda .*Photo Set \(2 L-size photos\).*2026/);
+  assert.match(four, /Photo Set \(4 L-size photos\).*2026/);
+  for (const name of [aika, ayano, four]) assert.ok(name.length <= 100);
+});
+
+test('Postmall keeps all mixed birthday-set components using narrow equivalent abbreviations', () => {
+  const original = 'Taniya Kyoka Birthday Package (1 signed instant photo, 2 types of acrylic stands, 5 random trading cards)';
+  assert.ok(original.length > 100);
+  const result = shortenPostmallName(original);
+  assert.ok(result.length <= 100); assert.match(result, /^Taniya Kyoka Birthday Set/);
+  assert.match(result, /1 signed instant photo/); assert.match(result, /2 Acrylic Stands/); assert.match(result, /5 random trading cards/);
+  assert.equal(shortenPostmallName(result), result);
+  const shorter = 'Birthday Package (2 types of acrylic stands)';
+  assert.equal(shortenPostmallName(shorter), shorter, 'Names within the limit do not receive these substitutions.');
+});
+
+test('Postmall fixed-budget fallbacks stay nonempty, surrogate-safe, distinct and idempotent', () => {
+  const source = version => 'CUTIE STREET Ayano Masuda Acrylic Stand ' + 'Special Limited Collection '.repeat(10) + `2026 ${version} Outfit Version`;
+  const tweed = shortenPostmallName(source('Tweed')), prima = shortenPostmallName(source('Prima'));
+  assert.notEqual(tweed, prima); assert.match(tweed, /2026 Tweed Outfit Ver\.$/); assert.match(prima, /2026 Prima Outfit Ver\.$/);
+  for (const name of [source('Tweed'), source('Prima'), 'A'.repeat(140) + ' ' + 'B'.repeat(140), '😀'.repeat(120), 'X'.repeat(300)]) {
+    const once = shortenPostmallName(name);
+    assert.ok(once.length > 0 && once.length <= 100);
+    assert.equal(shortenPostmallName(once), once);
+    for (const point of once) assert.ok(point.length === 2 || !/[\uD800-\uDFFF]/.test(point));
+  }
+  assert.ok(shortenPostmallName('X'.repeat(150), 200).length <= 100, 'A caller cannot raise the fixed provider limit.');
 });

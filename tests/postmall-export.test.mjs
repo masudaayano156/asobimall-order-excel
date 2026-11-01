@@ -52,6 +52,47 @@ test('twenty item slots reach column IG and a twenty-first product is rejected i
   assert.throws(() => generate([...items, {...item, name: 'TWENTY FIRST PRODUCT'}]), /최대 20개/);
 });
 
+test('Postmall bounds real catalog and manual names at 100 without changing raw names, slot quantities or prices', async () => {
+  const catalog = JSON.parse(await fs.readFile(new URL('../dist/catalog.json', import.meta.url), 'utf8'));
+  const publicName = code => {
+    const product = catalog.products.find(product => product.code === code);
+    assert.ok(product?.enName, `Public catalog title ${code} is required.`);
+    return product.enName;
+  };
+  const stand = publicName('ASB-SS0040'), birthday = publicName('TI-0119');
+  assert.ok(stand.length > 100); assert.ok(birthday.length > 100);
+  const within100 = 'CUTIE STREET Member-Specific Acrylic Stands -Rose Ribbon Outfit Ver.- (8 types in total)';
+  assert.ok(within100.length > 80 && within100.length <= 100);
+  const manual = 'CUTIE STREET Ayano Masuda Acrylic Stand ' + 'Special Limited Collection '.repeat(8) + '2026 Tweed Outfit Version';
+  const items = Array.from({length:20}, (_, index) => ({...item, name:`SAMPLE PRODUCT ${index + 1}`, quantity:index + 1, unitPrice:10.25}));
+  items[0].name=stand; items[1].name=birthday; items[2].name=within100; items[3].name='A'.repeat(100);
+  items[19].name='ORIGINAL MATCHING TITLE'; items[19].postmallName=manual;
+  const before=JSON.stringify(items),profileBefore=JSON.stringify(profile),xml=main(generate(items));
+  for (const slot of config.itemSlots) {
+    const name=text(xml,`${slot.columns.name}4`);
+    assert.ok(name.length > 0 && name.length <= 100, `Name in ${slot.columns.name}4 must satisfy Postmall's edit limit.`);
+    assert.doesNotMatch(cell(xml,`${slot.columns.name}4`),/<f\b/);
+  }
+  assert.match(text(xml,'V4'),/^SWEET STEADY .*Acrylic Stand.*STEADY→ REVOLUTION Costume Ed\./);
+  assert.match(text(xml,'AG4'),/^Taniya Kyoka Birthday Set/);
+  assert.match(text(xml,'AG4'),/1 signed instant photo/); assert.match(text(xml,'AG4'),/2 Acrylic Stands/); assert.match(text(xml,'AG4'),/5 random trading cards/);
+  assert.equal(text(xml,'AR4'),within100); assert.equal(text(xml,'BC4'),'A'.repeat(100));
+  assert.match(text(xml,'HW4'),/^CUTIE STREET Ayano Masuda .*Acrylic Stand/); assert.match(text(xml,'HW4'),/2026 Tweed Outfit Ver\.$/);
+  assert.doesNotMatch(text(xml,'HW4'),/ORIGINAL MATCHING TITLE/);
+  assert.equal(number(xml,'Z4'),1); assert.equal(number(xml,'AA4'),10.25);
+  assert.equal(number(xml,'IA4'),20); assert.equal(number(xml,'IB4'),10.25); assert.equal(number(xml,'IC4'),205);
+  assert.equal(text(xml,'IG4'),item.tracking); assert.equal(text(xml,'AC4'),'010121');
+  assert.equal(JSON.stringify(items),before); assert.equal(JSON.stringify(profile),profileBefore);
+});
+
+test('an explicit short manual Postmall name keeps its value and priority over a long original title', () => {
+  const items=[{...item,name:'Long original matching name '.repeat(10),postmallName:'MANUAL NAME 2026'}, {...item,name:'SECOND ORIGINAL',postmallName:''}];
+  const before=JSON.stringify(items),xml=main(generate(items));
+  assert.equal(text(xml,'V4'),'MANUAL NAME 2026');
+  assert.equal(text(xml,'AG4'),'','An explicit blank manual override is not silently replaced with the raw title.');
+  assert.equal(JSON.stringify(items),before);
+});
+
 test('paid options require explicit Postmall flags, packing uses A/B/C, and Japanese FTA stays blank', () => {
   const plain = main(generate([item], {inspection: 'Y', businessCustoms: 'Y', packingReinforce: 'Y'}));
   for (const column of ['J', 'K', 'L', 'M', 'N', 'O', 'Q', 'R', 'S', 'T', 'U']) assert.doesNotMatch(cell(plain, `${column}4`), /<v>|<is>/);

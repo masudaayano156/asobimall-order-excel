@@ -5,7 +5,7 @@ import {exportWorkbook} from './exporter.mjs';
 import {initNavigation} from './navigation.mjs';
 import {loadJson,loadTemplate} from './data.mjs?v=3';
 import {initPostcodeSearch} from './postcode.mjs';
-import {shortenHoottownName} from './item-name.mjs';
+import {shortenHoottownName,shortenPostmallName} from './item-name.mjs';
 import {createProductPicker} from './product-picker.mjs';
 import {phoneDigits,formatPhone,isValidPhone} from './phone.mjs';
 import {createOrderSection,updateOrderSectionSummary} from './order-sections.mjs';
@@ -127,7 +127,7 @@ function assignCategory(item, reference) {
 }
 function currentCategory(item) {return template()==='postmall'?normalizedHsCode(item.postmallHsCode):template()==='jimpass'?item.jimpassCategory:item.generalCategory;}
 function rawEditableName(item){return String((template()==='postmall'?item.postmallName:template()==='general'?item.hoottownName:item.jimpassName)??item.name??'');}
-function exportName(item) {const raw=rawEditableName(item);return template()==='postmall'?raw:template()==='general'?(unsupportedNameScript.test(raw)?raw:shortenHoottownName(raw)):formatJimpassName(raw);}
+function exportName(item) {const raw=rawEditableName(item);return template()==='postmall'?shortenPostmallName(raw):template()==='general'?(unsupportedNameScript.test(raw)?raw:shortenHoottownName(raw)):formatJimpassName(raw);}
 function hoottownCategoryDisplayLabel(category){return `${category.code} · ${category.category} / ${category.latestItemLabel??category.item}`;}
 function populateCategories(select,value) {
   selectOptions(select,config.categories.map(c=>({value:c.code,label:hoottownCategoryDisplayLabel(c)})),'미분류 · 직접 선택'); select.value=value??'';
@@ -177,7 +177,7 @@ function renderItems() {
     },'text',true);
     nameInput.dataset.field='export-name';
     const nameHint=node('p',undefined,'field-hint');nameInput.parentElement.append(nameHint);
-    function updateNameHint(){const invalidScript=unsupportedNameScript.test(rawEditableName(item)),changed=exportName(item)!==item.name;nameHint.hidden=!invalidScript&&!changed;nameHint.textContent=invalidScript?'영문 상품명으로 직접 수정해 주세요.':changed?(template()==='postmall'?'포스트몰에 입력할 상품명을 직접 수정했습니다. 원문은 위의 상품명에서 확인할 수 있습니다.':template()==='general'?`훗타운 80자 이내로 작성 · ${exportName(item).length}/80자. 원문은 위의 상품명에서 확인할 수 있습니다.`:`짐패스용 상품명 · 영문·숫자 ${jimpassNameLength(exportName(item))}/100자. 원문은 위의 상품명에서 확인할 수 있습니다.`):'';}
+    function updateNameHint(){const invalidScript=unsupportedNameScript.test(rawEditableName(item)),changed=exportName(item)!==item.name;nameHint.hidden=!invalidScript&&!changed;nameHint.textContent=invalidScript?'영문 상품명으로 직접 수정해 주세요.':changed?(template()==='postmall'?`포스트몰 100자 이내로 작성 · ${exportName(item).length}/100자. 원문은 위의 상품명에서 확인할 수 있습니다.`:template()==='general'?`훗타운 80자 이내로 작성 · ${exportName(item).length}/80자. 원문은 위의 상품명에서 확인할 수 있습니다.`:`짐패스용 상품명 · 영문·숫자 ${jimpassNameLength(exportName(item))}/100자. 원문은 위의 상품명에서 확인할 수 있습니다.`):'';}
     nameInput.addEventListener('blur',()=>{nameInput.value=exportName(item);updateNameHint();refreshRequiredFields();});
     updateNameHint();
     requireField(nameInput,template()==='jimpass'?'필수 입력 · 영문·숫자·공백으로 작성하고 영문·숫자를 10~100자 입력해 주세요.':'필수 입력 · 영문 상품명을 입력해 주세요.',()=>!unsupportedNameScript.test(rawEditableName(item))&&(template()==='jimpass'?isValidJimpassName(exportName(item)):!!exportName(item).trim()),()=>!isNonPhysical(),!isNonPhysical());
@@ -416,6 +416,7 @@ function validation(rows,p) {
     if(!i.name.trim())errors.push(`${n+1}번 상품명을 확인해 주세요.`);
     if(unsupportedNameScript.test(i.rawEditableName??i.name))errors.push(`${n+1}번 상품명을 영문으로 입력해 주세요. 아소비몰 상단에서 English를 선택하고 복사할 수 있습니다.`);
     if(template()==='general'&&i.name.length>80)errors.push(`${n+1}번 상품명은 80자 이내로 줄여 주세요.`);
+    if(template()==='postmall'&&i.name.length>100)errors.push(`${n+1}번 포스트몰 상품명은 100자 이내로 줄여 주세요.`);
     if(template()==='jimpass'&&!isValidJimpassName(i.name))errors.push(`${n+1}번 짐패스 상품명은 영문·숫자·공백으로 작성하고 영문·숫자를 10~100자 입력해 주세요.`);
     if(template()==='jimpass'&&i.category&&!/^\d+$/.test(i.category))errors.push(`${n+1}번 짐패스 품목코드는 숫자로 입력해 주세요.`);
     if(template()==='postmall'&&i.postmallHsCode&&!isValidHsCode(i.postmallHsCode))errors.push(`${n+1}번 HS CODE는 점·공백을 제외한 숫자 6·8·10자리로 입력해 주세요. 미확인 코드로 임의 분류하지 말고 공식 HS 찾기에서 확인해 주세요.`);
